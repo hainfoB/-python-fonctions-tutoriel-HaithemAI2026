@@ -1,24 +1,25 @@
 # Python Fonctions — Berkane Lab
 
-Tutoriel bilingue français-anglais sur Python, l’algorithmique et les structures de données.
+Tutoriel bilingue français-anglais sur Python, l’algorithmique et les structures de données, signé **M. Haithem BERKANE**.
 
-Cette version est une publication statique pour GitHub Pages. Elle permet de consulter les cours, les exemples corrigés, les exercices et les QCM localement dans le navigateur. La persistance serveur, la connexion apprenant et le suivi inter-session restent disponibles sur la version hébergée par Manus : https://pythontut-hknitis2.manus.space.
+## Fonctionnement
 
-## Publication
+Cette version est entièrement statique. Elle utilise uniquement `index.html`, `styles.css` et `app.js` : aucune API, aucune connexion, aucune base de données et aucun serveur applicatif ne sont nécessaires. La navigation, le changement de langue, les animations, les exemples corrigés et les QCM fonctionnent directement dans le navigateur.
 
-Le dépôt contient le contenu généré dans `index.html`, les bundles dans `assets/` et les ressources PDF téléchargeables. GitHub Pages doit être configuré sur la branche `main`, dossier `/ (root)`.
+Les scores des QCM peuvent être conservés localement dans le navigateur avec `localStorage`. Ils ne sont pas synchronisés entre appareils et ne constituent pas un suivi d’apprenant côté serveur.
 
-## Signature
+## Publication GitHub Pages
 
-M. Haithem BERKANE · Berkane Lab
+Le dépôt peut être publié avec GitHub Pages depuis la branche `main` et le dossier racine `/`. Le fichier `index.html` est le point d’entrée. Les visuels et les PDF utilisés par le tutoriel se trouvent dans `assets/` et sont référencés par des chemins relatifs compatibles avec GitHub Pages.
+
+## Contenu
+
+Le parcours comprend dix chapitres : fondations Python, conditions et boucles, fonctions et mémoire, vecteurs, dictionnaires, enregistrements, piles, files, arbres et introduction aux statistiques. Chaque chapitre contient une leçon, un déroulé d’exécution, un cas réel corrigé et un QCM local de cinq questions.
+
+## Profil et ressources
+
+Le site présente le profil de M. Haithem BERKANE et donne accès à son CV, son portfolio ainsi qu’aux deux chapitres PDF fournis comme ressources pédagogiques.
 
 ## Licence
 
 Contenu pédagogique et portfolio publiés par l’auteur du dépôt.
-
-## Sources
-
-Les chapitres, le CV et le portfolio utilisés sont ceux fournis par M. Haithem BERKANE dans le cadre de ce projet.
-
-> Static GitHub Pages mode: interactive course reading and local quiz correction are available; server-side learner progress is not persisted on GitHub Pages.
-
