@@ -40,3 +40,7 @@ The earlier cards were visually insufficient. The replacement presents a single 
 The refactored Vector exercise 04 performs a real multiple-assignment swap. The visual review showed `valeurs` changing from `[1, 4, 7]` to `[7, 4, 1]`; cells `[0]` and `[2]` were visibly highlighted in the before/after indexed rows around the exchange marker.
 
 The refactored Tree traversal preserves the complete hierarchy **Projet → Analyse / Dev**. During the recursive call to `visiter(Analyse)`, **Analyse** is highlighted in orange, the parent and sibling remain visible, and the stack shows `<module>()` waiting below the active `visiter()` frame.
+
+## Public execution-theater verification
+
+The public GitHub Pages deployment for `a0ee4ba` served the versioned `execution-theater-5` content, traces and engine. The Vector swap displayed `[1, 4, 7] → [7, 4, 1]` with both changed endpoints visually marked. The Tree traversal displayed **Projet**, **Analyse** and **Dev** together, with **Analyse** active and the `visiter()` recursive frame on top of the stack.

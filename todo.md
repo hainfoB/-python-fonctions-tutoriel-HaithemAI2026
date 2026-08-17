@@ -20,5 +20,5 @@
 - [x] Créer une animation de vecteur avec curseur de lecture, cases avant/après, mouvement de permutation et comparaisons visibles.
 - [x] Créer une animation d’arbre avec déplacement du curseur de parcours, pile récursive, descente vers les enfants et remontée vers le parent.
 - [x] Définir des critères de contrôle visuel exigeants et rejeter toute scène qui ne montre pas une évolution observable.
-- [ ] Publier et vérifier publiquement la refonte seulement après contrôle visuel approfondi.
+- [x] Publier et vérifier publiquement la refonte seulement après contrôle visuel approfondi.
 - [x] Renouveler les versions des assets afin que les navigateurs chargent le lecteur d’exécution refondu.
