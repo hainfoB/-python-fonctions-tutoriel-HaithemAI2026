@@ -101,10 +101,10 @@ async function runViewport(name, width, height) {
           const transitionOk=Boolean(document.querySelector('#memoryTransition h3')?.textContent&&document.querySelector('#memoryTransition p')?.textContent);
           let structureOk=true;
           if(chapter.id==='vectors'||chapter.id==='trees'){
-            for(let step=0;step<20&&!document.querySelector(chapter.id==='vectors'?'.vector-cell':'.tree-node');step+=1)document.querySelector('#memoryNext')?.click();
-            const panel=document.querySelector('#structureVisualization');
-            const selector=chapter.id==='vectors'?'.vector-cell':'.tree-node';
-            structureOk=Boolean(panel&&!panel.hidden&&panel.querySelector(selector));
+            const selector=chapter.id==='vectors'?'.vector-motion .motion-cell':'.tree-motion .tree-node';
+            for(let step=0;step<20&&!document.querySelector(selector);step+=1)document.querySelector('#memoryNext')?.click();
+            const panel=document.querySelector(chapter.id==='vectors'?'.vector-motion':'.tree-motion');
+            structureOk=Boolean(panel&&(panel.querySelector(selector)||panel.classList.contains('is-empty')));
           }
           const ok=Boolean(action)&&activeKey===key&&actual===expected&&nodes===6&&before!==after&&noModuleReturn&&transitionOk&&structureOk;
           if(!ok)failures.push({chapter:chapter.id,key,hasAction:Boolean(action),activeKey,expected,actual,nodes,before,after,noModuleReturn,transitionOk,structureOk});

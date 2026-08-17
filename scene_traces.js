@@ -4718,7 +4718,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472de230>"
+          ".0": "<list_iterator object at 0x7f0458432260>"
         },
         "after_locals": null,
         "return_value": "",
@@ -4734,7 +4734,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472de230>"
+          ".0": "<list_iterator object at 0x7f0458432260>"
         },
         "after_locals": null,
         "return_value": "",
@@ -4750,7 +4750,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472de230>",
+          ".0": "<list_iterator object at 0x7f0458432260>",
           "n": "2"
         },
         "after_locals": null,
@@ -4767,7 +4767,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472de230>",
+          ".0": "<list_iterator object at 0x7f0458432260>",
           "n": "2"
         },
         "after_locals": null,
@@ -4784,7 +4784,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472de230>",
+          ".0": "<list_iterator object at 0x7f0458432260>",
           "n": "2"
         },
         "after_locals": null,
@@ -4801,7 +4801,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472de230>",
+          ".0": "<list_iterator object at 0x7f0458432260>",
           "n": "5"
         },
         "after_locals": null,
@@ -4818,7 +4818,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472de230>",
+          ".0": "<list_iterator object at 0x7f0458432260>",
           "n": "5"
         },
         "after_locals": null,
@@ -4835,7 +4835,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472de230>",
+          ".0": "<list_iterator object at 0x7f0458432260>",
           "n": "5"
         },
         "after_locals": null,
@@ -4852,7 +4852,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472de230>",
+          ".0": "<list_iterator object at 0x7f0458432260>",
           "n": "8"
         },
         "after_locals": null,
@@ -4869,7 +4869,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472de230>",
+          ".0": "<list_iterator object at 0x7f0458432260>",
           "n": "8"
         },
         "after_locals": null,
@@ -4886,7 +4886,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472de230>",
+          ".0": "<list_iterator object at 0x7f0458432260>",
           "n": "8"
         },
         "after_locals": null,
@@ -4903,7 +4903,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472de230>",
+          ".0": "<list_iterator object at 0x7f0458432260>",
           "n": "8"
         },
         "after_locals": {
@@ -5286,12 +5286,12 @@ window.SCENE_TRACES={
     "chapter": "vectors",
     "index": 3,
     "title": {
-      "fr": "04 · Décalage",
-      "en": "04 · Shift"
+      "fr": "04 · Permutation",
+      "en": "04 · Swap"
     },
-    "code": "valeurs = [1, 4, 7]\nmodifiees = [v + 2 for v in valeurs]",
+    "code": "valeurs = [1, 4, 7]\ngauche = 0\ndroite = 2\nvaleurs[gauche], valeurs[droite] = valeurs[droite], valeurs[gauche]\nprint(valeurs)",
     "status": "ok",
-    "output": "",
+    "output": "[7, 4, 1]\n",
     "states": [
       {
         "line": 1,
@@ -5309,7 +5309,7 @@ window.SCENE_TRACES={
       },
       {
         "line": 2,
-        "source_line": "modifiees = [v + 2 for v in valeurs]",
+        "source_line": "gauche = 0",
         "event": "line",
         "frame": "<module>",
         "indent": 0,
@@ -5324,8 +5324,8 @@ window.SCENE_TRACES={
         "after_output": null
       },
       {
-        "line": 2,
-        "source_line": "modifiees = [v + 2 for v in valeurs]",
+        "line": 3,
+        "source_line": "droite = 2",
         "event": "line",
         "frame": "<module>",
         "indent": 0,
@@ -5333,7 +5333,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {
           "valeurs": "[1, 4, 7]",
-          "v": "1"
+          "gauche": "0"
         },
         "after_locals": null,
         "return_value": "",
@@ -5341,8 +5341,8 @@ window.SCENE_TRACES={
         "after_output": null
       },
       {
-        "line": 2,
-        "source_line": "modifiees = [v + 2 for v in valeurs]",
+        "line": 4,
+        "source_line": "valeurs[gauche], valeurs[droite] = valeurs[droite], valeurs[gauche]",
         "event": "line",
         "frame": "<module>",
         "indent": 0,
@@ -5350,7 +5350,8 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {
           "valeurs": "[1, 4, 7]",
-          "v": "4"
+          "gauche": "0",
+          "droite": "2"
         },
         "after_locals": null,
         "return_value": "",
@@ -5358,24 +5359,26 @@ window.SCENE_TRACES={
         "after_output": null
       },
       {
-        "line": 2,
-        "source_line": "modifiees = [v + 2 for v in valeurs]",
+        "line": 5,
+        "source_line": "print(valeurs)",
         "event": "line",
         "frame": "<module>",
         "indent": 0,
-        "kind": "assignment",
+        "kind": "output",
         "iteration": null,
         "locals": {
-          "valeurs": "[1, 4, 7]",
-          "v": "7"
+          "valeurs": "[7, 4, 1]",
+          "gauche": "0",
+          "droite": "2"
         },
         "after_locals": {
-          "valeurs": "[1, 4, 7]",
-          "modifiees": "[3, 6, 9]"
+          "valeurs": "[7, 4, 1]",
+          "gauche": "0",
+          "droite": "2"
         },
         "return_value": "",
         "output_so_far": "",
-        "after_output": ""
+        "after_output": "[7, 4, 1]\n"
       }
     ]
   },
@@ -6100,7 +6103,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f4880>"
+          ".0": "<list_iterator object at 0x7f04584489d0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -6116,7 +6119,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f4880>"
+          ".0": "<list_iterator object at 0x7f04584489d0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -6132,7 +6135,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f4880>",
+          ".0": "<list_iterator object at 0x7f04584489d0>",
           "t": "-2"
         },
         "after_locals": null,
@@ -6149,7 +6152,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f4880>",
+          ".0": "<list_iterator object at 0x7f04584489d0>",
           "t": "-2"
         },
         "after_locals": null,
@@ -6166,7 +6169,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f4880>",
+          ".0": "<list_iterator object at 0x7f04584489d0>",
           "t": "-2"
         },
         "after_locals": null,
@@ -6183,7 +6186,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f4880>",
+          ".0": "<list_iterator object at 0x7f04584489d0>",
           "t": "4"
         },
         "after_locals": null,
@@ -6200,7 +6203,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f4880>",
+          ".0": "<list_iterator object at 0x7f04584489d0>",
           "t": "4"
         },
         "after_locals": null,
@@ -6217,7 +6220,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f4880>",
+          ".0": "<list_iterator object at 0x7f04584489d0>",
           "t": "4"
         },
         "after_locals": null,
@@ -6234,7 +6237,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f4880>",
+          ".0": "<list_iterator object at 0x7f04584489d0>",
           "t": "-1"
         },
         "after_locals": null,
@@ -6251,7 +6254,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f4880>",
+          ".0": "<list_iterator object at 0x7f04584489d0>",
           "t": "-1"
         },
         "after_locals": null,
@@ -6268,7 +6271,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f4880>",
+          ".0": "<list_iterator object at 0x7f04584489d0>",
           "t": "-1"
         },
         "after_locals": null,
@@ -6285,7 +6288,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f4880>",
+          ".0": "<list_iterator object at 0x7f04584489d0>",
           "t": "3"
         },
         "after_locals": null,
@@ -6302,7 +6305,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f4880>",
+          ".0": "<list_iterator object at 0x7f04584489d0>",
           "t": "3"
         },
         "after_locals": null,
@@ -6319,7 +6322,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f4880>",
+          ".0": "<list_iterator object at 0x7f04584489d0>",
           "t": "3"
         },
         "after_locals": null,
@@ -6336,7 +6339,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f4880>",
+          ".0": "<list_iterator object at 0x7f04584489d0>",
           "t": "3"
         },
         "after_locals": {
@@ -9025,7 +9028,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f7370>"
+          ".0": "<list_iterator object at 0x7f045844b4c0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -9041,7 +9044,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f7370>"
+          ".0": "<list_iterator object at 0x7f045844b4c0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -9057,7 +9060,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f7370>",
+          ".0": "<list_iterator object at 0x7f045844b4c0>",
           "cle": "'nom'"
         },
         "after_locals": null,
@@ -9074,7 +9077,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f7370>",
+          ".0": "<list_iterator object at 0x7f045844b4c0>",
           "cle": "'nom'"
         },
         "after_locals": null,
@@ -9091,7 +9094,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f7370>",
+          ".0": "<list_iterator object at 0x7f045844b4c0>",
           "cle": "'nom'"
         },
         "after_locals": null,
@@ -9108,7 +9111,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f7370>",
+          ".0": "<list_iterator object at 0x7f045844b4c0>",
           "cle": "'email'"
         },
         "after_locals": null,
@@ -9125,7 +9128,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f7370>",
+          ".0": "<list_iterator object at 0x7f045844b4c0>",
           "cle": "'email'"
         },
         "after_locals": null,
@@ -9142,7 +9145,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f7370>",
+          ".0": "<list_iterator object at 0x7f045844b4c0>",
           "cle": "'email'"
         },
         "after_locals": null,
@@ -9159,7 +9162,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f7370>",
+          ".0": "<list_iterator object at 0x7f045844b4c0>",
           "cle": "'email'"
         },
         "after_locals": {
@@ -9810,7 +9813,7 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f7df0>"
+          ".0": "<list_iterator object at 0x7f045844bf40>"
         },
         "after_locals": null,
         "return_value": "",
@@ -9826,7 +9829,7 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f7df0>"
+          ".0": "<list_iterator object at 0x7f045844bf40>"
         },
         "after_locals": null,
         "return_value": "",
@@ -9842,7 +9845,7 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f7df0>",
+          ".0": "<list_iterator object at 0x7f045844bf40>",
           "e": "{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}"
         },
         "after_locals": null,
@@ -9859,7 +9862,7 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f7df0>",
+          ".0": "<list_iterator object at 0x7f045844bf40>",
           "e": "{'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}"
         },
         "after_locals": null,
@@ -9876,7 +9879,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f7df0>",
+          ".0": "<list_iterator object at 0x7f045844bf40>",
           "e": "{'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}"
         },
         "after_locals": {
@@ -10138,7 +10141,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472dee90>"
+          ".0": "<list_iterator object at 0x7f0458432ec0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -10154,7 +10157,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472dee90>"
+          ".0": "<list_iterator object at 0x7f0458432ec0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -10170,7 +10173,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472dee90>",
+          ".0": "<list_iterator object at 0x7f0458432ec0>",
           "e": "{'id': 1}"
         },
         "after_locals": null,
@@ -10187,7 +10190,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472dee90>",
+          ".0": "<list_iterator object at 0x7f0458432ec0>",
           "e": "{'id': 1}"
         },
         "after_locals": null,
@@ -10204,7 +10207,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472dee90>",
+          ".0": "<list_iterator object at 0x7f0458432ec0>",
           "e": "{'id': 1}"
         },
         "after_locals": null,
@@ -10221,7 +10224,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472dee90>",
+          ".0": "<list_iterator object at 0x7f0458432ec0>",
           "e": "{'id': 2}"
         },
         "after_locals": null,
@@ -10238,7 +10241,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472dee90>",
+          ".0": "<list_iterator object at 0x7f0458432ec0>",
           "e": "{'id': 2}"
         },
         "after_locals": null,
@@ -10255,7 +10258,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472dee90>",
+          ".0": "<list_iterator object at 0x7f0458432ec0>",
           "e": "{'id': 2}"
         },
         "after_locals": null,
@@ -10272,7 +10275,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472dee90>",
+          ".0": "<list_iterator object at 0x7f0458432ec0>",
           "e": "{'id': 2}"
         },
         "after_locals": {
@@ -10383,7 +10386,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472df8b0>"
+          ".0": "<list_iterator object at 0x7f0458433a00>"
         },
         "after_locals": null,
         "return_value": "",
@@ -10399,7 +10402,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472df8b0>"
+          ".0": "<list_iterator object at 0x7f0458433a00>"
         },
         "after_locals": null,
         "return_value": "",
@@ -10415,7 +10418,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472df8b0>",
+          ".0": "<list_iterator object at 0x7f0458433a00>",
           "e": "{'id': 1, 'nom': 'Ali'}"
         },
         "after_locals": null,
@@ -10432,7 +10435,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472df8b0>",
+          ".0": "<list_iterator object at 0x7f0458433a00>",
           "e": "{'id': 2, 'nom': 'Nora'}"
         },
         "after_locals": {
@@ -11876,7 +11879,7 @@ window.SCENE_TRACES={
         },
         "after_locals": {
           "pile": "[1, 2, 3]",
-          "depiler": "<function depiler at 0x7ffa472cc9a0>"
+          "depiler": "<function depiler at 0x7f0458420900>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -11910,7 +11913,7 @@ window.SCENE_TRACES={
         },
         "after_locals": {
           "pile": "[1, 2, 3]",
-          "annuler": "<function annuler at 0x7ffa472cc4a0>"
+          "annuler": "<function annuler at 0x7f04584204a0>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -12069,7 +12072,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7ffa472f74b0>"
+          ".0": "<range_iterator object at 0x7f045844b600>"
         },
         "after_locals": null,
         "return_value": "",
@@ -12085,7 +12088,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7ffa472f74b0>"
+          ".0": "<range_iterator object at 0x7f045844b600>"
         },
         "after_locals": null,
         "return_value": "",
@@ -12101,7 +12104,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7ffa472f74b0>",
+          ".0": "<range_iterator object at 0x7f045844b600>",
           "_": "0"
         },
         "after_locals": null,
@@ -12118,7 +12121,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7ffa472f74b0>",
+          ".0": "<range_iterator object at 0x7f045844b600>",
           "_": "0"
         },
         "after_locals": null,
@@ -12135,7 +12138,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7ffa472f74b0>",
+          ".0": "<range_iterator object at 0x7f045844b600>",
           "_": "0"
         },
         "after_locals": null,
@@ -12152,7 +12155,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7ffa472f74b0>",
+          ".0": "<range_iterator object at 0x7f045844b600>",
           "_": "1"
         },
         "after_locals": null,
@@ -12169,7 +12172,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7ffa472f74b0>",
+          ".0": "<range_iterator object at 0x7f045844b600>",
           "_": "1"
         },
         "after_locals": null,
@@ -12186,7 +12189,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7ffa472f74b0>",
+          ".0": "<range_iterator object at 0x7f045844b600>",
           "_": "1"
         },
         "after_locals": null,
@@ -12203,7 +12206,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7ffa472f74b0>",
+          ".0": "<range_iterator object at 0x7f045844b600>",
           "_": "2"
         },
         "after_locals": null,
@@ -12220,7 +12223,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7ffa472f74b0>",
+          ".0": "<range_iterator object at 0x7f045844b600>",
           "_": "2"
         },
         "after_locals": null,
@@ -12237,7 +12240,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7ffa472f74b0>",
+          ".0": "<range_iterator object at 0x7f045844b600>",
           "_": "2"
         },
         "after_locals": null,
@@ -12254,7 +12257,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7ffa472f74b0>",
+          ".0": "<range_iterator object at 0x7f045844b600>",
           "_": "3"
         },
         "after_locals": null,
@@ -12271,7 +12274,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7ffa472f74b0>",
+          ".0": "<range_iterator object at 0x7f045844b600>",
           "_": "3"
         },
         "after_locals": null,
@@ -12288,7 +12291,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7ffa472f74b0>",
+          ".0": "<range_iterator object at 0x7f045844b600>",
           "_": "3"
         },
         "after_locals": null,
@@ -12305,7 +12308,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7ffa472f74b0>",
+          ".0": "<range_iterator object at 0x7f045844b600>",
           "_": "4"
         },
         "after_locals": null,
@@ -12322,7 +12325,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7ffa472f74b0>",
+          ".0": "<range_iterator object at 0x7f045844b600>",
           "_": "4"
         },
         "after_locals": null,
@@ -12339,7 +12342,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7ffa472f74b0>",
+          ".0": "<range_iterator object at 0x7f045844b600>",
           "_": "4"
         },
         "after_locals": null,
@@ -12356,7 +12359,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7ffa472f74b0>",
+          ".0": "<range_iterator object at 0x7f045844b600>",
           "_": "4"
         },
         "after_locals": {
@@ -13706,7 +13709,7 @@ window.SCENE_TRACES={
         },
         "after_locals": {
           "file": "[1, 2, 3]",
-          "servir": "<function servir at 0x7ffa472cf100>"
+          "servir": "<function servir at 0x7f0458423100>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -14391,7 +14394,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {
           "arbre": "{'valeur': 'Projet', 'enfants': [{'valeur': 'Analyse', 'enfants': []}, {'valeur': 'Dev', 'enfants': []}]}",
-          "visiter": "<function visiter at 0x7ffa472cc680>"
+          "visiter": "<function visiter at 0x7f0458420680>"
         },
         "after_locals": null,
         "return_value": "",
@@ -14656,7 +14659,7 @@ window.SCENE_TRACES={
         },
         "after_locals": {
           "arbre": "{'valeur': 'Projet', 'enfants': [{'valeur': 'Analyse', 'enfants': []}, {'valeur': 'Dev', 'enfants': []}]}",
-          "visiter": "<function visiter at 0x7ffa472cc680>"
+          "visiter": "<function visiter at 0x7f0458420680>"
         },
         "return_value": "",
         "output_so_far": "Projet\nAnalyse\nDev\n",
@@ -14717,7 +14720,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {
           "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}]}",
-          "hauteur": "<function hauteur at 0x7ffa472cc400>"
+          "hauteur": "<function hauteur at 0x7f0458420400>"
         },
         "after_locals": null,
         "return_value": "",
@@ -14782,7 +14785,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731e920>"
+          ".0": "<list_iterator object at 0x7f0458472a70>"
         },
         "after_locals": null,
         "return_value": "",
@@ -14798,7 +14801,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731e920>"
+          ".0": "<list_iterator object at 0x7f0458472a70>"
         },
         "after_locals": null,
         "return_value": "",
@@ -14863,7 +14866,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731e950>"
+          ".0": "<list_iterator object at 0x7f0458472aa0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -14879,7 +14882,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731e950>"
+          ".0": "<list_iterator object at 0x7f0458472aa0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -14944,7 +14947,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731e950>",
+          ".0": "<list_iterator object at 0x7f0458472aa0>",
           "e": "{'valeur': 'C', 'enfants': []}"
         },
         "after_locals": null,
@@ -14961,7 +14964,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731e950>",
+          ".0": "<list_iterator object at 0x7f0458472aa0>",
           "e": "{'valeur': 'C', 'enfants': []}"
         },
         "after_locals": null,
@@ -14978,7 +14981,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731e950>",
+          ".0": "<list_iterator object at 0x7f0458472aa0>",
           "e": "{'valeur': 'C', 'enfants': []}"
         },
         "after_locals": null,
@@ -14995,7 +14998,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731e950>",
+          ".0": "<list_iterator object at 0x7f0458472aa0>",
           "e": "{'valeur': 'C', 'enfants': []}"
         },
         "after_locals": null,
@@ -15028,7 +15031,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731e920>",
+          ".0": "<list_iterator object at 0x7f0458472a70>",
           "e": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
         },
         "after_locals": null,
@@ -15045,7 +15048,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731e920>",
+          ".0": "<list_iterator object at 0x7f0458472a70>",
           "e": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
         },
         "after_locals": null,
@@ -15062,7 +15065,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731e920>",
+          ".0": "<list_iterator object at 0x7f0458472a70>",
           "e": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
         },
         "after_locals": null,
@@ -15079,7 +15082,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731e920>",
+          ".0": "<list_iterator object at 0x7f0458472a70>",
           "e": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
         },
         "after_locals": null,
@@ -15100,7 +15103,7 @@ window.SCENE_TRACES={
         },
         "after_locals": {
           "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}]}",
-          "hauteur": "<function hauteur at 0x7ffa472cc400>"
+          "hauteur": "<function hauteur at 0x7f0458420400>"
         },
         "return_value": "3",
         "output_so_far": "",
@@ -15130,7 +15133,7 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {
-          "contient": "<function run_scene.<locals>.<lambda> at 0x7ffa472cc2c0>"
+          "contient": "<function run_scene.<locals>.<lambda> at 0x7f04584202c0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -15146,7 +15149,7 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {
-          "contient": "<function run_scene.<locals>.<lambda> at 0x7ffa472cc2c0>",
+          "contient": "<function run_scene.<locals>.<lambda> at 0x7f04584202c0>",
           "arbre": "{'valeur': 'Projet', 'enfants': [{'valeur': 'Cours', 'enfants': []}, {'valeur': 'Data', 'enfants': []}]}"
         },
         "after_locals": null,
@@ -15163,7 +15166,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "contient": "<function contient at 0x7ffa472ccf40>",
+          "contient": "<function contient at 0x7f0458420f40>",
           "arbre": "{'valeur': 'Projet', 'enfants': [{'valeur': 'Cours', 'enfants': []}, {'valeur': 'Data', 'enfants': []}]}"
         },
         "after_locals": null,
@@ -15214,7 +15217,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731e560>",
+          ".0": "<list_iterator object at 0x7f04584726b0>",
           "cible": "'Data'"
         },
         "after_locals": null,
@@ -15231,7 +15234,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731e560>",
+          ".0": "<list_iterator object at 0x7f04584726b0>",
           "cible": "'Data'"
         },
         "after_locals": null,
@@ -15282,7 +15285,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731df00>",
+          ".0": "<list_iterator object at 0x7f0458472050>",
           "cible": "'Data'"
         },
         "after_locals": null,
@@ -15299,7 +15302,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731df00>",
+          ".0": "<list_iterator object at 0x7f0458472050>",
           "cible": "'Data'"
         },
         "after_locals": null,
@@ -15316,7 +15319,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731df00>",
+          ".0": "<list_iterator object at 0x7f0458472050>",
           "cible": "'Data'"
         },
         "after_locals": null,
@@ -15350,7 +15353,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731e560>",
+          ".0": "<list_iterator object at 0x7f04584726b0>",
           "cible": "'Data'",
           "e": "{'valeur': 'Cours', 'enfants': []}"
         },
@@ -15368,7 +15371,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731e560>",
+          ".0": "<list_iterator object at 0x7f04584726b0>",
           "cible": "'Data'",
           "e": "{'valeur': 'Cours', 'enfants': []}"
         },
@@ -15386,7 +15389,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731e560>",
+          ".0": "<list_iterator object at 0x7f04584726b0>",
           "cible": "'Data'",
           "e": "{'valeur': 'Cours', 'enfants': []}"
         },
@@ -15455,7 +15458,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731e560>",
+          ".0": "<list_iterator object at 0x7f04584726b0>",
           "cible": "'Data'",
           "e": "{'valeur': 'Data', 'enfants': []}"
         },
@@ -15477,7 +15480,7 @@ window.SCENE_TRACES={
           "cible": "'Data'"
         },
         "after_locals": {
-          "contient": "<function contient at 0x7ffa472ccf40>",
+          "contient": "<function contient at 0x7f0458420f40>",
           "arbre": "{'valeur': 'Projet', 'enfants': [{'valeur': 'Cours', 'enfants': []}, {'valeur': 'Data', 'enfants': []}]}"
         },
         "return_value": "True",
@@ -15616,7 +15619,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "decision": "<function decision at 0x7ffa472ce980>"
+          "decision": "<function decision at 0x7f0458422980>"
         },
         "after_locals": null,
         "return_value": "",
@@ -15667,7 +15670,7 @@ window.SCENE_TRACES={
           "note": "14"
         },
         "after_locals": {
-          "decision": "<function decision at 0x7ffa472ce980>"
+          "decision": "<function decision at 0x7f0458422980>"
         },
         "return_value": "{'valeur': 'reussi', 'enfants': []}",
         "output_so_far": "",
@@ -15728,7 +15731,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {
           "arbre": "{'valeur': 'Vie', 'enfants': [{'valeur': 'Animal', 'enfants': []}, {'valeur': 'Végétal', 'enfants': []}]}",
-          "feuilles": "<function feuilles at 0x7ffa472cef20>"
+          "feuilles": "<function feuilles at 0x7f0458422f20>"
         },
         "after_locals": null,
         "return_value": "",
@@ -15793,7 +15796,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731fee0>"
+          ".0": "<list_iterator object at 0x7f04584c4070>"
         },
         "after_locals": null,
         "return_value": "",
@@ -15809,7 +15812,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731fee0>"
+          ".0": "<list_iterator object at 0x7f04584c4070>"
         },
         "after_locals": null,
         "return_value": "",
@@ -15874,7 +15877,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731fee0>",
+          ".0": "<list_iterator object at 0x7f04584c4070>",
           "e": "{'valeur': 'Animal', 'enfants': []}"
         },
         "after_locals": null,
@@ -15891,7 +15894,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731fee0>",
+          ".0": "<list_iterator object at 0x7f04584c4070>",
           "e": "{'valeur': 'Animal', 'enfants': []}"
         },
         "after_locals": null,
@@ -15908,7 +15911,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731fee0>",
+          ".0": "<list_iterator object at 0x7f04584c4070>",
           "e": "{'valeur': 'Animal', 'enfants': []}"
         },
         "after_locals": null,
@@ -15974,7 +15977,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731fee0>",
+          ".0": "<list_iterator object at 0x7f04584c4070>",
           "e": "{'valeur': 'Végétal', 'enfants': []}"
         },
         "after_locals": null,
@@ -15991,7 +15994,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731fee0>",
+          ".0": "<list_iterator object at 0x7f04584c4070>",
           "e": "{'valeur': 'Végétal', 'enfants': []}"
         },
         "after_locals": null,
@@ -16008,7 +16011,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731fee0>",
+          ".0": "<list_iterator object at 0x7f04584c4070>",
           "e": "{'valeur': 'Végétal', 'enfants': []}"
         },
         "after_locals": null,
@@ -16025,7 +16028,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731fee0>",
+          ".0": "<list_iterator object at 0x7f04584c4070>",
           "e": "{'valeur': 'Végétal', 'enfants': []}"
         },
         "after_locals": null,
@@ -16046,7 +16049,7 @@ window.SCENE_TRACES={
         },
         "after_locals": {
           "arbre": "{'valeur': 'Vie', 'enfants': [{'valeur': 'Animal', 'enfants': []}, {'valeur': 'Végétal', 'enfants': []}]}",
-          "feuilles": "<function feuilles at 0x7ffa472cef20>"
+          "feuilles": "<function feuilles at 0x7f0458422f20>"
         },
         "return_value": "2",
         "output_so_far": "",
@@ -16107,7 +16110,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {
           "arbre": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Gauche', 'enfants': []}, {'valeur': 'Droite', 'enfants': []}]}",
-          "afficher": "<function afficher at 0x7ffa472cf420>"
+          "afficher": "<function afficher at 0x7f0458423420>"
         },
         "after_locals": null,
         "return_value": "",
@@ -16388,7 +16391,7 @@ window.SCENE_TRACES={
         },
         "after_locals": {
           "arbre": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Gauche', 'enfants': []}, {'valeur': 'Droite', 'enfants': []}]}",
-          "afficher": "<function afficher at 0x7ffa472cf420>"
+          "afficher": "<function afficher at 0x7f0458423420>"
         },
         "return_value": "",
         "output_so_far": "Racine\n  Gauche\n  Droite\n",
@@ -16480,7 +16483,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {
           "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}",
-          "afficher": "<function afficher at 0x7ffa472cd620>"
+          "afficher": "<function afficher at 0x7f0458421620>"
         },
         "after_locals": null,
         "return_value": "",
@@ -16745,7 +16748,7 @@ window.SCENE_TRACES={
         },
         "after_locals": {
           "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}",
-          "afficher": "<function afficher at 0x7ffa472cd620>"
+          "afficher": "<function afficher at 0x7f0458421620>"
         },
         "return_value": "",
         "output_so_far": "A\nB\nC\n",
@@ -16806,7 +16809,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {
           "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}",
-          "compter": "<function compter at 0x7ffa472cdb20>"
+          "compter": "<function compter at 0x7f0458421b20>"
         },
         "after_locals": null,
         "return_value": "",
@@ -16854,7 +16857,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731c1f0>"
+          ".0": "<list_iterator object at 0x7f0458470340>"
         },
         "after_locals": null,
         "return_value": "",
@@ -16870,7 +16873,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731c1f0>"
+          ".0": "<list_iterator object at 0x7f0458470340>"
         },
         "after_locals": null,
         "return_value": "",
@@ -16918,7 +16921,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731cc10>"
+          ".0": "<list_iterator object at 0x7f0458470d60>"
         },
         "after_locals": null,
         "return_value": "",
@@ -16934,7 +16937,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731cc10>"
+          ".0": "<list_iterator object at 0x7f0458470d60>"
         },
         "after_locals": null,
         "return_value": "",
@@ -16950,7 +16953,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731cc10>"
+          ".0": "<list_iterator object at 0x7f0458470d60>"
         },
         "after_locals": null,
         "return_value": "",
@@ -16982,7 +16985,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731c1f0>",
+          ".0": "<list_iterator object at 0x7f0458470340>",
           "e": "{'valeur': 'B', 'enfants': []}"
         },
         "after_locals": null,
@@ -16999,7 +17002,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731c1f0>",
+          ".0": "<list_iterator object at 0x7f0458470340>",
           "e": "{'valeur': 'B', 'enfants': []}"
         },
         "after_locals": null,
@@ -17016,7 +17019,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731c1f0>",
+          ".0": "<list_iterator object at 0x7f0458470340>",
           "e": "{'valeur': 'B', 'enfants': []}"
         },
         "after_locals": null,
@@ -17065,7 +17068,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731c6d0>"
+          ".0": "<list_iterator object at 0x7f0458470820>"
         },
         "after_locals": null,
         "return_value": "",
@@ -17081,7 +17084,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731c6d0>"
+          ".0": "<list_iterator object at 0x7f0458470820>"
         },
         "after_locals": null,
         "return_value": "",
@@ -17097,7 +17100,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731c6d0>"
+          ".0": "<list_iterator object at 0x7f0458470820>"
         },
         "after_locals": null,
         "return_value": "",
@@ -17129,7 +17132,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731c1f0>",
+          ".0": "<list_iterator object at 0x7f0458470340>",
           "e": "{'valeur': 'C', 'enfants': []}"
         },
         "after_locals": null,
@@ -17146,7 +17149,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731c1f0>",
+          ".0": "<list_iterator object at 0x7f0458470340>",
           "e": "{'valeur': 'C', 'enfants': []}"
         },
         "after_locals": null,
@@ -17163,7 +17166,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731c1f0>",
+          ".0": "<list_iterator object at 0x7f0458470340>",
           "e": "{'valeur': 'C', 'enfants': []}"
         },
         "after_locals": null,
@@ -17180,7 +17183,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731c1f0>",
+          ".0": "<list_iterator object at 0x7f0458470340>",
           "e": "{'valeur': 'C', 'enfants': []}"
         },
         "after_locals": null,
@@ -17201,7 +17204,7 @@ window.SCENE_TRACES={
         },
         "after_locals": {
           "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}",
-          "compter": "<function compter at 0x7ffa472cdb20>"
+          "compter": "<function compter at 0x7f0458421b20>"
         },
         "return_value": "3",
         "output_so_far": "",
@@ -17262,7 +17265,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {
           "noeud": "{'valeur': 'B', 'enfants': []}",
-          "feuille": "<function feuille at 0x7ffa472cdbc0>"
+          "feuille": "<function feuille at 0x7f0458421bc0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -17314,7 +17317,7 @@ window.SCENE_TRACES={
         },
         "after_locals": {
           "noeud": "{'valeur': 'B', 'enfants': []}",
-          "feuille": "<function feuille at 0x7ffa472cdbc0>"
+          "feuille": "<function feuille at 0x7f0458421bc0>"
         },
         "return_value": "True",
         "output_so_far": "",
@@ -17375,7 +17378,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {
           "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}]}",
-          "h": "<function h at 0x7ffa472ce0c0>"
+          "h": "<function h at 0x7f04584220c0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -17423,7 +17426,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731ece0>"
+          ".0": "<list_iterator object at 0x7f0458472e30>"
         },
         "after_locals": null,
         "return_value": "",
@@ -17439,7 +17442,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731ece0>"
+          ".0": "<list_iterator object at 0x7f0458472e30>"
         },
         "after_locals": null,
         "return_value": "",
@@ -17487,7 +17490,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731eef0>"
+          ".0": "<list_iterator object at 0x7f0458473040>"
         },
         "after_locals": null,
         "return_value": "",
@@ -17503,7 +17506,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731eef0>"
+          ".0": "<list_iterator object at 0x7f0458473040>"
         },
         "after_locals": null,
         "return_value": "",
@@ -17567,7 +17570,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731eef0>",
+          ".0": "<list_iterator object at 0x7f0458473040>",
           "e": "{'valeur': 'C', 'enfants': []}"
         },
         "after_locals": null,
@@ -17584,7 +17587,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731eef0>",
+          ".0": "<list_iterator object at 0x7f0458473040>",
           "e": "{'valeur': 'C', 'enfants': []}"
         },
         "after_locals": null,
@@ -17601,7 +17604,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731eef0>",
+          ".0": "<list_iterator object at 0x7f0458473040>",
           "e": "{'valeur': 'C', 'enfants': []}"
         },
         "after_locals": null,
@@ -17618,7 +17621,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731eef0>",
+          ".0": "<list_iterator object at 0x7f0458473040>",
           "e": "{'valeur': 'C', 'enfants': []}"
         },
         "after_locals": null,
@@ -17651,7 +17654,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731ece0>",
+          ".0": "<list_iterator object at 0x7f0458472e30>",
           "e": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
         },
         "after_locals": null,
@@ -17668,7 +17671,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731ece0>",
+          ".0": "<list_iterator object at 0x7f0458472e30>",
           "e": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
         },
         "after_locals": null,
@@ -17685,7 +17688,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731ece0>",
+          ".0": "<list_iterator object at 0x7f0458472e30>",
           "e": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
         },
         "after_locals": null,
@@ -17702,7 +17705,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731ece0>",
+          ".0": "<list_iterator object at 0x7f0458472e30>",
           "e": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
         },
         "after_locals": null,
@@ -17723,7 +17726,7 @@ window.SCENE_TRACES={
         },
         "after_locals": {
           "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}]}",
-          "h": "<function h at 0x7ffa472ce0c0>"
+          "h": "<function h at 0x7f04584220c0>"
         },
         "return_value": "3",
         "output_so_far": "",
@@ -17753,7 +17756,7 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {
-          "contient": "<function run_scene.<locals>.<lambda> at 0x7ffa472cdf80>"
+          "contient": "<function run_scene.<locals>.<lambda> at 0x7f0458421f80>"
         },
         "after_locals": null,
         "return_value": "",
@@ -17769,7 +17772,7 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {
-          "contient": "<function run_scene.<locals>.<lambda> at 0x7ffa472cdf80>",
+          "contient": "<function run_scene.<locals>.<lambda> at 0x7f0458421f80>",
           "arbre": "{'valeur': 'Accueil', 'enfants': [{'valeur': 'Cours', 'enfants': []}, {'valeur': 'Projets', 'enfants': []}]}"
         },
         "after_locals": null,
@@ -17786,7 +17789,7 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {
-          "contient": "<function contient at 0x7ffa472ceac0>",
+          "contient": "<function contient at 0x7f0458422ac0>",
           "arbre": "{'valeur': 'Accueil', 'enfants': [{'valeur': 'Cours', 'enfants': []}, {'valeur': 'Projets', 'enfants': []}]}"
         },
         "after_locals": null,
@@ -17837,7 +17840,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731f4c0>",
+          ".0": "<list_iterator object at 0x7f0458473610>",
           "cible": "'Cours'"
         },
         "after_locals": null,
@@ -17854,7 +17857,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731f4c0>",
+          ".0": "<list_iterator object at 0x7f0458473610>",
           "cible": "'Cours'"
         },
         "after_locals": null,
@@ -17922,7 +17925,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa4731f4c0>",
+          ".0": "<list_iterator object at 0x7f0458473610>",
           "cible": "'Cours'",
           "e": "{'valeur': 'Cours', 'enfants': []}"
         },
@@ -17957,12 +17960,12 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "contient": "<function contient at 0x7ffa472ceac0>",
+          "contient": "<function contient at 0x7f0458422ac0>",
           "arbre": "{'valeur': 'Accueil', 'enfants': [{'valeur': 'Cours', 'enfants': []}, {'valeur': 'Projets', 'enfants': []}]}",
           "trouve": "True"
         },
         "after_locals": {
-          "contient": "<function contient at 0x7ffa472ceac0>",
+          "contient": "<function contient at 0x7f0458422ac0>",
           "arbre": "{'valeur': 'Accueil', 'enfants': [{'valeur': 'Cours', 'enfants': []}, {'valeur': 'Projets', 'enfants': []}]}",
           "trouve": "True"
         },
@@ -18025,7 +18028,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {
           "arbre": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Feuille', 'enfants': []}]}",
-          "afficher": "<function afficher at 0x7ffa472cf100>"
+          "afficher": "<function afficher at 0x7f0458423100>"
         },
         "after_locals": null,
         "return_value": "",
@@ -18202,7 +18205,7 @@ window.SCENE_TRACES={
         },
         "after_locals": {
           "arbre": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Feuille', 'enfants': []}]}",
-          "afficher": "<function afficher at 0x7ffa472cf100>"
+          "afficher": "<function afficher at 0x7f0458423100>"
         },
         "return_value": "",
         "output_so_far": "Racine\n  Feuille\n",
@@ -18263,7 +18266,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {
           "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}",
-          "feuilles": "<function feuilles at 0x7ffa472cf7e0>"
+          "feuilles": "<function feuilles at 0x7f04584237e0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -18328,7 +18331,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f5600>"
+          ".0": "<list_iterator object at 0x7f045844a7d0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -18344,7 +18347,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f5600>"
+          ".0": "<list_iterator object at 0x7f045844a7d0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -18409,7 +18412,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f5600>",
+          ".0": "<list_iterator object at 0x7f045844a7d0>",
           "e": "{'valeur': 'B', 'enfants': []}"
         },
         "after_locals": null,
@@ -18426,7 +18429,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f5600>",
+          ".0": "<list_iterator object at 0x7f045844a7d0>",
           "e": "{'valeur': 'B', 'enfants': []}"
         },
         "after_locals": null,
@@ -18443,7 +18446,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f5600>",
+          ".0": "<list_iterator object at 0x7f045844a7d0>",
           "e": "{'valeur': 'B', 'enfants': []}"
         },
         "after_locals": null,
@@ -18509,7 +18512,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f5600>",
+          ".0": "<list_iterator object at 0x7f045844a7d0>",
           "e": "{'valeur': 'C', 'enfants': []}"
         },
         "after_locals": null,
@@ -18526,7 +18529,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f5600>",
+          ".0": "<list_iterator object at 0x7f045844a7d0>",
           "e": "{'valeur': 'C', 'enfants': []}"
         },
         "after_locals": null,
@@ -18543,7 +18546,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f5600>",
+          ".0": "<list_iterator object at 0x7f045844a7d0>",
           "e": "{'valeur': 'C', 'enfants': []}"
         },
         "after_locals": null,
@@ -18560,7 +18563,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f5600>",
+          ".0": "<list_iterator object at 0x7f045844a7d0>",
           "e": "{'valeur': 'C', 'enfants': []}"
         },
         "after_locals": null,
@@ -18581,7 +18584,7 @@ window.SCENE_TRACES={
         },
         "after_locals": {
           "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}",
-          "feuilles": "<function feuilles at 0x7ffa472cf7e0>"
+          "feuilles": "<function feuilles at 0x7f04584237e0>"
         },
         "return_value": "2",
         "output_so_far": "",
@@ -18642,7 +18645,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {
           "noeud": "{'valeur': 'Cours', 'enfants': []}",
-          "ok": "<function ok at 0x7ffa472cfec0>"
+          "ok": "<function ok at 0x7f0458423ec0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -18694,7 +18697,7 @@ window.SCENE_TRACES={
         },
         "after_locals": {
           "noeud": "{'valeur': 'Cours', 'enfants': []}",
-          "ok": "<function ok at 0x7ffa472cfec0>"
+          "ok": "<function ok at 0x7f0458423ec0>"
         },
         "return_value": "True",
         "output_so_far": "",
@@ -18741,7 +18744,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {
           "arbre": "{'valeur': 'racine', 'enfants': []}",
-          "afficher": "<function afficher at 0x7ffa47394220>"
+          "afficher": "<function afficher at 0x7f04584e8220>"
         },
         "after_locals": null,
         "return_value": "",
@@ -18810,7 +18813,7 @@ window.SCENE_TRACES={
         },
         "after_locals": {
           "arbre": "{'valeur': 'racine', 'enfants': []}",
-          "afficher": "<function afficher at 0x7ffa47394220>"
+          "afficher": "<function afficher at 0x7f04584e8220>"
         },
         "return_value": "'arbre vide'",
         "output_so_far": "",
@@ -18902,7 +18905,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {
           "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}",
-          "compter": "<function compter at 0x7ffa47394720>"
+          "compter": "<function compter at 0x7f04584e8720>"
         },
         "after_locals": null,
         "return_value": "",
@@ -18950,7 +18953,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa47370af0>"
+          ".0": "<list_iterator object at 0x7f04584c4c40>"
         },
         "after_locals": null,
         "return_value": "",
@@ -18966,7 +18969,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa47370af0>"
+          ".0": "<list_iterator object at 0x7f04584c4c40>"
         },
         "after_locals": null,
         "return_value": "",
@@ -19014,7 +19017,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa47370d30>"
+          ".0": "<list_iterator object at 0x7f04584c4e80>"
         },
         "after_locals": null,
         "return_value": "",
@@ -19030,7 +19033,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa47370d30>"
+          ".0": "<list_iterator object at 0x7f04584c4e80>"
         },
         "after_locals": null,
         "return_value": "",
@@ -19046,7 +19049,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa47370d30>"
+          ".0": "<list_iterator object at 0x7f04584c4e80>"
         },
         "after_locals": null,
         "return_value": "",
@@ -19078,7 +19081,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa47370af0>",
+          ".0": "<list_iterator object at 0x7f04584c4c40>",
           "e": "{'valeur': 'B', 'enfants': []}"
         },
         "after_locals": null,
@@ -19095,7 +19098,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa47370af0>",
+          ".0": "<list_iterator object at 0x7f04584c4c40>",
           "e": "{'valeur': 'B', 'enfants': []}"
         },
         "after_locals": null,
@@ -19112,7 +19115,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa47370af0>",
+          ".0": "<list_iterator object at 0x7f04584c4c40>",
           "e": "{'valeur': 'B', 'enfants': []}"
         },
         "after_locals": null,
@@ -19161,7 +19164,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa47370d90>"
+          ".0": "<list_iterator object at 0x7f04584c4ee0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -19177,7 +19180,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa47370d90>"
+          ".0": "<list_iterator object at 0x7f04584c4ee0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -19193,7 +19196,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa47370d90>"
+          ".0": "<list_iterator object at 0x7f04584c4ee0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -19225,7 +19228,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa47370af0>",
+          ".0": "<list_iterator object at 0x7f04584c4c40>",
           "e": "{'valeur': 'C', 'enfants': []}"
         },
         "after_locals": null,
@@ -19242,7 +19245,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa47370af0>",
+          ".0": "<list_iterator object at 0x7f04584c4c40>",
           "e": "{'valeur': 'C', 'enfants': []}"
         },
         "after_locals": null,
@@ -19259,7 +19262,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa47370af0>",
+          ".0": "<list_iterator object at 0x7f04584c4c40>",
           "e": "{'valeur': 'C', 'enfants': []}"
         },
         "after_locals": null,
@@ -19276,7 +19279,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa47370af0>",
+          ".0": "<list_iterator object at 0x7f04584c4c40>",
           "e": "{'valeur': 'C', 'enfants': []}"
         },
         "after_locals": null,
@@ -19297,7 +19300,7 @@ window.SCENE_TRACES={
         },
         "after_locals": {
           "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}",
-          "compter": "<function compter at 0x7ffa47394720>"
+          "compter": "<function compter at 0x7f04584e8720>"
         },
         "return_value": "3",
         "output_so_far": "",
@@ -19327,7 +19330,7 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {
-          "contient": "<function run_scene.<locals>.<lambda> at 0x7ffa473945e0>"
+          "contient": "<function run_scene.<locals>.<lambda> at 0x7f04584e85e0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -19343,7 +19346,7 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {
-          "contient": "<function run_scene.<locals>.<lambda> at 0x7ffa473945e0>",
+          "contient": "<function run_scene.<locals>.<lambda> at 0x7f04584e85e0>",
           "arbre": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Python', 'enfants': []}, {'valeur': 'Data', 'enfants': []}]}"
         },
         "after_locals": null,
@@ -19360,7 +19363,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "contient": "<function contient at 0x7ffa47394e00>",
+          "contient": "<function contient at 0x7f04584e8e00>",
           "arbre": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Python', 'enfants': []}, {'valeur': 'Data', 'enfants': []}]}"
         },
         "after_locals": null,
@@ -19411,7 +19414,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa473710c0>",
+          ".0": "<list_iterator object at 0x7f04584c5210>",
           "cible": "'Data'"
         },
         "after_locals": null,
@@ -19428,7 +19431,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa473710c0>",
+          ".0": "<list_iterator object at 0x7f04584c5210>",
           "cible": "'Data'"
         },
         "after_locals": null,
@@ -19479,7 +19482,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472df670>",
+          ".0": "<list_iterator object at 0x7f04584337c0>",
           "cible": "'Data'"
         },
         "after_locals": null,
@@ -19496,7 +19499,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472df670>",
+          ".0": "<list_iterator object at 0x7f04584337c0>",
           "cible": "'Data'"
         },
         "after_locals": null,
@@ -19513,7 +19516,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472df670>",
+          ".0": "<list_iterator object at 0x7f04584337c0>",
           "cible": "'Data'"
         },
         "after_locals": null,
@@ -19547,7 +19550,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa473710c0>",
+          ".0": "<list_iterator object at 0x7f04584c5210>",
           "cible": "'Data'",
           "e": "{'valeur': 'Python', 'enfants': []}"
         },
@@ -19565,7 +19568,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa473710c0>",
+          ".0": "<list_iterator object at 0x7f04584c5210>",
           "cible": "'Data'",
           "e": "{'valeur': 'Python', 'enfants': []}"
         },
@@ -19583,7 +19586,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa473710c0>",
+          ".0": "<list_iterator object at 0x7f04584c5210>",
           "cible": "'Data'",
           "e": "{'valeur': 'Python', 'enfants': []}"
         },
@@ -19652,7 +19655,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa473710c0>",
+          ".0": "<list_iterator object at 0x7f04584c5210>",
           "cible": "'Data'",
           "e": "{'valeur': 'Data', 'enfants': []}"
         },
@@ -19674,7 +19677,7 @@ window.SCENE_TRACES={
           "cible": "'Data'"
         },
         "after_locals": {
-          "contient": "<function contient at 0x7ffa47394e00>",
+          "contient": "<function contient at 0x7f04584e8e00>",
           "arbre": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Python', 'enfants': []}, {'valeur': 'Data', 'enfants': []}]}"
         },
         "return_value": "True",
@@ -19736,7 +19739,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {
           "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}]}",
-          "hauteur": "<function hauteur at 0x7ffa472cfc40>"
+          "hauteur": "<function hauteur at 0x7f0458423c40>"
         },
         "after_locals": null,
         "return_value": "",
@@ -19801,7 +19804,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f6c80>"
+          ".0": "<list_iterator object at 0x7f045844a920>"
         },
         "after_locals": null,
         "return_value": "",
@@ -19817,7 +19820,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f6c80>"
+          ".0": "<list_iterator object at 0x7f045844a920>"
         },
         "after_locals": null,
         "return_value": "",
@@ -19882,7 +19885,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f6d10>"
+          ".0": "<list_iterator object at 0x7f045844a6e0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -19898,7 +19901,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f6d10>"
+          ".0": "<list_iterator object at 0x7f045844a6e0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -19963,7 +19966,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f6d10>",
+          ".0": "<list_iterator object at 0x7f045844a6e0>",
           "e": "{'valeur': 'C', 'enfants': []}"
         },
         "after_locals": null,
@@ -19980,7 +19983,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f6d10>",
+          ".0": "<list_iterator object at 0x7f045844a6e0>",
           "e": "{'valeur': 'C', 'enfants': []}"
         },
         "after_locals": null,
@@ -19997,7 +20000,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f6d10>",
+          ".0": "<list_iterator object at 0x7f045844a6e0>",
           "e": "{'valeur': 'C', 'enfants': []}"
         },
         "after_locals": null,
@@ -20014,7 +20017,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f6d10>",
+          ".0": "<list_iterator object at 0x7f045844a6e0>",
           "e": "{'valeur': 'C', 'enfants': []}"
         },
         "after_locals": null,
@@ -20047,7 +20050,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f6c80>",
+          ".0": "<list_iterator object at 0x7f045844a920>",
           "e": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
         },
         "after_locals": null,
@@ -20064,7 +20067,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f6c80>",
+          ".0": "<list_iterator object at 0x7f045844a920>",
           "e": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
         },
         "after_locals": null,
@@ -20081,7 +20084,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f6c80>",
+          ".0": "<list_iterator object at 0x7f045844a920>",
           "e": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
         },
         "after_locals": null,
@@ -20098,7 +20101,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7ffa472f6c80>",
+          ".0": "<list_iterator object at 0x7f045844a920>",
           "e": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
         },
         "after_locals": null,
@@ -20119,7 +20122,7 @@ window.SCENE_TRACES={
         },
         "after_locals": {
           "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}]}",
-          "hauteur": "<function hauteur at 0x7ffa472cfc40>"
+          "hauteur": "<function hauteur at 0x7f0458423c40>"
         },
         "return_value": "2",
         "output_so_far": "",
@@ -20180,7 +20183,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {
           "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}",
-          "afficher_feuilles": "<function afficher_feuilles at 0x7ffa472ce200>"
+          "afficher_feuilles": "<function afficher_feuilles at 0x7f0458422200>"
         },
         "after_locals": null,
         "return_value": "",
@@ -20480,7 +20483,7 @@ window.SCENE_TRACES={
         },
         "after_locals": {
           "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}",
-          "afficher_feuilles": "<function afficher_feuilles at 0x7ffa472ce200>"
+          "afficher_feuilles": "<function afficher_feuilles at 0x7f0458422200>"
         },
         "return_value": "",
         "output_so_far": "B\nC\n",
@@ -21861,7 +21864,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<zip object at 0x7ffa471c4a00>"
+          ".0": "<zip object at 0x7f0458314b00>"
         },
         "after_locals": null,
         "return_value": "",
@@ -21877,7 +21880,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<zip object at 0x7ffa471c4a00>"
+          ".0": "<zip object at 0x7f0458314b00>"
         },
         "after_locals": null,
         "return_value": "",
@@ -21893,7 +21896,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<zip object at 0x7ffa471c4a00>",
+          ".0": "<zip object at 0x7f0458314b00>",
           "n": "12",
           "c": "1"
         },
@@ -21911,7 +21914,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<zip object at 0x7ffa471c4a00>",
+          ".0": "<zip object at 0x7f0458314b00>",
           "n": "12",
           "c": "1"
         },
@@ -21929,7 +21932,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<zip object at 0x7ffa471c4a00>",
+          ".0": "<zip object at 0x7f0458314b00>",
           "n": "12",
           "c": "1"
         },
@@ -21947,7 +21950,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<zip object at 0x7ffa471c4a00>",
+          ".0": "<zip object at 0x7f0458314b00>",
           "n": "16",
           "c": "2"
         },
@@ -21965,7 +21968,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<zip object at 0x7ffa471c4a00>",
+          ".0": "<zip object at 0x7f0458314b00>",
           "n": "16",
           "c": "2"
         },
@@ -21983,7 +21986,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<zip object at 0x7ffa471c4a00>",
+          ".0": "<zip object at 0x7f0458314b00>",
           "n": "16",
           "c": "2"
         },
@@ -22001,7 +22004,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<zip object at 0x7ffa471c4a00>",
+          ".0": "<zip object at 0x7f0458314b00>",
           "n": "16",
           "c": "2"
         },
@@ -22333,7 +22336,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "saluer": "<function saluer at 0x7ffa472cef20>"
+          "saluer": "<function saluer at 0x7f0458422f20>"
         },
         "after_locals": null,
         "return_value": "",
@@ -22384,7 +22387,7 @@ window.SCENE_TRACES={
           "nom": "'Lina'"
         },
         "after_locals": {
-          "saluer": "<function saluer at 0x7ffa472cef20>"
+          "saluer": "<function saluer at 0x7f0458422f20>"
         },
         "return_value": "'Bonjour Lina'",
         "output_so_far": "",
@@ -22428,7 +22431,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "carre": "<function carre at 0x7ffa472ce200>"
+          "carre": "<function carre at 0x7f0458422200>"
         },
         "after_locals": null,
         "return_value": "",
@@ -22479,7 +22482,7 @@ window.SCENE_TRACES={
           "n": "6"
         },
         "after_locals": {
-          "carre": "<function carre at 0x7ffa472ce200>"
+          "carre": "<function carre at 0x7f0458422200>"
         },
         "return_value": "36",
         "output_so_far": "",
@@ -22523,7 +22526,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "ttc": "<function ttc at 0x7ffa472cfc40>"
+          "ttc": "<function ttc at 0x7f0458423c40>"
         },
         "after_locals": null,
         "return_value": "",
@@ -22577,7 +22580,7 @@ window.SCENE_TRACES={
           "taux": "0.2"
         },
         "after_locals": {
-          "ttc": "<function ttc at 0x7ffa472cfc40>"
+          "ttc": "<function ttc at 0x7f0458423c40>"
         },
         "return_value": "120.0",
         "output_so_far": "",
@@ -22621,7 +22624,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "valide": "<function valide at 0x7ffa472cff60>"
+          "valide": "<function valide at 0x7f0458423f60>"
         },
         "after_locals": null,
         "return_value": "",
@@ -22672,7 +22675,7 @@ window.SCENE_TRACES={
           "note": "18"
         },
         "after_locals": {
-          "valide": "<function valide at 0x7ffa472cff60>"
+          "valide": "<function valide at 0x7f0458423f60>"
         },
         "return_value": "True",
         "output_so_far": "",
@@ -22716,7 +22719,7 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {
-          "c_to_f": "<function c_to_f at 0x7ffa472cf1a0>"
+          "c_to_f": "<function c_to_f at 0x7f04584231a0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -22732,8 +22735,8 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "c_to_f": "<function c_to_f at 0x7ffa472cf1a0>",
-          "chaud": "<function chaud at 0x7ffa472cf4c0>"
+          "c_to_f": "<function c_to_f at 0x7f04584231a0>",
+          "chaud": "<function chaud at 0x7f04584234c0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -22832,8 +22835,8 @@ window.SCENE_TRACES={
           "f": "77.0"
         },
         "after_locals": {
-          "c_to_f": "<function c_to_f at 0x7ffa472cf1a0>",
-          "chaud": "<function chaud at 0x7ffa472cf4c0>"
+          "c_to_f": "<function c_to_f at 0x7f04584231a0>",
+          "chaud": "<function chaud at 0x7f04584234c0>"
         },
         "return_value": "True",
         "output_so_far": "",
@@ -22894,7 +22897,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {
           "pi": "3.141592653589793",
-          "aire_disque": "<function aire_disque at 0x7ffa472cd580>"
+          "aire_disque": "<function aire_disque at 0x7f0458421580>"
         },
         "after_locals": null,
         "return_value": "",
@@ -22946,7 +22949,7 @@ window.SCENE_TRACES={
         },
         "after_locals": {
           "pi": "3.141592653589793",
-          "aire_disque": "<function aire_disque at 0x7ffa472cd580>"
+          "aire_disque": "<function aire_disque at 0x7f0458421580>"
         },
         "return_value": "28.274333882308138",
         "output_so_far": "",
@@ -22990,7 +22993,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "vitesse": "<function vitesse at 0x7ffa47426020>"
+          "vitesse": "<function vitesse at 0x7f045857e020>"
         },
         "after_locals": null,
         "return_value": "",
@@ -23044,7 +23047,7 @@ window.SCENE_TRACES={
           "temps_h": "2"
         },
         "after_locals": {
-          "vitesse": "<function vitesse at 0x7ffa47426020>"
+          "vitesse": "<function vitesse at 0x7f045857e020>"
         },
         "return_value": "21.0",
         "output_so_far": "",
@@ -23088,7 +23091,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "energie": "<function energie at 0x7ffa474253a0>"
+          "energie": "<function energie at 0x7f045857d3a0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -23145,7 +23148,7 @@ window.SCENE_TRACES={
           "hauteur": "3"
         },
         "after_locals": {
-          "energie": "<function energie at 0x7ffa474253a0>"
+          "energie": "<function energie at 0x7f045857d3a0>"
         },
         "return_value": "58.86",
         "output_so_far": "",
@@ -23189,7 +23192,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "concentration": "<function concentration at 0x7ffa47427ec0>"
+          "concentration": "<function concentration at 0x7f045857fec0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -23243,7 +23246,7 @@ window.SCENE_TRACES={
           "volume": "0.5"
         },
         "after_locals": {
-          "concentration": "<function concentration at 0x7ffa47427ec0>"
+          "concentration": "<function concentration at 0x7f045857fec0>"
         },
         "return_value": "24.0",
         "output_so_far": "",
@@ -23287,7 +23290,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "zone_pression": "<function zone_pression at 0x7ffa47395a80>"
+          "zone_pression": "<function zone_pression at 0x7f04584e9a80>"
         },
         "after_locals": null,
         "return_value": "",
@@ -23372,7 +23375,7 @@ window.SCENE_TRACES={
           "valeur": "128"
         },
         "after_locals": {
-          "zone_pression": "<function zone_pression at 0x7ffa47395a80>"
+          "zone_pression": "<function zone_pression at 0x7f04584e9a80>"
         },
         "return_value": "'élevée'",
         "output_so_far": "",
@@ -23402,10 +23405,10 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {
-          "est_pair": "<function run_scene.<locals>.<lambda> at 0x7ffa47395bc0>"
+          "est_pair": "<function run_scene.<locals>.<lambda> at 0x7f04584e9bc0>"
         },
         "after_locals": {
-          "est_pair": "<function est_pair at 0x7ffa47395760>"
+          "est_pair": "<function est_pair at 0x7f04584e9760>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -23436,7 +23439,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {},
         "after_locals": {
-          "moyenne": "<function moyenne at 0x7ffa473956c0>"
+          "moyenne": "<function moyenne at 0x7f04584e96c0>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -23467,7 +23470,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {},
         "after_locals": {
-          "plus_grand": "<function plus_grand at 0x7ffa47395260>"
+          "plus_grand": "<function plus_grand at 0x7f04584e9260>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -23498,7 +23501,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {},
         "after_locals": {
-          "remise": "<function remise at 0x7ffa47394360>"
+          "remise": "<function remise at 0x7f04584e8360>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -23529,7 +23532,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {},
         "after_locals": {
-          "phrase": "<function phrase at 0x7ffa47394400>"
+          "phrase": "<function phrase at 0x7f04584e8400>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -23560,7 +23563,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {},
         "after_locals": {
-          "secondes": "<function secondes at 0x7ffa47394cc0>"
+          "secondes": "<function secondes at 0x7f04584e8cc0>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -23591,7 +23594,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {},
         "after_locals": {
-          "categorie": "<function categorie at 0x7ffa47394c20>"
+          "categorie": "<function categorie at 0x7f04584e8c20>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -23625,7 +23628,7 @@ window.SCENE_TRACES={
         },
         "after_locals": {
           "valeurs": "[4, 7, 2, 9]",
-          "total": "<function total at 0x7ffa47396020>"
+          "total": "<function total at 0x7f04584ea020>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -23655,7 +23658,7 @@ window.SCENE_TRACES={
         "kind": "statement",
         "iteration": null,
         "locals": {
-          "est_pair": "<function run_scene.<locals>.<lambda> at 0x7ffa47395da0>"
+          "est_pair": "<function run_scene.<locals>.<lambda> at 0x7f04584e9da0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -23671,10 +23674,10 @@ window.SCENE_TRACES={
         "kind": "statement",
         "iteration": null,
         "locals": {
-          "est_pair": "<function run_scene.<locals>.<lambda> at 0x7ffa47395da0>"
+          "est_pair": "<function run_scene.<locals>.<lambda> at 0x7f04584e9da0>"
         },
         "after_locals": {
-          "est_pair": "<function run_scene.<locals>.<lambda> at 0x7ffa47395da0>"
+          "est_pair": "<function run_scene.<locals>.<lambda> at 0x7f04584e9da0>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -23705,7 +23708,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {},
         "after_locals": {
-          "carre": "<function carre at 0x7ffa47396480>"
+          "carre": "<function carre at 0x7f04584ea480>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -23736,7 +23739,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {},
         "after_locals": {
-          "fcm": "<function fcm at 0x7ffa47427ec0>"
+          "fcm": "<function fcm at 0x7f045857fec0>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -23767,7 +23770,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {},
         "after_locals": {
-          "celsius_vers_kelvin": "<function celsius_vers_kelvin at 0x7ffa474253a0>"
+          "celsius_vers_kelvin": "<function celsius_vers_kelvin at 0x7f045857d3a0>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -23798,7 +23801,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {},
         "after_locals": {
-          "intensite": "<function intensite at 0x7ffa472cc7c0>"
+          "intensite": "<function intensite at 0x7f04584207c0>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -23828,10 +23831,10 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {
-          "est_pair": "<function run_scene.<locals>.<lambda> at 0x7ffa47426020>"
+          "est_pair": "<function run_scene.<locals>.<lambda> at 0x7f045857e020>"
         },
         "after_locals": {
-          "est_pair": "<function est_pair at 0x7ffa472cd580>"
+          "est_pair": "<function est_pair at 0x7f0458421580>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -23875,7 +23878,7 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {
-          "vitesse": "<function vitesse at 0x7ffa472ce840>"
+          "vitesse": "<function vitesse at 0x7f0458422840>"
         },
         "after_locals": null,
         "return_value": "",
@@ -23942,7 +23945,7 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {
-          "vitesse": "<function vitesse at 0x7ffa472ce840>"
+          "vitesse": "<function vitesse at 0x7f0458422840>"
         },
         "after_locals": null,
         "return_value": "",
@@ -23996,7 +23999,7 @@ window.SCENE_TRACES={
           "t": "1.5"
         },
         "after_locals": {
-          "vitesse": "<function vitesse at 0x7ffa472ce840>"
+          "vitesse": "<function vitesse at 0x7f0458422840>"
         },
         "return_value": "20.0",
         "output_so_far": "",

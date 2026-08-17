@@ -32,3 +32,11 @@ In the visual tree inspection, **Projet** appeared as the highlighted root above
 ## Public learning-animation verification
 
 GitHub Pages now serves `scene_traces.js?v=learning-animations-4` and `app.js?v=learning-animations-4`. On the public site, the vector scene showed four cells with **index 1 / value 22** active at loop turn 2, while the tree scene displayed **Projet**, **Analyse** and **Dev**, with **Projet** active at loop turn 1.
+
+## Execution-theater redesign (local review)
+
+The earlier cards were visually insufficient. The replacement presents a single dark execution stage: the source instruction, a moving instruction token, four explicit stations, a before/after transformation area, and a visible true/false route for a real branch. In the reviewed condition `if t < 0`, the **FALSE · skip the block** path was visibly selected while the instruction travelled through the **Memory** station.
+
+The refactored Vector exercise 04 performs a real multiple-assignment swap. The visual review showed `valeurs` changing from `[1, 4, 7]` to `[7, 4, 1]`; cells `[0]` and `[2]` were visibly highlighted in the before/after indexed rows around the exchange marker.
+
+The refactored Tree traversal preserves the complete hierarchy **Projet → Analyse / Dev**. During the recursive call to `visiter(Analyse)`, **Analyse** is highlighted in orange, the parent and sibling remain visible, and the stack shows `<module>()` waiting below the active `visiter()` frame.

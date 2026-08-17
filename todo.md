@@ -15,3 +15,10 @@
 - [x] Tester les nouveaux affichages sur l’ensemble des scènes.
 - [x] Publier les animations vérifiées et contrôler le site public.
 - [x] Renouveler les assets CSS et JavaScript afin que les nouvelles animations ne soient pas masquées par un ancien cache navigateur.
+- [x] Identifier précisément ce qui rend les changements actuels peu perceptibles dans l’expérience publique.
+- [x] Remplacer les panneaux décoratifs par un lecteur visuel où le déplacement, la transformation et la conséquence de chaque instruction sont directement observables.
+- [x] Créer une animation de vecteur avec curseur de lecture, cases avant/après, mouvement de permutation et comparaisons visibles.
+- [x] Créer une animation d’arbre avec déplacement du curseur de parcours, pile récursive, descente vers les enfants et remontée vers le parent.
+- [x] Définir des critères de contrôle visuel exigeants et rejeter toute scène qui ne montre pas une évolution observable.
+- [ ] Publier et vérifier publiquement la refonte seulement après contrôle visuel approfondi.
+- [x] Renouveler les versions des assets afin que les navigateurs chargent le lecteur d’exécution refondu.

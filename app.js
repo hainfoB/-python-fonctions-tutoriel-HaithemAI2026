@@ -216,12 +216,13 @@ function vectorOperation(state,vector,previousVector){
 }
 
 function treeData(state,source){
+  const fromSource=parsePythonLiteral(balancedLiteral(source,'{','}'));
+  if(fromSource&&typeof fromSource==='object'&&!Array.isArray(fromSource)&&(Array.isArray(fromSource.enfants)||Array.isArray(fromSource.children)))return fromSource;
   for(const value of Object.values(state?.locals||{})){
     const parsed=parsePythonLiteral(value);
     if(parsed&&typeof parsed==='object'&&!Array.isArray(parsed)&&(Array.isArray(parsed.enfants)||Array.isArray(parsed.children)))return parsed;
   }
-  const parsed=parsePythonLiteral(balancedLiteral(source,'{','}'));
-  return parsed&&typeof parsed==='object'&&!Array.isArray(parsed)?parsed:null;
+  return fromSource&&typeof fromSource==='object'&&!Array.isArray(fromSource)?fromSource:null;
 }
 
 function treeLabel(node){
@@ -270,6 +271,7 @@ function structurePanel(){
 function renderStructureVisualization(c,state,previous,source){
   const panel=structurePanel();
   if(!panel)return;
+  if(c.id==='vectors'||c.id==='trees'){panel.hidden=true;return;}
   const fr=lang==='fr';
   if(c.id==='vectors'){
     const vector=vectorData(state,source);
@@ -338,6 +340,107 @@ function renderExecutionDiagram(c,real,states){
   $('diagramDetailValue').textContent=current[3];
 }
 
+function executionTheater(){
+  let theater=$('executionTheater');
+  if(theater)return theater;
+  if(!document.getElementById('executionTheaterStyles')){
+    const style=document.createElement('style');
+    style.id='executionTheaterStyles';
+    style.textContent=`
+      .execution-theater{margin-top:28px;padding:30px;border-radius:28px;overflow:hidden;background:radial-gradient(circle at 10% 0,#25466d 0,#102746 42%,#081a31 100%);color:#fff;box-shadow:0 24px 56px rgba(11,31,58,.22)}
+      .theater-heading{display:flex;justify-content:space-between;gap:22px;align-items:flex-start}.theater-heading .eyebrow{color:#f2a071}.theater-heading h3{margin:6px 0;color:#fff;font-size:clamp(28px,3vw,38px)}.theater-heading p{max-width:680px;margin:0;color:#cfdae5;font-size:15px}.theater-counter{display:grid;place-items:center;min-width:78px;padding:10px;border:1px solid rgba(255,255,255,.18);border-radius:15px;background:rgba(255,255,255,.07);font:11px var(--mono)}.theater-counter span{color:#f2a071;text-transform:uppercase;letter-spacing:.12em}.theater-counter b{font-size:17px}
+      .theater-scene{position:relative;margin-top:24px;padding:20px;border:1px solid rgba(255,255,255,.16);border-radius:20px;background:rgba(2,15,32,.42)}.theater-source{display:grid;gap:7px;padding:14px 16px;border-radius:14px;background:rgba(255,255,255,.08)}.theater-source>span,.theater-side-label{font:700 10px var(--mono);letter-spacing:.14em;color:#f2a071}.theater-source code{color:#fff;font:600 14px/1.5 var(--mono);overflow-wrap:anywhere}.theater-source small{color:#cbd6e2;font:11px var(--mono)}
+      .theater-flow{position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:28px 8px 25px}.theater-rail{position:absolute;left:12%;right:12%;top:30px;height:3px;border-radius:10px;background:linear-gradient(90deg,#c65d21,#f2a071,#c65d21);opacity:.7}.theater-token{position:absolute;z-index:3;top:20px;left:10%;display:grid;place-items:center;width:22px;height:22px;color:#fff;font-size:17px;animation:theaterToken 1.25s cubic-bezier(.23,1,.32,1) both;filter:drop-shadow(0 0 9px rgba(242,160,113,.9))}.theater-station{position:relative;z-index:2;display:grid;justify-items:center;gap:4px;text-align:center;color:#a7b8c9}.theater-station em{display:grid;place-items:center;width:58px;height:58px;border:2px solid rgba(255,255,255,.22);border-radius:50%;background:#102746;color:#cbd6e2;font:700 12px var(--mono);font-style:normal;transition:transform .25s var(--ease-out),background .25s var(--ease-out),box-shadow .25s var(--ease-out)}.theater-station b{font-size:13px}.theater-station small{font:10px var(--mono);color:#a7b8c9}.theater-station.is-current{color:#fff}.theater-station.is-current em{border-color:#f2a071;background:#c65d21;box-shadow:0 0 0 7px rgba(198,93,33,.18);transform:scale(1.12)}
+      .theater-delta{display:grid;grid-template-columns:1fr 120px 1fr;gap:16px;align-items:center}.theater-values{display:flex;flex-wrap:wrap;gap:8px;align-items:stretch;padding:13px;border:1px solid rgba(255,255,255,.14);border-radius:15px;background:rgba(255,255,255,.05)}.theater-side-label{display:flex;align-items:center;width:100%;color:#a7b8c9}.theater-value{display:grid;gap:4px;min-width:94px;padding:9px 11px;border-radius:10px;background:#0b1f3a}.theater-value small{font:10px var(--mono);color:#a7b8c9}.theater-value b{color:#fff;font:600 13px var(--mono);overflow-wrap:anywhere}.theater-value.after{background:#fff7f0;border:1px solid rgba(242,160,113,.45);animation:theaterValue 1.05s var(--ease-out) both}.theater-value.after b,.theater-value.after small{color:#7c3216}.theater-value.is-output{background:#def3e7;border-color:#69ac88}.theater-value.is-output b,.theater-value.is-output small{color:#16432a}.theater-value.is-empty{opacity:.58}.theater-transform{display:grid;justify-items:center;gap:5px;color:#f2a071;text-align:center}.theater-transform span{font-size:40px;line-height:1;animation:theaterArrow .8s var(--ease-out) both}.theater-transform small{font:10px var(--mono);color:#cfdae5}
+      .theater-branch{display:grid;grid-template-columns:1fr 36px 1fr;gap:9px;align-items:center;margin-top:18px}.theater-branch span{padding:11px;border:1px dashed rgba(255,255,255,.28);border-radius:10px;color:#a7b8c9;text-align:center;font:11px var(--mono)}.theater-branch span.selected{border-color:#f2a071;background:rgba(198,93,33,.24);color:#fff;box-shadow:0 0 0 5px rgba(198,93,33,.12);animation:theaterChoice .75s var(--ease-out)}.theater-branch i{text-align:center;color:#f2a071;font-style:normal;font-size:21px}.theater-loop{display:flex;align-items:center;gap:10px;margin-top:18px;padding:11px 13px;border-radius:12px;background:rgba(80,151,130,.16);border:1px solid rgba(109,188,160,.35);color:#e5fff4}.theater-loop>span{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:#4e8d76;animation:theaterSpin 1s linear both}.theater-loop b{font-size:12px}.theater-loop small{color:#c4dfd5;font:10px var(--mono)}
+      @keyframes theaterToken{0%{transform:translateX(0) scale(.7);opacity:0}15%{opacity:1}85%{opacity:1}100%{transform:translateX(calc(900% + 30px)) scale(1.15);opacity:.15}}@keyframes theaterValue{0%{transform:translateX(-20px) scale(.88);opacity:0}100%{transform:translateX(0) scale(1);opacity:1}}@keyframes theaterArrow{0%{transform:translateX(-14px);opacity:0}100%{transform:translateX(0);opacity:1}}@keyframes theaterChoice{0%{transform:scale(.94);opacity:.2}70%{transform:scale(1.04)}100%{transform:scale(1);opacity:1}}@keyframes theaterSpin{from{transform:rotate(-180deg)}to{transform:rotate(0)}}
+      @media(max-width:760px){.execution-theater{padding:20px;border-radius:22px}.theater-heading{display:block}.theater-counter{display:inline-grid;margin-top:14px}.theater-flow{gap:4px;margin-left:0;margin-right:0}.theater-station em{width:43px;height:43px;font-size:10px}.theater-station b{font-size:10px}.theater-station small{font-size:8px}.theater-rail{top:22px;left:10%;right:10%}.theater-token{top:13px;font-size:13px}.theater-delta{grid-template-columns:1fr}.theater-transform{grid-row:2;transform:rotate(90deg);height:40px}.theater-values{min-height:82px}.theater-branch{grid-template-columns:1fr;gap:5px}.theater-branch i{transform:rotate(90deg)}.theater-loop{flex-wrap:wrap}}@media(prefers-reduced-motion:reduce){.theater-token,.theater-value.after,.theater-transform span,.theater-branch span.selected,.theater-loop>span{animation:none!important}.theater-station em{transition:none!important}}
+    `;
+    document.head.appendChild(style);
+  }
+  const anchor=$('memoryTransition');
+  if(!anchor)return null;
+  theater=document.createElement('section');
+  theater.id='executionTheater';
+  theater.className='execution-theater';
+  anchor.insertAdjacentElement('beforebegin',theater);
+  return theater;
+}
+
+function executionEvent(state,previous){
+  const fr=lang==='fr';
+  const changes=changedEntries(previous?.locals||{},state?.locals||{});
+  const output=stateOutput(state);
+  const kind=state?.kind||'statement';
+  const data={kind,title:'',action:'',accent:'',changes,output,stage:1};
+  if(state?.event==='call')return {...data,kind:'call',title:fr?'Entrée dans la fonction':'Entering a function',action:fr?`Un nouveau cadre ${state.frame||'local'} s’ouvre.`:`A new ${state.frame||'local'} frame opens.`,accent:fr?'arguments → paramètres':'arguments → parameters',stage:2};
+  if(state?.event==='return')return {...data,kind:'return',title:fr?'Retour vers l’appelant':'Returning to the caller',action:fr?`La valeur ${state.return_value||'None'} remonte vers le programme.`:`The value ${state.return_value||'None'} travels back to the program.`,accent:`return ${state.return_value||'None'}`,stage:4};
+  if(kind==='branch')return {...data,title:fr?'Choix de branche':'Branch choice',action:state.branch_taken?(fr?'Le test est vrai : Python entre dans le bloc coloré.':'The test is true: Python enters the highlighted block.'):(fr?'Le test est faux : Python évite ce bloc.':'The test is false: Python skips this block.'),accent:state.branch_taken?(fr?'VRAI → bloc suivi':'TRUE → block followed'):(fr?'FAUX → bloc évité':'FALSE → block skipped'),stage:3};
+  if(kind==='loop')return {...data,title:fr?`Tour de boucle ${state.iteration||1}`:`Loop turn ${state.iteration||1}`,action:fr?'Le curseur lit une valeur, puis revient au test pour préparer le tour suivant.':'The cursor reads one value, then returns to the test to prepare the next turn.',accent:fr?`itération ${state.iteration||1}`:`iteration ${state.iteration||1}`,stage:3};
+  if(output)return {...data,kind:'output',title:fr?'Sortie produite':'Output produced',action:fr?'La valeur quitte la mémoire et apparaît dans la console.':'The value leaves memory and appears in the console.',accent:output,stage:4};
+  if(changes.length)return {...data,kind:'assignment',title:fr?'Valeur transformée':'Value transformed',action:fr?'Python calcule à droite, puis remplace la valeur liée au nom à gauche.':'Python computes the right side, then replaces the value attached to the name on the left.',accent:changes.map(([name,value])=>`${name} ← ${value}`).join(' · '),stage:3};
+  return {...data,title:fr?'Instruction préparée':'Instruction prepared',action:fr?'Python lit cette instruction avant de déclencher son effet.':'Python reads this instruction before triggering its effect.',accent:state?.source_line||'',stage:1};
+}
+
+function recursionFrames(states){
+  const frames=['<module>'];
+  states.slice(0,memoryStep+1).forEach(item=>{
+    if(item.event==='call'&&item.frame&&frames.at(-1)!==item.frame)frames.push(item.frame);
+    if(item.event==='return'&&frames.length>1)frames.pop();
+  });
+  return frames;
+}
+
+function renderTheaterStructureMotion(c,state,previous,states,source){
+  if(!document.getElementById('structureMotionStyles')){
+    const style=document.createElement('style');
+    style.id='structureMotionStyles';
+    style.textContent=`
+      .structure-motion{margin-top:24px;padding:18px;border:1px solid rgba(242,160,113,.42);border-radius:16px;background:linear-gradient(135deg,rgba(255,255,255,.12),rgba(255,255,255,.03))}.structure-motion header{display:grid;gap:4px}.structure-motion header>span{color:#f2a071;font:700 10px var(--mono);letter-spacing:.14em}.structure-motion header strong{color:#fff;font:600 22px var(--serif)}.structure-motion header p{margin:0;color:#cfdae5;font-size:13px}.vector-choreography{display:grid;grid-template-columns:1fr 90px 1fr;gap:12px;align-items:center;margin-top:16px}.vector-lane{padding:12px;border:1px solid rgba(255,255,255,.13);border-radius:12px;background:rgba(2,15,32,.35)}.vector-lane>small,.recursion-stack>small{display:block;color:#a7b8c9;font:9px var(--mono);letter-spacing:.12em}.motion-cells{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}.motion-cell{position:relative;display:grid;justify-items:center;gap:2px;min-width:50px;padding:8px 6px;border:1px solid rgba(255,255,255,.18);border-radius:9px;background:#102746;transition:transform .24s var(--ease-out),background .24s var(--ease-out)}.motion-cell small{color:#a7b8c9;font:9px var(--mono)}.motion-cell b{color:#fff;font:600 13px var(--mono)}.motion-cell i{position:absolute;top:-19px;color:#f2a071;font-style:normal;font-size:15px;animation:cursorBounce .7s var(--ease-out) both}.motion-cell.is-target{border-color:#f2a071;background:#c65d21;transform:translateY(-4px);box-shadow:0 8px 18px rgba(198,93,33,.35)}.motion-cell.is-changed{animation:cellChanged .85s var(--ease-out) both}.motion-cell.is-empty{min-width:70px}.vector-transfer{display:grid;justify-items:center;color:#f2a071;text-align:center}.vector-transfer b{font-size:36px;line-height:1;animation:transferPulse .8s var(--ease-out) both}.vector-transfer small{margin-top:5px;color:#cbd6e2;font:9px var(--mono)}.structure-motion footer{display:flex;gap:8px;margin-top:16px;padding-top:12px;border-top:1px solid rgba(255,255,255,.14);color:#cfdae5;font-size:12px;line-height:1.55}.structure-motion footer i{display:grid;place-items:center;flex:0 0 auto;width:20px;height:20px;border-radius:50%;background:#c65d21;color:#fff;font:10px var(--mono);font-style:normal}
+      .tree-cinema{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(180px,.6fr);gap:14px;margin-top:16px}.tree-map{display:grid;place-items:center;min-height:144px;padding:15px;border-radius:13px;background:rgba(2,15,32,.35);overflow:auto}.tree-motion .tree-branches{min-width:max-content}.tree-motion .tree-node{animation:none}.tree-motion .tree-node.is-active{position:relative;animation:treeNodePulse .85s var(--ease-out) both}.tree-motion .tree-node.is-active:after{content:'●';position:absolute;top:-18px;left:50%;transform:translateX(-50%);color:#f2a071;font-size:14px;filter:drop-shadow(0 0 7px #f2a071)}.recursion-stack{display:grid;align-content:start;gap:7px;padding:12px;border:1px solid rgba(255,255,255,.13);border-radius:12px;background:rgba(2,15,32,.35)}.recursion-frame{display:grid;grid-template-columns:20px 1fr auto;align-items:center;gap:6px;padding:7px;border-left:3px solid #536273;border-radius:7px;background:#102746;color:#cfdae5}.recursion-frame b{display:grid;place-items:center;width:18px;height:18px;border-radius:50%;background:#31445b;font:9px var(--mono)}.recursion-frame span{font:10px var(--mono);overflow-wrap:anywhere}.recursion-frame em{font:8px var(--mono);font-style:normal;color:#a7b8c9}.recursion-frame.is-top{border-color:#f2a071;background:#c65d21;color:#fff;animation:frameArrive .75s var(--ease-out) both}.recursion-frame.is-top b{background:#fff;color:#c65d21}.recursion-frame.is-top em{color:#fff7f0}.tree-motion.is-empty{border-style:dashed}.tree-motion.is-empty strong{font-size:38px}
+      @keyframes cursorBounce{0%{transform:translateY(-9px);opacity:0}100%{transform:translateY(0);opacity:1}}@keyframes cellChanged{0%{transform:translateX(-18px) scale(.8);opacity:0}70%{transform:translateX(4px) scale(1.08)}100%{transform:translateX(0) scale(1);opacity:1}}@keyframes transferPulse{0%{transform:scale(.6);opacity:0}100%{transform:scale(1);opacity:1}}@keyframes treeNodePulse{0%{transform:scale(.72);opacity:0}65%{transform:scale(1.16)}100%{transform:translateY(-4px) scale(1);opacity:1}}@keyframes frameArrive{0%{transform:translateX(18px);opacity:0}100%{transform:translateX(0);opacity:1}}
+      @media(max-width:760px){.vector-choreography,.tree-cinema{grid-template-columns:1fr}.vector-transfer{transform:rotate(90deg);height:34px}.vector-lane{min-width:0}.motion-cell{min-width:43px}.tree-map{min-height:125px}}@media(prefers-reduced-motion:reduce){.motion-cell i,.motion-cell.is-changed,.vector-transfer b,.tree-motion .tree-node.is-active,.recursion-frame.is-top{animation:none!important}}
+    `;
+    document.head.appendChild(style);
+  }
+  const scene=document.querySelector('#executionTheater .theater-scene');
+  if(!scene)return;
+  const fr=lang==='fr';
+  if(c.id==='vectors'){
+    const vector=vectorData(state,source);
+    if(!vector)return;
+    const before=vectorData(previous,source);
+    const activeIndex=activeVectorIndex(state,vector,before);
+    const changed=before?.values?vector.values.map((value,index)=>String(value)!==String(before.values[index])?index:-1).filter(index=>index>=0):[];
+    const cells=(values,side)=>values.length?values.map((value,index)=>`<div class="motion-cell ${index===activeIndex?'is-target':''} ${side==='after'&&changed.includes(index)?'is-changed':''}"><small>[${index}]</small><b>${code(value)}</b>${index===activeIndex?'<i>▼</i>':''}</div>`).join(''):`<div class="motion-cell is-empty"><small>∅</small><b>${fr?'vide':'empty'}</b></div>`;
+    scene.insertAdjacentHTML('beforeend',`<section class="structure-motion vector-motion"><header><span>${fr?'VECTEUR · MÉMOIRE INDEXÉE':'VECTOR · INDEXED MEMORY'}</span><strong>${code(vector.name)}</strong><p>${vectorOperation(state,vector,before)}</p></header><div class="vector-choreography"><div class="vector-lane before"><small>${fr?'AVANT':'BEFORE'}</small><div class="motion-cells">${cells(before?.values||[], 'before')}</div></div><div class="vector-transfer"><b>${changed.length>=2?'⇄':'↓'}</b><small>${fr?'curseur lit / écrit':'cursor reads / writes'}</small></div><div class="vector-lane after"><small>${fr?'APRÈS':'AFTER'}</small><div class="motion-cells">${cells(vector.values,'after')}</div></div></div><footer><i>①</i>${fr?'Le curseur se place sur l’indice réellement lu ou modifié. Les deux rangées montrent la valeur avant puis après l’instruction.':'The cursor lands on the index actually read or modified. The two rows show the value before then after the instruction.'}</footer></section>`);
+    return;
+  }
+  if(c.id==='trees'){
+    const tree=treeData(state,source);
+    const frames=recursionFrames(states);
+    if(!tree){scene.insertAdjacentHTML('beforeend',`<section class="structure-motion tree-motion is-empty"><header><span>${fr?'ARBRE · PARCOURS RÉCURSIF':'TREE · RECURSIVE TRAVERSAL'}</span><strong>∅</strong><p>${fr?'Aucune racine : le parcours attend la création du premier nœud.':'No root: traversal is waiting for the first node.'}</p></header></section>`);return;}
+    const activeLabel=activeTreeLabel(state,tree);
+    const previousTree=treeData(previous,source);
+    const previousLabel=previousTree?activeTreeLabel(previous,previousTree):'';
+    scene.insertAdjacentHTML('beforeend',`<section class="structure-motion tree-motion"><header><span>${fr?'ARBRE · PARCOURS RÉCURSIF':'TREE · RECURSIVE TRAVERSAL'}</span><strong>${fr?'Curseur sur ':'Cursor on '}${code(activeLabel)}</strong><p>${previousLabel&&previousLabel!==activeLabel?(fr?`${previousLabel} → ${activeLabel} : le curseur suit une arête.`:`${previousLabel} → ${activeLabel}: the cursor follows an edge.`):(fr?'Le curseur marque le nœud exécuté avant de suivre le prochain lien.':'The cursor marks the executed node before following the next link.')}</p></header><div class="tree-cinema"><div class="tree-map"><ul class="tree-branches">${treeMarkup(tree,activeLabel)}</ul></div><div class="recursion-stack"><small>${fr?'PILE RÉCURSIVE':'RECURSION STACK'}</small>${frames.map((frame,index)=>`<div class="recursion-frame ${index===frames.length-1?'is-top':''}"><b>${index+1}</b><span>${code(frame)}()</span><em>${index===frames.length-1?(fr?'actif':'active'):(fr?'en attente':'waiting')}</em></div>`).join('')}</div></div><footer><i>②</i>${fr?'Une descente ajoute un cadre à la pile ; un return le retire. Le nœud orange est celui que Python traite maintenant.':'A descent adds a frame to the stack; a return removes it. The orange node is the one Python is handling now.'}</footer></section>`);
+  }
+}
+
+function renderExecutionTheater(c,state,previous,states,source){
+  const theater=executionTheater();
+  if(!theater)return;
+  const fr=lang==='fr';
+  const event=executionEvent(state,previous);
+  const changes=event.changes||[];
+  const beforeSlots=changes.length?changes.map(([name])=>`<div class="theater-value before"><small>${code(name)}</small><b>${code(previous?.locals?.[name]??'∅')}</b></div>`).join(''):`<div class="theater-value before is-empty"><small>${fr?'avant':'before'}</small><b>—</b></div>`;
+  const afterSlots=changes.length?changes.map(([name,value])=>`<div class="theater-value after"><small>${code(name)}</small><b>${code(value)}</b></div>`).join(''):`<div class="theater-value after ${event.output?'is-output':'is-empty'}"><small>${event.output?(fr?'console':'console'):(fr?'après':'after')}</small><b>${code(event.output||event.accent||'—')}</b></div>`;
+  const branchClass=event.kind==='branch'?(state.branch_taken?'is-true':'is-false'):'';
+  const activeFrame=code(state?.frame||'<module>');
+  theater.dataset.kind=event.kind;
+  theater.innerHTML=`<header class="theater-heading"><div><span class="eyebrow">${fr?'LECTEUR D’EXÉCUTION VIVANT':'LIVE EXECUTION PLAYER'}</span><h3>${event.title}</h3><p>${event.action}</p></div><div class="theater-counter"><span>${fr?'état':'state'}</span><b>${memoryStep+1}/${states?.length||1}</b></div></header><div class="theater-scene ${branchClass}"><div class="theater-source"><span>${fr?'INSTRUCTION LUE':'READ INSTRUCTION'}</span><code>L${state?.line||'?'} · ${code(state?.source_line||source?.split('\n')?.[0]||'')}</code><small>${code(event.accent)}</small></div><div class="theater-flow" aria-label="${fr?'Trajet de l’instruction':'Instruction journey'}"><i class="theater-rail"></i><i class="theater-token" aria-hidden="true">◆</i><div class="theater-station source ${event.stage===1?'is-current':''}"><em>01</em><b>${fr?'Lire':'Read'}</b><small>${fr?'ligne':'line'}</small></div><div class="theater-station frame ${event.stage===2?'is-current':''}"><em>02</em><b>${fr?'Cadre':'Frame'}</b><small>${activeFrame}</small></div><div class="theater-station memory ${event.stage===3?'is-current':''}"><em>03</em><b>${fr?'Mémoire':'Memory'}</b><small>${changes.length?(fr?'valeur modifiée':'value changed'):(fr?'test / tour':'test / turn')}</small></div><div class="theater-station output ${event.stage===4?'is-current':''}"><em>04</em><b>${fr?'Conséquence':'Result'}</b><small>${event.output?(fr?'sortie':'output'):(fr?'suite':'next')}</small></div></div><div class="theater-delta"><div class="theater-values"><span class="theater-side-label">${fr?'AVANT':'BEFORE'}</span>${beforeSlots}</div><div class="theater-transform ${event.kind}"><span>⟶</span><small>${fr?'Python exécute':'Python runs'}</small></div><div class="theater-values"><span class="theater-side-label">${fr?'APRÈS':'AFTER'}</span>${afterSlots}</div></div>${event.kind==='branch'?`<div class="theater-branch"><span class="${state.branch_taken?'selected':''}">${fr?'VRAI · exécuter le bloc':'TRUE · run the block'}</span><i>⇣</i><span class="${!state.branch_taken?'selected':''}">${fr?'FAUX · éviter le bloc':'FALSE · skip the block'}</span></div>`:''}${event.kind==='loop'?`<div class="theater-loop"><span>↻</span><b>${fr?'Curseur de boucle':'Loop cursor'} · ${fr?'tour':'turn'} ${state.iteration||1}</b><small>${fr?'lit → traite → revient au test':'read → process → return to test'}</small></div>`:''}</div>`;
+}
+
 function renderMemory(c){
   if(!$('memorySection'))return;
   if(!memoryTraceOverride)diagramStageStep=0;
@@ -357,6 +460,8 @@ function renderMemory(c){
   $('memoryProgram').innerHTML=lines.map((line,index)=>`<span class="memory-line ${index===memoryStep?'active':''}" data-line="${index}"><b>${String(index+1).padStart(2,'0')}</b>${code(line||' ')}</span>`).join('\n');
   renderExecutionDiagram(c,real,states);
   renderMemoryTransition(state,previous);
+  renderExecutionTheater(c,state,previous,states,source);
+  renderTheaterStructureMotion(c,state,previous,states,source);
   renderStructureVisualization(c,state,previous,source);
   const changedNames=new Set(changedEntries(previous.locals,state.locals).map(([name])=>name));
   const latestSlots=Object.values(states.slice(0,memoryStep+1).flatMap(item=>item.slots||[]).reduce((map,slot)=>{map[slot.name]=slot;return map},{}));
