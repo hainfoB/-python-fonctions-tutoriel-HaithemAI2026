@@ -1,0 +1,13 @@
+{
+  "task_kind": "new-document",
+  "output": "pdf",
+  "signals": ["professional-report", "python-tutorial", "english-book"],
+  "hard_constraints": ["cover", "table-of-contents", "headers-footers", "pagination", "author-cv", "bloom-taxonomy", "memory-traces"],
+  "content_features": {
+    "code_blocks": 350,
+    "defined_terms": 50,
+    "portrait_images": 1,
+    "tables": 5,
+    "long_document": true
+  }
+}

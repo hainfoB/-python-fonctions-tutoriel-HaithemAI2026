@@ -1,0 +1,10 @@
+{
+  "entry": "main.typ",
+  "metadata": {
+    "author": "M. Haithem BERKANE",
+    "subtitle": "Memory traces, conditions, loops, Bloom taxonomy and competency-based learning",
+    "title": "Berkane Lab — Python Intensive Manual"
+  },
+  "mode": "report",
+  "theme": "report-theme.typ"
+}
