@@ -6,3 +6,4 @@
 - [x] Ajouter une validation automatisée qui sélectionne chaque exemple et exercice puis vérifie son diagramme.
 - [x] Vérifier le rendu desktop et mobile.
 - [x] Publier la correction GitHub Pages et contrôler le site public.
+- [x] Renouveler les versions des scripts navigateur afin de contourner tout cache antérieur au correctif.
