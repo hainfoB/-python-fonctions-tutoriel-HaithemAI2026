@@ -1,0 +1,11 @@
+# Artefacts locaux de génération des traces
+scene-sources.json
+scene-traces.json
+rich-trace-audit.json
+
+# Rapports et captures de validation navigateur
+diagram-browser-validation.json
+diagram-*.png
+
+# Rendu intégral temporaire pour la revue du manuel
+typst-book/review-all/

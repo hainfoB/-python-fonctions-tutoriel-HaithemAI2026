@@ -8,6 +8,7 @@ const traces = JSON.parse(tracesSource);
 const requiredIds = ['basics','logic','functions','vectors','dictionaries','records','stacks','queues','trees','statistics','conditions_nested','conditions_multiple','for_range','while_loop'];
 const chapterIds = requiredIds.slice();
 const sceneForChapter = id => Object.keys(traces).find(key => key.startsWith(`${id}:`));
+const hasState = predicate => Object.values(traces).some(trace => trace.states?.some(predicate));
 const checks = {
   chapterCount: chapterIds.length === 14 && html.includes('CHAPITRES 01—14'),
   chapterIds: requiredIds.every(id => chapterIds.includes(id)),
@@ -15,7 +16,7 @@ const checks = {
   sixNodes: ['source','compile','frame','memory','compute','output'].every(id => app.includes(`'${id}'`)),
   controls: ['diagramPrevious','diagramPlay','diagramNext','diagramReset'].every(id => html.includes(`id="${id}"`)),
   realTraceBinding: ['realSceneStates','memoryTraceOverride','SCENE_TRACES'].every(id => app.includes(id)),
-  sceneMechanisms: ['activeBranch','activeIteration','activeReturn','branchInfo','loopInfo','functionInfo'].every(id => app.includes(id)),
+  sceneMechanisms: ['branch_taken','iteration','return_value','state.kind===\'branch\'','state.kind===\'loop\'','event===\'return\''].every(token => app.includes(token)) && hasState(state => state.kind === 'branch' && typeof state.branch_taken === 'boolean') && hasState(state => state.kind === 'loop' && Number.isInteger(state.iteration)) && hasState(state => state.event === 'return' && state.return_value !== undefined) && hasState(state => Object.keys(state.after_locals || state.locals || {}).length > 0),
   responsive: css.includes('@media (max-width:760px)') && css.includes('@media (prefers-reduced-motion:reduce)'),
   accessible: html.includes('aria-live="polite"') && html.includes('aria-label="Pile d’appels"'),
 };
