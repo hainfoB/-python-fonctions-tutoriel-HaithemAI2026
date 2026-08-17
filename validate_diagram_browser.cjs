@@ -71,23 +71,50 @@ async function runViewport(name, width, height) {
       const controls = [...document.querySelectorAll('.diagram-controls button')];
       const panel = document.querySelector('#memoryDiagram');
       const track = document.querySelector('#memoryDiagramTrack');
-      const before = document.querySelector('#memoryStepLabel')?.textContent;
+      const before = document.querySelector('#diagramStageLabel')?.textContent;
       document.querySelector('#diagramNext')?.click();
-      const after = document.querySelector('#memoryStepLabel')?.textContent;
+      const after = document.querySelector('#diagramStageLabel')?.textContent;
       const rects = nodes.map(node => { const r = node.getBoundingClientRect(); return { x:r.x, y:r.y, width:node.offsetWidth || r.width, height:node.offsetHeight || r.height }; });
       const controlRects = controls.map(node => { const r = node.getBoundingClientRect(); return { width:r.width, height:r.height, visible:r.width > 0 && r.height > 0 }; });
       return { width: innerWidth, nodes:nodes.length, controls:controls.length, before, after, advanced:before !== after, rects, controlRects, panelBox:{width:panel?.offsetWidth||0,height:panel?.offsetHeight||0}, trackBox:{width:track?.offsetWidth||0,height:track?.offsetHeight||0,scrollWidth:track?.scrollWidth||0}, scrollY };
     })()`;
     const result = await client.send('Runtime.evaluate', { expression, returnByValue: true, awaitPromise: true });
+    const sceneExpression = `(() => {
+      const failures=[];
+      let tested=0;
+      for(let chapterIndex=0;chapterIndex<chapters.length;chapterIndex+=1){
+        active=chapterIndex;memoryStep=0;memoryProgramOverride=null;memoryComplexityOverride=null;memoryTraceOverride=null;render();
+        const chapter=chapters[chapterIndex];
+        const keys=[...document.querySelectorAll('.memory-source-button')].map(button=>button.dataset.memoryScene);
+        for(const key of keys){
+          const action=document.querySelector('.scene-diagram-action[data-memory-scene="'+key+'"]');
+          action?.click();
+          const trace=window.SCENE_TRACES[key];
+          const expected=trace?.states?.[0]?('L'+trace.states[0].line+' · '+trace.states[0].source_line):'';
+          const actual=document.querySelector('.stage-source code')?.textContent||'';
+          const activeKey=document.querySelector('.memory-source-button.active')?.dataset.memoryScene||'';
+          const nodes=document.querySelectorAll('.diagram-node').length;
+          const before=document.querySelector('#diagramStageLabel')?.textContent;
+          document.querySelector('#diagramNext')?.click();
+          const after=document.querySelector('#diagramStageLabel')?.textContent;
+          const noModuleReturn=!/[<]module[>]\s*→\s*retour/.test(document.querySelector('.stage-frame code')?.textContent||'');
+          const ok=Boolean(action)&&activeKey===key&&actual===expected&&nodes===6&&before!==after&&noModuleReturn;
+          if(!ok)failures.push({chapter:chapter.id,key,hasAction:Boolean(action),activeKey,expected,actual,nodes,before,after,noModuleReturn});
+          tested+=1;
+        }
+      }
+      return {tested,failures,passed:tested===350&&failures.length===0};
+    })()`;
+    const sceneResult = await client.send('Runtime.evaluate', { expression: sceneExpression, returnByValue: true, awaitPromise: true });
     await sleep(350);
     const screenshot = await client.send('Page.captureScreenshot', { format: 'png' });
     const file = `${root}/diagram-${name}-${width}.png`;
     fs.writeFileSync(file, Buffer.from(screenshot.data, 'base64'));
     client.close();
-    const value = result.result.value;
+    const value = {...result.result.value, sceneCoverage:sceneResult.result.value};
     const controlsVisible = value.controlRects.every(item => item.visible && item.height >= 30);
     const readableNodes = value.panelBox.width >= 280 && value.panelBox.height >= 250 && value.trackBox.height >= 180 && value.trackBox.scrollWidth >= value.trackBox.width;
-    const passed = value.nodes === 6 && value.controls === 4 && value.advanced && controlsVisible && readableNodes;
+    const passed = value.nodes === 6 && value.controls === 4 && value.advanced && controlsVisible && readableNodes && value.sceneCoverage.passed;
     return { name, viewport: [width, height], passed, screenshot: file, ...value, controlsVisible, readableNodes };
   } finally {
     process.kill('SIGTERM');

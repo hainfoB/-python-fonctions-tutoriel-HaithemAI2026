@@ -98,6 +98,11 @@ def run_scene(scene):
             return tracer
         if event == 'call' and frame.f_code.co_name == '<module>':
             return tracer
+        if event == 'return' and frame.f_code.co_name == '<module>':
+            if states:
+                states[-1]['after_locals'] = visible_locals(frame)
+                states[-1]['after_output'] = output.getvalue()[:500]
+            return tracer
         raw, stripped, indent, kind = line_meta(source_lines, frame.f_lineno)
         key = (frame.f_code.co_name, frame.f_lineno)
         iteration = None
@@ -113,8 +118,10 @@ def run_scene(scene):
             'kind': 'return' if event == 'return' else kind,
             'iteration': iteration,
             'locals': visible_locals(frame),
+            'after_locals': None,
             'return_value': safe_repr(arg) if event == 'return' and arg is not None else '',
             'output_so_far': output.getvalue()[:500],
+            'after_output': None,
         })
         return tracer
 

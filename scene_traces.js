@@ -21,8 +21,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -35,22 +37,12 @@ window.SCENE_TRACES={
         "locals": {
           "prenom": "'Lina'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(\"Bienvenue\", prenom)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "prenom": "'Lina'"
         },
         "return_value": "",
-        "output_so_far": "Bienvenue Lina\n"
+        "output_so_far": "",
+        "after_output": "Bienvenue Lina\n"
       }
     ]
   },
@@ -76,8 +68,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -90,22 +84,12 @@ window.SCENE_TRACES={
         "locals": {
           "age": "16"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(age + 2)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "age": "16"
         },
         "return_value": "",
-        "output_so_far": "18\n"
+        "output_so_far": "",
+        "after_output": "18\n"
       }
     ]
   },
@@ -131,8 +115,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -145,8 +131,10 @@ window.SCENE_TRACES={
         "locals": {
           "a": "12.5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -160,23 +148,13 @@ window.SCENE_TRACES={
           "a": "12.5",
           "b": "7.5"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(a + b)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "a": "12.5",
           "b": "7.5"
         },
         "return_value": "",
-        "output_so_far": "20.0\n"
+        "output_so_far": "",
+        "after_output": "20.0\n"
       }
     ]
   },
@@ -202,8 +180,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -216,22 +196,12 @@ window.SCENE_TRACES={
         "locals": {
           "valeur": "12"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(type(valeur).__name__)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "valeur": "12"
         },
         "return_value": "",
-        "output_so_far": "int\n"
+        "output_so_far": "",
+        "after_output": "int\n"
       }
     ]
   },
@@ -257,8 +227,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -271,8 +243,10 @@ window.SCENE_TRACES={
         "locals": {
           "texte": "'42'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -286,23 +260,13 @@ window.SCENE_TRACES={
           "texte": "'42'",
           "nombre": "42"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(nombre, nombre * 2)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "texte": "'42'",
           "nombre": "42"
         },
         "return_value": "",
-        "output_so_far": "42 84\n"
+        "output_so_far": "",
+        "after_output": "42 84\n"
       }
     ]
   },
@@ -328,8 +292,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -342,8 +308,10 @@ window.SCENE_TRACES={
         "locals": {
           "distance": "42"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -357,23 +325,13 @@ window.SCENE_TRACES={
           "distance": "42",
           "duree": "2"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(distance / duree)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "distance": "42",
           "duree": "2"
         },
         "return_value": "",
-        "output_so_far": "21.0\n"
+        "output_so_far": "",
+        "after_output": "21.0\n"
       }
     ]
   },
@@ -399,8 +357,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -413,8 +373,10 @@ window.SCENE_TRACES={
         "locals": {
           "celsius": "25"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -428,23 +390,13 @@ window.SCENE_TRACES={
           "celsius": "25",
           "kelvin": "298.15"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(kelvin)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "celsius": "25",
           "kelvin": "298.15"
         },
         "return_value": "",
-        "output_so_far": "298.15\n"
+        "output_so_far": "",
+        "after_output": "298.15\n"
       }
     ]
   },
@@ -470,8 +422,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -484,8 +438,10 @@ window.SCENE_TRACES={
         "locals": {
           "masse": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -499,8 +455,10 @@ window.SCENE_TRACES={
           "masse": "2",
           "g": "9.81"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -515,24 +473,14 @@ window.SCENE_TRACES={
           "g": "9.81",
           "hauteur": "3"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(masse * g * hauteur)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "masse": "2",
           "g": "9.81",
           "hauteur": "3"
         },
         "return_value": "",
-        "output_so_far": "58.86\n"
+        "output_so_far": "",
+        "after_output": "58.86\n"
       }
     ]
   },
@@ -558,8 +506,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -572,8 +522,10 @@ window.SCENE_TRACES={
         "locals": {
           "age": "16"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -587,23 +539,13 @@ window.SCENE_TRACES={
           "age": "16",
           "fcm": "204"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(fcm)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "age": "16",
           "fcm": "204"
         },
         "return_value": "",
-        "output_so_far": "204\n"
+        "output_so_far": "",
+        "after_output": "204\n"
       }
     ]
   },
@@ -629,8 +571,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -643,8 +587,10 @@ window.SCENE_TRACES={
         "locals": {
           "tension": "12"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -658,8 +604,10 @@ window.SCENE_TRACES={
           "tension": "12",
           "resistance": "6"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -674,24 +622,14 @@ window.SCENE_TRACES={
           "resistance": "6",
           "intensite": "2.0"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(intensite)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "tension": "12",
           "resistance": "6",
           "intensite": "2.0"
         },
         "return_value": "",
-        "output_so_far": "2.0\n"
+        "output_so_far": "",
+        "after_output": "2.0\n"
       }
     ]
   },
@@ -717,8 +655,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -731,22 +671,12 @@ window.SCENE_TRACES={
         "locals": {
           "ville": "'0'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(\"Bienvenue à\", ville)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "ville": "'0'"
         },
         "return_value": "",
-        "output_so_far": "Bienvenue à 0\n"
+        "output_so_far": "",
+        "after_output": "Bienvenue à 0\n"
       }
     ]
   },
@@ -772,8 +702,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -786,22 +718,12 @@ window.SCENE_TRACES={
         "locals": {
           "age": "0"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(age + 1)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "age": "0"
         },
         "return_value": "",
-        "output_so_far": "1\n"
+        "output_so_far": "",
+        "after_output": "1\n"
       }
     ]
   },
@@ -827,8 +749,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -841,22 +765,12 @@ window.SCENE_TRACES={
         "locals": {
           "c": "20"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(c * 9 / 5 + 32)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "c": "20"
         },
         "return_value": "",
-        "output_so_far": "68.0\n"
+        "output_so_far": "",
+        "after_output": "68.0\n"
       }
     ]
   },
@@ -882,8 +796,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -897,23 +813,13 @@ window.SCENE_TRACES={
           "longueur": "5",
           "largeur": "3"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(longueur * largeur)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "longueur": "5",
           "largeur": "3"
         },
         "return_value": "",
-        "output_so_far": "15\n"
+        "output_so_far": "",
+        "after_output": "15\n"
       }
     ]
   },
@@ -939,20 +845,10 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {},
+        "after_locals": {},
         "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "print(17 % 5)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {},
-        "return_value": "",
-        "output_so_far": "2\n"
+        "output_so_far": "",
+        "after_output": "2\n"
       }
     ]
   },
@@ -978,20 +874,10 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {},
+        "after_locals": {},
         "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "print(\"Lina\" + \" · Oran\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {},
-        "return_value": "",
-        "output_so_far": "Lina · Oran\n"
+        "output_so_far": "",
+        "after_output": "Lina · Oran\n"
       }
     ]
   },
@@ -1017,20 +903,10 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {},
+        "after_locals": {},
         "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "print(round(12.567, 2))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {},
-        "return_value": "",
-        "output_so_far": "12.57\n"
+        "output_so_far": "",
+        "after_output": "12.57\n"
       }
     ]
   },
@@ -1056,20 +932,10 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {},
+        "after_locals": {},
         "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "print(12 > 0)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {},
-        "return_value": "",
-        "output_so_far": "True\n"
+        "output_so_far": "",
+        "after_output": "True\n"
       }
     ]
   },
@@ -1095,8 +961,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -1110,23 +978,13 @@ window.SCENE_TRACES={
           "a": "2",
           "b": "5"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "a, b = b, a",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "a": "5",
           "b": "2"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -1152,8 +1010,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -1166,22 +1026,12 @@ window.SCENE_TRACES={
         "locals": {
           "score": "15"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(\"Score :\", score, \"/ 20\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "score": "15"
         },
         "return_value": "",
-        "output_so_far": "Score : 15 / 20\n"
+        "output_so_far": "",
+        "after_output": "Score : 15 / 20\n"
       }
     ]
   },
@@ -1207,8 +1057,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -1221,8 +1073,10 @@ window.SCENE_TRACES={
         "locals": {
           "volume": "10"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -1236,23 +1090,13 @@ window.SCENE_TRACES={
           "volume": "10",
           "duree": "5"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(volume / duree)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "volume": "10",
           "duree": "5"
         },
         "return_value": "",
-        "output_so_far": "2.0\n"
+        "output_so_far": "",
+        "after_output": "2.0\n"
       }
     ]
   },
@@ -1278,8 +1122,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -1292,8 +1138,10 @@ window.SCENE_TRACES={
         "locals": {
           "masse": "250"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -1307,23 +1155,13 @@ window.SCENE_TRACES={
           "masse": "250",
           "volume": "100"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(masse / volume)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "masse": "250",
           "volume": "100"
         },
         "return_value": "",
-        "output_so_far": "2.5\n"
+        "output_so_far": "",
+        "after_output": "2.5\n"
       }
     ]
   },
@@ -1349,8 +1187,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -1363,8 +1203,10 @@ window.SCENE_TRACES={
         "locals": {
           "kcal_minute": "8"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -1378,23 +1220,13 @@ window.SCENE_TRACES={
           "kcal_minute": "8",
           "duree": "30"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(kcal_minute * duree)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "kcal_minute": "8",
           "duree": "30"
         },
         "return_value": "",
-        "output_so_far": "240\n"
+        "output_so_far": "",
+        "after_output": "240\n"
       }
     ]
   },
@@ -1420,8 +1252,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -1434,22 +1268,12 @@ window.SCENE_TRACES={
         "locals": {
           "adn": "'ATGCTT'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(adn.replace(\"T\", \"U\"))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "adn": "'ATGCTT'"
         },
         "return_value": "",
-        "output_so_far": "AUGCUU\n"
+        "output_so_far": "",
+        "after_output": "AUGCUU\n"
       }
     ]
   },
@@ -1475,8 +1299,10 @@ window.SCENE_TRACES={
         "kind": "statement",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -1490,8 +1316,10 @@ window.SCENE_TRACES={
           "pi": "3.141592653589793",
           "sqrt": "<built-in function sqrt>"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -1506,8 +1334,10 @@ window.SCENE_TRACES={
           "sqrt": "<built-in function sqrt>",
           "longueur": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -1523,25 +1353,15 @@ window.SCENE_TRACES={
           "longueur": "1",
           "g": "9.81"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(2 * pi * sqrt(longueur / g))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "pi": "3.141592653589793",
           "sqrt": "<built-in function sqrt>",
           "longueur": "1",
           "g": "9.81"
         },
         "return_value": "",
-        "output_so_far": "2.0060666807106475\n"
+        "output_so_far": "",
+        "after_output": "2.0060666807106475\n"
       }
     ]
   },
@@ -1567,8 +1387,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -1581,23 +1403,13 @@ window.SCENE_TRACES={
         "locals": {
           "n": "18"
         },
-        "return_value": "",
-        "output_so_far": "",
-        "branch_taken": false
-      },
-      {
-        "line": 2,
-        "source_line": "if n % 2 == 0: print(\"pair\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "n": "18"
         },
         "return_value": "",
-        "output_so_far": "pair\n"
+        "output_so_far": "",
+        "after_output": "pair\n",
+        "branch_taken": false
       }
     ]
   },
@@ -1623,8 +1435,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -1637,23 +1451,13 @@ window.SCENE_TRACES={
         "locals": {
           "score": "14"
         },
-        "return_value": "",
-        "output_so_far": "",
-        "branch_taken": false
-      },
-      {
-        "line": 2,
-        "source_line": "if score >= 10: print(\"réussi\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "score": "14"
         },
         "return_value": "",
-        "output_so_far": "réussi\n"
+        "output_so_far": "",
+        "after_output": "réussi\n",
+        "branch_taken": false
       }
     ]
   },
@@ -1679,8 +1483,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -1693,8 +1499,10 @@ window.SCENE_TRACES={
         "locals": {
           "t": "28"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -1708,8 +1516,10 @@ window.SCENE_TRACES={
         "locals": {
           "t": "28"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -1723,24 +1533,14 @@ window.SCENE_TRACES={
         "locals": {
           "t": "28"
         },
-        "return_value": "",
-        "output_so_far": "",
-        "branch_taken": false
-      },
-      {
-        "line": 4,
-        "source_line": "else: cat = \"chaud\"",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "t": "28",
           "cat": "'chaud'"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": "",
+        "branch_taken": false
       }
     ]
   },
@@ -1766,8 +1566,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -1780,8 +1582,10 @@ window.SCENE_TRACES={
         "locals": {
           "compteur": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -1795,8 +1599,10 @@ window.SCENE_TRACES={
           "compteur": "1",
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -1810,8 +1616,10 @@ window.SCENE_TRACES={
           "compteur": "2",
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -1825,8 +1633,10 @@ window.SCENE_TRACES={
           "compteur": "3",
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -1840,8 +1650,10 @@ window.SCENE_TRACES={
           "compteur": "4",
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -1855,8 +1667,10 @@ window.SCENE_TRACES={
           "compteur": "5",
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -1870,23 +1684,13 @@ window.SCENE_TRACES={
           "compteur": "5",
           "i": "4"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(compteur)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "compteur": "5",
           "i": "4"
         },
         "return_value": "",
-        "output_so_far": "5\n"
+        "output_so_far": "",
+        "after_output": "5\n"
       }
     ]
   },
@@ -1912,8 +1716,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -1926,8 +1732,10 @@ window.SCENE_TRACES={
         "locals": {
           "total": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -1941,8 +1749,10 @@ window.SCENE_TRACES={
           "total": "0",
           "n": "1"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -1957,8 +1767,10 @@ window.SCENE_TRACES={
           "total": "0",
           "n": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -1972,8 +1784,10 @@ window.SCENE_TRACES={
           "total": "0",
           "n": "2"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -1988,8 +1802,10 @@ window.SCENE_TRACES={
           "total": "2",
           "n": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -2003,8 +1819,10 @@ window.SCENE_TRACES={
           "total": "2",
           "n": "3"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -2019,8 +1837,10 @@ window.SCENE_TRACES={
           "total": "2",
           "n": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -2034,8 +1854,10 @@ window.SCENE_TRACES={
           "total": "2",
           "n": "4"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -2050,8 +1872,10 @@ window.SCENE_TRACES={
           "total": "6",
           "n": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -2065,8 +1889,10 @@ window.SCENE_TRACES={
           "total": "6",
           "n": "5"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -2081,8 +1907,10 @@ window.SCENE_TRACES={
           "total": "6",
           "n": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -2096,8 +1924,10 @@ window.SCENE_TRACES={
           "total": "6",
           "n": "6"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -2112,8 +1942,10 @@ window.SCENE_TRACES={
           "total": "12",
           "n": "6"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -2127,23 +1959,13 @@ window.SCENE_TRACES={
           "total": "12",
           "n": "6"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(total)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "total": "12",
           "n": "6"
         },
         "return_value": "",
-        "output_so_far": "12\n"
+        "output_so_far": "",
+        "after_output": "12\n"
       }
     ]
   },
@@ -2169,8 +1991,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -2183,23 +2007,13 @@ window.SCENE_TRACES={
         "locals": {
           "t": "-4"
         },
-        "return_value": "",
-        "output_so_far": "",
-        "branch_taken": false
-      },
-      {
-        "line": 2,
-        "source_line": "if t < 0: print(\"solide\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "t": "-4"
         },
         "return_value": "",
-        "output_so_far": "solide\n"
+        "output_so_far": "",
+        "after_output": "solide\n",
+        "branch_taken": false
       }
     ]
   },
@@ -2225,8 +2039,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -2239,8 +2055,10 @@ window.SCENE_TRACES={
         "locals": {
           "imc": "27.4"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -2254,8 +2072,10 @@ window.SCENE_TRACES={
         "locals": {
           "imc": "27.4"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -2269,8 +2089,10 @@ window.SCENE_TRACES={
         "locals": {
           "imc": "27.4"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -2285,23 +2107,13 @@ window.SCENE_TRACES={
           "imc": "27.4",
           "c": "'surpoids'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 6,
-        "source_line": "print(c)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "imc": "27.4",
           "c": "'surpoids'"
         },
         "return_value": "",
-        "output_so_far": "surpoids\n"
+        "output_so_far": "",
+        "after_output": "surpoids\n"
       }
     ]
   },
@@ -2327,8 +2139,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -2343,8 +2157,10 @@ window.SCENE_TRACES={
           "b": "3",
           "c": "5"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -2360,25 +2176,15 @@ window.SCENE_TRACES={
           "b": "3",
           "c": "5"
         },
-        "return_value": "",
-        "output_so_far": "",
-        "branch_taken": false
-      },
-      {
-        "line": 3,
-        "source_line": "elif a == b or a == c or b == c: print(\"isocèle\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "a": "3",
           "b": "3",
           "c": "5"
         },
         "return_value": "",
-        "output_so_far": "isocèle\n"
+        "output_so_far": "",
+        "after_output": "isocèle\n",
+        "branch_taken": false
       }
     ]
   },
@@ -2404,8 +2210,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -2418,8 +2226,10 @@ window.SCENE_TRACES={
         "locals": {
           "ph": "8.2"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -2433,8 +2243,10 @@ window.SCENE_TRACES={
         "locals": {
           "ph": "8.2"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -2448,23 +2260,13 @@ window.SCENE_TRACES={
         "locals": {
           "ph": "8.2"
         },
-        "return_value": "",
-        "output_so_far": "",
-        "branch_taken": false
-      },
-      {
-        "line": 4,
-        "source_line": "else: print(\"basique\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "ph": "8.2"
         },
         "return_value": "",
-        "output_so_far": "basique\n"
+        "output_so_far": "",
+        "after_output": "basique\n",
+        "branch_taken": false
       }
     ]
   },
@@ -2490,8 +2292,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -2504,8 +2308,10 @@ window.SCENE_TRACES={
         "locals": {
           "uv": "7"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -2519,8 +2325,10 @@ window.SCENE_TRACES={
         "locals": {
           "uv": "7"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -2534,8 +2342,10 @@ window.SCENE_TRACES={
         "locals": {
           "uv": "7"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -2550,23 +2360,13 @@ window.SCENE_TRACES={
           "uv": "7",
           "conseil": "'forte'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 5,
-        "source_line": "print(conseil)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "uv": "7",
           "conseil": "'forte'"
         },
         "return_value": "",
-        "output_so_far": "forte\n"
+        "output_so_far": "",
+        "after_output": "forte\n"
       }
     ]
   },
@@ -2592,8 +2392,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -2606,22 +2408,12 @@ window.SCENE_TRACES={
         "locals": {
           "n": "-2"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(n > 0)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "n": "-2"
         },
         "return_value": "",
-        "output_so_far": "False\n"
+        "output_so_far": "",
+        "after_output": "False\n"
       }
     ]
   },
@@ -2647,8 +2439,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -2661,22 +2455,12 @@ window.SCENE_TRACES={
         "locals": {
           "note": "11"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(\"admis\" if note >= 10 else \"refusé\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "note": "11"
         },
         "return_value": "",
-        "output_so_far": "admis\n"
+        "output_so_far": "",
+        "after_output": "admis\n"
       }
     ]
   },
@@ -2702,8 +2486,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -2716,22 +2502,12 @@ window.SCENE_TRACES={
         "locals": {
           "n": "12"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(n % 3 == 0)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "n": "12"
         },
         "return_value": "",
-        "output_so_far": "True\n"
+        "output_so_far": "",
+        "after_output": "True\n"
       }
     ]
   },
@@ -2757,8 +2533,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -2771,8 +2549,10 @@ window.SCENE_TRACES={
         "locals": {
           "v": "65"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -2786,24 +2566,14 @@ window.SCENE_TRACES={
         "locals": {
           "v": "65"
         },
-        "return_value": "",
-        "output_so_far": "",
-        "branch_taken": false
-      },
-      {
-        "line": 3,
-        "source_line": "elif v <= 90: r=\"normale\"",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "v": "65",
           "r": "'normale'"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": "",
+        "branch_taken": false
       }
     ]
   },
@@ -2829,8 +2599,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -2843,8 +2615,10 @@ window.SCENE_TRACES={
         "locals": {
           "total": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -2858,8 +2632,10 @@ window.SCENE_TRACES={
           "total": "1",
           "n": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -2873,8 +2649,10 @@ window.SCENE_TRACES={
           "total": "3",
           "n": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -2888,8 +2666,10 @@ window.SCENE_TRACES={
           "total": "6",
           "n": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -2903,8 +2683,10 @@ window.SCENE_TRACES={
           "total": "10",
           "n": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -2918,23 +2700,13 @@ window.SCENE_TRACES={
           "total": "15",
           "n": "5"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "for n in range(1, 6): total += n",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "total": "15",
           "n": "5"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -2960,8 +2732,10 @@ window.SCENE_TRACES={
         "kind": "loop",
         "iteration": 1,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -2974,8 +2748,10 @@ window.SCENE_TRACES={
         "locals": {
           "_": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "go\n"
+        "output_so_far": "go\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -2988,8 +2764,10 @@ window.SCENE_TRACES={
         "locals": {
           "_": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "go\ngo\n"
+        "output_so_far": "go\ngo\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -3002,22 +2780,12 @@ window.SCENE_TRACES={
         "locals": {
           "_": "2"
         },
-        "return_value": "",
-        "output_so_far": "go\ngo\ngo\n"
-      },
-      {
-        "line": 1,
-        "source_line": "for _ in range(3): print(\"go\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "_": "2"
         },
         "return_value": "",
-        "output_so_far": "go\ngo\ngo\n"
+        "output_so_far": "go\ngo\ngo\n",
+        "after_output": "go\ngo\ngo\n"
       }
     ]
   },
@@ -3043,8 +2811,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -3057,8 +2827,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -3071,8 +2843,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -3085,8 +2859,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "1\n"
+        "output_so_far": "1\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -3099,8 +2875,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "1\n"
+        "output_so_far": "1\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -3113,8 +2891,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "1\n2\n"
+        "output_so_far": "1\n2\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -3127,8 +2907,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "1\n2\n"
+        "output_so_far": "1\n2\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -3141,22 +2923,12 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
-        "return_value": "",
-        "output_so_far": "1\n2\n3\n"
-      },
-      {
-        "line": 2,
-        "source_line": "while i <= 3:",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "i": "4"
         },
         "return_value": "",
-        "output_so_far": "1\n2\n3\n"
+        "output_so_far": "1\n2\n3\n",
+        "after_output": "1\n2\n3\n"
       }
     ]
   },
@@ -3182,8 +2954,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -3196,8 +2970,10 @@ window.SCENE_TRACES={
         "locals": {
           "compte": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -3211,8 +2987,10 @@ window.SCENE_TRACES={
           "compte": "0",
           "n": "8"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -3227,8 +3005,10 @@ window.SCENE_TRACES={
           "compte": "0",
           "n": "8"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -3242,8 +3022,10 @@ window.SCENE_TRACES={
           "compte": "0",
           "n": "12"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -3258,8 +3040,10 @@ window.SCENE_TRACES={
           "compte": "1",
           "n": "12"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -3273,8 +3057,10 @@ window.SCENE_TRACES={
           "compte": "1",
           "n": "15"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -3289,23 +3075,13 @@ window.SCENE_TRACES={
           "compte": "2",
           "n": "15"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "for n in [8, 12, 15]:",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "compte": "2",
           "n": "15"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -3331,8 +3107,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -3345,8 +3123,10 @@ window.SCENE_TRACES={
         "locals": {
           "maximum": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -3360,8 +3140,10 @@ window.SCENE_TRACES={
           "maximum": "0",
           "n": "4"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -3376,8 +3158,10 @@ window.SCENE_TRACES={
           "maximum": "4",
           "n": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -3391,8 +3175,10 @@ window.SCENE_TRACES={
           "maximum": "4",
           "n": "9"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -3407,8 +3193,10 @@ window.SCENE_TRACES={
           "maximum": "9",
           "n": "9"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -3422,8 +3210,10 @@ window.SCENE_TRACES={
           "maximum": "9",
           "n": "2"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -3438,23 +3228,13 @@ window.SCENE_TRACES={
           "maximum": "9",
           "n": "2"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "for n in [4, 9, 2]:",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "maximum": "9",
           "n": "2"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -3480,8 +3260,10 @@ window.SCENE_TRACES={
         "kind": "loop",
         "iteration": 1,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -3494,8 +3276,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "1"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -3509,8 +3293,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -3523,23 +3309,13 @@ window.SCENE_TRACES={
         "locals": {
           "n": "4"
         },
-        "return_value": "",
-        "output_so_far": "",
-        "branch_taken": false
-      },
-      {
-        "line": 2,
-        "source_line": "    if n == 4: break",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 4,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "n": "4"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": "",
+        "branch_taken": false
       }
     ]
   },
@@ -3565,8 +3341,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -3579,22 +3357,12 @@ window.SCENE_TRACES={
         "locals": {
           "densite": "0.8"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(\"flotte\" if densite < 1 else \"coule\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "densite": "0.8"
         },
         "return_value": "",
-        "output_so_far": "flotte\n"
+        "output_so_far": "",
+        "after_output": "flotte\n"
       }
     ]
   },
@@ -3620,8 +3388,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -3634,22 +3404,12 @@ window.SCENE_TRACES={
         "locals": {
           "annee": "2024"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(annee % 400 == 0 or (annee % 4 == 0 and annee % 100 != 0))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "annee": "2024"
         },
         "return_value": "",
-        "output_so_far": "True\n"
+        "output_so_far": "",
+        "after_output": "True\n"
       }
     ]
   },
@@ -3675,8 +3435,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -3689,22 +3451,12 @@ window.SCENE_TRACES={
         "locals": {
           "vergence": "-2"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(\"convergente\" if vergence > 0 else \"divergente\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "vergence": "-2"
         },
         "return_value": "",
-        "output_so_far": "divergente\n"
+        "output_so_far": "",
+        "after_output": "divergente\n"
       }
     ]
   },
@@ -3730,8 +3482,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -3744,23 +3498,13 @@ window.SCENE_TRACES={
         "locals": {
           "systolique": "145"
         },
-        "return_value": "",
-        "output_so_far": "",
-        "branch_taken": false
-      },
-      {
-        "line": 2,
-        "source_line": "if systolique > 140: print(\"à surveiller\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "systolique": "145"
         },
         "return_value": "",
-        "output_so_far": "à surveiller\n"
+        "output_so_far": "",
+        "after_output": "à surveiller\n",
+        "branch_taken": false
       }
     ]
   },
@@ -3786,8 +3530,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -3802,24 +3548,14 @@ window.SCENE_TRACES={
           "b": "4",
           "c": "5"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(a*a + b*b == c*c)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "a": "3",
           "b": "4",
           "c": "5"
         },
         "return_value": "",
-        "output_so_far": "True\n"
+        "output_so_far": "",
+        "after_output": "True\n"
       }
     ]
   },
@@ -3845,8 +3581,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -3859,8 +3597,10 @@ window.SCENE_TRACES={
         "locals": {
           "ventes": "[12, 8, 15]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -3874,23 +3614,13 @@ window.SCENE_TRACES={
           "ventes": "[12, 8, 15]",
           "total": "35"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(total)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "ventes": "[12, 8, 15]",
           "total": "35"
         },
         "return_value": "",
-        "output_so_far": "35\n"
+        "output_so_far": "",
+        "after_output": "35\n"
       }
     ]
   },
@@ -3916,8 +3646,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -3930,8 +3662,10 @@ window.SCENE_TRACES={
         "locals": {
           "temperatures": "[18, 22, 19, 25]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -3945,8 +3679,10 @@ window.SCENE_TRACES={
           "temperatures": "[18, 22, 19, 25]",
           "maximum": "18"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -3961,8 +3697,10 @@ window.SCENE_TRACES={
           "maximum": "18",
           "t": "18"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -3978,8 +3716,10 @@ window.SCENE_TRACES={
           "maximum": "18",
           "t": "18"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -3994,8 +3734,10 @@ window.SCENE_TRACES={
           "maximum": "18",
           "t": "22"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -4011,8 +3753,10 @@ window.SCENE_TRACES={
           "maximum": "22",
           "t": "22"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -4027,8 +3771,10 @@ window.SCENE_TRACES={
           "maximum": "22",
           "t": "19"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -4044,8 +3790,10 @@ window.SCENE_TRACES={
           "maximum": "22",
           "t": "19"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -4060,8 +3808,10 @@ window.SCENE_TRACES={
           "maximum": "22",
           "t": "25"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -4077,8 +3827,10 @@ window.SCENE_TRACES={
           "maximum": "25",
           "t": "25"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 5,
@@ -4093,24 +3845,14 @@ window.SCENE_TRACES={
           "maximum": "25",
           "t": "25"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 5,
-        "source_line": "print(maximum)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "temperatures": "[18, 22, 19, 25]",
           "maximum": "25",
           "t": "25"
         },
         "return_value": "",
-        "output_so_far": "25\n"
+        "output_so_far": "",
+        "after_output": "25\n"
       }
     ]
   },
@@ -4136,8 +3878,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -4150,8 +3894,10 @@ window.SCENE_TRACES={
         "locals": {
           "notes": "[8, 12, 15, 9]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -4165,8 +3911,10 @@ window.SCENE_TRACES={
           "notes": "[8, 12, 15, 9]",
           "reussites": "[]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -4181,8 +3929,10 @@ window.SCENE_TRACES={
           "reussites": "[]",
           "note": "8"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -4198,8 +3948,10 @@ window.SCENE_TRACES={
           "reussites": "[]",
           "note": "8"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -4214,8 +3966,10 @@ window.SCENE_TRACES={
           "reussites": "[]",
           "note": "12"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -4231,8 +3985,10 @@ window.SCENE_TRACES={
           "reussites": "[12]",
           "note": "12"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -4247,8 +4003,10 @@ window.SCENE_TRACES={
           "reussites": "[12]",
           "note": "15"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -4264,8 +4022,10 @@ window.SCENE_TRACES={
           "reussites": "[12, 15]",
           "note": "15"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -4280,8 +4040,10 @@ window.SCENE_TRACES={
           "reussites": "[12, 15]",
           "note": "9"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -4297,8 +4059,10 @@ window.SCENE_TRACES={
           "reussites": "[12, 15]",
           "note": "9"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 5,
@@ -4313,24 +4077,14 @@ window.SCENE_TRACES={
           "reussites": "[12, 15]",
           "note": "9"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 5,
-        "source_line": "print(reussites)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "notes": "[8, 12, 15, 9]",
           "reussites": "[12, 15]",
           "note": "9"
         },
         "return_value": "",
-        "output_so_far": "[12, 15]\n"
+        "output_so_far": "",
+        "after_output": "[12, 15]\n"
       }
     ]
   },
@@ -4356,8 +4110,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -4370,22 +4126,12 @@ window.SCENE_TRACES={
         "locals": {
           "etapes": "['A', 'B', 'C']"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(etapes[::-1])",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "etapes": "['A', 'B', 'C']"
         },
         "return_value": "",
-        "output_so_far": "['C', 'B', 'A']\n"
+        "output_so_far": "",
+        "after_output": "['C', 'B', 'A']\n"
       }
     ]
   },
@@ -4411,8 +4157,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -4425,8 +4173,10 @@ window.SCENE_TRACES={
         "locals": {
           "notes": "[]"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": true
       },
       {
@@ -4440,22 +4190,12 @@ window.SCENE_TRACES={
         "locals": {
           "notes": "[]"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 5,
-        "source_line": "    print(\"Aucune note\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 4,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "notes": "[]"
         },
         "return_value": "",
-        "output_so_far": "Aucune note\n"
+        "output_so_far": "",
+        "after_output": "Aucune note\n"
       }
     ]
   },
@@ -4481,8 +4221,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -4495,8 +4237,10 @@ window.SCENE_TRACES={
         "locals": {
           "distances": "[12, 18, 15, 21]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -4510,8 +4254,10 @@ window.SCENE_TRACES={
           "distances": "[12, 18, 15, 21]",
           "d": "12"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "6.0\n"
+        "output_so_far": "6.0\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -4525,8 +4271,10 @@ window.SCENE_TRACES={
           "distances": "[12, 18, 15, 21]",
           "d": "18"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "6.0\n9.0\n"
+        "output_so_far": "6.0\n9.0\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -4540,8 +4288,10 @@ window.SCENE_TRACES={
           "distances": "[12, 18, 15, 21]",
           "d": "15"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "6.0\n9.0\n7.5\n"
+        "output_so_far": "6.0\n9.0\n7.5\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -4555,23 +4305,13 @@ window.SCENE_TRACES={
           "distances": "[12, 18, 15, 21]",
           "d": "21"
         },
-        "return_value": "",
-        "output_so_far": "6.0\n9.0\n7.5\n10.5\n"
-      },
-      {
-        "line": 2,
-        "source_line": "for d in distances: print(d / 2)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "distances": "[12, 18, 15, 21]",
           "d": "21"
         },
         "return_value": "",
-        "output_so_far": "6.0\n9.0\n7.5\n10.5\n"
+        "output_so_far": "6.0\n9.0\n7.5\n10.5\n",
+        "after_output": "6.0\n9.0\n7.5\n10.5\n"
       }
     ]
   },
@@ -4597,8 +4337,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -4611,8 +4353,10 @@ window.SCENE_TRACES={
         "locals": {
           "mesures": "[18, 22, 25, 19]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -4626,8 +4370,10 @@ window.SCENE_TRACES={
           "mesures": "[18, 22, 25, 19]",
           "t": "18"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -4641,8 +4387,10 @@ window.SCENE_TRACES={
           "mesures": "[18, 22, 25, 19]",
           "t": "22"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -4656,8 +4404,10 @@ window.SCENE_TRACES={
           "mesures": "[18, 22, 25, 19]",
           "t": "25"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -4671,8 +4421,10 @@ window.SCENE_TRACES={
           "mesures": "[18, 22, 25, 19]",
           "t": "19"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -4686,23 +4438,13 @@ window.SCENE_TRACES={
           "mesures": "[18, 22, 25, 19]",
           "chaudes": "[22, 25]"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(chaudes)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "mesures": "[18, 22, 25, 19]",
           "chaudes": "[22, 25]"
         },
         "return_value": "",
-        "output_so_far": "[22, 25]\n"
+        "output_so_far": "",
+        "after_output": "[22, 25]\n"
       }
     ]
   },
@@ -4728,8 +4470,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -4742,22 +4486,12 @@ window.SCENE_TRACES={
         "locals": {
           "energies": "[3.2, 4.1, 2.7]"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(sum(energies))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "energies": "[3.2, 4.1, 2.7]"
         },
         "return_value": "",
-        "output_so_far": "10.0\n"
+        "output_so_far": "",
+        "after_output": "10.0\n"
       }
     ]
   },
@@ -4783,8 +4517,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -4797,22 +4533,12 @@ window.SCENE_TRACES={
         "locals": {
           "temperatures": "[19, 24, 22, 27]"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(temperatures.index(max(temperatures)))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "temperatures": "[19, 24, 22, 27]"
         },
         "return_value": "",
-        "output_so_far": "3\n"
+        "output_so_far": "",
+        "after_output": "3\n"
       }
     ]
   },
@@ -4838,8 +4564,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -4852,8 +4580,10 @@ window.SCENE_TRACES={
         "locals": {
           "mesures": "[10, 20, 30]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -4868,8 +4598,10 @@ window.SCENE_TRACES={
           "mini": "10",
           "maxi": "30"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -4885,8 +4617,10 @@ window.SCENE_TRACES={
           "maxi": "30",
           "x": "10"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -4902,8 +4636,10 @@ window.SCENE_TRACES={
           "maxi": "30",
           "x": "20"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -4919,24 +4655,14 @@ window.SCENE_TRACES={
           "maxi": "30",
           "x": "30"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print([(x-mini)/(maxi-mini) for x in mesures])",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "mesures": "[10, 20, 30]",
           "mini": "10",
           "maxi": "30"
         },
         "return_value": "",
-        "output_so_far": "[0.0, 0.5, 1.0]\n"
+        "output_so_far": "",
+        "after_output": "[0.0, 0.5, 1.0]\n"
       }
     ]
   },
@@ -4962,8 +4688,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -4976,8 +4704,10 @@ window.SCENE_TRACES={
         "locals": {
           "valeurs": "[2, 5, 8]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -4988,10 +4718,12 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675335510>"
+          ".0": "<list_iterator object at 0x7fd1eda21a50>"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -5002,10 +4734,12 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675335510>"
+          ".0": "<list_iterator object at 0x7fd1eda21a50>"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -5016,11 +4750,13 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675335510>",
+          ".0": "<list_iterator object at 0x7fd1eda21a50>",
           "n": "2"
         },
+        "after_locals": null,
         "return_value": "True",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -5031,11 +4767,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675335510>",
+          ".0": "<list_iterator object at 0x7fd1eda21a50>",
           "n": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -5046,11 +4784,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675335510>",
+          ".0": "<list_iterator object at 0x7fd1eda21a50>",
           "n": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -5061,11 +4801,13 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675335510>",
+          ".0": "<list_iterator object at 0x7fd1eda21a50>",
           "n": "5"
         },
+        "after_locals": null,
         "return_value": "False",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -5076,11 +4818,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675335510>",
+          ".0": "<list_iterator object at 0x7fd1eda21a50>",
           "n": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -5091,11 +4835,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675335510>",
+          ".0": "<list_iterator object at 0x7fd1eda21a50>",
           "n": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -5106,11 +4852,13 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675335510>",
+          ".0": "<list_iterator object at 0x7fd1eda21a50>",
           "n": "8"
         },
+        "after_locals": null,
         "return_value": "True",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -5121,11 +4869,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675335510>",
+          ".0": "<list_iterator object at 0x7fd1eda21a50>",
           "n": "8"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -5136,11 +4886,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675335510>",
+          ".0": "<list_iterator object at 0x7fd1eda21a50>",
           "n": "8"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -5151,25 +4903,15 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675335510>",
+          ".0": "<list_iterator object at 0x7fd1eda21a50>",
           "n": "8"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(sum(n % 2 == 0 for n in valeurs))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "valeurs": "[2, 5, 8]"
         },
         "return_value": "",
-        "output_so_far": "2\n"
+        "output_so_far": "",
+        "after_output": "2\n"
       }
     ]
   },
@@ -5195,8 +4937,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -5209,8 +4953,10 @@ window.SCENE_TRACES={
         "locals": {
           "valeurs": "[7, 3, 9]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -5224,8 +4970,10 @@ window.SCENE_TRACES={
           "valeurs": "[7, 3, 9]",
           "minimum": "7"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -5240,8 +4988,10 @@ window.SCENE_TRACES={
           "minimum": "7",
           "v": "7"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -5257,8 +5007,10 @@ window.SCENE_TRACES={
           "minimum": "7",
           "v": "7"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -5273,8 +5025,10 @@ window.SCENE_TRACES={
           "minimum": "7",
           "v": "3"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -5290,8 +5044,10 @@ window.SCENE_TRACES={
           "minimum": "3",
           "v": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -5306,8 +5062,10 @@ window.SCENE_TRACES={
           "minimum": "3",
           "v": "9"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -5323,8 +5081,10 @@ window.SCENE_TRACES={
           "minimum": "3",
           "v": "9"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 5,
@@ -5339,24 +5099,14 @@ window.SCENE_TRACES={
           "minimum": "3",
           "v": "9"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 5,
-        "source_line": "print(minimum)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "valeurs": "[7, 3, 9]",
           "minimum": "3",
           "v": "9"
         },
         "return_value": "",
-        "output_so_far": "3\n"
+        "output_so_far": "",
+        "after_output": "3\n"
       }
     ]
   },
@@ -5382,8 +5132,10 @@ window.SCENE_TRACES={
         "kind": "loop",
         "iteration": 1,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -5396,8 +5148,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -5410,8 +5164,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0 4\n"
+        "output_so_far": "0 4\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -5424,8 +5180,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0 4\n"
+        "output_so_far": "0 4\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -5438,8 +5196,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0 4\n1 7\n"
+        "output_so_far": "0 4\n1 7\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -5452,8 +5212,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0 4\n1 7\n"
+        "output_so_far": "0 4\n1 7\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -5466,8 +5228,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0 4\n1 7\n2 2\n"
+        "output_so_far": "0 4\n1 7\n2 2\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -5480,8 +5244,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0 4\n1 7\n2 2\n"
+        "output_so_far": "0 4\n1 7\n2 2\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -5494,22 +5260,12 @@ window.SCENE_TRACES={
         "locals": {
           "i": "3"
         },
-        "return_value": "",
-        "output_so_far": "0 4\n1 7\n2 2\n3 9\n"
-      },
-      {
-        "line": 1,
-        "source_line": "for i in range(len(valeurs)):",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "i": "3"
         },
         "return_value": "",
-        "output_so_far": "0 4\n1 7\n2 2\n3 9\n"
+        "output_so_far": "0 4\n1 7\n2 2\n3 9\n",
+        "after_output": "0 4\n1 7\n2 2\n3 9\n"
       }
     ]
   },
@@ -5535,8 +5291,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -5549,8 +5307,10 @@ window.SCENE_TRACES={
         "locals": {
           "valeurs": "[1, 4, 7]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -5564,8 +5324,10 @@ window.SCENE_TRACES={
           "valeurs": "[1, 4, 7]",
           "v": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -5579,8 +5341,10 @@ window.SCENE_TRACES={
           "valeurs": "[1, 4, 7]",
           "v": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -5594,23 +5358,13 @@ window.SCENE_TRACES={
           "valeurs": "[1, 4, 7]",
           "v": "7"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "modifiees = [v + 2 for v in valeurs]",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "valeurs": "[1, 4, 7]",
           "modifiees": "[3, 6, 9]"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -5636,8 +5390,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -5650,8 +5406,10 @@ window.SCENE_TRACES={
         "locals": {
           "sortie": "[]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -5665,8 +5423,10 @@ window.SCENE_TRACES={
           "sortie": "[]",
           "v": "2"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -5681,8 +5441,10 @@ window.SCENE_TRACES={
           "sortie": "[2]",
           "v": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -5696,8 +5458,10 @@ window.SCENE_TRACES={
           "sortie": "[2]",
           "v": "2"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -5712,8 +5476,10 @@ window.SCENE_TRACES={
           "sortie": "[2]",
           "v": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -5727,8 +5493,10 @@ window.SCENE_TRACES={
           "sortie": "[2]",
           "v": "3"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -5743,8 +5511,10 @@ window.SCENE_TRACES={
           "sortie": "[2, 3]",
           "v": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -5758,8 +5528,10 @@ window.SCENE_TRACES={
           "sortie": "[2, 3]",
           "v": "2"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -5774,23 +5546,13 @@ window.SCENE_TRACES={
           "sortie": "[2, 3]",
           "v": "2"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "for v in [2, 2, 3, 2]:",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "sortie": "[2, 3]",
           "v": "2"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -5816,8 +5578,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -5830,22 +5594,12 @@ window.SCENE_TRACES={
         "locals": {
           "valeurs": "['A', 'B', 'C']"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "valeurs = valeurs[1:] + valeurs[:1]",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "valeurs": "['B', 'C', 'A']"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -5871,8 +5625,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -5885,8 +5641,10 @@ window.SCENE_TRACES={
         "locals": {
           "total": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -5900,8 +5658,10 @@ window.SCENE_TRACES={
           "total": "0",
           "v": "-2"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -5916,8 +5676,10 @@ window.SCENE_TRACES={
           "total": "0",
           "v": "-2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -5931,8 +5693,10 @@ window.SCENE_TRACES={
           "total": "0",
           "v": "4"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -5947,8 +5711,10 @@ window.SCENE_TRACES={
           "total": "4",
           "v": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -5962,8 +5728,10 @@ window.SCENE_TRACES={
           "total": "4",
           "v": "-1"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -5978,8 +5746,10 @@ window.SCENE_TRACES={
           "total": "4",
           "v": "-1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -5993,8 +5763,10 @@ window.SCENE_TRACES={
           "total": "4",
           "v": "6"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -6009,23 +5781,13 @@ window.SCENE_TRACES={
           "total": "10",
           "v": "6"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "for v in [-2, 4, -1, 6]:",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "total": "10",
           "v": "6"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -6051,8 +5813,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -6065,8 +5829,10 @@ window.SCENE_TRACES={
         "locals": {
           "valeurs": "[4, 9, 2]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -6081,8 +5847,10 @@ window.SCENE_TRACES={
           "i": "0",
           "v": "4"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -6098,8 +5866,10 @@ window.SCENE_TRACES={
           "i": "0",
           "v": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -6114,25 +5884,15 @@ window.SCENE_TRACES={
           "i": "1",
           "v": "9"
         },
-        "return_value": "",
-        "output_so_far": "",
-        "branch_taken": false
-      },
-      {
-        "line": 3,
-        "source_line": "    if v == 9: print(i); break",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 4,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "valeurs": "[4, 9, 2]",
           "i": "1",
           "v": "9"
         },
         "return_value": "",
-        "output_so_far": "1\n"
+        "output_so_far": "",
+        "after_output": "1\n",
+        "branch_taken": false
       }
     ]
   },
@@ -6158,8 +5918,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -6172,22 +5934,12 @@ window.SCENE_TRACES={
         "locals": {
           "temperatures": "[23, 18, 25]"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(sorted(temperatures))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "temperatures": "[23, 18, 25]"
         },
         "return_value": "",
-        "output_so_far": "[18, 23, 25]\n"
+        "output_so_far": "",
+        "after_output": "[18, 23, 25]\n"
       }
     ]
   },
@@ -6213,8 +5965,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -6227,22 +5981,12 @@ window.SCENE_TRACES={
         "locals": {
           "valeurs": "[4, 10, 7]"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(max(valeurs) - min(valeurs))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "valeurs": "[4, 10, 7]"
         },
         "return_value": "",
-        "output_so_far": "6\n"
+        "output_so_far": "",
+        "after_output": "6\n"
       }
     ]
   },
@@ -6268,8 +6012,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -6282,22 +6028,12 @@ window.SCENE_TRACES={
         "locals": {
           "vitesses": "[8, 10, 12, 10]"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(sum(vitesses) / len(vitesses))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "vitesses": "[8, 10, 12, 10]"
         },
         "return_value": "",
-        "output_so_far": "10.0\n"
+        "output_so_far": "",
+        "after_output": "10.0\n"
       }
     ]
   },
@@ -6323,8 +6059,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -6337,8 +6075,10 @@ window.SCENE_TRACES={
         "locals": {
           "temperatures": "[-2, 4, -1, 3]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -6349,10 +6089,12 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675337a90>"
+          ".0": "<list_iterator object at 0x7fd1eda23eb0>"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -6363,10 +6105,12 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675337a90>"
+          ".0": "<list_iterator object at 0x7fd1eda23eb0>"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -6377,11 +6121,13 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675337a90>",
+          ".0": "<list_iterator object at 0x7fd1eda23eb0>",
           "t": "-2"
         },
+        "after_locals": null,
         "return_value": "True",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -6392,11 +6138,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675337a90>",
+          ".0": "<list_iterator object at 0x7fd1eda23eb0>",
           "t": "-2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -6407,11 +6155,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675337a90>",
+          ".0": "<list_iterator object at 0x7fd1eda23eb0>",
           "t": "-2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -6422,11 +6172,13 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675337a90>",
+          ".0": "<list_iterator object at 0x7fd1eda23eb0>",
           "t": "4"
         },
+        "after_locals": null,
         "return_value": "False",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -6437,11 +6189,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675337a90>",
+          ".0": "<list_iterator object at 0x7fd1eda23eb0>",
           "t": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -6452,11 +6206,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675337a90>",
+          ".0": "<list_iterator object at 0x7fd1eda23eb0>",
           "t": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -6467,11 +6223,13 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675337a90>",
+          ".0": "<list_iterator object at 0x7fd1eda23eb0>",
           "t": "-1"
         },
+        "after_locals": null,
         "return_value": "True",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -6482,11 +6240,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675337a90>",
+          ".0": "<list_iterator object at 0x7fd1eda23eb0>",
           "t": "-1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -6497,11 +6257,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675337a90>",
+          ".0": "<list_iterator object at 0x7fd1eda23eb0>",
           "t": "-1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -6512,11 +6274,13 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675337a90>",
+          ".0": "<list_iterator object at 0x7fd1eda23eb0>",
           "t": "3"
         },
+        "after_locals": null,
         "return_value": "False",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -6527,11 +6291,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675337a90>",
+          ".0": "<list_iterator object at 0x7fd1eda23eb0>",
           "t": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -6542,11 +6308,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675337a90>",
+          ".0": "<list_iterator object at 0x7fd1eda23eb0>",
           "t": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -6557,25 +6325,15 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675337a90>",
+          ".0": "<list_iterator object at 0x7fd1eda23eb0>",
           "t": "3"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(sum(t < 0 for t in temperatures))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "temperatures": "[-2, 4, -1, 3]"
         },
         "return_value": "",
-        "output_so_far": "2\n"
+        "output_so_far": "",
+        "after_output": "2\n"
       }
     ]
   },
@@ -6601,8 +6359,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -6615,8 +6375,10 @@ window.SCENE_TRACES={
         "locals": {
           "distances": "[2, 3, 4]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -6630,8 +6392,10 @@ window.SCENE_TRACES={
           "distances": "[2, 3, 4]",
           "cumul": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -6646,8 +6410,10 @@ window.SCENE_TRACES={
           "cumul": "0",
           "d": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -6662,8 +6428,10 @@ window.SCENE_TRACES={
           "cumul": "2",
           "d": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -6678,8 +6446,10 @@ window.SCENE_TRACES={
           "cumul": "2",
           "d": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -6694,8 +6464,10 @@ window.SCENE_TRACES={
           "cumul": "5",
           "d": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -6710,8 +6482,10 @@ window.SCENE_TRACES={
           "cumul": "5",
           "d": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -6726,8 +6500,10 @@ window.SCENE_TRACES={
           "cumul": "9",
           "d": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 5,
@@ -6742,24 +6518,14 @@ window.SCENE_TRACES={
           "cumul": "9",
           "d": "4"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 5,
-        "source_line": "print(cumul)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "distances": "[2, 3, 4]",
           "cumul": "9",
           "d": "4"
         },
         "return_value": "",
-        "output_so_far": "9\n"
+        "output_so_far": "",
+        "after_output": "9\n"
       }
     ]
   },
@@ -6785,8 +6551,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -6799,22 +6567,12 @@ window.SCENE_TRACES={
         "locals": {
           "courants": "[2.1, 3.4, 2.8]"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(courants.index(max(courants)))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "courants": "[2.1, 3.4, 2.8]"
         },
         "return_value": "",
-        "output_so_far": "1\n"
+        "output_so_far": "",
+        "after_output": "1\n"
       }
     ]
   },
@@ -6840,8 +6598,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -6854,8 +6614,10 @@ window.SCENE_TRACES={
         "locals": {
           "longueurs": "[30, 45, 120]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -6869,8 +6631,10 @@ window.SCENE_TRACES={
           "longueurs": "[30, 45, 120]",
           "x": "30"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -6884,8 +6648,10 @@ window.SCENE_TRACES={
           "longueurs": "[30, 45, 120]",
           "x": "45"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -6899,22 +6665,12 @@ window.SCENE_TRACES={
           "longueurs": "[30, 45, 120]",
           "x": "120"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print([x / 100 for x in longueurs])",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "longueurs": "[30, 45, 120]"
         },
         "return_value": "",
-        "output_so_far": "[0.3, 0.45, 1.2]\n"
+        "output_so_far": "",
+        "after_output": "[0.3, 0.45, 1.2]\n"
       }
     ]
   },
@@ -6940,8 +6696,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -6954,22 +6712,12 @@ window.SCENE_TRACES={
         "locals": {
           "profil": "{'nom': 'Lina', 'ville': 'Oran', 'age': 16}"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(profil[\"ville\"])",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "profil": "{'nom': 'Lina', 'ville': 'Oran', 'age': 16}"
         },
         "return_value": "",
-        "output_so_far": "Oran\n"
+        "output_so_far": "",
+        "after_output": "Oran\n"
       }
     ]
   },
@@ -6995,8 +6743,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -7009,22 +6759,12 @@ window.SCENE_TRACES={
         "locals": {
           "stock": "{'clavier': 8, 'souris': 12}"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "stock[\"clavier\"] -= 1",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "stock": "{'clavier': 7, 'souris': 12}"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -7050,8 +6790,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -7064,22 +6806,12 @@ window.SCENE_TRACES={
         "locals": {
           "contact": "{'nom': 'Ali'}"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(contact.get(\"telephone\", \"Absent\"))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "contact": "{'nom': 'Ali'}"
         },
         "return_value": "",
-        "output_so_far": "Absent\n"
+        "output_so_far": "",
+        "after_output": "Absent\n"
       }
     ]
   },
@@ -7105,8 +6837,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -7119,8 +6853,10 @@ window.SCENE_TRACES={
         "locals": {
           "notes": "{'maths': 15, 'python': 17}"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -7135,8 +6871,10 @@ window.SCENE_TRACES={
           "matiere": "'maths'",
           "note": "15"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -7151,8 +6889,10 @@ window.SCENE_TRACES={
           "matiere": "'maths'",
           "note": "15"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "maths 15\n"
+        "output_so_far": "maths 15\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -7167,8 +6907,10 @@ window.SCENE_TRACES={
           "matiere": "'python'",
           "note": "17"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "maths 15\n"
+        "output_so_far": "maths 15\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -7183,24 +6925,14 @@ window.SCENE_TRACES={
           "matiere": "'python'",
           "note": "17"
         },
-        "return_value": "",
-        "output_so_far": "maths 15\npython 17\n"
-      },
-      {
-        "line": 2,
-        "source_line": "for matiere, note in notes.items():",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "notes": "{'maths': 15, 'python': 17}",
           "matiere": "'python'",
           "note": "17"
         },
         "return_value": "",
-        "output_so_far": "maths 15\npython 17\n"
+        "output_so_far": "maths 15\npython 17\n",
+        "after_output": "maths 15\npython 17\n"
       }
     ]
   },
@@ -7226,8 +6958,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -7240,22 +6974,12 @@ window.SCENE_TRACES={
         "locals": {
           "stock": "{'livres': 4, 'cahiers': 9}"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(sum(stock.values()))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "stock": "{'livres': 4, 'cahiers': 9}"
         },
         "return_value": "",
-        "output_so_far": "13\n"
+        "output_so_far": "",
+        "after_output": "13\n"
       }
     ]
   },
@@ -7281,8 +7005,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -7295,22 +7021,12 @@ window.SCENE_TRACES={
         "locals": {
           "mesure": "{'valeur': 21.4, 'unite': '°C', 'capteur': 'S1'}"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(mesure[\"valeur\"], mesure[\"unite\"])",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "mesure": "{'valeur': 21.4, 'unite': '°C', 'capteur': 'S1'}"
         },
         "return_value": "",
-        "output_so_far": "21.4 °C\n"
+        "output_so_far": "",
+        "after_output": "21.4 °C\n"
       }
     ]
   },
@@ -7336,8 +7052,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -7350,22 +7068,12 @@ window.SCENE_TRACES={
         "locals": {
           "fc": "{'repos': 65, 'course': 154}"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(fc.get(\"natation\", \"non mesurée\"))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "fc": "{'repos': 65, 'course': 154}"
         },
         "return_value": "",
-        "output_so_far": "non mesurée\n"
+        "output_so_far": "",
+        "after_output": "non mesurée\n"
       }
     ]
   },
@@ -7391,8 +7099,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -7405,22 +7115,12 @@ window.SCENE_TRACES={
         "locals": {
           "proportions": "{'eau': 70, 'sel': 5, 'solvant': 25}"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(sum(proportions.values()))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "proportions": "{'eau': 70, 'sel': 5, 'solvant': 25}"
         },
         "return_value": "",
-        "output_so_far": "100\n"
+        "output_so_far": "",
+        "after_output": "100\n"
       }
     ]
   },
@@ -7446,8 +7146,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -7460,8 +7162,10 @@ window.SCENE_TRACES={
         "locals": {
           "compte": "{}"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -7475,8 +7179,10 @@ window.SCENE_TRACES={
           "compte": "{}",
           "etat": "'solide'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -7490,8 +7196,10 @@ window.SCENE_TRACES={
           "compte": "{'solide': 1}",
           "etat": "'solide'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -7505,8 +7213,10 @@ window.SCENE_TRACES={
           "compte": "{'solide': 1}",
           "etat": "'liquide'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -7520,8 +7230,10 @@ window.SCENE_TRACES={
           "compte": "{'solide': 1, 'liquide': 1}",
           "etat": "'liquide'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -7535,8 +7247,10 @@ window.SCENE_TRACES={
           "compte": "{'solide': 1, 'liquide': 1}",
           "etat": "'liquide'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -7550,8 +7264,10 @@ window.SCENE_TRACES={
           "compte": "{'solide': 1, 'liquide': 2}",
           "etat": "'liquide'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -7565,23 +7281,13 @@ window.SCENE_TRACES={
           "compte": "{'solide': 1, 'liquide': 2}",
           "etat": "'liquide'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(compte)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "compte": "{'solide': 1, 'liquide': 2}",
           "etat": "'liquide'"
         },
         "return_value": "",
-        "output_so_far": "{'solide': 1, 'liquide': 2}\n"
+        "output_so_far": "",
+        "after_output": "{'solide': 1, 'liquide': 2}\n"
       }
     ]
   },
@@ -7607,8 +7313,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -7621,8 +7329,10 @@ window.SCENE_TRACES={
         "locals": {
           "protocole": "{'duree': 60, 'temperature': 25, 'agitation': True}"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -7637,8 +7347,10 @@ window.SCENE_TRACES={
           "cle": "'duree'",
           "valeur": "60"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "duree 60\n"
+        "output_so_far": "duree 60\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -7653,8 +7365,10 @@ window.SCENE_TRACES={
           "cle": "'temperature'",
           "valeur": "25"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "duree 60\ntemperature 25\n"
+        "output_so_far": "duree 60\ntemperature 25\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -7669,24 +7383,14 @@ window.SCENE_TRACES={
           "cle": "'agitation'",
           "valeur": "True"
         },
-        "return_value": "",
-        "output_so_far": "duree 60\ntemperature 25\nagitation True\n"
-      },
-      {
-        "line": 2,
-        "source_line": "for cle, valeur in protocole.items(): print(cle, valeur)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "protocole": "{'duree': 60, 'temperature': 25, 'agitation': True}",
           "cle": "'agitation'",
           "valeur": "True"
         },
         "return_value": "",
-        "output_so_far": "duree 60\ntemperature 25\nagitation True\n"
+        "output_so_far": "duree 60\ntemperature 25\nagitation True\n",
+        "after_output": "duree 60\ntemperature 25\nagitation True\n"
       }
     ]
   },
@@ -7712,8 +7416,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -7726,22 +7432,12 @@ window.SCENE_TRACES={
         "locals": {
           "profil": "{'nom': 'Sara'}"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "profil[\"email\"] = \"sara@mail.test\"",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "profil": "{'nom': 'Sara', 'email': 'sara@mail.test'}"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -7767,8 +7463,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -7781,22 +7479,12 @@ window.SCENE_TRACES={
         "locals": {
           "donnees": "{'nom': 'Ali', 'temp': True}"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "del donnees[\"temp\"]",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "donnees": "{'nom': 'Ali'}"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -7822,8 +7510,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -7836,8 +7526,10 @@ window.SCENE_TRACES={
         "locals": {
           "votes": "{}"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -7851,8 +7543,10 @@ window.SCENE_TRACES={
           "votes": "{}",
           "nom": "'A'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -7866,8 +7560,10 @@ window.SCENE_TRACES={
           "votes": "{'A': 1}",
           "nom": "'A'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -7881,8 +7577,10 @@ window.SCENE_TRACES={
           "votes": "{'A': 1}",
           "nom": "'B'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -7896,8 +7594,10 @@ window.SCENE_TRACES={
           "votes": "{'A': 1, 'B': 1}",
           "nom": "'B'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -7911,8 +7611,10 @@ window.SCENE_TRACES={
           "votes": "{'A': 1, 'B': 1}",
           "nom": "'A'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -7926,23 +7628,13 @@ window.SCENE_TRACES={
           "votes": "{'A': 2, 'B': 1}",
           "nom": "'A'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "for nom in [\"A\", \"B\", \"A\"]:",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "votes": "{'A': 2, 'B': 1}",
           "nom": "'A'"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -7968,8 +7660,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -7982,8 +7676,10 @@ window.SCENE_TRACES={
         "locals": {
           "stock": "{'A': 2, 'B': 8}"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -7998,8 +7694,10 @@ window.SCENE_TRACES={
           "nom": "'A'",
           "quantite": "2"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -8015,8 +7713,10 @@ window.SCENE_TRACES={
           "nom": "'A'",
           "quantite": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "A\n"
+        "output_so_far": "A\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -8031,8 +7731,10 @@ window.SCENE_TRACES={
           "nom": "'B'",
           "quantite": "8"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "A\n",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -8048,24 +7750,14 @@ window.SCENE_TRACES={
           "nom": "'B'",
           "quantite": "8"
         },
-        "return_value": "",
-        "output_so_far": "A\n"
-      },
-      {
-        "line": 2,
-        "source_line": "for nom, quantite in stock.items():",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "stock": "{'A': 2, 'B': 8}",
           "nom": "'B'",
           "quantite": "8"
         },
         "return_value": "",
-        "output_so_far": "A\n"
+        "output_so_far": "A\n",
+        "after_output": "A\n"
       }
     ]
   },
@@ -8091,8 +7783,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -8105,8 +7799,10 @@ window.SCENE_TRACES={
         "locals": {
           "source": "{'nom': 'Lina', 'age': 16, 'secret': 1}"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -8120,8 +7816,10 @@ window.SCENE_TRACES={
           "source": "{'nom': 'Lina', 'age': 16, 'secret': 1}",
           "k": "'nom'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -8135,23 +7833,13 @@ window.SCENE_TRACES={
           "source": "{'nom': 'Lina', 'age': 16, 'secret': 1}",
           "k": "'age'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "cible = {k: source[k] for k in [\"nom\", \"age\"]}",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "source": "{'nom': 'Lina', 'age': 16, 'secret': 1}",
           "cible": "{'nom': 'Lina', 'age': 16}"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -8177,8 +7865,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -8191,8 +7881,10 @@ window.SCENE_TRACES={
         "locals": {
           "codes": "{'Oran': 31, 'Alger': 16}"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -8207,8 +7899,10 @@ window.SCENE_TRACES={
           "ville": "'Oran'",
           "code": "31"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -8223,23 +7917,13 @@ window.SCENE_TRACES={
           "ville": "'Alger'",
           "code": "16"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "inverse = {code: ville for ville, code in codes.items()}",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "codes": "{'Oran': 31, 'Alger': 16}",
           "inverse": "{31: 'Oran', 16: 'Alger'}"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -8265,8 +7949,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -8279,22 +7965,12 @@ window.SCENE_TRACES={
         "locals": {
           "notes": "{'A': 12, 'B': 16}"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(sum(notes.values()) / len(notes))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "notes": "{'A': 12, 'B': 16}"
         },
         "return_value": "",
-        "output_so_far": "14.0\n"
+        "output_so_far": "",
+        "after_output": "14.0\n"
       }
     ]
   },
@@ -8320,8 +7996,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -8334,22 +8012,12 @@ window.SCENE_TRACES={
         "locals": {
           "profil": "{'nom': 'Maya'}"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(profil.get(\"ville\", \"inconnue\"))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "profil": "{'nom': 'Maya'}"
         },
         "return_value": "",
-        "output_so_far": "inconnue\n"
+        "output_so_far": "",
+        "after_output": "inconnue\n"
       }
     ]
   },
@@ -8375,8 +8043,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -8389,8 +8059,10 @@ window.SCENE_TRACES={
         "locals": {
           "classes": "{}"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -8405,8 +8077,10 @@ window.SCENE_TRACES={
           "nom": "'A'",
           "classe": "'2A'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -8421,8 +8095,10 @@ window.SCENE_TRACES={
           "nom": "'A'",
           "classe": "'2A'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -8437,8 +8113,10 @@ window.SCENE_TRACES={
           "nom": "'B'",
           "classe": "'2A'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -8453,24 +8131,14 @@ window.SCENE_TRACES={
           "nom": "'B'",
           "classe": "'2A'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "for nom, classe in [(\"A\", \"2A\"), (\"B\", \"2A\")]:",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "classes": "{'2A': ['A', 'B']}",
           "nom": "'B'",
           "classe": "'2A'"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -8496,8 +8164,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -8510,8 +8180,10 @@ window.SCENE_TRACES={
         "locals": {
           "fiche": "{'id': 'S1', 'nom': 'Lina'}"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -8526,8 +8198,10 @@ window.SCENE_TRACES={
           "cle": "'id'",
           "valeur": "'S1'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "id : S1\n"
+        "output_so_far": "id : S1\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -8542,24 +8216,14 @@ window.SCENE_TRACES={
           "cle": "'nom'",
           "valeur": "'Lina'"
         },
-        "return_value": "",
-        "output_so_far": "id : S1\nnom : Lina\n"
-      },
-      {
-        "line": 2,
-        "source_line": "for cle, valeur in fiche.items(): print(cle, \":\", valeur)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "fiche": "{'id': 'S1', 'nom': 'Lina'}",
           "cle": "'nom'",
           "valeur": "'Lina'"
         },
         "return_value": "",
-        "output_so_far": "id : S1\nnom : Lina\n"
+        "output_so_far": "id : S1\nnom : Lina\n",
+        "after_output": "id : S1\nnom : Lina\n"
       }
     ]
   },
@@ -8585,8 +8249,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -8599,22 +8265,12 @@ window.SCENE_TRACES={
         "locals": {
           "scores": "{'Lina': 16, 'Ali': 12}"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(scores[\"Lina\"])",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "scores": "{'Lina': 16, 'Ali': 12}"
         },
         "return_value": "",
-        "output_so_far": "16\n"
+        "output_so_far": "",
+        "after_output": "16\n"
       }
     ]
   },
@@ -8640,8 +8296,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -8654,23 +8312,13 @@ window.SCENE_TRACES={
         "locals": {
           "stock": "{'cahier': 12}"
         },
-        "return_value": "",
-        "output_so_far": "",
-        "branch_taken": false
-      },
-      {
-        "line": 2,
-        "source_line": "if \"cahier\" in stock: stock[\"cahier\"] -= 1",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "stock": "{'cahier': 11}"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": "",
+        "branch_taken": false
       }
     ]
   },
@@ -8696,8 +8344,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -8710,22 +8360,12 @@ window.SCENE_TRACES={
         "locals": {
           "notes": "{'maths': 14, 'python': 18}"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(sum(notes.values()) / len(notes))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "notes": "{'maths': 14, 'python': 18}"
         },
         "return_value": "",
-        "output_so_far": "16.0\n"
+        "output_so_far": "",
+        "after_output": "16.0\n"
       }
     ]
   },
@@ -8751,8 +8391,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -8765,8 +8407,10 @@ window.SCENE_TRACES={
         "locals": {
           "noms": "{'Na': 'sodium', 'O': 'oxygene'}"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -8781,8 +8425,10 @@ window.SCENE_TRACES={
           "code": "'Na'",
           "nom": "'sodium'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -8797,23 +8443,13 @@ window.SCENE_TRACES={
           "code": "'O'",
           "nom": "'oxygene'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "inverse = {nom: code for code, nom in noms.items()}",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "noms": "{'Na': 'sodium', 'O': 'oxygene'}",
           "inverse": "{'sodium': 'Na', 'oxygene': 'O'}"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -8839,8 +8475,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -8853,22 +8491,12 @@ window.SCENE_TRACES={
         "locals": {
           "mesure": "{'temperature': 20}"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(mesure.get(\"pression\", \"absente\"))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "mesure": "{'temperature': 20}"
         },
         "return_value": "",
-        "output_so_far": "absente\n"
+        "output_so_far": "",
+        "after_output": "absente\n"
       }
     ]
   },
@@ -8894,22 +8522,12 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "eleve = {\"id\": \"S1\", \"nom\": \"Maya\", \"notes\": [12, 15]}",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "eleve": "{'id': 'S1', 'nom': 'Maya', 'notes': [12, 15]}"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -8935,8 +8553,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -8949,8 +8569,10 @@ window.SCENE_TRACES={
         "locals": {
           "note": "18"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -8964,23 +8586,13 @@ window.SCENE_TRACES={
           "note": "18",
           "valide": "True"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(valide)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "note": "18",
           "valide": "True"
         },
         "return_value": "",
-        "output_so_far": "True\n"
+        "output_so_far": "",
+        "after_output": "True\n"
       }
     ]
   },
@@ -9006,8 +8618,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -9020,8 +8634,10 @@ window.SCENE_TRACES={
         "locals": {
           "eleves": "[{'nom': 'A', 'note': 12}, {'nom': 'B', 'note': 8}]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -9035,8 +8651,10 @@ window.SCENE_TRACES={
           "eleves": "[{'nom': 'A', 'note': 12}, {'nom': 'B', 'note': 8}]",
           "eleve": "{'nom': 'A', 'note': 12}"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "A\n"
+        "output_so_far": "A\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -9050,23 +8668,13 @@ window.SCENE_TRACES={
           "eleves": "[{'nom': 'A', 'note': 12}, {'nom': 'B', 'note': 8}]",
           "eleve": "{'nom': 'B', 'note': 8}"
         },
-        "return_value": "",
-        "output_so_far": "A\nB\n"
-      },
-      {
-        "line": 2,
-        "source_line": "for eleve in eleves: print(eleve[\"nom\"])",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "eleves": "[{'nom': 'A', 'note': 12}, {'nom': 'B', 'note': 8}]",
           "eleve": "{'nom': 'B', 'note': 8}"
         },
         "return_value": "",
-        "output_so_far": "A\nB\n"
+        "output_so_far": "A\nB\n",
+        "after_output": "A\nB\n"
       }
     ]
   },
@@ -9092,8 +8700,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -9106,22 +8716,12 @@ window.SCENE_TRACES={
         "locals": {
           "eleve": "{'nom': 'Lina', 'notes': [14, 16]}"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "eleve[\"moyenne\"] = sum(eleve[\"notes\"]) / len(eleve[\"notes\"])",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "eleve": "{'nom': 'Lina', 'notes': [14, 16], 'moyenne': 15.0}"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -9147,8 +8747,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -9161,8 +8763,10 @@ window.SCENE_TRACES={
         "locals": {
           "eleves": "[{'id': 'S1'}, {'id': 'S2'}]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -9176,8 +8780,10 @@ window.SCENE_TRACES={
           "eleves": "[{'id': 'S1'}, {'id': 'S2'}]",
           "e": "{'id': 'S1'}"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -9192,8 +8798,10 @@ window.SCENE_TRACES={
           "eleves": "[{'id': 'S1'}, {'id': 'S2'}]",
           "e": "{'id': 'S1'}"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -9207,8 +8815,10 @@ window.SCENE_TRACES={
           "eleves": "[{'id': 'S1'}, {'id': 'S2'}]",
           "e": "{'id': 'S2'}"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -9223,23 +8833,13 @@ window.SCENE_TRACES={
           "eleves": "[{'id': 'S1'}, {'id': 'S2'}]",
           "e": "{'id': 'S2'}"
         },
-        "return_value": "",
-        "output_so_far": "{'id': 'S2'}\n"
-      },
-      {
-        "line": 2,
-        "source_line": "for e in eleves:",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "eleves": "[{'id': 'S1'}, {'id': 'S2'}]",
           "e": "{'id': 'S2'}"
         },
         "return_value": "",
-        "output_so_far": "{'id': 'S2'}\n"
+        "output_so_far": "{'id': 'S2'}\n",
+        "after_output": "{'id': 'S2'}\n"
       }
     ]
   },
@@ -9265,8 +8865,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -9279,22 +8881,12 @@ window.SCENE_TRACES={
         "locals": {
           "athlete": "{'nom': 'Nora', 'distance': 5, 'temps': 28}"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(athlete[\"distance\"] / (athlete[\"temps\"] / 60))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "athlete": "{'nom': 'Nora', 'distance': 5, 'temps': 28}"
         },
         "return_value": "",
-        "output_so_far": "10.714285714285714\n"
+        "output_so_far": "",
+        "after_output": "10.714285714285714\n"
       }
     ]
   },
@@ -9320,8 +8912,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -9334,23 +8928,13 @@ window.SCENE_TRACES={
         "locals": {
           "experience": "{'temperature': 25, 'masse': 12.4, 'resultat': 'stable'}"
         },
-        "return_value": "",
-        "output_so_far": "",
-        "branch_taken": false
-      },
-      {
-        "line": 2,
-        "source_line": "if experience[\"resultat\"] == \"stable\": print(\"valider\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "experience": "{'temperature': 25, 'masse': 12.4, 'resultat': 'stable'}"
         },
         "return_value": "",
-        "output_so_far": "valider\n"
+        "output_so_far": "",
+        "after_output": "valider\n",
+        "branch_taken": false
       }
     ]
   },
@@ -9376,8 +8960,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -9390,8 +8976,10 @@ window.SCENE_TRACES={
         "locals": {
           "dossier": "{'nom': 'Samir', 'email': 'samir@example.com'}"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -9405,8 +8993,10 @@ window.SCENE_TRACES={
           "dossier": "{'nom': 'Samir', 'email': 'samir@example.com'}",
           "obligatoires": "['nom', 'email']"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -9417,10 +9007,12 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f76753140d0>"
+          ".0": "<list_iterator object at 0x7fd1eda3b4f0>"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -9431,10 +9023,12 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f76753140d0>"
+          ".0": "<list_iterator object at 0x7fd1eda3b4f0>"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -9445,11 +9039,13 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f76753140d0>",
+          ".0": "<list_iterator object at 0x7fd1eda3b4f0>",
           "cle": "'nom'"
         },
+        "after_locals": null,
         "return_value": "True",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -9460,11 +9056,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f76753140d0>",
+          ".0": "<list_iterator object at 0x7fd1eda3b4f0>",
           "cle": "'nom'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -9475,11 +9073,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f76753140d0>",
+          ".0": "<list_iterator object at 0x7fd1eda3b4f0>",
           "cle": "'nom'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -9490,11 +9090,13 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f76753140d0>",
+          ".0": "<list_iterator object at 0x7fd1eda3b4f0>",
           "cle": "'email'"
         },
+        "after_locals": null,
         "return_value": "True",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -9505,11 +9107,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f76753140d0>",
+          ".0": "<list_iterator object at 0x7fd1eda3b4f0>",
           "cle": "'email'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -9520,11 +9124,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f76753140d0>",
+          ".0": "<list_iterator object at 0x7fd1eda3b4f0>",
           "cle": "'email'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -9535,26 +9141,16 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f76753140d0>",
+          ".0": "<list_iterator object at 0x7fd1eda3b4f0>",
           "cle": "'email'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(all(cle in dossier for cle in obligatoires))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "dossier": "{'nom': 'Samir', 'email': 'samir@example.com'}",
           "obligatoires": "['nom', 'email']"
         },
         "return_value": "",
-        "output_so_far": "True\n"
+        "output_so_far": "",
+        "after_output": "True\n"
       }
     ]
   },
@@ -9580,8 +9176,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -9594,8 +9192,10 @@ window.SCENE_TRACES={
         "locals": {
           "mesures": "[{'id': 1, 'valeur': 18}, {'id': 2, 'valeur': 22}]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -9609,8 +9209,10 @@ window.SCENE_TRACES={
           "mesures": "[{'id': 1, 'valeur': 18}, {'id': 2, 'valeur': 22}]",
           "m": "{'id': 1, 'valeur': 18}"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -9624,22 +9226,12 @@ window.SCENE_TRACES={
           "mesures": "[{'id': 1, 'valeur': 18}, {'id': 2, 'valeur': 22}]",
           "m": "{'id': 2, 'valeur': 22}"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print([m[\"valeur\"] for m in mesures])",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "mesures": "[{'id': 1, 'valeur': 18}, {'id': 2, 'valeur': 22}]"
         },
         "return_value": "",
-        "output_so_far": "[18, 22]\n"
+        "output_so_far": "",
+        "after_output": "[18, 22]\n"
       }
     ]
   },
@@ -9665,8 +9257,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -9679,8 +9273,10 @@ window.SCENE_TRACES={
         "locals": {
           "eleve": "{'prenom': 'Lina', 'notes': [14, 16]}"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -9694,23 +9290,13 @@ window.SCENE_TRACES={
           "eleve": "{'prenom': 'Lina', 'notes': [14, 16]}",
           "moy": "15.0"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(f\"{eleve[\"prenom\"]}: {moy}\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "eleve": "{'prenom': 'Lina', 'notes': [14, 16]}",
           "moy": "15.0"
         },
         "return_value": "",
-        "output_so_far": "Lina: 15.0\n"
+        "output_so_far": "",
+        "after_output": "Lina: 15.0\n"
       }
     ]
   },
@@ -9736,22 +9322,12 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "livre = {\"titre\":\"Python\", \"annee\":2026}",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "livre": "{'titre': 'Python', 'annee': 2026}"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -9777,8 +9353,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -9791,22 +9369,12 @@ window.SCENE_TRACES={
         "locals": {
           "fiche": "{'nom': ''}"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(bool(fiche.get(\"nom\")))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "fiche": "{'nom': ''}"
         },
         "return_value": "",
-        "output_so_far": "False\n"
+        "output_so_far": "",
+        "after_output": "False\n"
       }
     ]
   },
@@ -9832,8 +9400,10 @@ window.SCENE_TRACES={
         "kind": "loop",
         "iteration": 1,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -9847,8 +9417,10 @@ window.SCENE_TRACES={
           "eleves": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14.0}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}]",
           "e": "{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14.0}"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -9862,23 +9434,13 @@ window.SCENE_TRACES={
           "eleves": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14.0}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11.0}]",
           "e": "{'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11.0}"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "for e in eleves: e[\"moyenne\"] = sum(e[\"notes\"]) / len(e[\"notes\"])",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "eleves": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14.0}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11.0}]",
           "e": "{'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11.0}"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -9904,8 +9466,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -9918,8 +9482,10 @@ window.SCENE_TRACES={
         "locals": {
           "e": "{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -9932,22 +9498,12 @@ window.SCENE_TRACES={
         "locals": {
           "e": "{'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "admis = [e for e in eleves if e[\"moyenne\"] >= 10]",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "admis": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}]"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -9973,8 +9529,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -9987,8 +9545,10 @@ window.SCENE_TRACES={
         "locals": {
           "e": "{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -10001,8 +9561,10 @@ window.SCENE_TRACES={
         "locals": {
           "e": "{'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -10015,22 +9577,12 @@ window.SCENE_TRACES={
         "locals": {
           "ids": "[1, 2]"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(len(ids) == len(set(ids)))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "ids": "[1, 2]"
         },
         "return_value": "",
-        "output_so_far": "True\n"
+        "output_so_far": "",
+        "after_output": "True\n"
       }
     ]
   },
@@ -10056,22 +9608,12 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "capteur = {\"nom\":\"T1\", \"unite\":\"°C\", \"mesure\":21.4}",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "capteur": "{'nom': 'T1', 'unite': '°C', 'mesure': 21.4}"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -10097,8 +9639,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -10111,22 +9655,12 @@ window.SCENE_TRACES={
         "locals": {
           "m": "21.4"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(0 <= m <= 50)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "m": "21.4"
         },
         "return_value": "",
-        "output_so_far": "True\n"
+        "output_so_far": "",
+        "after_output": "True\n"
       }
     ]
   },
@@ -10152,8 +9686,10 @@ window.SCENE_TRACES={
         "kind": "loop",
         "iteration": 1,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -10166,8 +9702,10 @@ window.SCENE_TRACES={
         "locals": {
           "e": "{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "Amina\n"
+        "output_so_far": "Amina\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -10180,22 +9718,12 @@ window.SCENE_TRACES={
         "locals": {
           "e": "{'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}"
         },
-        "return_value": "",
-        "output_so_far": "Amina\nYanis\n"
-      },
-      {
-        "line": 1,
-        "source_line": "for e in eleves: print(e.get(\"nom\", \"inconnu\"))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "e": "{'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}"
         },
         "return_value": "",
-        "output_so_far": "Amina\nYanis\n"
+        "output_so_far": "Amina\nYanis\n",
+        "after_output": "Amina\nYanis\n"
       }
     ]
   },
@@ -10221,8 +9749,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -10233,10 +9763,12 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675352d10>"
+          ".0": "<list_iterator object at 0x7fd1eda3b550>"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -10247,10 +9779,12 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675352d10>"
+          ".0": "<list_iterator object at 0x7fd1eda3b550>"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -10261,11 +9795,13 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675352d10>",
+          ".0": "<list_iterator object at 0x7fd1eda3b550>",
           "e": "{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -10276,11 +9812,13 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675352d10>",
+          ".0": "<list_iterator object at 0x7fd1eda3b550>",
           "e": "{'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -10291,25 +9829,15 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675352d10>",
+          ".0": "<list_iterator object at 0x7fd1eda3b550>",
           "e": "{'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "trouve = next((e for e in eleves if e[\"id\"] == \"S2\"), None)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "trouve": "None"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -10335,8 +9863,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -10349,8 +9879,10 @@ window.SCENE_TRACES={
         "locals": {
           "e": "{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -10363,8 +9895,10 @@ window.SCENE_TRACES={
         "locals": {
           "e": "{'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -10377,22 +9911,12 @@ window.SCENE_TRACES={
         "locals": {
           "valides": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}]"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(len(valides))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "valides": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}]"
         },
         "return_value": "",
-        "output_so_far": "2\n"
+        "output_so_far": "",
+        "after_output": "2\n"
       }
     ]
   },
@@ -10418,22 +9942,12 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "mesure = {\"systolique\": 120, \"diastolique\": 80, \"date\": \"2026-06-01\"}",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "mesure": "{'systolique': 120, 'diastolique': 80, 'date': '2026-06-01'}"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -10459,8 +9973,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -10473,8 +9989,10 @@ window.SCENE_TRACES={
         "locals": {
           "mesures": "[{'valeur': 18}, {'valeur': 24}]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -10488,8 +10006,10 @@ window.SCENE_TRACES={
           "mesures": "[{'valeur': 18}, {'valeur': 24}]",
           "m": "{'valeur': 18}"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -10503,22 +10023,12 @@ window.SCENE_TRACES={
           "mesures": "[{'valeur': 18}, {'valeur': 24}]",
           "m": "{'valeur': 24}"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print([m for m in mesures if m[\"valeur\"] > 20])",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "mesures": "[{'valeur': 18}, {'valeur': 24}]"
         },
         "return_value": "",
-        "output_so_far": "[{'valeur': 24}]\n"
+        "output_so_far": "",
+        "after_output": "[{'valeur': 24}]\n"
       }
     ]
   },
@@ -10544,8 +10054,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -10558,8 +10070,10 @@ window.SCENE_TRACES={
         "locals": {
           "eleves": "[{'id': 1}, {'id': 2}]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -10570,10 +10084,12 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675352140>"
+          ".0": "<list_iterator object at 0x7fd1eda3abf0>"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -10584,10 +10100,12 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675352140>"
+          ".0": "<list_iterator object at 0x7fd1eda3abf0>"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -10598,11 +10116,13 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675352140>",
+          ".0": "<list_iterator object at 0x7fd1eda3abf0>",
           "e": "{'id': 1}"
         },
+        "after_locals": null,
         "return_value": "True",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -10613,11 +10133,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675352140>",
+          ".0": "<list_iterator object at 0x7fd1eda3abf0>",
           "e": "{'id': 1}"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -10628,11 +10150,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675352140>",
+          ".0": "<list_iterator object at 0x7fd1eda3abf0>",
           "e": "{'id': 1}"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -10643,11 +10167,13 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675352140>",
+          ".0": "<list_iterator object at 0x7fd1eda3abf0>",
           "e": "{'id': 2}"
         },
+        "after_locals": null,
         "return_value": "True",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -10658,11 +10184,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675352140>",
+          ".0": "<list_iterator object at 0x7fd1eda3abf0>",
           "e": "{'id': 2}"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -10673,11 +10201,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675352140>",
+          ".0": "<list_iterator object at 0x7fd1eda3abf0>",
           "e": "{'id': 2}"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -10688,25 +10218,15 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675352140>",
+          ".0": "<list_iterator object at 0x7fd1eda3abf0>",
           "e": "{'id': 2}"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(all(\"id\" in e for e in eleves))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "eleves": "[{'id': 1}, {'id': 2}]"
         },
         "return_value": "",
-        "output_so_far": "True\n"
+        "output_so_far": "",
+        "after_output": "True\n"
       }
     ]
   },
@@ -10732,8 +10252,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -10746,22 +10268,12 @@ window.SCENE_TRACES={
         "locals": {
           "produit": "{'nom': 'Tube', 'stock': 4}"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "produit[\"stock\"] += 6",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "produit": "{'nom': 'Tube', 'stock': 10}"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -10787,8 +10299,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -10801,8 +10315,10 @@ window.SCENE_TRACES={
         "locals": {
           "eleves": "[{'id': 1, 'nom': 'Ali'}, {'id': 2, 'nom': 'Nora'}]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -10813,10 +10329,12 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675351db0>"
+          ".0": "<list_iterator object at 0x7fd1eda3a530>"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -10827,10 +10345,12 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675351db0>"
+          ".0": "<list_iterator object at 0x7fd1eda3a530>"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -10841,11 +10361,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675351db0>",
+          ".0": "<list_iterator object at 0x7fd1eda3a530>",
           "e": "{'id': 1, 'nom': 'Ali'}"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -10856,25 +10378,15 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7f7675351db0>",
+          ".0": "<list_iterator object at 0x7fd1eda3a530>",
           "e": "{'id': 2, 'nom': 'Nora'}"
         },
-        "return_value": "{'id': 2, 'nom': 'Nora'}",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(next(e for e in eleves if e[\"id\"] == 2))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "eleves": "[{'id': 1, 'nom': 'Ali'}, {'id': 2, 'nom': 'Nora'}]"
         },
-        "return_value": "",
-        "output_so_far": "{'id': 2, 'nom': 'Nora'}\n"
+        "return_value": "{'id': 2, 'nom': 'Nora'}",
+        "output_so_far": "",
+        "after_output": "{'id': 2, 'nom': 'Nora'}\n"
       }
     ]
   },
@@ -10900,8 +10412,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -10914,22 +10428,12 @@ window.SCENE_TRACES={
         "locals": {
           "pile": "['titre', 'image']"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(pile.pop())",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "pile": "['titre']"
         },
         "return_value": "",
-        "output_so_far": "image\n"
+        "output_so_far": "",
+        "after_output": "image\n"
       }
     ]
   },
@@ -10955,8 +10459,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -10969,8 +10475,10 @@ window.SCENE_TRACES={
         "locals": {
           "historique": "['accueil', 'cours', 'quiz']"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -10984,23 +10492,13 @@ window.SCENE_TRACES={
           "historique": "['accueil', 'cours']",
           "page": "'quiz'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(page, historique[-1])",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "historique": "['accueil', 'cours']",
           "page": "'quiz'"
         },
         "return_value": "",
-        "output_so_far": "quiz cours\n"
+        "output_so_far": "",
+        "after_output": "quiz cours\n"
       }
     ]
   },
@@ -11026,8 +10524,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -11040,8 +10540,10 @@ window.SCENE_TRACES={
         "locals": {
           "pile": "[]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -11055,8 +10557,10 @@ window.SCENE_TRACES={
           "pile": "[]",
           "symbole": "'('"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -11071,8 +10575,10 @@ window.SCENE_TRACES={
           "pile": "['(']",
           "symbole": "'('"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -11086,8 +10592,10 @@ window.SCENE_TRACES={
           "pile": "['(']",
           "symbole": "'('"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -11102,8 +10610,10 @@ window.SCENE_TRACES={
           "pile": "['(', '(']",
           "symbole": "'('"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -11117,8 +10627,10 @@ window.SCENE_TRACES={
           "pile": "['(', '(']",
           "symbole": "')'"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -11133,8 +10645,10 @@ window.SCENE_TRACES={
           "pile": "['(', '(']",
           "symbole": "')'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -11148,23 +10662,13 @@ window.SCENE_TRACES={
           "pile": "['(', '(']",
           "symbole": "')'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(len(pile))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "pile": "['(', '(']",
           "symbole": "')'"
         },
         "return_value": "",
-        "output_so_far": "2\n"
+        "output_so_far": "",
+        "after_output": "2\n"
       }
     ]
   },
@@ -11190,8 +10694,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -11204,8 +10710,10 @@ window.SCENE_TRACES={
         "locals": {
           "pile": "[]"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -11219,23 +10727,13 @@ window.SCENE_TRACES={
         "locals": {
           "pile": "[]"
         },
-        "return_value": "",
-        "output_so_far": "",
-        "branch_taken": false
-      },
-      {
-        "line": 3,
-        "source_line": "else: print(\"Rien à annuler\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "pile": "[]"
         },
         "return_value": "",
-        "output_so_far": "Rien à annuler\n"
+        "output_so_far": "",
+        "after_output": "Rien à annuler\n",
+        "branch_taken": false
       }
     ]
   },
@@ -11261,8 +10759,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -11275,8 +10775,10 @@ window.SCENE_TRACES={
         "locals": {
           "actions": "['A', 'B', 'C']"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -11290,8 +10792,10 @@ window.SCENE_TRACES={
           "actions": "['A', 'B']",
           "_": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "C\n"
+        "output_so_far": "C\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -11305,23 +10809,13 @@ window.SCENE_TRACES={
           "actions": "['A']",
           "_": "1"
         },
-        "return_value": "",
-        "output_so_far": "C\nB\n"
-      },
-      {
-        "line": 2,
-        "source_line": "for _ in range(2): print(actions.pop())",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "actions": "['A']",
           "_": "1"
         },
         "return_value": "",
-        "output_so_far": "C\nB\n"
+        "output_so_far": "C\nB\n",
+        "after_output": "C\nB\n"
       }
     ]
   },
@@ -11347,8 +10841,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -11361,8 +10857,10 @@ window.SCENE_TRACES={
         "locals": {
           "pile": "[]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -11376,8 +10874,10 @@ window.SCENE_TRACES={
           "pile": "[]",
           "symbole": "'('"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -11392,8 +10892,10 @@ window.SCENE_TRACES={
           "pile": "['(']",
           "symbole": "'('"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -11407,8 +10909,10 @@ window.SCENE_TRACES={
           "pile": "['(']",
           "symbole": "'('"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -11423,8 +10927,10 @@ window.SCENE_TRACES={
           "pile": "['(', '(']",
           "symbole": "'('"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -11438,8 +10944,10 @@ window.SCENE_TRACES={
           "pile": "['(', '(']",
           "symbole": "')'"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -11454,8 +10962,10 @@ window.SCENE_TRACES={
           "pile": "['(', '(']",
           "symbole": "')'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -11469,23 +10979,13 @@ window.SCENE_TRACES={
           "pile": "['(', '(']",
           "symbole": "')'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(len(pile))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "pile": "['(', '(']",
           "symbole": "')'"
         },
         "return_value": "",
-        "output_so_far": "2\n"
+        "output_so_far": "",
+        "after_output": "2\n"
       }
     ]
   },
@@ -11511,8 +11011,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -11525,8 +11027,10 @@ window.SCENE_TRACES={
         "locals": {
           "pile": "['A', 'T', 'G', 'C']"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -11540,8 +11044,10 @@ window.SCENE_TRACES={
           "pile": "['A', 'T', 'G', 'C']",
           "retour": "''"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -11555,8 +11061,10 @@ window.SCENE_TRACES={
           "pile": "['A', 'T', 'G']",
           "retour": "'C'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -11570,8 +11078,10 @@ window.SCENE_TRACES={
           "pile": "['A', 'T']",
           "retour": "'CG'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -11585,8 +11095,10 @@ window.SCENE_TRACES={
           "pile": "['A']",
           "retour": "'CGT'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -11600,23 +11112,13 @@ window.SCENE_TRACES={
           "pile": "[]",
           "retour": "'CGTA'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(retour)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "pile": "[]",
           "retour": "'CGTA'"
         },
         "return_value": "",
-        "output_so_far": "CGTA\n"
+        "output_so_far": "",
+        "after_output": "CGTA\n"
       }
     ]
   },
@@ -11642,8 +11144,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -11656,22 +11160,12 @@ window.SCENE_TRACES={
         "locals": {
           "historique": "['filtre', 'normalisation', 'arrondi']"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(\"annuler\", historique.pop())",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "historique": "['filtre', 'normalisation']"
         },
         "return_value": "",
-        "output_so_far": "annuler arrondi\n"
+        "output_so_far": "",
+        "after_output": "annuler arrondi\n"
       }
     ]
   },
@@ -11697,8 +11191,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -11711,8 +11207,10 @@ window.SCENE_TRACES={
         "locals": {
           "appels": "['main', 'analyser', 'moyenne']"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -11725,22 +11223,12 @@ window.SCENE_TRACES={
         "locals": {
           "appels": "['main', 'analyser', 'moyenne']"
         },
-        "return_value": "",
-        "output_so_far": "moyenne\n"
-      },
-      {
-        "line": 3,
-        "source_line": "appels.pop()",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "appels": "['main', 'analyser']"
         },
         "return_value": "",
-        "output_so_far": "moyenne\n"
+        "output_so_far": "moyenne\n",
+        "after_output": "moyenne\n"
       }
     ]
   },
@@ -11766,8 +11254,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -11780,8 +11270,10 @@ window.SCENE_TRACES={
         "locals": {
           "pile": "[3, 4]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -11796,24 +11288,14 @@ window.SCENE_TRACES={
           "b": "4",
           "a": "3"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(a + b)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "pile": "[]",
           "b": "4",
           "a": "3"
         },
         "return_value": "",
-        "output_so_far": "7\n"
+        "output_so_far": "",
+        "after_output": "7\n"
       }
     ]
   },
@@ -11839,8 +11321,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -11853,8 +11337,10 @@ window.SCENE_TRACES={
         "locals": {
           "pile": "[]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -11868,8 +11354,10 @@ window.SCENE_TRACES={
           "pile": "['A']",
           "action": "'A'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -11883,8 +11371,10 @@ window.SCENE_TRACES={
           "pile": "['A', 'B']",
           "action": "'B'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -11898,23 +11388,13 @@ window.SCENE_TRACES={
           "pile": "['A', 'B', 'C']",
           "action": "'C'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "for action in [\"A\", \"B\", \"C\"]: pile.append(action)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "pile": "['A', 'B', 'C']",
           "action": "'C'"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -11940,24 +11420,14 @@ window.SCENE_TRACES={
         "kind": "branch",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": "",
-        "branch_taken": false
-      },
-      {
-        "line": 1,
-        "source_line": "if pile: resultat = pile.pop()",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "pile": "[1, 2]",
           "resultat": "3"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": "",
+        "branch_taken": false
       }
     ]
   },
@@ -11983,22 +11453,12 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "sommet = pile[-1] if pile else None",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "sommet": "3"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -12024,20 +11484,10 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {},
+        "after_locals": {},
         "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "print(len(pile))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {},
-        "return_value": "",
-        "output_so_far": "3\n"
+        "output_so_far": "",
+        "after_output": "3\n"
       }
     ]
   },
@@ -12063,8 +11513,10 @@ window.SCENE_TRACES={
         "kind": "loop",
         "iteration": 1,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -12077,8 +11529,10 @@ window.SCENE_TRACES={
         "locals": {
           "pile": "[1, 2]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -12091,22 +11545,12 @@ window.SCENE_TRACES={
         "locals": {
           "pile": "[1]"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "while pile: pile.pop()",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "pile": "[]"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -12132,8 +11576,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -12146,22 +11592,12 @@ window.SCENE_TRACES={
         "locals": {
           "pile": "['P', 'Y']"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(pile.pop() + pile.pop())",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "pile": "[]"
         },
         "return_value": "",
-        "output_so_far": "YP\n"
+        "output_so_far": "",
+        "after_output": "YP\n"
       }
     ]
   },
@@ -12187,8 +11623,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -12201,8 +11639,10 @@ window.SCENE_TRACES={
         "locals": {
           "pile": "[]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -12216,8 +11656,10 @@ window.SCENE_TRACES={
           "pile": "[]",
           "x": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -12231,8 +11673,10 @@ window.SCENE_TRACES={
           "pile": "[1]",
           "x": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "[1]\n"
+        "output_so_far": "[1]\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -12246,8 +11690,10 @@ window.SCENE_TRACES={
           "pile": "[1]",
           "x": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "[1]\n"
+        "output_so_far": "[1]\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -12261,23 +11707,13 @@ window.SCENE_TRACES={
           "pile": "[1, 2]",
           "x": "2"
         },
-        "return_value": "",
-        "output_so_far": "[1]\n[1, 2]\n"
-      },
-      {
-        "line": 2,
-        "source_line": "for x in [1,2]:",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "pile": "[1, 2]",
           "x": "2"
         },
         "return_value": "",
-        "output_so_far": "[1]\n[1, 2]\n"
+        "output_so_far": "[1]\n[1, 2]\n",
+        "after_output": "[1]\n[1, 2]\n"
       }
     ]
   },
@@ -12303,22 +11739,12 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "page = historique[-1] if historique else \"aucune\"",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "page": "'aucune'"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -12344,21 +11770,11 @@ window.SCENE_TRACES={
         "kind": "branch",
         "iteration": null,
         "locals": {},
+        "after_locals": {},
         "return_value": "",
         "output_so_far": "",
+        "after_output": "",
         "branch_taken": false
-      },
-      {
-        "line": 1,
-        "source_line": "if len(pile) < 3: pile.append(\"nouveau\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {},
-        "return_value": "",
-        "output_so_far": ""
       }
     ]
   },
@@ -12384,22 +11800,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def depiler(pile):",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "depiler": "<function depiler at 0x7f76754fd9e0>"
+        "after_locals": {
+          "depiler": "<function depiler at 0x7fd1ed9ee200>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -12425,22 +11831,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def annuler(pile):",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "annuler": "<function annuler at 0x7f76754fd620>"
+        "after_locals": {
+          "annuler": "<function annuler at 0x7fd1ed9ef1a0>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -12466,8 +11862,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -12480,8 +11878,10 @@ window.SCENE_TRACES={
         "locals": {
           "actions": "['A', 'B', 'C']"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -12495,8 +11895,10 @@ window.SCENE_TRACES={
           "actions": "['A', 'B']",
           "_": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "C\n"
+        "output_so_far": "C\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -12510,23 +11912,13 @@ window.SCENE_TRACES={
           "actions": "['A']",
           "_": "1"
         },
-        "return_value": "",
-        "output_so_far": "C\nB\n"
-      },
-      {
-        "line": 2,
-        "source_line": "for _ in range(2): print(actions.pop())",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "actions": "['A']",
           "_": "1"
         },
         "return_value": "",
-        "output_so_far": "C\nB\n"
+        "output_so_far": "C\nB\n",
+        "after_output": "C\nB\n"
       }
     ]
   },
@@ -12552,8 +11944,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -12566,8 +11960,10 @@ window.SCENE_TRACES={
         "locals": {
           "mot": "'kayak'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -12581,8 +11977,10 @@ window.SCENE_TRACES={
           "pile": "['k', 'a', 'y', 'a', 'k']",
           "mot": "'kayak'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -12593,10 +11991,12 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7f76753530f0>"
+          ".0": "<range_iterator object at 0x7fd1ed9e2e20>"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -12607,10 +12007,12 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7f76753530f0>"
+          ".0": "<range_iterator object at 0x7fd1ed9e2e20>"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -12621,11 +12023,13 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7f76753530f0>",
+          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
           "_": "0"
         },
+        "after_locals": null,
         "return_value": "'k'",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -12636,11 +12040,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7f76753530f0>",
+          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
           "_": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -12651,11 +12057,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7f76753530f0>",
+          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
           "_": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -12666,11 +12074,13 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7f76753530f0>",
+          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
           "_": "1"
         },
+        "after_locals": null,
         "return_value": "'a'",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -12681,11 +12091,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7f76753530f0>",
+          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
           "_": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -12696,11 +12108,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7f76753530f0>",
+          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
           "_": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -12711,11 +12125,13 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7f76753530f0>",
+          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
           "_": "2"
         },
+        "after_locals": null,
         "return_value": "'y'",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -12726,11 +12142,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7f76753530f0>",
+          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
           "_": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -12741,11 +12159,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7f76753530f0>",
+          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
           "_": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -12756,11 +12176,13 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7f76753530f0>",
+          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
           "_": "3"
         },
+        "after_locals": null,
         "return_value": "'a'",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -12771,11 +12193,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7f76753530f0>",
+          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
           "_": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -12786,11 +12210,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7f76753530f0>",
+          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
           "_": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -12801,11 +12227,13 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7f76753530f0>",
+          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
           "_": "4"
         },
+        "after_locals": null,
         "return_value": "'k'",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -12816,11 +12244,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7f76753530f0>",
+          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
           "_": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -12831,11 +12261,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7f76753530f0>",
+          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
           "_": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -12846,26 +12278,16 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7f76753530f0>",
+          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
           "_": "4"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(mot == \"\".join(pile.pop() for _ in range(len(pile))))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "pile": "[]",
           "mot": "'kayak'"
         },
         "return_value": "",
-        "output_so_far": "True\n"
+        "output_so_far": "",
+        "after_output": "True\n"
       }
     ]
   },
@@ -12891,8 +12313,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -12905,22 +12329,12 @@ window.SCENE_TRACES={
         "locals": {
           "pile": "[10, 20, 30]"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(pile[-1])",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "pile": "[10, 20, 30]"
         },
         "return_value": "",
-        "output_so_far": "30\n"
+        "output_so_far": "",
+        "after_output": "30\n"
       }
     ]
   },
@@ -12946,8 +12360,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -12958,8 +12374,10 @@ window.SCENE_TRACES={
         "kind": "loop",
         "iteration": 1,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -12972,8 +12390,10 @@ window.SCENE_TRACES={
         "locals": {
           "pile": "[1, 2]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "3\n"
+        "output_so_far": "3\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -12986,22 +12406,12 @@ window.SCENE_TRACES={
         "locals": {
           "pile": "[1]"
         },
-        "return_value": "",
-        "output_so_far": "3\n2\n"
-      },
-      {
-        "line": 2,
-        "source_line": "while pile: print(pile.pop())",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "pile": "[]"
         },
         "return_value": "",
-        "output_so_far": "3\n2\n1\n"
+        "output_so_far": "3\n2\n",
+        "after_output": "3\n2\n1\n"
       }
     ]
   },
@@ -13027,8 +12437,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -13041,22 +12453,12 @@ window.SCENE_TRACES={
         "locals": {
           "file": "['A.pdf', 'B.pdf']"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(file.pop(0))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "file": "['B.pdf']"
         },
         "return_value": "",
-        "output_so_far": "A.pdf\n"
+        "output_so_far": "",
+        "after_output": "A.pdf\n"
       }
     ]
   },
@@ -13082,8 +12484,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -13096,23 +12500,13 @@ window.SCENE_TRACES={
         "locals": {
           "file": "['Nora', 'Ali', 'Maya']"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "servie = file.pop(0)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "file": "['Ali', 'Maya']",
           "servie": "'Nora'"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -13138,8 +12532,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -13152,8 +12548,10 @@ window.SCENE_TRACES={
         "locals": {
           "file": "[]"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -13167,23 +12565,13 @@ window.SCENE_TRACES={
         "locals": {
           "file": "[]"
         },
-        "return_value": "",
-        "output_so_far": "",
-        "branch_taken": false
-      },
-      {
-        "line": 3,
-        "source_line": "else: print(\"Attente vide\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "file": "[]"
         },
         "return_value": "",
-        "output_so_far": "Attente vide\n"
+        "output_so_far": "",
+        "after_output": "Attente vide\n",
+        "branch_taken": false
       }
     ]
   },
@@ -13209,8 +12597,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -13223,8 +12613,10 @@ window.SCENE_TRACES={
         "locals": {
           "file": "['A', 'B']"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -13238,8 +12630,10 @@ window.SCENE_TRACES={
           "file": "['A', 'B']",
           "compteur": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -13253,8 +12647,10 @@ window.SCENE_TRACES={
           "file": "['A', 'B']",
           "compteur": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -13268,8 +12664,10 @@ window.SCENE_TRACES={
           "file": "['B']",
           "compteur": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -13283,8 +12681,10 @@ window.SCENE_TRACES={
           "file": "['B']",
           "compteur": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -13298,8 +12698,10 @@ window.SCENE_TRACES={
           "file": "[]",
           "compteur": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 5,
@@ -13313,23 +12715,13 @@ window.SCENE_TRACES={
           "file": "[]",
           "compteur": "2"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 5,
-        "source_line": "print(compteur)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "file": "[]",
           "compteur": "2"
         },
         "return_value": "",
-        "output_so_far": "2\n"
+        "output_so_far": "",
+        "after_output": "2\n"
       }
     ]
   },
@@ -13355,8 +12747,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -13369,8 +12763,10 @@ window.SCENE_TRACES={
         "locals": {
           "file": "['A', 'B']"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -13383,22 +12779,12 @@ window.SCENE_TRACES={
         "locals": {
           "file": "['A', 'B', 'C']"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(file)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "file": "['A', 'B', 'C']"
         },
         "return_value": "",
-        "output_so_far": "['A', 'B', 'C']\n"
+        "output_so_far": "",
+        "after_output": "['A', 'B', 'C']\n"
       }
     ]
   },
@@ -13424,8 +12810,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -13438,22 +12826,12 @@ window.SCENE_TRACES={
         "locals": {
           "file": "['S1', 'S2', 'S3']"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(file.pop(0))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "file": "['S2', 'S3']"
         },
         "return_value": "",
-        "output_so_far": "S1\n"
+        "output_so_far": "",
+        "after_output": "S1\n"
       }
     ]
   },
@@ -13479,8 +12857,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -13493,8 +12873,10 @@ window.SCENE_TRACES={
         "locals": {
           "file": "['dossard 12', 'dossard 18']"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -13507,22 +12889,12 @@ window.SCENE_TRACES={
         "locals": {
           "file": "['dossard 12', 'dossard 18', 'dossard 24']"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(file.pop(0))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "file": "['dossard 18', 'dossard 24']"
         },
         "return_value": "",
-        "output_so_far": "dossard 12\n"
+        "output_so_far": "",
+        "after_output": "dossard 12\n"
       }
     ]
   },
@@ -13548,8 +12920,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -13562,8 +12936,10 @@ window.SCENE_TRACES={
         "locals": {
           "messages": "['T=20', 'T=21']"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -13576,8 +12952,10 @@ window.SCENE_TRACES={
         "locals": {
           "messages": "['T=20', 'T=21']"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -13590,8 +12968,10 @@ window.SCENE_TRACES={
         "locals": {
           "messages": "['T=21']"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "analyse T=20\n"
+        "output_so_far": "analyse T=20\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -13604,8 +12984,10 @@ window.SCENE_TRACES={
         "locals": {
           "messages": "['T=21']"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "analyse T=20\n"
+        "output_so_far": "analyse T=20\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -13618,22 +13000,12 @@ window.SCENE_TRACES={
         "locals": {
           "messages": "[]"
         },
-        "return_value": "",
-        "output_so_far": "analyse T=20\nanalyse T=21\n"
-      },
-      {
-        "line": 2,
-        "source_line": "while messages:",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "messages": "[]"
         },
         "return_value": "",
-        "output_so_far": "analyse T=20\nanalyse T=21\n"
+        "output_so_far": "analyse T=20\nanalyse T=21\n",
+        "after_output": "analyse T=20\nanalyse T=21\n"
       }
     ]
   },
@@ -13659,8 +13031,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -13673,8 +13047,10 @@ window.SCENE_TRACES={
         "locals": {
           "demandes": "['A', 'B', 'C']"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -13688,23 +13064,13 @@ window.SCENE_TRACES={
           "demandes": "['B', 'C']",
           "prochaine": "'A'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(prochaine)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "demandes": "['B', 'C']",
           "prochaine": "'A'"
         },
         "return_value": "",
-        "output_so_far": "A\n"
+        "output_so_far": "",
+        "after_output": "A\n"
       }
     ]
   },
@@ -13730,8 +13096,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -13744,8 +13112,10 @@ window.SCENE_TRACES={
         "locals": {
           "documents": "[]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -13759,8 +13129,10 @@ window.SCENE_TRACES={
           "documents": "['a.pdf']",
           "nom": "'a.pdf'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -13774,8 +13146,10 @@ window.SCENE_TRACES={
           "documents": "['a.pdf', 'b.pdf']",
           "nom": "'b.pdf'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -13789,23 +13163,13 @@ window.SCENE_TRACES={
           "documents": "['a.pdf', 'b.pdf']",
           "nom": "'b.pdf'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(documents.pop(0))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "documents": "['b.pdf']",
           "nom": "'b.pdf'"
         },
         "return_value": "",
-        "output_so_far": "a.pdf\n"
+        "output_so_far": "",
+        "after_output": "a.pdf\n"
       }
     ]
   },
@@ -13831,8 +13195,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -13845,22 +13211,12 @@ window.SCENE_TRACES={
         "locals": {
           "file": "[]"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "file.append(\"T1\"); file.append(\"T2\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "file": "['T1', 'T2']"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -13886,23 +13242,13 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "ticket = file.pop(0) if file else None",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "file": "[2, 3]",
           "ticket": "1"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -13928,8 +13274,10 @@ window.SCENE_TRACES={
         "kind": "loop",
         "iteration": 1,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -13940,8 +13288,10 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -13954,8 +13304,10 @@ window.SCENE_TRACES={
         "locals": {
           "file": "[2, 3]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "1\n"
+        "output_so_far": "1\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -13968,8 +13320,10 @@ window.SCENE_TRACES={
         "locals": {
           "file": "[2, 3]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "1\n"
+        "output_so_far": "1\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -13982,8 +13336,10 @@ window.SCENE_TRACES={
         "locals": {
           "file": "[3]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "1\n2\n"
+        "output_so_far": "1\n2\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -13996,8 +13352,10 @@ window.SCENE_TRACES={
         "locals": {
           "file": "[3]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "1\n2\n"
+        "output_so_far": "1\n2\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -14010,22 +13368,12 @@ window.SCENE_TRACES={
         "locals": {
           "file": "[]"
         },
-        "return_value": "",
-        "output_so_far": "1\n2\n3\n"
-      },
-      {
-        "line": 1,
-        "source_line": "while file:",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "file": "[]"
         },
         "return_value": "",
-        "output_so_far": "1\n2\n3\n"
+        "output_so_far": "1\n2\n3\n",
+        "after_output": "1\n2\n3\n"
       }
     ]
   },
@@ -14051,20 +13399,10 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {},
+        "after_locals": {},
         "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "print(len(file))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {},
-        "return_value": "",
-        "output_so_far": "3\n"
+        "output_so_far": "",
+        "after_output": "3\n"
       }
     ]
   },
@@ -14090,22 +13428,12 @@ window.SCENE_TRACES={
         "kind": "statement",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "file.insert(0, \"URGENT\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "file": "['URGENT', 1, 2, 3]"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -14131,8 +13459,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -14145,8 +13475,10 @@ window.SCENE_TRACES={
         "locals": {
           "servis": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -14159,8 +13491,10 @@ window.SCENE_TRACES={
         "locals": {
           "servis": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -14174,8 +13508,10 @@ window.SCENE_TRACES={
           "file": "[2, 3]",
           "servis": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -14189,8 +13525,10 @@ window.SCENE_TRACES={
           "file": "[2, 3]",
           "servis": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -14204,8 +13542,10 @@ window.SCENE_TRACES={
           "file": "[3]",
           "servis": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -14219,8 +13559,10 @@ window.SCENE_TRACES={
           "file": "[3]",
           "servis": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -14234,23 +13576,13 @@ window.SCENE_TRACES={
           "file": "[]",
           "servis": "3"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "while file:",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "file": "[]",
           "servis": "3"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -14276,22 +13608,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def servir(file):",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "servir": "<function servir at 0x7f76754ff060>"
+        "after_locals": {
+          "servir": "<function servir at 0x7fd1ed9ec5e0>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -14317,22 +13639,12 @@ window.SCENE_TRACES={
         "kind": "statement",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "file.append(file.pop(0))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "file": "[2, 3, 1]"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -14358,8 +13670,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -14372,22 +13686,12 @@ window.SCENE_TRACES={
         "locals": {
           "temps": "[4, 7, 5]"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(sum(temps) / len(temps))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "temps": "[4, 7, 5]"
         },
         "return_value": "",
-        "output_so_far": "5.333333333333333\n"
+        "output_so_far": "",
+        "after_output": "5.333333333333333\n"
       }
     ]
   },
@@ -14413,8 +13717,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -14428,24 +13734,14 @@ window.SCENE_TRACES={
           "file1": "['A', 'B']",
           "file2": "['C', 'D']"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "file = file1 + file2",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "file": "['A', 'B', 'C', 'D']",
           "file1": "['A', 'B']",
           "file2": "['C', 'D']"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -14471,8 +13767,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -14485,22 +13783,12 @@ window.SCENE_TRACES={
         "locals": {
           "file": "['T1']"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "file.append(\"T2\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "file": "['T1', 'T2']"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -14526,8 +13814,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -14540,8 +13830,10 @@ window.SCENE_TRACES={
         "locals": {
           "file": "[1, 2, 3, 4, 5]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -14554,8 +13846,10 @@ window.SCENE_TRACES={
         "locals": {
           "file": "[2, 3, 4, 5]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "1\n"
+        "output_so_far": "1\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -14568,8 +13862,10 @@ window.SCENE_TRACES={
         "locals": {
           "file": "[3, 4, 5]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "1\n2\n"
+        "output_so_far": "1\n2\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -14582,8 +13878,10 @@ window.SCENE_TRACES={
         "locals": {
           "file": "[4, 5]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "1\n2\n3\n"
+        "output_so_far": "1\n2\n3\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -14596,22 +13894,12 @@ window.SCENE_TRACES={
         "locals": {
           "file": "[5]"
         },
-        "return_value": "",
-        "output_so_far": "1\n2\n3\n4\n"
-      },
-      {
-        "line": 2,
-        "source_line": "while file: print(file.pop(0))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "file": "[]"
         },
         "return_value": "",
-        "output_so_far": "1\n2\n3\n4\n5\n"
+        "output_so_far": "1\n2\n3\n4\n",
+        "after_output": "1\n2\n3\n4\n5\n"
       }
     ]
   },
@@ -14637,8 +13925,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -14651,8 +13941,10 @@ window.SCENE_TRACES={
         "locals": {
           "file": "[3, 4, 2]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -14666,8 +13958,10 @@ window.SCENE_TRACES={
           "file": "[3, 4, 2]",
           "total": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -14681,8 +13975,10 @@ window.SCENE_TRACES={
           "file": "[4, 2]",
           "total": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -14696,8 +13992,10 @@ window.SCENE_TRACES={
           "file": "[2]",
           "total": "7"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -14711,23 +14009,13 @@ window.SCENE_TRACES={
           "file": "[]",
           "total": "9"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(total)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "file": "[]",
           "total": "9"
         },
         "return_value": "",
-        "output_so_far": "9\n"
+        "output_so_far": "",
+        "after_output": "9\n"
       }
     ]
   },
@@ -14753,8 +14041,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -14767,8 +14057,10 @@ window.SCENE_TRACES={
         "locals": {
           "file": "['normal']"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -14781,22 +14073,12 @@ window.SCENE_TRACES={
         "locals": {
           "file": "['urgent', 'normal']"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(file.pop(0))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "file": "['normal']"
         },
         "return_value": "",
-        "output_so_far": "urgent\n"
+        "output_so_far": "",
+        "after_output": "urgent\n"
       }
     ]
   },
@@ -14822,8 +14104,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -14836,8 +14120,10 @@ window.SCENE_TRACES={
         "locals": {
           "file": "['A', 'B', 'C']"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -14850,22 +14136,12 @@ window.SCENE_TRACES={
         "locals": {
           "file": "['B', 'C']"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(len(file))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "file": "['B', 'C']"
         },
         "return_value": "",
-        "output_so_far": "2\n"
+        "output_so_far": "",
+        "after_output": "2\n"
       }
     ]
   },
@@ -14891,8 +14167,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -14905,22 +14183,12 @@ window.SCENE_TRACES={
         "locals": {
           "arbre": "{'valeur': 'Projet', 'enfants': []}"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(arbre[\"valeur\"])",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "arbre": "{'valeur': 'Projet', 'enfants': []}"
         },
         "return_value": "",
-        "output_so_far": "Projet\n"
+        "output_so_far": "",
+        "after_output": "Projet\n"
       }
     ]
   },
@@ -14946,8 +14214,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -14960,22 +14230,12 @@ window.SCENE_TRACES={
         "locals": {
           "noeud": "{'valeur': 'README', 'enfants': []}"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(noeud[\"enfants\"] == [])",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "noeud": "{'valeur': 'README', 'enfants': []}"
         },
         "return_value": "",
-        "output_so_far": "True\n"
+        "output_so_far": "",
+        "after_output": "True\n"
       }
     ]
   },
@@ -15001,22 +14261,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def visiter(n):",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "visiter": "<function visiter at 0x7f76754fda80>"
+        "after_locals": {
+          "visiter": "<function visiter at 0x7fd1ed9eee80>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -15042,22 +14292,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def hauteur(n):",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "hauteur": "<function hauteur at 0x7f76754fe840>"
+        "after_locals": {
+          "hauteur": "<function hauteur at 0x7fd1ed9eede0>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -15083,22 +14323,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def contient(n, cible):",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "contient": "<function contient at 0x7f76754fe520>"
+        "after_locals": {
+          "contient": "<function contient at 0x7fd1edb61800>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -15124,8 +14354,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -15138,22 +14370,12 @@ window.SCENE_TRACES={
         "locals": {
           "arbre": "{'valeur': 'Animal', 'enfants': [{'valeur': 'Mammifère', 'enfants': []}]}"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(arbre[\"valeur\"])",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "arbre": "{'valeur': 'Animal', 'enfants': [{'valeur': 'Mammifère', 'enfants': []}]}"
         },
         "return_value": "",
-        "output_so_far": "Animal\n"
+        "output_so_far": "",
+        "after_output": "Animal\n"
       }
     ]
   },
@@ -15179,8 +14401,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -15193,22 +14417,12 @@ window.SCENE_TRACES={
         "locals": {
           "racine": "{'nom': 'cours', 'enfants': [{'nom': 'python', 'enfants': []}, {'nom': 'data', 'enfants': []}]}"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(len(racine[\"enfants\"]))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "racine": "{'nom': 'cours', 'enfants': [{'nom': 'python', 'enfants': []}, {'nom': 'data', 'enfants': []}]}"
         },
         "return_value": "",
-        "output_so_far": "2\n"
+        "output_so_far": "",
+        "after_output": "2\n"
       }
     ]
   },
@@ -15234,8 +14448,10 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -15246,10 +14462,12 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "decision": "<function decision at 0x7f76754fde40>"
+          "decision": "<function decision at 0x7fd1ed9eeac0>"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -15262,8 +14480,10 @@ window.SCENE_TRACES={
         "locals": {
           "note": "14"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -15276,8 +14496,10 @@ window.SCENE_TRACES={
         "locals": {
           "note": "14"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -15290,22 +14512,12 @@ window.SCENE_TRACES={
         "locals": {
           "note": "14"
         },
-        "return_value": "{'valeur': 'reussi', 'enfants': []}",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(decision(14))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "decision": "<function decision at 0x7f76754fde40>"
+        "after_locals": {
+          "decision": "<function decision at 0x7fd1ed9eeac0>"
         },
-        "return_value": "",
-        "output_so_far": "{'valeur': 'reussi', 'enfants': []}\n"
+        "return_value": "{'valeur': 'reussi', 'enfants': []}",
+        "output_so_far": "",
+        "after_output": "{'valeur': 'reussi', 'enfants': []}\n"
       }
     ]
   },
@@ -15331,22 +14543,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def feuilles(n):",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "feuilles": "<function feuilles at 0x7f76754fc9a0>"
+        "after_locals": {
+          "feuilles": "<function feuilles at 0x7fd1ed9ed260>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -15372,22 +14574,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def afficher(n, niveau=0):",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "afficher": "<function afficher at 0x7f76754fc900>"
+        "after_locals": {
+          "afficher": "<function afficher at 0x7fd1ed9ee7a0>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -15413,22 +14605,12 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "arbre = {\"valeur\":\"A\", \"enfants\":[{\"valeur\":\"B\",\"enfants\":[]},{\"valeur\":\"C\",\"enfants\":[]}]}",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -15454,22 +14636,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def afficher(n):",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "afficher": "<function afficher at 0x7f76754fd3a0>"
+        "after_locals": {
+          "afficher": "<function afficher at 0x7fd1ed9ecfe0>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -15495,22 +14667,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def compter(n):",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "compter": "<function compter at 0x7f76754fd440>"
+        "after_locals": {
+          "compter": "<function compter at 0x7fd1ed9ec400>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -15536,22 +14698,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def feuille(n): return len(n[\"enfants\"]) == 0",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "feuille": "<function feuille at 0x7f76754fc2c0>"
+        "after_locals": {
+          "feuille": "<function feuille at 0x7fd1ed9ec680>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -15577,22 +14729,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def h(n):",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "h": "<function h at 0x7f76754fd6c0>"
+        "after_locals": {
+          "h": "<function h at 0x7fd1ed9ec360>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -15618,22 +14760,12 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "trouve = contient(arbre, \"Cours\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "trouve": "False"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -15659,22 +14791,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def afficher(n, niveau=0):",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "afficher": "<function afficher at 0x7f76754ff920>"
+        "after_locals": {
+          "afficher": "<function afficher at 0x7fd1ed9ed800>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -15700,22 +14822,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def feuilles(n):",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "feuilles": "<function feuilles at 0x7f76754ffb00>"
+        "after_locals": {
+          "feuilles": "<function feuilles at 0x7fd1ed9ed760>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -15741,22 +14853,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def ok(n): return n[\"valeur\"].startswith(\"C\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "ok": "<function ok at 0x7f76754ffe20>"
+        "after_locals": {
+          "ok": "<function ok at 0x7fd1ed9edda0>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -15782,22 +14884,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def afficher(n):",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "afficher": "<function afficher at 0x7f76753ac180>"
+        "after_locals": {
+          "afficher": "<function afficher at 0x7fd1ed9edee0>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -15823,22 +14915,12 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "noeud = {\"valeur\": \"racine\", \"enfants\": []}",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "noeud": "{'valeur': 'racine', 'enfants': []}"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -15864,22 +14946,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def compter(n):",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "compter": "<function compter at 0x7f76754ffce0>"
+        "after_locals": {
+          "compter": "<function compter at 0x7fd1ed9ef100>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -15905,22 +14977,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def contient(n, cible):",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "contient": "<function contient at 0x7f76754ffc40>"
+        "after_locals": {
+          "contient": "<function contient at 0x7fd1ed9ef7e0>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -15946,22 +15008,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def hauteur(n):",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "hauteur": "<function hauteur at 0x7f76754ff6a0>"
+        "after_locals": {
+          "hauteur": "<function hauteur at 0x7fd1ed9efa60>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -15987,22 +15039,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def afficher_feuilles(n):",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "afficher_feuilles": "<function afficher_feuilles at 0x7f76754fd940>"
+        "after_locals": {
+          "afficher_feuilles": "<function afficher_feuilles at 0x7fd1ed9efd80>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -16028,8 +15070,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -16042,22 +15086,12 @@ window.SCENE_TRACES={
         "locals": {
           "notes": "[8, 12, 14, 15, 19]"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(sum(notes) / len(notes))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "notes": "[8, 12, 14, 15, 19]"
         },
         "return_value": "",
-        "output_so_far": "13.6\n"
+        "output_so_far": "",
+        "after_output": "13.6\n"
       }
     ]
   },
@@ -16083,8 +15117,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -16097,8 +15133,10 @@ window.SCENE_TRACES={
         "locals": {
           "temps": "[18, 25, 20, 22, 35]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -16112,23 +15150,13 @@ window.SCENE_TRACES={
           "temps": "[18, 25, 20, 22, 35]",
           "tries": "[18, 20, 22, 25, 35]"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(tries[len(tries)//2])",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "temps": "[18, 25, 20, 22, 35]",
           "tries": "[18, 20, 22, 25, 35]"
         },
         "return_value": "",
-        "output_so_far": "22\n"
+        "output_so_far": "",
+        "after_output": "22\n"
       }
     ]
   },
@@ -16154,8 +15182,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -16168,22 +15198,12 @@ window.SCENE_TRACES={
         "locals": {
           "mesures": "[4, 8, 10]"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(max(mesures) - min(mesures))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "mesures": "[4, 8, 10]"
         },
         "return_value": "",
-        "output_so_far": "6\n"
+        "output_so_far": "",
+        "after_output": "6\n"
       }
     ]
   },
@@ -16209,8 +15229,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -16223,22 +15245,12 @@ window.SCENE_TRACES={
         "locals": {
           "mesures": "[12.5, 9.8, 15.2]"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(min(mesures), max(mesures))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "mesures": "[12.5, 9.8, 15.2]"
         },
         "return_value": "",
-        "output_so_far": "9.8 15.2\n"
+        "output_so_far": "",
+        "after_output": "9.8 15.2\n"
       }
     ]
   },
@@ -16264,8 +15276,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -16278,22 +15292,12 @@ window.SCENE_TRACES={
         "locals": {
           "notes": "[10, 10, 10, 20]"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(sum(notes)/len(notes))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "notes": "[10, 10, 10, 20]"
         },
         "return_value": "",
-        "output_so_far": "12.5\n"
+        "output_so_far": "",
+        "after_output": "12.5\n"
       }
     ]
   },
@@ -16319,8 +15323,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -16333,22 +15339,12 @@ window.SCENE_TRACES={
         "locals": {
           "fc": "[62, 70, 78, 66]"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(sum(fc)/len(fc), max(fc)-min(fc))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "fc": "[62, 70, 78, 66]"
         },
         "return_value": "",
-        "output_so_far": "69.0 16\n"
+        "output_so_far": "",
+        "after_output": "69.0 16\n"
       }
     ]
   },
@@ -16374,8 +15370,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -16388,8 +15386,10 @@ window.SCENE_TRACES={
         "locals": {
           "pop": "[100, 120, 150, 190]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -16403,8 +15403,10 @@ window.SCENE_TRACES={
           "pop": "[100, 120, 150, 190]",
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -16418,8 +15420,10 @@ window.SCENE_TRACES={
           "pop": "[100, 120, 150, 190]",
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -16433,8 +15437,10 @@ window.SCENE_TRACES={
           "pop": "[100, 120, 150, 190]",
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -16448,23 +15454,13 @@ window.SCENE_TRACES={
           "pop": "[100, 120, 150, 190]",
           "variations": "[20, 30, 40]"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(variations)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "pop": "[100, 120, 150, 190]",
           "variations": "[20, 30, 40]"
         },
         "return_value": "",
-        "output_so_far": "[20, 30, 40]\n"
+        "output_so_far": "",
+        "after_output": "[20, 30, 40]\n"
       }
     ]
   },
@@ -16490,8 +15486,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -16504,22 +15502,12 @@ window.SCENE_TRACES={
         "locals": {
           "valeurs": "[2, 4, 5, 8, 10, 12]"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(valeurs[:3], valeurs[3:])",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "valeurs": "[2, 4, 5, 8, 10, 12]"
         },
         "return_value": "",
-        "output_so_far": "[2, 4, 5] [8, 10, 12]\n"
+        "output_so_far": "",
+        "after_output": "[2, 4, 5] [8, 10, 12]\n"
       }
     ]
   },
@@ -16545,8 +15533,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -16559,8 +15549,10 @@ window.SCENE_TRACES={
         "locals": {
           "notes": "[10, 12, 10, 15, 12, 10]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -16574,8 +15566,10 @@ window.SCENE_TRACES={
           "notes": "[10, 12, 10, 15, 12, 10]",
           "n": "10"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -16589,8 +15583,10 @@ window.SCENE_TRACES={
           "notes": "[10, 12, 10, 15, 12, 10]",
           "n": "12"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -16604,22 +15600,12 @@ window.SCENE_TRACES={
           "notes": "[10, 12, 10, 15, 12, 10]",
           "n": "15"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print({n: notes.count(n) for n in set(notes)})",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "notes": "[10, 12, 10, 15, 12, 10]"
         },
         "return_value": "",
-        "output_so_far": "{10: 3, 12: 2, 15: 1}\n"
+        "output_so_far": "",
+        "after_output": "{10: 3, 12: 2, 15: 1}\n"
       }
     ]
   },
@@ -16645,8 +15631,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -16659,8 +15647,10 @@ window.SCENE_TRACES={
         "locals": {
           "moyenne": "13.4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -16674,23 +15664,13 @@ window.SCENE_TRACES={
           "moyenne": "13.4",
           "objectif": "12"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(\"objectif atteint\" if moyenne >= objectif else \"notion à retravailler\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "moyenne": "13.4",
           "objectif": "12"
         },
         "return_value": "",
-        "output_so_far": "objectif atteint\n"
+        "output_so_far": "",
+        "after_output": "objectif atteint\n"
       }
     ]
   },
@@ -16716,8 +15696,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -16730,22 +15712,12 @@ window.SCENE_TRACES={
         "locals": {
           "notes": "[10, 12, 14]"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(sum(notes)/len(notes))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "notes": "[10, 12, 14]"
         },
         "return_value": "",
-        "output_so_far": "12.0\n"
+        "output_so_far": "",
+        "after_output": "12.0\n"
       }
     ]
   },
@@ -16771,8 +15743,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -16785,23 +15759,13 @@ window.SCENE_TRACES={
         "locals": {
           "valeurs": "[2, 4, 6, 8]"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "mediane = (valeurs[1] + valeurs[2]) / 2",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "valeurs": "[2, 4, 6, 8]",
           "mediane": "5.0"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -16827,8 +15791,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -16841,22 +15807,12 @@ window.SCENE_TRACES={
         "locals": {
           "valeurs": "[3, 11, 7]"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(max(valeurs)-min(valeurs))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "valeurs": "[3, 11, 7]"
         },
         "return_value": "",
-        "output_so_far": "8\n"
+        "output_so_far": "",
+        "after_output": "8\n"
       }
     ]
   },
@@ -16882,8 +15838,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -16896,8 +15854,10 @@ window.SCENE_TRACES={
         "locals": {
           "valeurs": "[4, None, 6]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -16911,8 +15871,10 @@ window.SCENE_TRACES={
           "valeurs": "[4, None, 6]",
           "v": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -16926,8 +15888,10 @@ window.SCENE_TRACES={
           "valeurs": "[4, None, 6]",
           "v": "None"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -16941,23 +15905,13 @@ window.SCENE_TRACES={
           "valeurs": "[4, None, 6]",
           "v": "6"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "propres = [v for v in valeurs if v is not None]",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "valeurs": "[4, None, 6]",
           "propres": "[4, 6]"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -16983,8 +15937,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -16997,22 +15953,12 @@ window.SCENE_TRACES={
         "locals": {
           "donnees": "[2, 4, 6, 8]"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(len(donnees))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "donnees": "[2, 4, 6, 8]"
         },
         "return_value": "",
-        "output_so_far": "4\n"
+        "output_so_far": "",
+        "after_output": "4\n"
       }
     ]
   },
@@ -17038,8 +15984,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -17052,8 +16000,10 @@ window.SCENE_TRACES={
         "locals": {
           "m": "13.0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -17067,8 +16017,10 @@ window.SCENE_TRACES={
           "m": "13.0",
           "n": "12"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -17082,8 +16034,10 @@ window.SCENE_TRACES={
           "m": "13.0",
           "n": "14"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -17097,8 +16051,10 @@ window.SCENE_TRACES={
           "m": "13.0",
           "n": "16"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -17112,22 +16068,12 @@ window.SCENE_TRACES={
           "m": "13.0",
           "n": "10"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print([n for n in notes if n > m])",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "m": "13.0"
         },
         "return_value": "",
-        "output_so_far": "[14, 16]\n"
+        "output_so_far": "",
+        "after_output": "[14, 16]\n"
       }
     ]
   },
@@ -17153,8 +16099,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -17168,23 +16116,13 @@ window.SCENE_TRACES={
           "a": "[10, 12]",
           "b": "[14, 16]"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(sum(a)/len(a) < sum(b)/len(b))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "a": "[10, 12]",
           "b": "[14, 16]"
         },
         "return_value": "",
-        "output_so_far": "True\n"
+        "output_so_far": "",
+        "after_output": "True\n"
       }
     ]
   },
@@ -17210,8 +16148,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -17224,8 +16164,10 @@ window.SCENE_TRACES={
         "locals": {
           "notes": "[10, 10, 12]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -17239,8 +16181,10 @@ window.SCENE_TRACES={
           "notes": "[10, 10, 12]",
           "frequences": "{}"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -17255,8 +16199,10 @@ window.SCENE_TRACES={
           "frequences": "{10: 1}",
           "n": "10"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -17271,8 +16217,10 @@ window.SCENE_TRACES={
           "frequences": "{10: 2}",
           "n": "10"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -17287,24 +16235,14 @@ window.SCENE_TRACES={
           "frequences": "{10: 2, 12: 1}",
           "n": "12"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "for n in notes: frequences[n] = frequences.get(n, 0) + 1",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "notes": "[10, 10, 12]",
           "frequences": "{10: 2, 12: 1}",
           "n": "12"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -17330,8 +16268,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -17344,22 +16284,12 @@ window.SCENE_TRACES={
         "locals": {
           "v": "[4, 8, 10, 12, 16]"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(sum(v)/len(v), v[len(v)//2], max(v)-min(v))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "v": "[4, 8, 10, 12, 16]"
         },
         "return_value": "",
-        "output_so_far": "10.0 10 12\n"
+        "output_so_far": "",
+        "after_output": "10.0 10 12\n"
       }
     ]
   },
@@ -17385,8 +16315,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -17399,22 +16331,12 @@ window.SCENE_TRACES={
         "locals": {
           "m": "13.0"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(\"niveau global satisfaisant\" if m >= 10 else \"à retravailler\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "m": "13.0"
         },
         "return_value": "",
-        "output_so_far": "niveau global satisfaisant\n"
+        "output_so_far": "",
+        "after_output": "niveau global satisfaisant\n"
       }
     ]
   },
@@ -17440,8 +16362,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -17454,8 +16378,10 @@ window.SCENE_TRACES={
         "locals": {
           "notes": "[12, 16]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -17469,8 +16395,10 @@ window.SCENE_TRACES={
           "notes": "[12, 16]",
           "coeffs": "[1, 2]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -17481,10 +16409,12 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<zip object at 0x7f76753b6bc0>"
+          ".0": "<zip object at 0x7fd1eda881c0>"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -17495,10 +16425,12 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<zip object at 0x7f76753b6bc0>"
+          ".0": "<zip object at 0x7fd1eda881c0>"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -17509,12 +16441,14 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<zip object at 0x7f76753b6bc0>",
+          ".0": "<zip object at 0x7fd1eda881c0>",
           "n": "12",
           "c": "1"
         },
+        "after_locals": null,
         "return_value": "12",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -17525,12 +16459,14 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<zip object at 0x7f76753b6bc0>",
+          ".0": "<zip object at 0x7fd1eda881c0>",
           "n": "12",
           "c": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -17541,12 +16477,14 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<zip object at 0x7f76753b6bc0>",
+          ".0": "<zip object at 0x7fd1eda881c0>",
           "n": "12",
           "c": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -17557,12 +16495,14 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<zip object at 0x7f76753b6bc0>",
+          ".0": "<zip object at 0x7fd1eda881c0>",
           "n": "16",
           "c": "2"
         },
+        "after_locals": null,
         "return_value": "32",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -17573,12 +16513,14 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<zip object at 0x7f76753b6bc0>",
+          ".0": "<zip object at 0x7fd1eda881c0>",
           "n": "16",
           "c": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -17589,12 +16531,14 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<zip object at 0x7f76753b6bc0>",
+          ".0": "<zip object at 0x7fd1eda881c0>",
           "n": "16",
           "c": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -17605,27 +16549,17 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<zip object at 0x7f76753b6bc0>",
+          ".0": "<zip object at 0x7fd1eda881c0>",
           "n": "16",
           "c": "2"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(sum(n*c for n,c in zip(notes, coeffs)) / sum(coeffs))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "notes": "[12, 16]",
           "coeffs": "[1, 2]"
         },
         "return_value": "",
-        "output_so_far": "14.666666666666666\n"
+        "output_so_far": "",
+        "after_output": "14.666666666666666\n"
       }
     ]
   },
@@ -17651,8 +16585,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -17666,23 +16602,13 @@ window.SCENE_TRACES={
           "ancien": "100",
           "nouveau": "125"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print((nouveau - ancien) / ancien * 100)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "ancien": "100",
           "nouveau": "125"
         },
         "return_value": "",
-        "output_so_far": "25.0\n"
+        "output_so_far": "",
+        "after_output": "25.0\n"
       }
     ]
   },
@@ -17708,8 +16634,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -17722,22 +16650,12 @@ window.SCENE_TRACES={
         "locals": {
           "valeurs": "[2, 4, 5, 7, 9]"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(valeurs[len(valeurs)//2])",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "valeurs": "[2, 4, 5, 7, 9]"
         },
         "return_value": "",
-        "output_so_far": "5\n"
+        "output_so_far": "",
+        "after_output": "5\n"
       }
     ]
   },
@@ -17763,8 +16681,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -17777,8 +16697,10 @@ window.SCENE_TRACES={
         "locals": {
           "valeurs": "[10, None, 14]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -17792,8 +16714,10 @@ window.SCENE_TRACES={
           "valeurs": "[10, None, 14]",
           "v": "10"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -17807,8 +16731,10 @@ window.SCENE_TRACES={
           "valeurs": "[10, None, 14]",
           "v": "None"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -17822,8 +16748,10 @@ window.SCENE_TRACES={
           "valeurs": "[10, None, 14]",
           "v": "14"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -17837,23 +16765,13 @@ window.SCENE_TRACES={
           "valeurs": "[10, None, 14]",
           "propres": "[10, 14]"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(sum(propres)/len(propres))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "valeurs": "[10, None, 14]",
           "propres": "[10, 14]"
         },
         "return_value": "",
-        "output_so_far": "12.0\n"
+        "output_so_far": "",
+        "after_output": "12.0\n"
       }
     ]
   },
@@ -17879,8 +16797,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -17894,8 +16814,10 @@ window.SCENE_TRACES={
           "a": "[12, 14]",
           "b": "[15, 16]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -17911,25 +16833,15 @@ window.SCENE_TRACES={
           "ma": "13.0",
           "mb": "15.5"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(\"B\" if mb > ma else \"A\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "a": "[12, 14]",
           "b": "[15, 16]",
           "ma": "13.0",
           "mb": "15.5"
         },
         "return_value": "",
-        "output_so_far": "B\n"
+        "output_so_far": "",
+        "after_output": "B\n"
       }
     ]
   },
@@ -17955,8 +16867,10 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -17967,10 +16881,12 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "saluer": "<function saluer at 0x7f76754ff1a0>"
+          "saluer": "<function saluer at 0x7fd1ed9ed1c0>"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -17983,8 +16899,10 @@ window.SCENE_TRACES={
         "locals": {
           "nom": "'Lina'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -17997,8 +16915,10 @@ window.SCENE_TRACES={
         "locals": {
           "nom": "'Lina'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -18011,22 +16931,12 @@ window.SCENE_TRACES={
         "locals": {
           "nom": "'Lina'"
         },
-        "return_value": "'Bonjour Lina'",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(saluer(\"Lina\"))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "saluer": "<function saluer at 0x7f76754ff1a0>"
+        "after_locals": {
+          "saluer": "<function saluer at 0x7fd1ed9ed1c0>"
         },
-        "return_value": "",
-        "output_so_far": "Bonjour Lina\n"
+        "return_value": "'Bonjour Lina'",
+        "output_so_far": "",
+        "after_output": "Bonjour Lina\n"
       }
     ]
   },
@@ -18052,8 +16962,10 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -18064,10 +16976,12 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "carre": "<function carre at 0x7f76754ff600>"
+          "carre": "<function carre at 0x7fd1ed9ec360>"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -18080,8 +16994,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "6"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -18094,8 +17010,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "6"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -18108,22 +17026,12 @@ window.SCENE_TRACES={
         "locals": {
           "n": "6"
         },
-        "return_value": "36",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(carre(6))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "carre": "<function carre at 0x7f76754ff600>"
+        "after_locals": {
+          "carre": "<function carre at 0x7fd1ed9ec360>"
         },
-        "return_value": "",
-        "output_so_far": "36\n"
+        "return_value": "36",
+        "output_so_far": "",
+        "after_output": "36\n"
       }
     ]
   },
@@ -18149,8 +17057,10 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -18161,10 +17071,12 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "ttc": "<function ttc at 0x7f76754ff100>"
+          "ttc": "<function ttc at 0x7fd1ed9ecae0>"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -18178,8 +17090,10 @@ window.SCENE_TRACES={
           "prix": "100",
           "taux": "0.2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -18193,8 +17107,10 @@ window.SCENE_TRACES={
           "prix": "100",
           "taux": "0.2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -18208,22 +17124,12 @@ window.SCENE_TRACES={
           "prix": "100",
           "taux": "0.2"
         },
-        "return_value": "120.0",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(ttc(100))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "ttc": "<function ttc at 0x7f76754ff100>"
+        "after_locals": {
+          "ttc": "<function ttc at 0x7fd1ed9ecae0>"
         },
-        "return_value": "",
-        "output_so_far": "120.0\n"
+        "return_value": "120.0",
+        "output_so_far": "",
+        "after_output": "120.0\n"
       }
     ]
   },
@@ -18249,8 +17155,10 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -18261,10 +17169,12 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "valide": "<function valide at 0x7f76754ff920>"
+          "valide": "<function valide at 0x7fd1ed9ec400>"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -18277,8 +17187,10 @@ window.SCENE_TRACES={
         "locals": {
           "note": "18"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -18291,8 +17203,10 @@ window.SCENE_TRACES={
         "locals": {
           "note": "18"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -18305,22 +17219,12 @@ window.SCENE_TRACES={
         "locals": {
           "note": "18"
         },
-        "return_value": "True",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "print(valide(18))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "valide": "<function valide at 0x7f76754ff920>"
+        "after_locals": {
+          "valide": "<function valide at 0x7fd1ed9ec400>"
         },
-        "return_value": "",
-        "output_so_far": "True\n"
+        "return_value": "True",
+        "output_so_far": "",
+        "after_output": "True\n"
       }
     ]
   },
@@ -18346,8 +17250,10 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -18358,10 +17264,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {
-          "c_to_f": "<function c_to_f at 0x7f76754fe5c0>"
+          "c_to_f": "<function c_to_f at 0x7fd1ed9ecfe0>"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -18372,11 +17280,13 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "c_to_f": "<function c_to_f at 0x7f76754fe5c0>",
-          "chaud": "<function chaud at 0x7f76754fed40>"
+          "c_to_f": "<function c_to_f at 0x7fd1ed9ecfe0>",
+          "chaud": "<function chaud at 0x7fd1ed9ee8e0>"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -18389,8 +17299,10 @@ window.SCENE_TRACES={
         "locals": {
           "c": "25"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -18403,8 +17315,10 @@ window.SCENE_TRACES={
         "locals": {
           "c": "25"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -18417,8 +17331,10 @@ window.SCENE_TRACES={
         "locals": {
           "c": "25"
         },
+        "after_locals": null,
         "return_value": "77.0",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -18431,8 +17347,10 @@ window.SCENE_TRACES={
         "locals": {
           "f": "77.0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -18445,8 +17363,10 @@ window.SCENE_TRACES={
         "locals": {
           "f": "77.0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -18458,24 +17378,14 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {
           "f": "77.0"
+        },
+        "after_locals": {
+          "c_to_f": "<function c_to_f at 0x7fd1ed9ecfe0>",
+          "chaud": "<function chaud at 0x7fd1ed9ee8e0>"
         },
         "return_value": "True",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(chaud(c_to_f(25)))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "c_to_f": "<function c_to_f at 0x7f76754fe5c0>",
-          "chaud": "<function chaud at 0x7f76754fed40>"
-        },
-        "return_value": "",
-        "output_so_far": "True\n"
+        "output_so_far": "",
+        "after_output": "True\n"
       }
     ]
   },
@@ -18501,8 +17411,10 @@ window.SCENE_TRACES={
         "kind": "statement",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -18515,8 +17427,10 @@ window.SCENE_TRACES={
         "locals": {
           "pi": "3.141592653589793"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -18528,10 +17442,12 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {
           "pi": "3.141592653589793",
-          "aire_disque": "<function aire_disque at 0x7f76754fe700>"
+          "aire_disque": "<function aire_disque at 0x7fd1ed9ee7a0>"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -18544,8 +17460,10 @@ window.SCENE_TRACES={
         "locals": {
           "r": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -18558,8 +17476,10 @@ window.SCENE_TRACES={
         "locals": {
           "r": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -18572,23 +17492,13 @@ window.SCENE_TRACES={
         "locals": {
           "r": "3"
         },
-        "return_value": "28.274333882308138",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(aire_disque(3))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "pi": "3.141592653589793",
-          "aire_disque": "<function aire_disque at 0x7f76754fe700>"
+          "aire_disque": "<function aire_disque at 0x7fd1ed9ee7a0>"
         },
-        "return_value": "",
-        "output_so_far": "28.274333882308138\n"
+        "return_value": "28.274333882308138",
+        "output_so_far": "",
+        "after_output": "28.274333882308138\n"
       }
     ]
   },
@@ -18614,8 +17524,10 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -18626,10 +17538,12 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "vitesse": "<function vitesse at 0x7f76754fdc60>"
+          "vitesse": "<function vitesse at 0x7fd1ed9ed580>"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -18643,8 +17557,10 @@ window.SCENE_TRACES={
           "distance_km": "42",
           "temps_h": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -18658,8 +17574,10 @@ window.SCENE_TRACES={
           "distance_km": "42",
           "temps_h": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -18673,22 +17591,12 @@ window.SCENE_TRACES={
           "distance_km": "42",
           "temps_h": "2"
         },
-        "return_value": "21.0",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(vitesse(42, 2))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "vitesse": "<function vitesse at 0x7f76754fdc60>"
+        "after_locals": {
+          "vitesse": "<function vitesse at 0x7fd1ed9ed580>"
         },
-        "return_value": "",
-        "output_so_far": "21.0\n"
+        "return_value": "21.0",
+        "output_so_far": "",
+        "after_output": "21.0\n"
       }
     ]
   },
@@ -18714,8 +17622,10 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -18726,10 +17636,12 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "energie": "<function energie at 0x7f76754fe340>"
+          "energie": "<function energie at 0x7fd1ed9ee980>"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -18744,8 +17656,10 @@ window.SCENE_TRACES={
           "g": "9.81",
           "hauteur": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -18760,8 +17674,10 @@ window.SCENE_TRACES={
           "g": "9.81",
           "hauteur": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -18776,22 +17692,12 @@ window.SCENE_TRACES={
           "g": "9.81",
           "hauteur": "3"
         },
-        "return_value": "58.86",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(energie(2, 9.81, 3))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "energie": "<function energie at 0x7f76754fe340>"
+        "after_locals": {
+          "energie": "<function energie at 0x7fd1ed9ee980>"
         },
-        "return_value": "",
-        "output_so_far": "58.86\n"
+        "return_value": "58.86",
+        "output_so_far": "",
+        "after_output": "58.86\n"
       }
     ]
   },
@@ -18817,8 +17723,10 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -18829,10 +17737,12 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "concentration": "<function concentration at 0x7f76754fc900>"
+          "concentration": "<function concentration at 0x7fd1edb63ba0>"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -18846,8 +17756,10 @@ window.SCENE_TRACES={
           "masse": "12",
           "volume": "0.5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -18861,8 +17773,10 @@ window.SCENE_TRACES={
           "masse": "12",
           "volume": "0.5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -18876,22 +17790,12 @@ window.SCENE_TRACES={
           "masse": "12",
           "volume": "0.5"
         },
-        "return_value": "24.0",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(concentration(12, 0.5))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "concentration": "<function concentration at 0x7f76754fc900>"
+        "after_locals": {
+          "concentration": "<function concentration at 0x7fd1edb63ba0>"
         },
-        "return_value": "",
-        "output_so_far": "24.0\n"
+        "return_value": "24.0",
+        "output_so_far": "",
+        "after_output": "24.0\n"
       }
     ]
   },
@@ -18917,8 +17821,10 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 5,
@@ -18929,10 +17835,12 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "zone_pression": "<function zone_pression at 0x7f76754fc7c0>"
+          "zone_pression": "<function zone_pression at 0x7fd1ed9eede0>"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -18945,8 +17853,10 @@ window.SCENE_TRACES={
         "locals": {
           "valeur": "128"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -18959,8 +17869,10 @@ window.SCENE_TRACES={
         "locals": {
           "valeur": "128"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -18974,8 +17886,10 @@ window.SCENE_TRACES={
         "locals": {
           "valeur": "128"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -18989,8 +17903,10 @@ window.SCENE_TRACES={
         "locals": {
           "valeur": "128"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -19003,22 +17919,12 @@ window.SCENE_TRACES={
         "locals": {
           "valeur": "128"
         },
-        "return_value": "'élevée'",
-        "output_so_far": ""
-      },
-      {
-        "line": 5,
-        "source_line": "print(zone_pression(128))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "zone_pression": "<function zone_pression at 0x7f76754fc7c0>"
+        "after_locals": {
+          "zone_pression": "<function zone_pression at 0x7fd1ed9eede0>"
         },
-        "return_value": "",
-        "output_so_far": "élevée\n"
+        "return_value": "'élevée'",
+        "output_so_far": "",
+        "after_output": "élevée\n"
       }
     ]
   },
@@ -19044,22 +17950,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def est_pair(n): return n % 2 == 0",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "est_pair": "<function est_pair at 0x7f76754fd300>"
+        "after_locals": {
+          "est_pair": "<function est_pair at 0x7fd1ed9ee840>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -19085,22 +17981,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def moyenne(a,b): return (a+b)/2",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "moyenne": "<function moyenne at 0x7f76754fd4e0>"
+        "after_locals": {
+          "moyenne": "<function moyenne at 0x7fd1ed9ee520>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -19126,22 +18012,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def plus_grand(a,b): return a if a >= b else b",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "plus_grand": "<function plus_grand at 0x7f76754fd760>"
+        "after_locals": {
+          "plus_grand": "<function plus_grand at 0x7fd1ed9ecfe0>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -19167,22 +18043,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def remise(prix, taux=10): return prix*(1-taux/100)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "remise": "<function remise at 0x7f76754fef20>"
+        "after_locals": {
+          "remise": "<function remise at 0x7fd1ed9ec040>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -19208,22 +18074,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def phrase(nom, ville): return f\"{nom} habite à {ville}.\"",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "phrase": "<function phrase at 0x7f76754ffb00>"
+        "after_locals": {
+          "phrase": "<function phrase at 0x7fd1ed9ecae0>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -19249,22 +18105,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def secondes(minutes): return minutes*60",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "secondes": "<function secondes at 0x7f76754ffd80>"
+        "after_locals": {
+          "secondes": "<function secondes at 0x7fd1ed9ec360>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -19290,22 +18136,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def categorie(age):",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "categorie": "<function categorie at 0x7f76754ffe20>"
+        "after_locals": {
+          "categorie": "<function categorie at 0x7fd1ed9ed1c0>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -19331,22 +18167,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def total(valeurs): return sum(valeurs)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "total": "<function total at 0x7f767547bf60>"
+        "after_locals": {
+          "total": "<function total at 0x7fd1ed9ed620>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -19372,8 +18198,10 @@ window.SCENE_TRACES={
         "kind": "statement",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -19384,20 +18212,10 @@ window.SCENE_TRACES={
         "kind": "statement",
         "iteration": null,
         "locals": {},
+        "after_locals": {},
         "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 2,
-        "source_line": "assert not est_pair(5)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {},
-        "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -19423,22 +18241,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def carre(n):",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "carre": "<function carre at 0x7f76753ac4a0>"
+        "after_locals": {
+          "carre": "<function carre at 0x7fd1ed9ed8a0>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -19464,22 +18272,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def fcm(age):",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "fcm": "<function fcm at 0x7f76753ac5e0>"
+        "after_locals": {
+          "fcm": "<function fcm at 0x7fd1ed9ee0c0>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -19505,22 +18303,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def celsius_vers_kelvin(c):",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "celsius_vers_kelvin": "<function celsius_vers_kelvin at 0x7f76753ac900>"
+        "after_locals": {
+          "celsius_vers_kelvin": "<function celsius_vers_kelvin at 0x7fd1ed9ef1a0>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -19546,22 +18334,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def intensite(u, r):",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "intensite": "<function intensite at 0x7f76753acc20>"
+        "after_locals": {
+          "intensite": "<function intensite at 0x7fd1ed9ef600>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -19587,22 +18365,12 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 1,
-        "source_line": "def est_pair(n):",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "est_pair": "<function est_pair at 0x7f76753acf40>"
+        "after_locals": {
+          "est_pair": "<function est_pair at 0x7fd1ed9efba0>"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -19628,8 +18396,10 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -19640,10 +18410,12 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {
-          "vitesse": "<function vitesse at 0x7f76754fff60>"
+          "vitesse": "<function vitesse at 0x7fd1ed9ef920>"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -19657,8 +18429,10 @@ window.SCENE_TRACES={
           "d": "100",
           "t": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -19672,8 +18446,10 @@ window.SCENE_TRACES={
           "d": "100",
           "t": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -19687,8 +18463,10 @@ window.SCENE_TRACES={
           "d": "100",
           "t": "2"
         },
+        "after_locals": null,
         "return_value": "50.0",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -19699,10 +18477,12 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {
-          "vitesse": "<function vitesse at 0x7f76754fff60>"
+          "vitesse": "<function vitesse at 0x7fd1ed9ef920>"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -19716,8 +18496,10 @@ window.SCENE_TRACES={
           "d": "30",
           "t": "1.5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -19731,8 +18513,10 @@ window.SCENE_TRACES={
           "d": "30",
           "t": "1.5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -19746,22 +18530,12 @@ window.SCENE_TRACES={
           "d": "30",
           "t": "1.5"
         },
-        "return_value": "20.0",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "assert vitesse(30, 1.5) == 20",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
-          "vitesse": "<function vitesse at 0x7f76754fff60>"
+        "after_locals": {
+          "vitesse": "<function vitesse at 0x7fd1ed9ef920>"
         },
-        "return_value": "",
-        "output_so_far": ""
+        "return_value": "20.0",
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -19787,8 +18561,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -19801,8 +18577,10 @@ window.SCENE_TRACES={
         "locals": {
           "t": "18"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -19816,8 +18594,10 @@ window.SCENE_TRACES={
         "locals": {
           "t": "18"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": true
       },
       {
@@ -19831,8 +18611,10 @@ window.SCENE_TRACES={
         "locals": {
           "t": "18"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 8,
@@ -19846,23 +18628,13 @@ window.SCENE_TRACES={
           "t": "18",
           "etat": "'liquide'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 8,
-        "source_line": "print(etat)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "t": "18",
           "etat": "'liquide'"
         },
         "return_value": "",
-        "output_so_far": "liquide\n"
+        "output_so_far": "",
+        "after_output": "liquide\n"
       }
     ]
   },
@@ -19888,8 +18660,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -19902,8 +18676,10 @@ window.SCENE_TRACES={
         "locals": {
           "age": "16"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -19917,8 +18693,10 @@ window.SCENE_TRACES={
           "age": "16",
           "parent": "True"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -19933,8 +18711,10 @@ window.SCENE_TRACES={
           "age": "16",
           "parent": "True"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": true
       },
       {
@@ -19949,8 +18729,10 @@ window.SCENE_TRACES={
           "age": "16",
           "parent": "True"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 9,
@@ -19965,24 +18747,14 @@ window.SCENE_TRACES={
           "parent": "True",
           "autorise": "True"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 9,
-        "source_line": "print(autorise)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "age": "16",
           "parent": "True",
           "autorise": "True"
         },
         "return_value": "",
-        "output_so_far": "True\n"
+        "output_so_far": "",
+        "after_output": "True\n"
       }
     ]
   },
@@ -20008,8 +18780,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -20022,8 +18796,10 @@ window.SCENE_TRACES={
         "locals": {
           "note": "15"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": true
       },
       {
@@ -20037,8 +18813,10 @@ window.SCENE_TRACES={
         "locals": {
           "note": "15"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": true
       },
       {
@@ -20052,8 +18830,10 @@ window.SCENE_TRACES={
         "locals": {
           "note": "15"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 9,
@@ -20067,23 +18847,13 @@ window.SCENE_TRACES={
           "note": "15",
           "mention": "'réussite'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 9,
-        "source_line": "print(mention)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "note": "15",
           "mention": "'réussite'"
         },
         "return_value": "",
-        "output_so_far": "réussite\n"
+        "output_so_far": "",
+        "after_output": "réussite\n"
       }
     ]
   },
@@ -20109,8 +18879,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -20123,8 +18895,10 @@ window.SCENE_TRACES={
         "locals": {
           "couleur": "'orange'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -20138,8 +18912,10 @@ window.SCENE_TRACES={
           "couleur": "'orange'",
           "urgence": "False"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -20154,8 +18930,10 @@ window.SCENE_TRACES={
           "couleur": "'orange'",
           "urgence": "False"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": true
       },
       {
@@ -20170,8 +18948,10 @@ window.SCENE_TRACES={
           "couleur": "'orange'",
           "urgence": "False"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": true
       },
       {
@@ -20186,8 +18966,10 @@ window.SCENE_TRACES={
           "couleur": "'orange'",
           "urgence": "False"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 12,
@@ -20202,24 +18984,14 @@ window.SCENE_TRACES={
           "urgence": "False",
           "action": "'ralentir'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 12,
-        "source_line": "print(action)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "couleur": "'orange'",
           "urgence": "False",
           "action": "'ralentir'"
         },
         "return_value": "",
-        "output_so_far": "ralentir\n"
+        "output_so_far": "",
+        "after_output": "ralentir\n"
       }
     ]
   },
@@ -20245,8 +19017,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -20261,8 +19035,10 @@ window.SCENE_TRACES={
           "b": "4",
           "c": "5"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": true
       },
       {
@@ -20278,8 +19054,10 @@ window.SCENE_TRACES={
           "b": "4",
           "c": "5"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": true
       },
       {
@@ -20295,8 +19073,10 @@ window.SCENE_TRACES={
           "b": "4",
           "c": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 9,
@@ -20312,25 +19092,15 @@ window.SCENE_TRACES={
           "c": "5",
           "nature": "'rectangle'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 9,
-        "source_line": "print(nature)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "a": "3",
           "b": "4",
           "c": "5",
           "nature": "'rectangle'"
         },
         "return_value": "",
-        "output_so_far": "rectangle\n"
+        "output_so_far": "",
+        "after_output": "rectangle\n"
       }
     ]
   },
@@ -20356,8 +19126,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -20370,8 +19142,10 @@ window.SCENE_TRACES={
         "locals": {
           "niveau": "22"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -20385,8 +19159,10 @@ window.SCENE_TRACES={
           "niveau": "22",
           "chargeur": "True"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": true
       },
       {
@@ -20401,8 +19177,10 @@ window.SCENE_TRACES={
           "niveau": "22",
           "chargeur": "True"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 10,
@@ -20417,24 +19195,14 @@ window.SCENE_TRACES={
           "chargeur": "True",
           "message": "'continuer'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 10,
-        "source_line": "print(message)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "niveau": "22",
           "chargeur": "True",
           "message": "'continuer'"
         },
         "return_value": "",
-        "output_so_far": "continuer\n"
+        "output_so_far": "",
+        "after_output": "continuer\n"
       }
     ]
   },
@@ -20460,8 +19228,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -20474,8 +19244,10 @@ window.SCENE_TRACES={
         "locals": {
           "vitesse": "72"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -20489,8 +19261,10 @@ window.SCENE_TRACES={
           "vitesse": "72",
           "route": "'ville'"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": true
       },
       {
@@ -20505,8 +19279,10 @@ window.SCENE_TRACES={
           "vitesse": "72",
           "route": "'ville'"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": true
       },
       {
@@ -20521,8 +19297,10 @@ window.SCENE_TRACES={
           "vitesse": "72",
           "route": "'ville'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 10,
@@ -20537,24 +19315,14 @@ window.SCENE_TRACES={
           "route": "'ville'",
           "message": "'ralentir'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 10,
-        "source_line": "print(message)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "vitesse": "72",
           "route": "'ville'",
           "message": "'ralentir'"
         },
         "return_value": "",
-        "output_so_far": "ralentir\n"
+        "output_so_far": "",
+        "after_output": "ralentir\n"
       }
     ]
   },
@@ -20580,8 +19348,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -20594,8 +19364,10 @@ window.SCENE_TRACES={
         "locals": {
           "code": "'A7'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -20609,8 +19381,10 @@ window.SCENE_TRACES={
           "code": "'A7'",
           "actif": "True"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": true
       },
       {
@@ -20625,8 +19399,10 @@ window.SCENE_TRACES={
           "code": "'A7'",
           "actif": "True"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": true
       },
       {
@@ -20641,8 +19417,10 @@ window.SCENE_TRACES={
           "code": "'A7'",
           "actif": "True"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 10,
@@ -20657,24 +19435,14 @@ window.SCENE_TRACES={
           "actif": "True",
           "acces": "'autorisé'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 10,
-        "source_line": "print(acces)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "code": "'A7'",
           "actif": "True",
           "acces": "'autorisé'"
         },
         "return_value": "",
-        "output_so_far": "autorisé\n"
+        "output_so_far": "",
+        "after_output": "autorisé\n"
       }
     ]
   },
@@ -20700,8 +19468,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -20714,8 +19484,10 @@ window.SCENE_TRACES={
         "locals": {
           "stock": "8"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -20729,8 +19501,10 @@ window.SCENE_TRACES={
           "stock": "8",
           "commande": "5"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": true
       },
       {
@@ -20745,8 +19519,10 @@ window.SCENE_TRACES={
           "stock": "8",
           "commande": "5"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": true
       },
       {
@@ -20761,8 +19537,10 @@ window.SCENE_TRACES={
           "stock": "8",
           "commande": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 10,
@@ -20777,24 +19555,14 @@ window.SCENE_TRACES={
           "commande": "5",
           "resultat": "'préparer'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 10,
-        "source_line": "print(resultat)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "stock": "8",
           "commande": "5",
           "resultat": "'préparer'"
         },
         "return_value": "",
-        "output_so_far": "préparer\n"
+        "output_so_far": "",
+        "after_output": "préparer\n"
       }
     ]
   },
@@ -20820,8 +19588,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -20834,8 +19604,10 @@ window.SCENE_TRACES={
         "locals": {
           "moyenne": "13"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -20849,8 +19621,10 @@ window.SCENE_TRACES={
           "moyenne": "13",
           "presents": "4"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": true
       },
       {
@@ -20865,8 +19639,10 @@ window.SCENE_TRACES={
           "moyenne": "13",
           "presents": "4"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": true
       },
       {
@@ -20881,8 +19657,10 @@ window.SCENE_TRACES={
           "moyenne": "13",
           "presents": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 10,
@@ -20897,24 +19675,14 @@ window.SCENE_TRACES={
           "presents": "4",
           "decision": "'validé'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 10,
-        "source_line": "print(decision)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "moyenne": "13",
           "presents": "4",
           "decision": "'validé'"
         },
         "return_value": "",
-        "output_so_far": "validé\n"
+        "output_so_far": "",
+        "after_output": "validé\n"
       }
     ]
   },
@@ -20940,8 +19708,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -20954,8 +19724,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "14"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -20970,23 +19742,13 @@ window.SCENE_TRACES={
           "n": "14",
           "resultat": "'pair'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(resultat)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "n": "14",
           "resultat": "'pair'"
         },
         "return_value": "",
-        "output_so_far": "pair\n"
+        "output_so_far": "",
+        "after_output": "pair\n"
       }
     ]
   },
@@ -21012,8 +19774,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -21026,8 +19790,10 @@ window.SCENE_TRACES={
         "locals": {
           "x": "42"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -21041,8 +19807,10 @@ window.SCENE_TRACES={
         "locals": {
           "x": "42"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -21057,23 +19825,13 @@ window.SCENE_TRACES={
           "x": "42",
           "classe": "'B'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 5,
-        "source_line": "print(classe)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "x": "42",
           "classe": "'B'"
         },
         "return_value": "",
-        "output_so_far": "B\n"
+        "output_so_far": "",
+        "after_output": "B\n"
       }
     ]
   },
@@ -21099,8 +19857,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -21113,23 +19873,13 @@ window.SCENE_TRACES={
         "locals": {
           "x": "12"
         },
-        "return_value": "",
-        "output_so_far": "",
-        "branch_taken": false
-      },
-      {
-        "line": 2,
-        "source_line": "if 0 <= x <= 20: print(\"ok\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "x": "12"
         },
         "return_value": "",
-        "output_so_far": "ok\n"
+        "output_so_far": "",
+        "after_output": "ok\n",
+        "branch_taken": false
       }
     ]
   },
@@ -21155,8 +19905,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -21169,8 +19921,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "14"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -21185,23 +19939,13 @@ window.SCENE_TRACES={
           "n": "14",
           "resultat": "'pair'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(resultat)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "n": "14",
           "resultat": "'pair'"
         },
         "return_value": "",
-        "output_so_far": "pair\n"
+        "output_so_far": "",
+        "after_output": "pair\n"
       }
     ]
   },
@@ -21227,8 +19971,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -21241,8 +19987,10 @@ window.SCENE_TRACES={
         "locals": {
           "x": "42"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -21256,8 +20004,10 @@ window.SCENE_TRACES={
         "locals": {
           "x": "42"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -21272,23 +20022,13 @@ window.SCENE_TRACES={
           "x": "42",
           "classe": "'B'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 5,
-        "source_line": "print(classe)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "x": "42",
           "classe": "'B'"
         },
         "return_value": "",
-        "output_so_far": "B\n"
+        "output_so_far": "",
+        "after_output": "B\n"
       }
     ]
   },
@@ -21314,8 +20054,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -21328,23 +20070,13 @@ window.SCENE_TRACES={
         "locals": {
           "x": "12"
         },
-        "return_value": "",
-        "output_so_far": "",
-        "branch_taken": false
-      },
-      {
-        "line": 2,
-        "source_line": "if 0 <= x <= 20: print(\"ok\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "x": "12"
         },
         "return_value": "",
-        "output_so_far": "ok\n"
+        "output_so_far": "",
+        "after_output": "ok\n",
+        "branch_taken": false
       }
     ]
   },
@@ -21370,8 +20102,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -21384,8 +20118,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "14"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -21400,23 +20136,13 @@ window.SCENE_TRACES={
           "n": "14",
           "resultat": "'pair'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(resultat)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "n": "14",
           "resultat": "'pair'"
         },
         "return_value": "",
-        "output_so_far": "pair\n"
+        "output_so_far": "",
+        "after_output": "pair\n"
       }
     ]
   },
@@ -21442,8 +20168,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -21456,8 +20184,10 @@ window.SCENE_TRACES={
         "locals": {
           "x": "42"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -21471,8 +20201,10 @@ window.SCENE_TRACES={
         "locals": {
           "x": "42"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -21487,23 +20219,13 @@ window.SCENE_TRACES={
           "x": "42",
           "classe": "'B'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 5,
-        "source_line": "print(classe)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "x": "42",
           "classe": "'B'"
         },
         "return_value": "",
-        "output_so_far": "B\n"
+        "output_so_far": "",
+        "after_output": "B\n"
       }
     ]
   },
@@ -21529,8 +20251,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -21543,23 +20267,13 @@ window.SCENE_TRACES={
         "locals": {
           "x": "12"
         },
-        "return_value": "",
-        "output_so_far": "",
-        "branch_taken": false
-      },
-      {
-        "line": 2,
-        "source_line": "if 0 <= x <= 20: print(\"ok\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "x": "12"
         },
         "return_value": "",
-        "output_so_far": "ok\n"
+        "output_so_far": "",
+        "after_output": "ok\n",
+        "branch_taken": false
       }
     ]
   },
@@ -21585,8 +20299,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -21599,8 +20315,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "14"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -21615,23 +20333,13 @@ window.SCENE_TRACES={
           "n": "14",
           "resultat": "'pair'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(resultat)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "n": "14",
           "resultat": "'pair'"
         },
         "return_value": "",
-        "output_so_far": "pair\n"
+        "output_so_far": "",
+        "after_output": "pair\n"
       }
     ]
   },
@@ -21657,8 +20365,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -21671,8 +20381,10 @@ window.SCENE_TRACES={
         "locals": {
           "x": "42"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -21686,8 +20398,10 @@ window.SCENE_TRACES={
         "locals": {
           "x": "42"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -21702,23 +20416,13 @@ window.SCENE_TRACES={
           "x": "42",
           "classe": "'B'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 5,
-        "source_line": "print(classe)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "x": "42",
           "classe": "'B'"
         },
         "return_value": "",
-        "output_so_far": "B\n"
+        "output_so_far": "",
+        "after_output": "B\n"
       }
     ]
   },
@@ -21744,8 +20448,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -21758,23 +20464,13 @@ window.SCENE_TRACES={
         "locals": {
           "x": "12"
         },
-        "return_value": "",
-        "output_so_far": "",
-        "branch_taken": false
-      },
-      {
-        "line": 2,
-        "source_line": "if 0 <= x <= 20: print(\"ok\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "x": "12"
         },
         "return_value": "",
-        "output_so_far": "ok\n"
+        "output_so_far": "",
+        "after_output": "ok\n",
+        "branch_taken": false
       }
     ]
   },
@@ -21800,8 +20496,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -21814,8 +20512,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "14"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -21830,23 +20530,13 @@ window.SCENE_TRACES={
           "n": "14",
           "resultat": "'pair'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(resultat)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "n": "14",
           "resultat": "'pair'"
         },
         "return_value": "",
-        "output_so_far": "pair\n"
+        "output_so_far": "",
+        "after_output": "pair\n"
       }
     ]
   },
@@ -21872,8 +20562,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -21886,8 +20578,10 @@ window.SCENE_TRACES={
         "locals": {
           "x": "42"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -21901,8 +20595,10 @@ window.SCENE_TRACES={
         "locals": {
           "x": "42"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -21917,23 +20613,13 @@ window.SCENE_TRACES={
           "x": "42",
           "classe": "'B'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 5,
-        "source_line": "print(classe)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "x": "42",
           "classe": "'B'"
         },
         "return_value": "",
-        "output_so_far": "B\n"
+        "output_so_far": "",
+        "after_output": "B\n"
       }
     ]
   },
@@ -21959,8 +20645,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -21973,23 +20661,13 @@ window.SCENE_TRACES={
         "locals": {
           "x": "12"
         },
-        "return_value": "",
-        "output_so_far": "",
-        "branch_taken": false
-      },
-      {
-        "line": 2,
-        "source_line": "if 0 <= x <= 20: print(\"ok\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "x": "12"
         },
         "return_value": "",
-        "output_so_far": "ok\n"
+        "output_so_far": "",
+        "after_output": "ok\n",
+        "branch_taken": false
       }
     ]
   },
@@ -22015,8 +20693,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -22029,8 +20709,10 @@ window.SCENE_TRACES={
         "locals": {
           "pluie": "False"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -22044,8 +20726,10 @@ window.SCENE_TRACES={
           "pluie": "False",
           "vent": "12"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -22060,8 +20744,10 @@ window.SCENE_TRACES={
           "vent": "12",
           "temperature": "9"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -22077,8 +20763,10 @@ window.SCENE_TRACES={
           "vent": "12",
           "temperature": "9"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -22094,8 +20782,10 @@ window.SCENE_TRACES={
           "vent": "12",
           "temperature": "9"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": true
       },
       {
@@ -22111,8 +20801,10 @@ window.SCENE_TRACES={
           "vent": "12",
           "temperature": "9"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 12,
@@ -22128,25 +20820,15 @@ window.SCENE_TRACES={
           "temperature": "9",
           "conseil": "'veste chaude'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 12,
-        "source_line": "print(conseil)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "pluie": "False",
           "vent": "12",
           "temperature": "9",
           "conseil": "'veste chaude'"
         },
         "return_value": "",
-        "output_so_far": "veste chaude\n"
+        "output_so_far": "",
+        "after_output": "veste chaude\n"
       }
     ]
   },
@@ -22172,8 +20854,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -22186,8 +20870,10 @@ window.SCENE_TRACES={
         "locals": {
           "age": "17"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -22201,8 +20887,10 @@ window.SCENE_TRACES={
         "locals": {
           "age": "17"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": true
       },
       {
@@ -22216,23 +20904,13 @@ window.SCENE_TRACES={
         "locals": {
           "age": "17"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 5,
-        "source_line": "    tarif = 2",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 4,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "age": "17",
           "tarif": "2"
         },
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": ""
       }
     ]
   },
@@ -22258,8 +20936,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -22272,8 +20952,10 @@ window.SCENE_TRACES={
         "locals": {
           "score": "74"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -22287,8 +20969,10 @@ window.SCENE_TRACES={
         "locals": {
           "score": "74"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -22302,8 +20986,10 @@ window.SCENE_TRACES={
         "locals": {
           "score": "74"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": true
       },
       {
@@ -22317,8 +21003,10 @@ window.SCENE_TRACES={
         "locals": {
           "score": "74"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 10,
@@ -22332,23 +21020,13 @@ window.SCENE_TRACES={
           "score": "74",
           "niveau": "'intermédiaire'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 10,
-        "source_line": "print(niveau)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "score": "74",
           "niveau": "'intermédiaire'"
         },
         "return_value": "",
-        "output_so_far": "intermédiaire\n"
+        "output_so_far": "",
+        "after_output": "intermédiaire\n"
       }
     ]
   },
@@ -22374,8 +21052,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -22388,8 +21068,10 @@ window.SCENE_TRACES={
         "locals": {
           "indice": "82"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -22403,8 +21085,10 @@ window.SCENE_TRACES={
         "locals": {
           "indice": "82"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -22418,8 +21102,10 @@ window.SCENE_TRACES={
         "locals": {
           "indice": "82"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -22434,23 +21120,13 @@ window.SCENE_TRACES={
           "indice": "82",
           "niveau": "'dégradé'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 6,
-        "source_line": "print(niveau)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "indice": "82",
           "niveau": "'dégradé'"
         },
         "return_value": "",
-        "output_so_far": "dégradé\n"
+        "output_so_far": "",
+        "after_output": "dégradé\n"
       }
     ]
   },
@@ -22476,8 +21152,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -22492,8 +21170,10 @@ window.SCENE_TRACES={
           "b": "4",
           "op": "'/'"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -22509,8 +21189,10 @@ window.SCENE_TRACES={
           "b": "4",
           "op": "'/'"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -22526,8 +21208,10 @@ window.SCENE_TRACES={
           "b": "4",
           "op": "'/'"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -22543,8 +21227,10 @@ window.SCENE_TRACES={
           "b": "4",
           "op": "'/'"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -22561,25 +21247,15 @@ window.SCENE_TRACES={
           "op": "'/'",
           "resultat": "3.0"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 7,
-        "source_line": "print(resultat)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "a": "12",
           "b": "4",
           "op": "'/'",
           "resultat": "3.0"
         },
         "return_value": "",
-        "output_so_far": "3.0\n"
+        "output_so_far": "",
+        "after_output": "3.0\n"
       }
     ]
   },
@@ -22605,8 +21281,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -22619,8 +21297,10 @@ window.SCENE_TRACES={
         "locals": {
           "ko": "840"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -22634,8 +21314,10 @@ window.SCENE_TRACES={
         "locals": {
           "ko": "840"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": true
       },
       {
@@ -22649,8 +21331,10 @@ window.SCENE_TRACES={
         "locals": {
           "ko": "840"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 8,
@@ -22664,23 +21348,13 @@ window.SCENE_TRACES={
           "ko": "840",
           "classe": "'moyen'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 8,
-        "source_line": "print(classe)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "ko": "840",
           "classe": "'moyen'"
         },
         "return_value": "",
-        "output_so_far": "moyen\n"
+        "output_so_far": "",
+        "after_output": "moyen\n"
       }
     ]
   },
@@ -22706,8 +21380,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -22720,8 +21396,10 @@ window.SCENE_TRACES={
         "locals": {
           "ressentie": "4"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -22735,8 +21413,10 @@ window.SCENE_TRACES={
         "locals": {
           "ressentie": "4"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -22751,23 +21431,13 @@ window.SCENE_TRACES={
           "ressentie": "4",
           "risque": "'froid'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 6,
-        "source_line": "print(risque)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "ressentie": "4",
           "risque": "'froid'"
         },
         "return_value": "",
-        "output_so_far": "froid\n"
+        "output_so_far": "",
+        "after_output": "froid\n"
       }
     ]
   },
@@ -22793,8 +21463,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -22807,8 +21479,10 @@ window.SCENE_TRACES={
         "locals": {
           "energie": "38"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -22822,8 +21496,10 @@ window.SCENE_TRACES={
         "locals": {
           "energie": "38"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -22837,8 +21513,10 @@ window.SCENE_TRACES={
         "locals": {
           "energie": "38"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -22853,23 +21531,13 @@ window.SCENE_TRACES={
           "energie": "38",
           "etat": "'correcte'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 6,
-        "source_line": "print(etat)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "energie": "38",
           "etat": "'correcte'"
         },
         "return_value": "",
-        "output_so_far": "correcte\n"
+        "output_so_far": "",
+        "after_output": "correcte\n"
       }
     ]
   },
@@ -22895,8 +21563,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -22909,8 +21579,10 @@ window.SCENE_TRACES={
         "locals": {
           "attente": "48"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -22924,8 +21596,10 @@ window.SCENE_TRACES={
         "locals": {
           "attente": "48"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -22939,8 +21613,10 @@ window.SCENE_TRACES={
         "locals": {
           "attente": "48"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -22955,23 +21631,13 @@ window.SCENE_TRACES={
           "attente": "48",
           "priorite": "'normale'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 6,
-        "source_line": "print(priorite)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "attente": "48",
           "priorite": "'normale'"
         },
         "return_value": "",
-        "output_so_far": "normale\n"
+        "output_so_far": "",
+        "after_output": "normale\n"
       }
     ]
   },
@@ -22997,8 +21663,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -23011,8 +21679,10 @@ window.SCENE_TRACES={
         "locals": {
           "imc": "24.2"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -23026,8 +21696,10 @@ window.SCENE_TRACES={
         "locals": {
           "imc": "24.2"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -23042,23 +21714,13 @@ window.SCENE_TRACES={
           "imc": "24.2",
           "categorie": "'référence'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 6,
-        "source_line": "print(categorie)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "imc": "24.2",
           "categorie": "'référence'"
         },
         "return_value": "",
-        "output_so_far": "référence\n"
+        "output_so_far": "",
+        "after_output": "référence\n"
       }
     ]
   },
@@ -23084,8 +21746,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -23098,8 +21762,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "14"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -23114,23 +21780,13 @@ window.SCENE_TRACES={
           "n": "14",
           "resultat": "'pair'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(resultat)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "n": "14",
           "resultat": "'pair'"
         },
         "return_value": "",
-        "output_so_far": "pair\n"
+        "output_so_far": "",
+        "after_output": "pair\n"
       }
     ]
   },
@@ -23156,8 +21812,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -23170,8 +21828,10 @@ window.SCENE_TRACES={
         "locals": {
           "x": "42"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -23185,8 +21845,10 @@ window.SCENE_TRACES={
         "locals": {
           "x": "42"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -23201,23 +21863,13 @@ window.SCENE_TRACES={
           "x": "42",
           "classe": "'B'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 5,
-        "source_line": "print(classe)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "x": "42",
           "classe": "'B'"
         },
         "return_value": "",
-        "output_so_far": "B\n"
+        "output_so_far": "",
+        "after_output": "B\n"
       }
     ]
   },
@@ -23243,8 +21895,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -23257,23 +21911,13 @@ window.SCENE_TRACES={
         "locals": {
           "x": "12"
         },
-        "return_value": "",
-        "output_so_far": "",
-        "branch_taken": false
-      },
-      {
-        "line": 2,
-        "source_line": "if 0 <= x <= 20: print(\"ok\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "x": "12"
         },
         "return_value": "",
-        "output_so_far": "ok\n"
+        "output_so_far": "",
+        "after_output": "ok\n",
+        "branch_taken": false
       }
     ]
   },
@@ -23299,8 +21943,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -23313,8 +21959,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "14"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -23329,23 +21977,13 @@ window.SCENE_TRACES={
           "n": "14",
           "resultat": "'pair'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(resultat)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "n": "14",
           "resultat": "'pair'"
         },
         "return_value": "",
-        "output_so_far": "pair\n"
+        "output_so_far": "",
+        "after_output": "pair\n"
       }
     ]
   },
@@ -23371,8 +22009,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -23385,8 +22025,10 @@ window.SCENE_TRACES={
         "locals": {
           "x": "42"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -23400,8 +22042,10 @@ window.SCENE_TRACES={
         "locals": {
           "x": "42"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -23416,23 +22060,13 @@ window.SCENE_TRACES={
           "x": "42",
           "classe": "'B'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 5,
-        "source_line": "print(classe)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "x": "42",
           "classe": "'B'"
         },
         "return_value": "",
-        "output_so_far": "B\n"
+        "output_so_far": "",
+        "after_output": "B\n"
       }
     ]
   },
@@ -23458,8 +22092,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -23472,23 +22108,13 @@ window.SCENE_TRACES={
         "locals": {
           "x": "12"
         },
-        "return_value": "",
-        "output_so_far": "",
-        "branch_taken": false
-      },
-      {
-        "line": 2,
-        "source_line": "if 0 <= x <= 20: print(\"ok\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "x": "12"
         },
         "return_value": "",
-        "output_so_far": "ok\n"
+        "output_so_far": "",
+        "after_output": "ok\n",
+        "branch_taken": false
       }
     ]
   },
@@ -23514,8 +22140,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -23528,8 +22156,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "14"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -23544,23 +22174,13 @@ window.SCENE_TRACES={
           "n": "14",
           "resultat": "'pair'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(resultat)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "n": "14",
           "resultat": "'pair'"
         },
         "return_value": "",
-        "output_so_far": "pair\n"
+        "output_so_far": "",
+        "after_output": "pair\n"
       }
     ]
   },
@@ -23586,8 +22206,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -23600,8 +22222,10 @@ window.SCENE_TRACES={
         "locals": {
           "x": "42"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -23615,8 +22239,10 @@ window.SCENE_TRACES={
         "locals": {
           "x": "42"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -23631,23 +22257,13 @@ window.SCENE_TRACES={
           "x": "42",
           "classe": "'B'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 5,
-        "source_line": "print(classe)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "x": "42",
           "classe": "'B'"
         },
         "return_value": "",
-        "output_so_far": "B\n"
+        "output_so_far": "",
+        "after_output": "B\n"
       }
     ]
   },
@@ -23673,8 +22289,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -23687,23 +22305,13 @@ window.SCENE_TRACES={
         "locals": {
           "x": "12"
         },
-        "return_value": "",
-        "output_so_far": "",
-        "branch_taken": false
-      },
-      {
-        "line": 2,
-        "source_line": "if 0 <= x <= 20: print(\"ok\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "x": "12"
         },
         "return_value": "",
-        "output_so_far": "ok\n"
+        "output_so_far": "",
+        "after_output": "ok\n",
+        "branch_taken": false
       }
     ]
   },
@@ -23729,8 +22337,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -23743,8 +22353,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "14"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -23759,23 +22371,13 @@ window.SCENE_TRACES={
           "n": "14",
           "resultat": "'pair'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(resultat)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "n": "14",
           "resultat": "'pair'"
         },
         "return_value": "",
-        "output_so_far": "pair\n"
+        "output_so_far": "",
+        "after_output": "pair\n"
       }
     ]
   },
@@ -23801,8 +22403,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -23815,8 +22419,10 @@ window.SCENE_TRACES={
         "locals": {
           "x": "42"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -23830,8 +22436,10 @@ window.SCENE_TRACES={
         "locals": {
           "x": "42"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -23846,23 +22454,13 @@ window.SCENE_TRACES={
           "x": "42",
           "classe": "'B'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 5,
-        "source_line": "print(classe)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "x": "42",
           "classe": "'B'"
         },
         "return_value": "",
-        "output_so_far": "B\n"
+        "output_so_far": "",
+        "after_output": "B\n"
       }
     ]
   },
@@ -23888,8 +22486,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -23902,23 +22502,13 @@ window.SCENE_TRACES={
         "locals": {
           "x": "12"
         },
-        "return_value": "",
-        "output_so_far": "",
-        "branch_taken": false
-      },
-      {
-        "line": 2,
-        "source_line": "if 0 <= x <= 20: print(\"ok\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "x": "12"
         },
         "return_value": "",
-        "output_so_far": "ok\n"
+        "output_so_far": "",
+        "after_output": "ok\n",
+        "branch_taken": false
       }
     ]
   },
@@ -23944,8 +22534,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -23958,8 +22550,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "14"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -23974,23 +22568,13 @@ window.SCENE_TRACES={
           "n": "14",
           "resultat": "'pair'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(resultat)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "n": "14",
           "resultat": "'pair'"
         },
         "return_value": "",
-        "output_so_far": "pair\n"
+        "output_so_far": "",
+        "after_output": "pair\n"
       }
     ]
   },
@@ -24016,8 +22600,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -24030,8 +22616,10 @@ window.SCENE_TRACES={
         "locals": {
           "x": "42"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -24045,8 +22633,10 @@ window.SCENE_TRACES={
         "locals": {
           "x": "42"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -24061,23 +22651,13 @@ window.SCENE_TRACES={
           "x": "42",
           "classe": "'B'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 5,
-        "source_line": "print(classe)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "x": "42",
           "classe": "'B'"
         },
         "return_value": "",
-        "output_so_far": "B\n"
+        "output_so_far": "",
+        "after_output": "B\n"
       }
     ]
   },
@@ -24103,8 +22683,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -24117,23 +22699,13 @@ window.SCENE_TRACES={
         "locals": {
           "x": "12"
         },
-        "return_value": "",
-        "output_so_far": "",
-        "branch_taken": false
-      },
-      {
-        "line": 2,
-        "source_line": "if 0 <= x <= 20: print(\"ok\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "x": "12"
         },
         "return_value": "",
-        "output_so_far": "ok\n"
+        "output_so_far": "",
+        "after_output": "ok\n",
+        "branch_taken": false
       }
     ]
   },
@@ -24159,8 +22731,10 @@ window.SCENE_TRACES={
         "kind": "loop",
         "iteration": 1,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -24173,8 +22747,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -24187,8 +22763,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n"
+        "output_so_far": "0\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -24201,8 +22779,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n"
+        "output_so_far": "0\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -24215,8 +22795,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n"
+        "output_so_far": "0\n1\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -24229,8 +22811,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n"
+        "output_so_far": "0\n1\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -24243,8 +22827,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n"
+        "output_so_far": "0\n1\n2\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -24257,8 +22843,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n"
+        "output_so_far": "0\n1\n2\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -24271,8 +22859,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n"
+        "output_so_far": "0\n1\n2\n3\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -24285,8 +22875,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n"
+        "output_so_far": "0\n1\n2\n3\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -24299,22 +22891,12 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
-        "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n"
-      },
-      {
-        "line": 1,
-        "source_line": "for i in range(5):",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "i": "4"
         },
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n"
+        "output_so_far": "0\n1\n2\n3\n4\n",
+        "after_output": "0\n1\n2\n3\n4\n"
       }
     ]
   },
@@ -24340,8 +22922,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -24354,8 +22938,10 @@ window.SCENE_TRACES={
         "locals": {
           "total": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -24369,8 +22955,10 @@ window.SCENE_TRACES={
           "total": "0",
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -24384,8 +22972,10 @@ window.SCENE_TRACES={
           "total": "1",
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -24399,8 +22989,10 @@ window.SCENE_TRACES={
           "total": "1",
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -24414,8 +23006,10 @@ window.SCENE_TRACES={
           "total": "3",
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -24429,8 +23023,10 @@ window.SCENE_TRACES={
           "total": "3",
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -24444,8 +23040,10 @@ window.SCENE_TRACES={
           "total": "6",
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -24459,8 +23057,10 @@ window.SCENE_TRACES={
           "total": "6",
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -24474,8 +23074,10 @@ window.SCENE_TRACES={
           "total": "10",
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -24489,8 +23091,10 @@ window.SCENE_TRACES={
           "total": "10",
           "i": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -24504,8 +23108,10 @@ window.SCENE_TRACES={
           "total": "15",
           "i": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -24519,23 +23125,13 @@ window.SCENE_TRACES={
           "total": "15",
           "i": "5"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(total)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "total": "15",
           "i": "5"
         },
         "return_value": "",
-        "output_so_far": "15\n"
+        "output_so_far": "",
+        "after_output": "15\n"
       }
     ]
   },
@@ -24561,8 +23157,10 @@ window.SCENE_TRACES={
         "kind": "loop",
         "iteration": 1,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -24575,8 +23173,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -24589,8 +23189,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "1\n"
+        "output_so_far": "1\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -24603,8 +23205,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "1\n"
+        "output_so_far": "1\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -24617,8 +23221,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "1\n4\n"
+        "output_so_far": "1\n4\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -24631,8 +23237,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "1\n4\n"
+        "output_so_far": "1\n4\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -24645,8 +23253,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "1\n4\n9\n"
+        "output_so_far": "1\n4\n9\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -24659,8 +23269,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "1\n4\n9\n"
+        "output_so_far": "1\n4\n9\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -24673,22 +23285,12 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
-        "return_value": "",
-        "output_so_far": "1\n4\n9\n16\n"
-      },
-      {
-        "line": 1,
-        "source_line": "for i in range(1, 5):",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "i": "4"
         },
         "return_value": "",
-        "output_so_far": "1\n4\n9\n16\n"
+        "output_so_far": "1\n4\n9\n16\n",
+        "after_output": "1\n4\n9\n16\n"
       }
     ]
   },
@@ -24714,8 +23316,10 @@ window.SCENE_TRACES={
         "kind": "loop",
         "iteration": 1,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -24728,8 +23332,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -24742,8 +23348,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n"
+        "output_so_far": "0\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -24756,8 +23364,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n"
+        "output_so_far": "0\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -24770,8 +23380,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n"
+        "output_so_far": "0\n2\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -24784,8 +23396,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n"
+        "output_so_far": "0\n2\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -24798,8 +23412,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n"
+        "output_so_far": "0\n2\n4\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -24812,8 +23428,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "6"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n"
+        "output_so_far": "0\n2\n4\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -24826,8 +23444,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "6"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n"
+        "output_so_far": "0\n2\n4\n6\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -24840,8 +23460,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "8"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n"
+        "output_so_far": "0\n2\n4\n6\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -24854,8 +23476,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "8"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n"
+        "output_so_far": "0\n2\n4\n6\n8\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -24868,8 +23492,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "10"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n"
+        "output_so_far": "0\n2\n4\n6\n8\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -24882,22 +23508,12 @@ window.SCENE_TRACES={
         "locals": {
           "i": "10"
         },
-        "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n"
-      },
-      {
-        "line": 1,
-        "source_line": "for i in range(0, 11, 2):",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "i": "10"
         },
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n"
+        "output_so_far": "0\n2\n4\n6\n8\n10\n",
+        "after_output": "0\n2\n4\n6\n8\n10\n"
       }
     ]
   },
@@ -24923,8 +23539,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -24937,8 +23555,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "7"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -24952,8 +23572,10 @@ window.SCENE_TRACES={
           "n": "7",
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -24967,8 +23589,10 @@ window.SCENE_TRACES={
           "n": "7",
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "7\n"
+        "output_so_far": "7\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -24982,8 +23606,10 @@ window.SCENE_TRACES={
           "n": "7",
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "7\n"
+        "output_so_far": "7\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -24997,8 +23623,10 @@ window.SCENE_TRACES={
           "n": "7",
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "7\n14\n"
+        "output_so_far": "7\n14\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -25012,8 +23640,10 @@ window.SCENE_TRACES={
           "n": "7",
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "7\n14\n"
+        "output_so_far": "7\n14\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -25027,8 +23657,10 @@ window.SCENE_TRACES={
           "n": "7",
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "7\n14\n21\n"
+        "output_so_far": "7\n14\n21\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -25042,8 +23674,10 @@ window.SCENE_TRACES={
           "n": "7",
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "7\n14\n21\n"
+        "output_so_far": "7\n14\n21\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -25057,8 +23691,10 @@ window.SCENE_TRACES={
           "n": "7",
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "7\n14\n21\n28\n"
+        "output_so_far": "7\n14\n21\n28\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -25072,8 +23708,10 @@ window.SCENE_TRACES={
           "n": "7",
           "i": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "7\n14\n21\n28\n"
+        "output_so_far": "7\n14\n21\n28\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -25087,23 +23725,13 @@ window.SCENE_TRACES={
           "n": "7",
           "i": "5"
         },
-        "return_value": "",
-        "output_so_far": "7\n14\n21\n28\n35\n"
-      },
-      {
-        "line": 2,
-        "source_line": "for i in range(1, 6):",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "n": "7",
           "i": "5"
         },
         "return_value": "",
-        "output_so_far": "7\n14\n21\n28\n35\n"
+        "output_so_far": "7\n14\n21\n28\n35\n",
+        "after_output": "7\n14\n21\n28\n35\n"
       }
     ]
   },
@@ -25129,8 +23757,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -25143,8 +23773,10 @@ window.SCENE_TRACES={
         "locals": {
           "mot": "'python'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -25158,8 +23790,10 @@ window.SCENE_TRACES={
           "mot": "'python'",
           "compte": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -25174,8 +23808,10 @@ window.SCENE_TRACES={
           "compte": "0",
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -25191,8 +23827,10 @@ window.SCENE_TRACES={
           "compte": "0",
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -25207,8 +23845,10 @@ window.SCENE_TRACES={
           "compte": "0",
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": true
       },
       {
@@ -25224,8 +23864,10 @@ window.SCENE_TRACES={
           "compte": "0",
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -25240,8 +23882,10 @@ window.SCENE_TRACES={
           "compte": "1",
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -25256,8 +23900,10 @@ window.SCENE_TRACES={
           "compte": "1",
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -25273,8 +23919,10 @@ window.SCENE_TRACES={
           "compte": "1",
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -25289,8 +23937,10 @@ window.SCENE_TRACES={
           "compte": "1",
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -25306,8 +23956,10 @@ window.SCENE_TRACES={
           "compte": "1",
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -25322,8 +23974,10 @@ window.SCENE_TRACES={
           "compte": "1",
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": true
       },
       {
@@ -25339,8 +23993,10 @@ window.SCENE_TRACES={
           "compte": "1",
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -25355,8 +24011,10 @@ window.SCENE_TRACES={
           "compte": "2",
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -25371,8 +24029,10 @@ window.SCENE_TRACES={
           "compte": "2",
           "i": "5"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -25388,8 +24048,10 @@ window.SCENE_TRACES={
           "compte": "2",
           "i": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 6,
@@ -25404,24 +24066,14 @@ window.SCENE_TRACES={
           "compte": "2",
           "i": "5"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 6,
-        "source_line": "print(compte)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "mot": "'python'",
           "compte": "2",
           "i": "5"
         },
         "return_value": "",
-        "output_so_far": "2\n"
+        "output_so_far": "",
+        "after_output": "2\n"
       }
     ]
   },
@@ -25447,8 +24099,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -25461,8 +24115,10 @@ window.SCENE_TRACES={
         "locals": {
           "valeurs": "[4, 9, 2, 7]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -25476,8 +24132,10 @@ window.SCENE_TRACES={
           "valeurs": "[4, 9, 2, 7]",
           "maximum": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -25492,8 +24150,10 @@ window.SCENE_TRACES={
           "maximum": "4",
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": true
       },
       {
@@ -25509,8 +24169,10 @@ window.SCENE_TRACES={
           "maximum": "4",
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -25525,8 +24187,10 @@ window.SCENE_TRACES={
           "maximum": "9",
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -25541,8 +24205,10 @@ window.SCENE_TRACES={
           "maximum": "9",
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -25558,8 +24224,10 @@ window.SCENE_TRACES={
           "maximum": "9",
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -25574,8 +24242,10 @@ window.SCENE_TRACES={
           "maximum": "9",
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
+        "after_output": null,
         "branch_taken": false
       },
       {
@@ -25591,8 +24261,10 @@ window.SCENE_TRACES={
           "maximum": "9",
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 6,
@@ -25607,24 +24279,14 @@ window.SCENE_TRACES={
           "maximum": "9",
           "i": "3"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 6,
-        "source_line": "print(maximum)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "valeurs": "[4, 9, 2, 7]",
           "maximum": "9",
           "i": "3"
         },
         "return_value": "",
-        "output_so_far": "9\n"
+        "output_so_far": "",
+        "after_output": "9\n"
       }
     ]
   },
@@ -25650,8 +24312,10 @@ window.SCENE_TRACES={
         "kind": "loop",
         "iteration": 1,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -25664,8 +24328,10 @@ window.SCENE_TRACES={
         "locals": {
           "ligne": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -25679,8 +24345,10 @@ window.SCENE_TRACES={
           "ligne": "0",
           "colonne": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -25694,8 +24362,10 @@ window.SCENE_TRACES={
           "ligne": "0",
           "colonne": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0 0\n"
+        "output_so_far": "0 0\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -25709,8 +24379,10 @@ window.SCENE_TRACES={
           "ligne": "0",
           "colonne": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0 0\n"
+        "output_so_far": "0 0\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -25724,8 +24396,10 @@ window.SCENE_TRACES={
           "ligne": "0",
           "colonne": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0 0\n0 1\n"
+        "output_so_far": "0 0\n0 1\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -25739,8 +24413,10 @@ window.SCENE_TRACES={
           "ligne": "0",
           "colonne": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0 0\n0 1\n"
+        "output_so_far": "0 0\n0 1\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -25754,8 +24430,10 @@ window.SCENE_TRACES={
           "ligne": "0",
           "colonne": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0 0\n0 1\n0 2\n"
+        "output_so_far": "0 0\n0 1\n0 2\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -25769,8 +24447,10 @@ window.SCENE_TRACES={
           "ligne": "0",
           "colonne": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0 0\n0 1\n0 2\n"
+        "output_so_far": "0 0\n0 1\n0 2\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -25784,8 +24464,10 @@ window.SCENE_TRACES={
           "ligne": "1",
           "colonne": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0 0\n0 1\n0 2\n"
+        "output_so_far": "0 0\n0 1\n0 2\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -25799,8 +24481,10 @@ window.SCENE_TRACES={
           "ligne": "1",
           "colonne": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0 0\n0 1\n0 2\n"
+        "output_so_far": "0 0\n0 1\n0 2\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -25814,8 +24498,10 @@ window.SCENE_TRACES={
           "ligne": "1",
           "colonne": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0 0\n0 1\n0 2\n1 0\n"
+        "output_so_far": "0 0\n0 1\n0 2\n1 0\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -25829,8 +24515,10 @@ window.SCENE_TRACES={
           "ligne": "1",
           "colonne": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0 0\n0 1\n0 2\n1 0\n"
+        "output_so_far": "0 0\n0 1\n0 2\n1 0\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -25844,8 +24532,10 @@ window.SCENE_TRACES={
           "ligne": "1",
           "colonne": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0 0\n0 1\n0 2\n1 0\n1 1\n"
+        "output_so_far": "0 0\n0 1\n0 2\n1 0\n1 1\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -25859,8 +24549,10 @@ window.SCENE_TRACES={
           "ligne": "1",
           "colonne": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0 0\n0 1\n0 2\n1 0\n1 1\n"
+        "output_so_far": "0 0\n0 1\n0 2\n1 0\n1 1\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -25874,8 +24566,10 @@ window.SCENE_TRACES={
           "ligne": "1",
           "colonne": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0 0\n0 1\n0 2\n1 0\n1 1\n1 2\n"
+        "output_so_far": "0 0\n0 1\n0 2\n1 0\n1 1\n1 2\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -25889,23 +24583,13 @@ window.SCENE_TRACES={
           "ligne": "1",
           "colonne": "2"
         },
-        "return_value": "",
-        "output_so_far": "0 0\n0 1\n0 2\n1 0\n1 1\n1 2\n"
-      },
-      {
-        "line": 1,
-        "source_line": "for ligne in range(2):",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "ligne": "1",
           "colonne": "2"
         },
         "return_value": "",
-        "output_so_far": "0 0\n0 1\n0 2\n1 0\n1 1\n1 2\n"
+        "output_so_far": "0 0\n0 1\n0 2\n1 0\n1 1\n1 2\n",
+        "after_output": "0 0\n0 1\n0 2\n1 0\n1 1\n1 2\n"
       }
     ]
   },
@@ -25931,8 +24615,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -25945,8 +24631,10 @@ window.SCENE_TRACES={
         "locals": {
           "notes": "[12, 15, 9]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -25960,8 +24648,10 @@ window.SCENE_TRACES={
           "notes": "[12, 15, 9]",
           "total": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -25976,8 +24666,10 @@ window.SCENE_TRACES={
           "total": "0",
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -25992,8 +24684,10 @@ window.SCENE_TRACES={
           "total": "12",
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -26008,8 +24702,10 @@ window.SCENE_TRACES={
           "total": "12",
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -26024,8 +24720,10 @@ window.SCENE_TRACES={
           "total": "27",
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -26040,8 +24738,10 @@ window.SCENE_TRACES={
           "total": "27",
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -26056,8 +24756,10 @@ window.SCENE_TRACES={
           "total": "36",
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 5,
@@ -26072,24 +24774,14 @@ window.SCENE_TRACES={
           "total": "36",
           "i": "2"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 5,
-        "source_line": "print(total / len(notes))",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "notes": "[12, 15, 9]",
           "total": "36",
           "i": "2"
         },
         "return_value": "",
-        "output_so_far": "12.0\n"
+        "output_so_far": "",
+        "after_output": "12.0\n"
       }
     ]
   },
@@ -26115,8 +24807,10 @@ window.SCENE_TRACES={
         "kind": "loop",
         "iteration": 1,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -26129,8 +24823,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -26143,8 +24839,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "5\n"
+        "output_so_far": "5\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -26157,8 +24855,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "5\n"
+        "output_so_far": "5\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -26171,8 +24871,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "5\n4\n"
+        "output_so_far": "5\n4\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -26185,8 +24887,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "5\n4\n"
+        "output_so_far": "5\n4\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -26199,8 +24903,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "5\n4\n3\n"
+        "output_so_far": "5\n4\n3\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -26213,8 +24919,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "5\n4\n3\n"
+        "output_so_far": "5\n4\n3\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -26227,8 +24935,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "5\n4\n3\n2\n"
+        "output_so_far": "5\n4\n3\n2\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -26241,8 +24951,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "5\n4\n3\n2\n"
+        "output_so_far": "5\n4\n3\n2\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -26255,22 +24967,12 @@ window.SCENE_TRACES={
         "locals": {
           "i": "1"
         },
-        "return_value": "",
-        "output_so_far": "5\n4\n3\n2\n1\n"
-      },
-      {
-        "line": 1,
-        "source_line": "for i in range(5, 0, -1):",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "i": "1"
         },
         "return_value": "",
-        "output_so_far": "5\n4\n3\n2\n1\n"
+        "output_so_far": "5\n4\n3\n2\n1\n",
+        "after_output": "5\n4\n3\n2\n1\n"
       }
     ]
   },
@@ -26296,8 +24998,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -26310,8 +25014,10 @@ window.SCENE_TRACES={
         "locals": {
           "total": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -26325,8 +25031,10 @@ window.SCENE_TRACES={
           "total": "1",
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -26340,8 +25048,10 @@ window.SCENE_TRACES={
           "total": "3",
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -26355,8 +25065,10 @@ window.SCENE_TRACES={
           "total": "6",
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -26370,8 +25082,10 @@ window.SCENE_TRACES={
           "total": "10",
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -26385,8 +25099,10 @@ window.SCENE_TRACES={
           "total": "15",
           "i": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -26400,8 +25116,10 @@ window.SCENE_TRACES={
           "total": "21",
           "i": "6"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -26415,8 +25133,10 @@ window.SCENE_TRACES={
           "total": "28",
           "i": "7"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -26430,8 +25150,10 @@ window.SCENE_TRACES={
           "total": "36",
           "i": "8"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -26445,8 +25167,10 @@ window.SCENE_TRACES={
           "total": "45",
           "i": "9"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -26460,8 +25184,10 @@ window.SCENE_TRACES={
           "total": "55",
           "i": "10"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -26475,23 +25201,13 @@ window.SCENE_TRACES={
           "total": "55",
           "i": "10"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(total)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "total": "55",
           "i": "10"
         },
         "return_value": "",
-        "output_so_far": "55\n"
+        "output_so_far": "",
+        "after_output": "55\n"
       }
     ]
   },
@@ -26517,8 +25233,10 @@ window.SCENE_TRACES={
         "kind": "loop",
         "iteration": 1,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -26531,8 +25249,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n"
+        "output_so_far": "0\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -26545,8 +25265,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n"
+        "output_so_far": "0\n2\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -26559,8 +25281,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n"
+        "output_so_far": "0\n2\n4\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -26573,8 +25297,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "6"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n"
+        "output_so_far": "0\n2\n4\n6\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -26587,8 +25313,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "8"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n"
+        "output_so_far": "0\n2\n4\n6\n8\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -26601,8 +25329,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "10"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n"
+        "output_so_far": "0\n2\n4\n6\n8\n10\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -26615,8 +25345,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "12"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n"
+        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -26629,8 +25361,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "14"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n"
+        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -26643,8 +25377,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "16"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n"
+        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -26657,8 +25393,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "18"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n"
+        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -26671,22 +25409,12 @@ window.SCENE_TRACES={
         "locals": {
           "i": "20"
         },
-        "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n"
-      },
-      {
-        "line": 1,
-        "source_line": "for i in range(0, 21, 2): print(i)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "i": "20"
         },
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n"
+        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n",
+        "after_output": "0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n"
       }
     ]
   },
@@ -26712,8 +25440,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -26726,8 +25456,10 @@ window.SCENE_TRACES={
         "locals": {
           "compte": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -26741,8 +25473,10 @@ window.SCENE_TRACES={
           "compte": "0",
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -26757,8 +25491,10 @@ window.SCENE_TRACES={
           "i": "0",
           "j": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -26773,8 +25509,10 @@ window.SCENE_TRACES={
           "i": "0",
           "j": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -26789,8 +25527,10 @@ window.SCENE_TRACES={
           "i": "0",
           "j": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -26805,8 +25545,10 @@ window.SCENE_TRACES={
           "i": "0",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -26821,8 +25563,10 @@ window.SCENE_TRACES={
           "i": "0",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -26837,8 +25581,10 @@ window.SCENE_TRACES={
           "i": "1",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -26853,8 +25599,10 @@ window.SCENE_TRACES={
           "i": "1",
           "j": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -26869,8 +25617,10 @@ window.SCENE_TRACES={
           "i": "1",
           "j": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -26885,8 +25635,10 @@ window.SCENE_TRACES={
           "i": "1",
           "j": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -26901,8 +25653,10 @@ window.SCENE_TRACES={
           "i": "1",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -26917,8 +25671,10 @@ window.SCENE_TRACES={
           "i": "1",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -26933,8 +25689,10 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -26949,8 +25707,10 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -26965,8 +25725,10 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -26981,8 +25743,10 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -26997,8 +25761,10 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -27013,8 +25779,10 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -27029,24 +25797,14 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "3"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(compte)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "compte": "12",
           "i": "2",
           "j": "3"
         },
         "return_value": "",
-        "output_so_far": "12\n"
+        "output_so_far": "",
+        "after_output": "12\n"
       }
     ]
   },
@@ -27072,8 +25830,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -27086,8 +25846,10 @@ window.SCENE_TRACES={
         "locals": {
           "total": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -27101,8 +25863,10 @@ window.SCENE_TRACES={
           "total": "1",
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -27116,8 +25880,10 @@ window.SCENE_TRACES={
           "total": "3",
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -27131,8 +25897,10 @@ window.SCENE_TRACES={
           "total": "6",
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -27146,8 +25914,10 @@ window.SCENE_TRACES={
           "total": "10",
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -27161,8 +25931,10 @@ window.SCENE_TRACES={
           "total": "15",
           "i": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -27176,8 +25948,10 @@ window.SCENE_TRACES={
           "total": "21",
           "i": "6"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -27191,8 +25965,10 @@ window.SCENE_TRACES={
           "total": "28",
           "i": "7"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -27206,8 +25982,10 @@ window.SCENE_TRACES={
           "total": "36",
           "i": "8"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -27221,8 +25999,10 @@ window.SCENE_TRACES={
           "total": "45",
           "i": "9"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -27236,8 +26016,10 @@ window.SCENE_TRACES={
           "total": "55",
           "i": "10"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -27251,23 +26033,13 @@ window.SCENE_TRACES={
           "total": "55",
           "i": "10"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(total)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "total": "55",
           "i": "10"
         },
         "return_value": "",
-        "output_so_far": "55\n"
+        "output_so_far": "",
+        "after_output": "55\n"
       }
     ]
   },
@@ -27293,8 +26065,10 @@ window.SCENE_TRACES={
         "kind": "loop",
         "iteration": 1,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -27307,8 +26081,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n"
+        "output_so_far": "0\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -27321,8 +26097,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n"
+        "output_so_far": "0\n2\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -27335,8 +26113,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n"
+        "output_so_far": "0\n2\n4\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -27349,8 +26129,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "6"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n"
+        "output_so_far": "0\n2\n4\n6\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -27363,8 +26145,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "8"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n"
+        "output_so_far": "0\n2\n4\n6\n8\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -27377,8 +26161,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "10"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n"
+        "output_so_far": "0\n2\n4\n6\n8\n10\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -27391,8 +26177,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "12"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n"
+        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -27405,8 +26193,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "14"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n"
+        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -27419,8 +26209,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "16"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n"
+        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -27433,8 +26225,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "18"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n"
+        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -27447,22 +26241,12 @@ window.SCENE_TRACES={
         "locals": {
           "i": "20"
         },
-        "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n"
-      },
-      {
-        "line": 1,
-        "source_line": "for i in range(0, 21, 2): print(i)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "i": "20"
         },
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n"
+        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n",
+        "after_output": "0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n"
       }
     ]
   },
@@ -27488,8 +26272,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -27502,8 +26288,10 @@ window.SCENE_TRACES={
         "locals": {
           "compte": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -27517,8 +26305,10 @@ window.SCENE_TRACES={
           "compte": "0",
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -27533,8 +26323,10 @@ window.SCENE_TRACES={
           "i": "0",
           "j": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -27549,8 +26341,10 @@ window.SCENE_TRACES={
           "i": "0",
           "j": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -27565,8 +26359,10 @@ window.SCENE_TRACES={
           "i": "0",
           "j": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -27581,8 +26377,10 @@ window.SCENE_TRACES={
           "i": "0",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -27597,8 +26395,10 @@ window.SCENE_TRACES={
           "i": "0",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -27613,8 +26413,10 @@ window.SCENE_TRACES={
           "i": "1",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -27629,8 +26431,10 @@ window.SCENE_TRACES={
           "i": "1",
           "j": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -27645,8 +26449,10 @@ window.SCENE_TRACES={
           "i": "1",
           "j": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -27661,8 +26467,10 @@ window.SCENE_TRACES={
           "i": "1",
           "j": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -27677,8 +26485,10 @@ window.SCENE_TRACES={
           "i": "1",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -27693,8 +26503,10 @@ window.SCENE_TRACES={
           "i": "1",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -27709,8 +26521,10 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -27725,8 +26539,10 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -27741,8 +26557,10 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -27757,8 +26575,10 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -27773,8 +26593,10 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -27789,8 +26611,10 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -27805,24 +26629,14 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "3"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(compte)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "compte": "12",
           "i": "2",
           "j": "3"
         },
         "return_value": "",
-        "output_so_far": "12\n"
+        "output_so_far": "",
+        "after_output": "12\n"
       }
     ]
   },
@@ -27848,8 +26662,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -27862,8 +26678,10 @@ window.SCENE_TRACES={
         "locals": {
           "total": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -27877,8 +26695,10 @@ window.SCENE_TRACES={
           "total": "1",
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -27892,8 +26712,10 @@ window.SCENE_TRACES={
           "total": "3",
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -27907,8 +26729,10 @@ window.SCENE_TRACES={
           "total": "6",
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -27922,8 +26746,10 @@ window.SCENE_TRACES={
           "total": "10",
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -27937,8 +26763,10 @@ window.SCENE_TRACES={
           "total": "15",
           "i": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -27952,8 +26780,10 @@ window.SCENE_TRACES={
           "total": "21",
           "i": "6"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -27967,8 +26797,10 @@ window.SCENE_TRACES={
           "total": "28",
           "i": "7"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -27982,8 +26814,10 @@ window.SCENE_TRACES={
           "total": "36",
           "i": "8"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -27997,8 +26831,10 @@ window.SCENE_TRACES={
           "total": "45",
           "i": "9"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -28012,8 +26848,10 @@ window.SCENE_TRACES={
           "total": "55",
           "i": "10"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -28027,23 +26865,13 @@ window.SCENE_TRACES={
           "total": "55",
           "i": "10"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(total)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "total": "55",
           "i": "10"
         },
         "return_value": "",
-        "output_so_far": "55\n"
+        "output_so_far": "",
+        "after_output": "55\n"
       }
     ]
   },
@@ -28069,8 +26897,10 @@ window.SCENE_TRACES={
         "kind": "loop",
         "iteration": 1,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -28083,8 +26913,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n"
+        "output_so_far": "0\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -28097,8 +26929,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n"
+        "output_so_far": "0\n2\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -28111,8 +26945,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n"
+        "output_so_far": "0\n2\n4\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -28125,8 +26961,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "6"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n"
+        "output_so_far": "0\n2\n4\n6\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -28139,8 +26977,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "8"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n"
+        "output_so_far": "0\n2\n4\n6\n8\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -28153,8 +26993,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "10"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n"
+        "output_so_far": "0\n2\n4\n6\n8\n10\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -28167,8 +27009,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "12"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n"
+        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -28181,8 +27025,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "14"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n"
+        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -28195,8 +27041,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "16"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n"
+        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -28209,8 +27057,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "18"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n"
+        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -28223,22 +27073,12 @@ window.SCENE_TRACES={
         "locals": {
           "i": "20"
         },
-        "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n"
-      },
-      {
-        "line": 1,
-        "source_line": "for i in range(0, 21, 2): print(i)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "i": "20"
         },
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n"
+        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n",
+        "after_output": "0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n"
       }
     ]
   },
@@ -28264,8 +27104,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -28278,8 +27120,10 @@ window.SCENE_TRACES={
         "locals": {
           "compte": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -28293,8 +27137,10 @@ window.SCENE_TRACES={
           "compte": "0",
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -28309,8 +27155,10 @@ window.SCENE_TRACES={
           "i": "0",
           "j": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -28325,8 +27173,10 @@ window.SCENE_TRACES={
           "i": "0",
           "j": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -28341,8 +27191,10 @@ window.SCENE_TRACES={
           "i": "0",
           "j": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -28357,8 +27209,10 @@ window.SCENE_TRACES={
           "i": "0",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -28373,8 +27227,10 @@ window.SCENE_TRACES={
           "i": "0",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -28389,8 +27245,10 @@ window.SCENE_TRACES={
           "i": "1",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -28405,8 +27263,10 @@ window.SCENE_TRACES={
           "i": "1",
           "j": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -28421,8 +27281,10 @@ window.SCENE_TRACES={
           "i": "1",
           "j": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -28437,8 +27299,10 @@ window.SCENE_TRACES={
           "i": "1",
           "j": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -28453,8 +27317,10 @@ window.SCENE_TRACES={
           "i": "1",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -28469,8 +27335,10 @@ window.SCENE_TRACES={
           "i": "1",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -28485,8 +27353,10 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -28501,8 +27371,10 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -28517,8 +27389,10 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -28533,8 +27407,10 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -28549,8 +27425,10 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -28565,8 +27443,10 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -28581,24 +27461,14 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "3"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(compte)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "compte": "12",
           "i": "2",
           "j": "3"
         },
         "return_value": "",
-        "output_so_far": "12\n"
+        "output_so_far": "",
+        "after_output": "12\n"
       }
     ]
   },
@@ -28624,8 +27494,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -28638,8 +27510,10 @@ window.SCENE_TRACES={
         "locals": {
           "total": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -28653,8 +27527,10 @@ window.SCENE_TRACES={
           "total": "1",
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -28668,8 +27544,10 @@ window.SCENE_TRACES={
           "total": "3",
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -28683,8 +27561,10 @@ window.SCENE_TRACES={
           "total": "6",
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -28698,8 +27578,10 @@ window.SCENE_TRACES={
           "total": "10",
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -28713,8 +27595,10 @@ window.SCENE_TRACES={
           "total": "15",
           "i": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -28728,8 +27612,10 @@ window.SCENE_TRACES={
           "total": "21",
           "i": "6"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -28743,8 +27629,10 @@ window.SCENE_TRACES={
           "total": "28",
           "i": "7"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -28758,8 +27646,10 @@ window.SCENE_TRACES={
           "total": "36",
           "i": "8"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -28773,8 +27663,10 @@ window.SCENE_TRACES={
           "total": "45",
           "i": "9"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -28788,8 +27680,10 @@ window.SCENE_TRACES={
           "total": "55",
           "i": "10"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -28803,23 +27697,13 @@ window.SCENE_TRACES={
           "total": "55",
           "i": "10"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(total)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "total": "55",
           "i": "10"
         },
         "return_value": "",
-        "output_so_far": "55\n"
+        "output_so_far": "",
+        "after_output": "55\n"
       }
     ]
   },
@@ -28845,8 +27729,10 @@ window.SCENE_TRACES={
         "kind": "loop",
         "iteration": 1,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -28859,8 +27745,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n"
+        "output_so_far": "0\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -28873,8 +27761,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n"
+        "output_so_far": "0\n2\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -28887,8 +27777,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n"
+        "output_so_far": "0\n2\n4\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -28901,8 +27793,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "6"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n"
+        "output_so_far": "0\n2\n4\n6\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -28915,8 +27809,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "8"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n"
+        "output_so_far": "0\n2\n4\n6\n8\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -28929,8 +27825,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "10"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n"
+        "output_so_far": "0\n2\n4\n6\n8\n10\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -28943,8 +27841,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "12"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n"
+        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -28957,8 +27857,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "14"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n"
+        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -28971,8 +27873,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "16"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n"
+        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -28985,8 +27889,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "18"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n"
+        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -28999,22 +27905,12 @@ window.SCENE_TRACES={
         "locals": {
           "i": "20"
         },
-        "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n"
-      },
-      {
-        "line": 1,
-        "source_line": "for i in range(0, 21, 2): print(i)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "i": "20"
         },
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n"
+        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n",
+        "after_output": "0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n"
       }
     ]
   },
@@ -29040,8 +27936,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -29054,8 +27952,10 @@ window.SCENE_TRACES={
         "locals": {
           "compte": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -29069,8 +27969,10 @@ window.SCENE_TRACES={
           "compte": "0",
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -29085,8 +27987,10 @@ window.SCENE_TRACES={
           "i": "0",
           "j": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -29101,8 +28005,10 @@ window.SCENE_TRACES={
           "i": "0",
           "j": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -29117,8 +28023,10 @@ window.SCENE_TRACES={
           "i": "0",
           "j": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -29133,8 +28041,10 @@ window.SCENE_TRACES={
           "i": "0",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -29149,8 +28059,10 @@ window.SCENE_TRACES={
           "i": "0",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -29165,8 +28077,10 @@ window.SCENE_TRACES={
           "i": "1",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -29181,8 +28095,10 @@ window.SCENE_TRACES={
           "i": "1",
           "j": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -29197,8 +28113,10 @@ window.SCENE_TRACES={
           "i": "1",
           "j": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -29213,8 +28131,10 @@ window.SCENE_TRACES={
           "i": "1",
           "j": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -29229,8 +28149,10 @@ window.SCENE_TRACES={
           "i": "1",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -29245,8 +28167,10 @@ window.SCENE_TRACES={
           "i": "1",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -29261,8 +28185,10 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -29277,8 +28203,10 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -29293,8 +28221,10 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -29309,8 +28239,10 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -29325,8 +28257,10 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -29341,8 +28275,10 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -29357,24 +28293,14 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "3"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(compte)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "compte": "12",
           "i": "2",
           "j": "3"
         },
         "return_value": "",
-        "output_so_far": "12\n"
+        "output_so_far": "",
+        "after_output": "12\n"
       }
     ]
   },
@@ -29400,8 +28326,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -29414,8 +28342,10 @@ window.SCENE_TRACES={
         "locals": {
           "total": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -29429,8 +28359,10 @@ window.SCENE_TRACES={
           "total": "1",
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -29444,8 +28376,10 @@ window.SCENE_TRACES={
           "total": "3",
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -29459,8 +28393,10 @@ window.SCENE_TRACES={
           "total": "6",
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -29474,8 +28410,10 @@ window.SCENE_TRACES={
           "total": "10",
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -29489,8 +28427,10 @@ window.SCENE_TRACES={
           "total": "15",
           "i": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -29504,8 +28444,10 @@ window.SCENE_TRACES={
           "total": "21",
           "i": "6"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -29519,8 +28461,10 @@ window.SCENE_TRACES={
           "total": "28",
           "i": "7"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -29534,8 +28478,10 @@ window.SCENE_TRACES={
           "total": "36",
           "i": "8"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -29549,8 +28495,10 @@ window.SCENE_TRACES={
           "total": "45",
           "i": "9"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -29564,8 +28512,10 @@ window.SCENE_TRACES={
           "total": "55",
           "i": "10"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -29579,23 +28529,13 @@ window.SCENE_TRACES={
           "total": "55",
           "i": "10"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 3,
-        "source_line": "print(total)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "total": "55",
           "i": "10"
         },
         "return_value": "",
-        "output_so_far": "55\n"
+        "output_so_far": "",
+        "after_output": "55\n"
       }
     ]
   },
@@ -29621,8 +28561,10 @@ window.SCENE_TRACES={
         "kind": "loop",
         "iteration": 1,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 1,
@@ -29635,8 +28577,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n"
+        "output_so_far": "0\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -29649,8 +28593,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n"
+        "output_so_far": "0\n2\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -29663,8 +28609,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n"
+        "output_so_far": "0\n2\n4\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -29677,8 +28625,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "6"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n"
+        "output_so_far": "0\n2\n4\n6\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -29691,8 +28641,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "8"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n"
+        "output_so_far": "0\n2\n4\n6\n8\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -29705,8 +28657,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "10"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n"
+        "output_so_far": "0\n2\n4\n6\n8\n10\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -29719,8 +28673,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "12"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n"
+        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -29733,8 +28689,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "14"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n"
+        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -29747,8 +28705,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "16"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n"
+        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -29761,8 +28721,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "18"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n"
+        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n",
+        "after_output": null
       },
       {
         "line": 1,
@@ -29775,22 +28737,12 @@ window.SCENE_TRACES={
         "locals": {
           "i": "20"
         },
-        "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n"
-      },
-      {
-        "line": 1,
-        "source_line": "for i in range(0, 21, 2): print(i)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "i": "20"
         },
         "return_value": "",
-        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n"
+        "output_so_far": "0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n",
+        "after_output": "0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n"
       }
     ]
   },
@@ -29816,8 +28768,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -29830,8 +28784,10 @@ window.SCENE_TRACES={
         "locals": {
           "compte": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -29845,8 +28801,10 @@ window.SCENE_TRACES={
           "compte": "0",
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -29861,8 +28819,10 @@ window.SCENE_TRACES={
           "i": "0",
           "j": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -29877,8 +28837,10 @@ window.SCENE_TRACES={
           "i": "0",
           "j": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -29893,8 +28855,10 @@ window.SCENE_TRACES={
           "i": "0",
           "j": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -29909,8 +28873,10 @@ window.SCENE_TRACES={
           "i": "0",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -29925,8 +28891,10 @@ window.SCENE_TRACES={
           "i": "0",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -29941,8 +28909,10 @@ window.SCENE_TRACES={
           "i": "1",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -29957,8 +28927,10 @@ window.SCENE_TRACES={
           "i": "1",
           "j": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -29973,8 +28945,10 @@ window.SCENE_TRACES={
           "i": "1",
           "j": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -29989,8 +28963,10 @@ window.SCENE_TRACES={
           "i": "1",
           "j": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -30005,8 +28981,10 @@ window.SCENE_TRACES={
           "i": "1",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -30021,8 +28999,10 @@ window.SCENE_TRACES={
           "i": "1",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -30037,8 +29017,10 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -30053,8 +29035,10 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -30069,8 +29053,10 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -30085,8 +29071,10 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -30101,8 +29089,10 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -30117,8 +29107,10 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -30133,24 +29125,14 @@ window.SCENE_TRACES={
           "i": "2",
           "j": "3"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(compte)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "compte": "12",
           "i": "2",
           "j": "3"
         },
         "return_value": "",
-        "output_so_far": "12\n"
+        "output_so_far": "",
+        "after_output": "12\n"
       }
     ]
   },
@@ -30176,8 +29158,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -30190,8 +29174,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -30204,8 +29190,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -30218,8 +29206,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n"
+        "output_so_far": "0\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -30232,8 +29222,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n"
+        "output_so_far": "0\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -30246,8 +29238,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n"
+        "output_so_far": "0\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -30260,8 +29254,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n"
+        "output_so_far": "0\n1\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -30274,8 +29270,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n"
+        "output_so_far": "0\n1\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -30288,8 +29286,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n"
+        "output_so_far": "0\n1\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -30302,8 +29302,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n"
+        "output_so_far": "0\n1\n2\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -30316,8 +29318,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n"
+        "output_so_far": "0\n1\n2\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -30330,8 +29334,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n"
+        "output_so_far": "0\n1\n2\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -30344,8 +29350,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n"
+        "output_so_far": "0\n1\n2\n3\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -30358,8 +29366,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n"
+        "output_so_far": "0\n1\n2\n3\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -30372,8 +29382,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n"
+        "output_so_far": "0\n1\n2\n3\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -30386,8 +29398,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n"
+        "output_so_far": "0\n1\n2\n3\n4\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -30400,22 +29414,12 @@ window.SCENE_TRACES={
         "locals": {
           "i": "5"
         },
-        "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n"
-      },
-      {
-        "line": 2,
-        "source_line": "while i < 5:",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "i": "5"
         },
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n"
+        "output_so_far": "0\n1\n2\n3\n4\n",
+        "after_output": "0\n1\n2\n3\n4\n"
       }
     ]
   },
@@ -30441,8 +29445,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -30455,8 +29461,10 @@ window.SCENE_TRACES={
         "locals": {
           "total": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -30470,8 +29478,10 @@ window.SCENE_TRACES={
           "total": "0",
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -30485,8 +29495,10 @@ window.SCENE_TRACES={
           "total": "0",
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 5,
@@ -30500,8 +29512,10 @@ window.SCENE_TRACES={
           "total": "1",
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -30515,8 +29529,10 @@ window.SCENE_TRACES={
           "total": "1",
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -30530,8 +29546,10 @@ window.SCENE_TRACES={
           "total": "1",
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 5,
@@ -30545,8 +29563,10 @@ window.SCENE_TRACES={
           "total": "3",
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -30560,8 +29580,10 @@ window.SCENE_TRACES={
           "total": "3",
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -30575,8 +29597,10 @@ window.SCENE_TRACES={
           "total": "3",
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 5,
@@ -30590,8 +29614,10 @@ window.SCENE_TRACES={
           "total": "6",
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -30605,8 +29631,10 @@ window.SCENE_TRACES={
           "total": "6",
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -30620,8 +29648,10 @@ window.SCENE_TRACES={
           "total": "6",
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 5,
@@ -30635,8 +29665,10 @@ window.SCENE_TRACES={
           "total": "10",
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -30650,8 +29682,10 @@ window.SCENE_TRACES={
           "total": "10",
           "i": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 6,
@@ -30665,23 +29699,13 @@ window.SCENE_TRACES={
           "total": "10",
           "i": "5"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 6,
-        "source_line": "print(total)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "total": "10",
           "i": "5"
         },
         "return_value": "",
-        "output_so_far": "10\n"
+        "output_so_far": "",
+        "after_output": "10\n"
       }
     ]
   },
@@ -30707,8 +29731,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -30721,8 +29747,10 @@ window.SCENE_TRACES={
         "locals": {
           "age": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -30735,8 +29763,10 @@ window.SCENE_TRACES={
         "locals": {
           "age": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -30749,8 +29779,10 @@ window.SCENE_TRACES={
         "locals": {
           "age": "18"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -30763,22 +29795,12 @@ window.SCENE_TRACES={
         "locals": {
           "age": "18"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(age)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "age": "18"
         },
         "return_value": "",
-        "output_so_far": "18\n"
+        "output_so_far": "",
+        "after_output": "18\n"
       }
     ]
   },
@@ -30804,8 +29826,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -30818,8 +29842,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -30832,8 +29858,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -30846,8 +29874,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "5\n"
+        "output_so_far": "5\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -30860,8 +29890,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "5\n"
+        "output_so_far": "5\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -30874,8 +29906,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "5\n"
+        "output_so_far": "5\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -30888,8 +29922,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "5\n4\n"
+        "output_so_far": "5\n4\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -30902,8 +29938,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "5\n4\n"
+        "output_so_far": "5\n4\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -30916,8 +29954,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "5\n4\n"
+        "output_so_far": "5\n4\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -30930,8 +29970,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "5\n4\n3\n"
+        "output_so_far": "5\n4\n3\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -30944,8 +29986,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "5\n4\n3\n"
+        "output_so_far": "5\n4\n3\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -30958,8 +30002,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "5\n4\n3\n"
+        "output_so_far": "5\n4\n3\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -30972,8 +30018,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "5\n4\n3\n2\n"
+        "output_so_far": "5\n4\n3\n2\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -30986,8 +30034,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "5\n4\n3\n2\n"
+        "output_so_far": "5\n4\n3\n2\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -31000,8 +30050,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "5\n4\n3\n2\n"
+        "output_so_far": "5\n4\n3\n2\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -31014,8 +30066,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "5\n4\n3\n2\n1\n"
+        "output_so_far": "5\n4\n3\n2\n1\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -31028,22 +30082,12 @@ window.SCENE_TRACES={
         "locals": {
           "n": "0"
         },
-        "return_value": "",
-        "output_so_far": "5\n4\n3\n2\n1\n"
-      },
-      {
-        "line": 2,
-        "source_line": "while n > 0:",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "n": "0"
         },
         "return_value": "",
-        "output_so_far": "5\n4\n3\n2\n1\n"
+        "output_so_far": "5\n4\n3\n2\n1\n",
+        "after_output": "5\n4\n3\n2\n1\n"
       }
     ]
   },
@@ -31069,8 +30113,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -31083,8 +30129,10 @@ window.SCENE_TRACES={
         "locals": {
           "valeurs": "[3, 8, 5, 9]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -31098,8 +30146,10 @@ window.SCENE_TRACES={
           "valeurs": "[3, 8, 5, 9]",
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -31113,8 +30163,10 @@ window.SCENE_TRACES={
           "valeurs": "[3, 8, 5, 9]",
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -31128,8 +30180,10 @@ window.SCENE_TRACES={
           "valeurs": "[3, 8, 5, 9]",
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -31143,8 +30197,10 @@ window.SCENE_TRACES={
           "valeurs": "[3, 8, 5, 9]",
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -31158,8 +30214,10 @@ window.SCENE_TRACES={
           "valeurs": "[3, 8, 5, 9]",
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 5,
@@ -31173,23 +30231,13 @@ window.SCENE_TRACES={
           "valeurs": "[3, 8, 5, 9]",
           "i": "2"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 5,
-        "source_line": "print(i)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "valeurs": "[3, 8, 5, 9]",
           "i": "2"
         },
         "return_value": "",
-        "output_so_far": "2\n"
+        "output_so_far": "",
+        "after_output": "2\n"
       }
     ]
   },
@@ -31215,8 +30263,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -31229,8 +30279,10 @@ window.SCENE_TRACES={
         "locals": {
           "valeur": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -31243,8 +30295,10 @@ window.SCENE_TRACES={
         "locals": {
           "valeur": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -31257,8 +30311,10 @@ window.SCENE_TRACES={
         "locals": {
           "valeur": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -31271,8 +30327,10 @@ window.SCENE_TRACES={
         "locals": {
           "valeur": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -31285,8 +30343,10 @@ window.SCENE_TRACES={
         "locals": {
           "valeur": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -31299,8 +30359,10 @@ window.SCENE_TRACES={
         "locals": {
           "valeur": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -31313,8 +30375,10 @@ window.SCENE_TRACES={
         "locals": {
           "valeur": "8"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -31327,8 +30391,10 @@ window.SCENE_TRACES={
         "locals": {
           "valeur": "8"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -31341,8 +30407,10 @@ window.SCENE_TRACES={
         "locals": {
           "valeur": "16"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -31355,8 +30423,10 @@ window.SCENE_TRACES={
         "locals": {
           "valeur": "16"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -31369,8 +30439,10 @@ window.SCENE_TRACES={
         "locals": {
           "valeur": "32"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -31383,8 +30455,10 @@ window.SCENE_TRACES={
         "locals": {
           "valeur": "32"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -31397,8 +30471,10 @@ window.SCENE_TRACES={
         "locals": {
           "valeur": "64"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -31411,8 +30487,10 @@ window.SCENE_TRACES={
         "locals": {
           "valeur": "64"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -31425,8 +30503,10 @@ window.SCENE_TRACES={
         "locals": {
           "valeur": "128"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -31439,22 +30519,12 @@ window.SCENE_TRACES={
         "locals": {
           "valeur": "128"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(valeur)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "valeur": "128"
         },
         "return_value": "",
-        "output_so_far": "128\n"
+        "output_so_far": "",
+        "after_output": "128\n"
       }
     ]
   },
@@ -31480,8 +30550,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -31494,8 +30566,10 @@ window.SCENE_TRACES={
         "locals": {
           "choix": "'q'"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -31508,22 +30582,12 @@ window.SCENE_TRACES={
         "locals": {
           "choix": "'q'"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(\"fin\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "choix": "'q'"
         },
         "return_value": "",
-        "output_so_far": "fin\n"
+        "output_so_far": "",
+        "after_output": "fin\n"
       }
     ]
   },
@@ -31549,8 +30613,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -31564,8 +30630,10 @@ window.SCENE_TRACES={
           "a": "48",
           "b": "18"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -31579,8 +30647,10 @@ window.SCENE_TRACES={
           "a": "48",
           "b": "18"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -31594,8 +30664,10 @@ window.SCENE_TRACES={
           "a": "18",
           "b": "12"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -31609,8 +30681,10 @@ window.SCENE_TRACES={
           "a": "18",
           "b": "12"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -31624,8 +30698,10 @@ window.SCENE_TRACES={
           "a": "12",
           "b": "6"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -31639,8 +30715,10 @@ window.SCENE_TRACES={
           "a": "12",
           "b": "6"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -31654,8 +30732,10 @@ window.SCENE_TRACES={
           "a": "6",
           "b": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -31669,23 +30749,13 @@ window.SCENE_TRACES={
           "a": "6",
           "b": "0"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(a)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "a": "6",
           "b": "0"
         },
         "return_value": "",
-        "output_so_far": "6\n"
+        "output_so_far": "",
+        "after_output": "6\n"
       }
     ]
   },
@@ -31711,8 +30781,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -31725,8 +30797,10 @@ window.SCENE_TRACES={
         "locals": {
           "notes": "[10, 14, 16]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -31740,8 +30814,10 @@ window.SCENE_TRACES={
           "notes": "[10, 14, 16]",
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -31756,8 +30832,10 @@ window.SCENE_TRACES={
           "i": "0",
           "total": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 5,
@@ -31772,8 +30850,10 @@ window.SCENE_TRACES={
           "i": "0",
           "total": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 6,
@@ -31788,8 +30868,10 @@ window.SCENE_TRACES={
           "i": "0",
           "total": "10"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -31804,8 +30886,10 @@ window.SCENE_TRACES={
           "i": "1",
           "total": "10"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 5,
@@ -31820,8 +30904,10 @@ window.SCENE_TRACES={
           "i": "1",
           "total": "10"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 6,
@@ -31836,8 +30922,10 @@ window.SCENE_TRACES={
           "i": "1",
           "total": "24"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -31852,8 +30940,10 @@ window.SCENE_TRACES={
           "i": "2",
           "total": "24"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 5,
@@ -31868,8 +30958,10 @@ window.SCENE_TRACES={
           "i": "2",
           "total": "24"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 6,
@@ -31884,8 +30976,10 @@ window.SCENE_TRACES={
           "i": "2",
           "total": "40"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -31900,8 +30994,10 @@ window.SCENE_TRACES={
           "i": "3",
           "total": "40"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 7,
@@ -31916,24 +31012,14 @@ window.SCENE_TRACES={
           "i": "3",
           "total": "40"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 7,
-        "source_line": "print(total)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "notes": "[10, 14, 16]",
           "i": "3",
           "total": "40"
         },
         "return_value": "",
-        "output_so_far": "40\n"
+        "output_so_far": "",
+        "after_output": "40\n"
       }
     ]
   },
@@ -31959,8 +31045,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -31973,8 +31061,10 @@ window.SCENE_TRACES={
         "locals": {
           "minute": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -31987,8 +31077,10 @@ window.SCENE_TRACES={
         "locals": {
           "minute": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -32001,8 +31093,10 @@ window.SCENE_TRACES={
         "locals": {
           "minute": "10"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -32015,8 +31109,10 @@ window.SCENE_TRACES={
         "locals": {
           "minute": "10"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -32029,8 +31125,10 @@ window.SCENE_TRACES={
         "locals": {
           "minute": "20"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -32043,8 +31141,10 @@ window.SCENE_TRACES={
         "locals": {
           "minute": "20"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -32057,8 +31157,10 @@ window.SCENE_TRACES={
         "locals": {
           "minute": "30"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -32071,8 +31173,10 @@ window.SCENE_TRACES={
         "locals": {
           "minute": "30"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -32085,8 +31189,10 @@ window.SCENE_TRACES={
         "locals": {
           "minute": "40"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -32099,22 +31205,12 @@ window.SCENE_TRACES={
         "locals": {
           "minute": "40"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(minute)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "minute": "40"
         },
         "return_value": "",
-        "output_so_far": "40\n"
+        "output_so_far": "",
+        "after_output": "40\n"
       }
     ]
   },
@@ -32140,8 +31236,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -32154,8 +31252,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -32168,8 +31268,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -32182,8 +31284,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n"
+        "output_so_far": "0\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -32196,8 +31300,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n"
+        "output_so_far": "0\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -32210,8 +31316,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n"
+        "output_so_far": "0\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -32224,8 +31332,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n"
+        "output_so_far": "0\n1\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -32238,8 +31348,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n"
+        "output_so_far": "0\n1\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -32252,8 +31364,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n"
+        "output_so_far": "0\n1\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -32266,8 +31380,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n"
+        "output_so_far": "0\n1\n2\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -32280,8 +31396,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n"
+        "output_so_far": "0\n1\n2\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -32294,8 +31412,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n"
+        "output_so_far": "0\n1\n2\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -32308,8 +31428,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n"
+        "output_so_far": "0\n1\n2\n3\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -32322,8 +31444,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n"
+        "output_so_far": "0\n1\n2\n3\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -32336,8 +31460,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n"
+        "output_so_far": "0\n1\n2\n3\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -32350,8 +31476,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n"
+        "output_so_far": "0\n1\n2\n3\n4\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -32364,8 +31492,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n"
+        "output_so_far": "0\n1\n2\n3\n4\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -32378,8 +31508,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n"
+        "output_so_far": "0\n1\n2\n3\n4\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -32392,8 +31524,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n5\n"
+        "output_so_far": "0\n1\n2\n3\n4\n5\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -32406,22 +31540,12 @@ window.SCENE_TRACES={
         "locals": {
           "i": "6"
         },
-        "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n5\n"
-      },
-      {
-        "line": 2,
-        "source_line": "while i < 6:",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "i": "6"
         },
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n5\n"
+        "output_so_far": "0\n1\n2\n3\n4\n5\n",
+        "after_output": "0\n1\n2\n3\n4\n5\n"
       }
     ]
   },
@@ -32447,8 +31571,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -32461,8 +31587,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -32475,8 +31603,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -32489,8 +31619,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -32503,8 +31635,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -32517,8 +31651,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -32531,8 +31667,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -32545,8 +31683,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -32559,22 +31699,12 @@ window.SCENE_TRACES={
         "locals": {
           "n": "0"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(\"fin\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "n": "0"
         },
         "return_value": "",
-        "output_so_far": "fin\n"
+        "output_so_far": "",
+        "after_output": "fin\n"
       }
     ]
   },
@@ -32600,8 +31730,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -32614,8 +31746,10 @@ window.SCENE_TRACES={
         "locals": {
           "a": "[2, 5, 8]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -32629,8 +31763,10 @@ window.SCENE_TRACES={
           "a": "[2, 5, 8]",
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -32644,23 +31780,13 @@ window.SCENE_TRACES={
           "a": "[2, 5, 8]",
           "i": "1"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(i)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "a": "[2, 5, 8]",
           "i": "1"
         },
         "return_value": "",
-        "output_so_far": "1\n"
+        "output_so_far": "",
+        "after_output": "1\n"
       }
     ]
   },
@@ -32686,8 +31812,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -32700,8 +31828,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -32714,8 +31844,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -32728,8 +31860,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n"
+        "output_so_far": "0\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -32742,8 +31876,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n"
+        "output_so_far": "0\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -32756,8 +31892,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n"
+        "output_so_far": "0\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -32770,8 +31908,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n"
+        "output_so_far": "0\n1\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -32784,8 +31924,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n"
+        "output_so_far": "0\n1\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -32798,8 +31940,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n"
+        "output_so_far": "0\n1\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -32812,8 +31956,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n"
+        "output_so_far": "0\n1\n2\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -32826,8 +31972,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n"
+        "output_so_far": "0\n1\n2\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -32840,8 +31988,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n"
+        "output_so_far": "0\n1\n2\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -32854,8 +32004,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n"
+        "output_so_far": "0\n1\n2\n3\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -32868,8 +32020,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n"
+        "output_so_far": "0\n1\n2\n3\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -32882,8 +32036,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n"
+        "output_so_far": "0\n1\n2\n3\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -32896,8 +32052,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n"
+        "output_so_far": "0\n1\n2\n3\n4\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -32910,8 +32068,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n"
+        "output_so_far": "0\n1\n2\n3\n4\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -32924,8 +32084,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n"
+        "output_so_far": "0\n1\n2\n3\n4\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -32938,8 +32100,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n5\n"
+        "output_so_far": "0\n1\n2\n3\n4\n5\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -32952,22 +32116,12 @@ window.SCENE_TRACES={
         "locals": {
           "i": "6"
         },
-        "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n5\n"
-      },
-      {
-        "line": 2,
-        "source_line": "while i < 6:",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "i": "6"
         },
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n5\n"
+        "output_so_far": "0\n1\n2\n3\n4\n5\n",
+        "after_output": "0\n1\n2\n3\n4\n5\n"
       }
     ]
   },
@@ -32993,8 +32147,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -33007,8 +32163,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -33021,8 +32179,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -33035,8 +32195,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -33049,8 +32211,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -33063,8 +32227,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -33077,8 +32243,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -33091,8 +32259,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -33105,22 +32275,12 @@ window.SCENE_TRACES={
         "locals": {
           "n": "0"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(\"fin\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "n": "0"
         },
         "return_value": "",
-        "output_so_far": "fin\n"
+        "output_so_far": "",
+        "after_output": "fin\n"
       }
     ]
   },
@@ -33146,8 +32306,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -33160,8 +32322,10 @@ window.SCENE_TRACES={
         "locals": {
           "a": "[2, 5, 8]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -33175,8 +32339,10 @@ window.SCENE_TRACES={
           "a": "[2, 5, 8]",
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -33190,23 +32356,13 @@ window.SCENE_TRACES={
           "a": "[2, 5, 8]",
           "i": "1"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(i)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "a": "[2, 5, 8]",
           "i": "1"
         },
         "return_value": "",
-        "output_so_far": "1\n"
+        "output_so_far": "",
+        "after_output": "1\n"
       }
     ]
   },
@@ -33232,8 +32388,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -33246,8 +32404,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -33260,8 +32420,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -33274,8 +32436,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n"
+        "output_so_far": "0\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -33288,8 +32452,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n"
+        "output_so_far": "0\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -33302,8 +32468,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n"
+        "output_so_far": "0\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -33316,8 +32484,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n"
+        "output_so_far": "0\n1\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -33330,8 +32500,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n"
+        "output_so_far": "0\n1\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -33344,8 +32516,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n"
+        "output_so_far": "0\n1\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -33358,8 +32532,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n"
+        "output_so_far": "0\n1\n2\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -33372,8 +32548,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n"
+        "output_so_far": "0\n1\n2\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -33386,8 +32564,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n"
+        "output_so_far": "0\n1\n2\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -33400,8 +32580,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n"
+        "output_so_far": "0\n1\n2\n3\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -33414,8 +32596,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n"
+        "output_so_far": "0\n1\n2\n3\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -33428,8 +32612,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n"
+        "output_so_far": "0\n1\n2\n3\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -33442,8 +32628,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n"
+        "output_so_far": "0\n1\n2\n3\n4\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -33456,8 +32644,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n"
+        "output_so_far": "0\n1\n2\n3\n4\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -33470,8 +32660,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n"
+        "output_so_far": "0\n1\n2\n3\n4\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -33484,8 +32676,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n5\n"
+        "output_so_far": "0\n1\n2\n3\n4\n5\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -33498,22 +32692,12 @@ window.SCENE_TRACES={
         "locals": {
           "i": "6"
         },
-        "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n5\n"
-      },
-      {
-        "line": 2,
-        "source_line": "while i < 6:",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "i": "6"
         },
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n5\n"
+        "output_so_far": "0\n1\n2\n3\n4\n5\n",
+        "after_output": "0\n1\n2\n3\n4\n5\n"
       }
     ]
   },
@@ -33539,8 +32723,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -33553,8 +32739,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -33567,8 +32755,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -33581,8 +32771,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -33595,8 +32787,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -33609,8 +32803,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -33623,8 +32819,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -33637,8 +32835,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -33651,22 +32851,12 @@ window.SCENE_TRACES={
         "locals": {
           "n": "0"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(\"fin\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "n": "0"
         },
         "return_value": "",
-        "output_so_far": "fin\n"
+        "output_so_far": "",
+        "after_output": "fin\n"
       }
     ]
   },
@@ -33692,8 +32882,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -33706,8 +32898,10 @@ window.SCENE_TRACES={
         "locals": {
           "a": "[2, 5, 8]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -33721,8 +32915,10 @@ window.SCENE_TRACES={
           "a": "[2, 5, 8]",
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -33736,23 +32932,13 @@ window.SCENE_TRACES={
           "a": "[2, 5, 8]",
           "i": "1"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(i)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "a": "[2, 5, 8]",
           "i": "1"
         },
         "return_value": "",
-        "output_so_far": "1\n"
+        "output_so_far": "",
+        "after_output": "1\n"
       }
     ]
   },
@@ -33778,8 +32964,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -33792,8 +32980,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -33806,8 +32996,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -33820,8 +33012,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n"
+        "output_so_far": "0\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -33834,8 +33028,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n"
+        "output_so_far": "0\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -33848,8 +33044,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n"
+        "output_so_far": "0\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -33862,8 +33060,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n"
+        "output_so_far": "0\n1\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -33876,8 +33076,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n"
+        "output_so_far": "0\n1\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -33890,8 +33092,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n"
+        "output_so_far": "0\n1\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -33904,8 +33108,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n"
+        "output_so_far": "0\n1\n2\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -33918,8 +33124,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n"
+        "output_so_far": "0\n1\n2\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -33932,8 +33140,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n"
+        "output_so_far": "0\n1\n2\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -33946,8 +33156,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n"
+        "output_so_far": "0\n1\n2\n3\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -33960,8 +33172,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n"
+        "output_so_far": "0\n1\n2\n3\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -33974,8 +33188,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n"
+        "output_so_far": "0\n1\n2\n3\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -33988,8 +33204,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n"
+        "output_so_far": "0\n1\n2\n3\n4\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -34002,8 +33220,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n"
+        "output_so_far": "0\n1\n2\n3\n4\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -34016,8 +33236,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n"
+        "output_so_far": "0\n1\n2\n3\n4\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -34030,8 +33252,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n5\n"
+        "output_so_far": "0\n1\n2\n3\n4\n5\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -34044,22 +33268,12 @@ window.SCENE_TRACES={
         "locals": {
           "i": "6"
         },
-        "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n5\n"
-      },
-      {
-        "line": 2,
-        "source_line": "while i < 6:",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "i": "6"
         },
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n5\n"
+        "output_so_far": "0\n1\n2\n3\n4\n5\n",
+        "after_output": "0\n1\n2\n3\n4\n5\n"
       }
     ]
   },
@@ -34085,8 +33299,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -34099,8 +33315,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -34113,8 +33331,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -34127,8 +33347,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -34141,8 +33363,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -34155,8 +33379,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -34169,8 +33395,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -34183,8 +33411,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -34197,22 +33427,12 @@ window.SCENE_TRACES={
         "locals": {
           "n": "0"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(\"fin\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "n": "0"
         },
         "return_value": "",
-        "output_so_far": "fin\n"
+        "output_so_far": "",
+        "after_output": "fin\n"
       }
     ]
   },
@@ -34238,8 +33458,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -34252,8 +33474,10 @@ window.SCENE_TRACES={
         "locals": {
           "a": "[2, 5, 8]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -34267,8 +33491,10 @@ window.SCENE_TRACES={
           "a": "[2, 5, 8]",
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -34282,23 +33508,13 @@ window.SCENE_TRACES={
           "a": "[2, 5, 8]",
           "i": "1"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(i)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "a": "[2, 5, 8]",
           "i": "1"
         },
         "return_value": "",
-        "output_so_far": "1\n"
+        "output_so_far": "",
+        "after_output": "1\n"
       }
     ]
   },
@@ -34324,8 +33540,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -34338,8 +33556,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -34352,8 +33572,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -34366,8 +33588,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n"
+        "output_so_far": "0\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -34380,8 +33604,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n"
+        "output_so_far": "0\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -34394,8 +33620,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n"
+        "output_so_far": "0\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -34408,8 +33636,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n"
+        "output_so_far": "0\n1\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -34422,8 +33652,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n"
+        "output_so_far": "0\n1\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -34436,8 +33668,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n"
+        "output_so_far": "0\n1\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -34450,8 +33684,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n"
+        "output_so_far": "0\n1\n2\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -34464,8 +33700,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n"
+        "output_so_far": "0\n1\n2\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -34478,8 +33716,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n"
+        "output_so_far": "0\n1\n2\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -34492,8 +33732,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n"
+        "output_so_far": "0\n1\n2\n3\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -34506,8 +33748,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n"
+        "output_so_far": "0\n1\n2\n3\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -34520,8 +33764,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n"
+        "output_so_far": "0\n1\n2\n3\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -34534,8 +33780,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "4"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n"
+        "output_so_far": "0\n1\n2\n3\n4\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -34548,8 +33796,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n"
+        "output_so_far": "0\n1\n2\n3\n4\n",
+        "after_output": null
       },
       {
         "line": 3,
@@ -34562,8 +33812,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n"
+        "output_so_far": "0\n1\n2\n3\n4\n",
+        "after_output": null
       },
       {
         "line": 4,
@@ -34576,8 +33828,10 @@ window.SCENE_TRACES={
         "locals": {
           "i": "5"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n5\n"
+        "output_so_far": "0\n1\n2\n3\n4\n5\n",
+        "after_output": null
       },
       {
         "line": 2,
@@ -34590,22 +33844,12 @@ window.SCENE_TRACES={
         "locals": {
           "i": "6"
         },
-        "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n5\n"
-      },
-      {
-        "line": 2,
-        "source_line": "while i < 6:",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "i": "6"
         },
         "return_value": "",
-        "output_so_far": "0\n1\n2\n3\n4\n5\n"
+        "output_so_far": "0\n1\n2\n3\n4\n5\n",
+        "after_output": "0\n1\n2\n3\n4\n5\n"
       }
     ]
   },
@@ -34631,8 +33875,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -34645,8 +33891,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -34659,8 +33907,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "3"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -34673,8 +33923,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -34687,8 +33939,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "2"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -34701,8 +33955,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -34715,8 +33971,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "1"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -34729,8 +33987,10 @@ window.SCENE_TRACES={
         "locals": {
           "n": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -34743,22 +34003,12 @@ window.SCENE_TRACES={
         "locals": {
           "n": "0"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(\"fin\")",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "n": "0"
         },
         "return_value": "",
-        "output_so_far": "fin\n"
+        "output_so_far": "",
+        "after_output": "fin\n"
       }
     ]
   },
@@ -34784,8 +34034,10 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {},
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 2,
@@ -34798,8 +34050,10 @@ window.SCENE_TRACES={
         "locals": {
           "a": "[2, 5, 8]"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 3,
@@ -34813,8 +34067,10 @@ window.SCENE_TRACES={
           "a": "[2, 5, 8]",
           "i": "0"
         },
+        "after_locals": null,
         "return_value": "",
-        "output_so_far": ""
+        "output_so_far": "",
+        "after_output": null
       },
       {
         "line": 4,
@@ -34828,23 +34084,13 @@ window.SCENE_TRACES={
           "a": "[2, 5, 8]",
           "i": "1"
         },
-        "return_value": "",
-        "output_so_far": ""
-      },
-      {
-        "line": 4,
-        "source_line": "print(i)",
-        "event": "return",
-        "frame": "<module>",
-        "indent": 0,
-        "kind": "return",
-        "iteration": null,
-        "locals": {
+        "after_locals": {
           "a": "[2, 5, 8]",
           "i": "1"
         },
         "return_value": "",
-        "output_so_far": "1\n"
+        "output_so_far": "",
+        "after_output": "1\n"
       }
     ]
   }

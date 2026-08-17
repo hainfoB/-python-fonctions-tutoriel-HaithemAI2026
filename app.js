@@ -4,6 +4,8 @@ let active = Number(localStorage.getItem('berkane-active') || 0);
 let scores = JSON.parse(localStorage.getItem('berkane-scores') || '{}');
 let memoryStep = 0;
 let memoryTimer = null;
+let diagramStageStep = 0;
+let diagramTimer = null;
 let memoryProgramOverride = null;
 let memoryComplexityOverride = null;
 let memoryTraceOverride = null;
@@ -57,3 +59,202 @@ $('memoryReset').onclick=()=>{if(memoryTimer){clearInterval(memoryTimer);memoryT
 $('memoryPlay').onclick=toggleMemoryPlay;
 $('diagramPrevious').onclick=()=>stepMemory(-1);$('diagramNext').onclick=()=>stepMemory(1);$('diagramReset').onclick=()=>{memoryStep=0;renderMemory(chapters[active])};$('diagramPlay').onclick=()=>{if(memoryTimer){clearInterval(memoryTimer);memoryTimer=null;$('diagramPlay').textContent='Lire le diagramme';return}memoryTimer=setInterval(()=>{const c=chapters[active];const key=memoryTraceOverride||(c.generalizedExamples?.length?`${c.id}:example:0`:null);const max=Math.max(0,(window.SCENE_TRACES?.[key]?.states?.length||expandProgram(memoryProgramOverride||c.example).length)-1);if(memoryStep>=max){clearInterval(memoryTimer);memoryTimer=null;$('diagramPlay').textContent='Lire le diagramme';return}stepMemory(1)},1100);$('diagramPlay').textContent='Pause'};
 render();
+
+function memorySceneItems(c){
+  return [
+    ...(c.generalizedExamples||[]).map((item,index)=>({
+      sceneKey:`${c.id}:example:${index}`,
+      code:item.code,
+      complexity:item.complexity,
+      title:text(item.title),
+      kind:lang==='fr'?'Exemple':'Example',
+      number:index+1,
+    })),
+    ...(c.generalizedExercises||[]).map((item,index)=>({
+      sceneKey:`${c.id}:exercise:${index}`,
+      code:item.solution,
+      complexity:item.complexity,
+      title:text(item.title),
+      kind:lang==='fr'?'Exercice':'Exercise',
+      number:index+1,
+    })),
+  ];
+}
+
+function currentMemorySceneKey(c){
+  const defaultKey=`${c.id}:example:0`;
+  return memoryTraceOverride?.startsWith(`${c.id}:`) ? memoryTraceOverride : defaultKey;
+}
+
+function selectMemoryScene(c,sceneKey,{focus=false}={}){
+  const item=memorySceneItems(c).find(candidate=>candidate.sceneKey===sceneKey);
+  if(!item)return;
+  if(memoryTimer){clearInterval(memoryTimer);memoryTimer=null;}
+  memoryProgramOverride=item.code;
+  memoryComplexityOverride=item.complexity;
+  memoryTraceOverride=item.sceneKey;
+  memoryStep=0;
+  diagramStageStep=0;
+  renderMemory(c);
+  if(focus){
+    $('memorySection')?.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});
+  }
+}
+
+function renderMemorySelector(c){
+  const selector=$('memorySourceSelector');
+  if(!selector)return;
+  const items=memorySceneItems(c);
+  const selectedKey=currentMemorySceneKey(c);
+  const selected=items.find(item=>item.sceneKey===selectedKey)||items[0];
+  selector.innerHTML=items.length?`<span class="memory-selector-label">${lang==='fr'?'SCÈNE ACTIVE':'ACTIVE SCENE'} · ${selected.kind} ${String(selected.number).padStart(2,'0')} — ${code(selected.title)}</span><div>${items.map(item=>`<button type="button" class="memory-source-button ${item.sceneKey===selectedKey?'active':''}" data-memory-scene="${item.sceneKey}" aria-pressed="${item.sceneKey===selectedKey}">${item.kind} ${String(item.number).padStart(2,'0')}</button>`).join('')}</div>`:'';
+  selector.querySelectorAll('[data-memory-scene]').forEach(button=>button.onclick=()=>selectMemoryScene(c,button.dataset.memoryScene));
+}
+
+function realSceneStates(key){
+  const trace=window.SCENE_TRACES?.[key];
+  if(!trace?.states?.length)return null;
+  const lines=trace.states.map(state=>state.source_line||`# ${state.event} · line ${state.line}`);
+  const states=trace.states.map((state,index)=>{
+    const following=trace.states[index+1]||state;
+    const resultLocals=state.after_locals||following.locals||state.locals||{};
+    const afterOutput=state.after_output??following.output_so_far??state.output_so_far??'';
+    return {...state,locals:resultLocals,line:state.line,source_line:lines[index],index,after_locals:resultLocals,after_output:afterOutput,slots:Object.entries(resultLocals).map(([name,value],slotIndex)=>({name,value,address:`0x${(4096+index*32+slotIndex).toString(16).toUpperCase()}`,kind:'updated'})).concat(index===trace.states.length-1&&afterOutput?[{name:'sortie',value:afterOutput,address:'0xSTDOUT',kind:'output'}]:[])};
+  });
+  return {trace,lines,states};
+}
+
+function stateOutput(state){
+  return String(state?.after_output??state?.output_so_far??'').trim().split('\n').filter(Boolean).at(-1)||'';
+}
+
+function renderExecutionDiagram(c,real,states){
+  const track=$('memoryDiagramTrack');
+  if(!track)return;
+  const state=states?.[memoryStep]||states?.[0]||{};
+  const previous=states?.[memoryStep-1]||{};
+  const fr=lang==='fr';
+  const before=previous.locals||{};
+  const now=state.locals||{};
+  const changes=Object.entries(now).filter(([name,value])=>before[name]!==value).map(([name,value])=>`${name} ← ${value}`);
+  const memoryValue=changes.join(' · ')||Object.entries(now).map(([name,value])=>`${name} = ${value}`).join(' · ')||(fr?'Aucune variable visible à cette étape.':'No visible variable at this step.');
+  const sourceValue=`L${state.line||'?'} · ${state.source_line||''}`;
+  const event=state.event||'line';
+  const frameValue=event==='return'?(fr?`${state.frame||'main'} → retour ${state.return_value||''}`:`${state.frame||'main'} → return ${state.return_value||''}`):event==='call'?(fr?`appel de ${state.frame||'main'}()`:`call ${state.frame||'main'}()`):(state.frame||'main()');
+  const controlValue=state.kind==='branch'?(state.branch_taken?(fr?'Condition vraie : le bloc indenté est suivi.':'Condition true: the indented block is followed.'):(fr?'Condition fausse : le bloc est évité.':'Condition false: the block is skipped.')):state.kind==='loop'?(fr?`Itération ${state.iteration||1} · ${state.source_line||''}`:`Iteration ${state.iteration||1} · ${state.source_line||''}`):event==='return'?(fr?`Retour de fonction : ${state.return_value||'None'}`:`Function return: ${state.return_value||'None'}`):(fr?'Exécution séquentielle de cette instruction.':'Sequential execution of this instruction.');
+  const outputValue=event==='return'?state.return_value||'None':stateOutput(state)||(fr?'Aucune sortie produite à cette étape.':'No output produced at this step.');
+  const stages=fr?[
+    ['source','1 · Code source','La ligne réellement exécutée dans la scène choisie.',sourceValue],
+    ['compile','2 · Instruction Python','Python prépare l’instruction active avant son exécution.',`${state.kind||'statement'} · événement ${event}`],
+    ['frame','3 · Cadre d’exécution','Le cadre actif localise l’appel en cours ou le retour.',frameValue],
+    ['memory','4 · Mémoire symbolique','Seules les valeurs qui ont changé sont mises en évidence.',memoryValue],
+    ['compute','5 · Décision / itération','La branche réellement prise ou le tour de boucle actif est expliqué.',controlValue],
+    ['output','6 · Sortie / retour','La sortie capturée ou la valeur retournée est affichée.',outputValue],
+  ]:[
+    ['source','1 · Source code','The line actually executed in the selected scene.',sourceValue],
+    ['compile','2 · Python instruction','Python prepares the active instruction before execution.',`${state.kind||'statement'} · event ${event}`],
+    ['frame','3 · Execution frame','The active frame locates the current call or return.',frameValue],
+    ['memory','4 · Symbolic memory','Only values that changed are highlighted.',memoryValue],
+    ['compute','5 · Decision / iteration','The actual branch or active loop turn is explained.',controlValue],
+    ['output','6 · Output / return','The captured output or returned value is displayed.',outputValue],
+  ];
+  const active=Math.max(0,Math.min(stages.length-1,diagramStageStep));
+  track.innerHTML=stages.map((item,index)=>`<div class="diagram-node stage-${item[0]} ${index===active?'is-active':''} ${index<active?'is-reached':''}"><span class="diagram-node-index">${String(index+1).padStart(2,'0')}</span><strong>${item[1]}</strong><small>${item[2]}</small><code>${code(String(item[3]))}</code></div>${index<stages.length-1?`<span class="diagram-arrow ${index<active?'is-reached':''}" aria-hidden="true">→</span>`:''}`).join('');
+  const current=stages[active];
+  $('diagramStageLabel').textContent=`${active+1} / ${stages.length}`;
+  $('diagramDetailTitle').textContent=current[1];
+  $('diagramDetailText').textContent=`${current[2]} · ${fr?'Trace':'Trace'} ${memoryStep+1}/${states?.length||1} · ${fr?'Étape':'Stage'} ${active+1}/${stages.length}`;
+  $('diagramDetailValue').textContent=current[3];
+}
+
+function renderMemory(c){
+  if(!$('memorySection'))return;
+  if(!memoryTraceOverride)diagramStageStep=0;
+  const selectedKey=currentMemorySceneKey(c);
+  const selected=memorySceneItems(c).find(item=>item.sceneKey===selectedKey);
+  if(selected&&!memoryTraceOverride)memoryTraceOverride=selectedKey;
+  renderMemorySelector(c);
+  memoryRuntime={};
+  const real=realSceneStates(selectedKey);
+  const source=selected?.code||memoryProgramOverride||c.example;
+  const lines=real?real.lines:expandProgram(source);
+  const states=real?real.states:lines.map((line,index)=>memorySnapshot(line,index,c));
+  memoryStep=Math.min(memoryStep,Math.max(0,states.length-1));
+  const state=states[memoryStep]||states[0]||{};
+  const meta=bloomByChapter[c.id]||bloomByChapter.basics;
+  $('memoryProgram').innerHTML=lines.map((line,index)=>`<span class="memory-line ${index===memoryStep?'active':''}" data-line="${index}"><b>${String(index+1).padStart(2,'0')}</b>${code(line||' ')}</span>`).join('\n');
+  renderExecutionDiagram(c,real,states);
+  const latestSlots=Object.values(states.slice(0,memoryStep+1).flatMap(item=>item.slots||[]).reduce((map,slot)=>{map[slot.name]=slot;return map},{}));
+  $('memorySlots').innerHTML=(latestSlots.length?latestSlots:[{name:lang==='fr'?'mémoire':'memory',value:lang==='fr'?'en attente de la prochaine instruction':'waiting for the next instruction',address:'0x1000',kind:'idle'}]).map(slot=>`<div class="memory-slot ${slot.kind}"><span>${slot.name}</span><strong>${code(slot.value)}</strong><small>${slot.address||'0x1000'} · ${lang==='fr'?'adresse symbolique':'symbolic address'}</small></div>`).join('');
+  $('memoryFrame').textContent=state.frame||'main()';
+  $('memoryStack').innerHTML=`<div class="stack-frame base"><span>${code(state.frame||'main()')}</span><small>${lang==='fr'?'cadre actif / active frame':'active frame'}</small><b>0x1000</b></div>`;
+  const visibleOutput=stateOutput(state);
+  $('memoryOutput').innerHTML=`<b>${lang==='fr'?'Instruction active':'Active instruction'}</b><span>${code(state.line||'')}</span><p>${visibleOutput?code(visibleOutput):(lang==='fr'?'Aucune sortie produite pour cette instruction.':'No output produced by this instruction.')}</p><small class="complexity-note"><strong>${lang==='fr'?'Complexité':'Complexity'} :</strong> ${selected?.complexity?text(selected.complexity):(lang==='fr'?'Scène à analyser':'Scene to analyze')}</small>`;
+  $('memoryStepLabel').textContent=`${memoryStep+1} / ${lines.length}`;
+  $('memoryProgressBar').style.width=`${((memoryStep+1)/Math.max(1,lines.length))*100}%`;
+  $('bloomLevel').textContent=text(meta.level);
+  $('bloomQuestion').textContent=text(meta.question);
+  $('bloomExplanation').textContent=text(meta.explanation);
+  $('competencyTitle').textContent=text(meta.competency);
+  $('competencyText').textContent=text(meta.proof);
+  $('competencyProof').textContent=`${lang==='fr'?'Preuve attendue':'Expected evidence'} · ${memoryStep+1}/${lines.length}`;
+}
+
+function sceneDiagramButton(sceneKey,kind){
+  const label=lang==='fr'?`Voir le diagramme animé de ${kind.toLowerCase()}`:`View this ${kind.toLowerCase()} animated diagram`;
+  return `<button type="button" class="secondary scene-diagram-action" data-memory-scene="${sceneKey}" aria-controls="memoryDiagram">${label} →</button>`;
+}
+
+function bindSceneDiagramButtons(c){
+  document.querySelectorAll('.scene-diagram-action').forEach(button=>button.onclick=()=>selectMemoryScene(c,button.dataset.memoryScene,{focus:true}));
+}
+
+function renderIntensive(id){
+  const box=$('intensiveSection');
+  const c=chapters.find(chapter=>chapter.id===id);
+  if(!box||!c)return;
+  const items=memorySceneItems(c);
+  const examples=items.filter(item=>item.sceneKey.includes(':example:'));
+  const exercises=items.filter(item=>item.sceneKey.includes(':exercise:'));
+  $('intensiveExamples').innerHTML=examples.map(item=>`<article class="intensive-card example-card"><div class="card-index">${String(item.number).padStart(2,'0')}</div><div class="intensive-content"><span class="eyebrow">${lang==='fr'?'EXEMPLE GUIDÉ':'WORKED EXAMPLE'}</span><h3>${code(item.title)}</h3><pre>${code(item.code)}</pre><div class="card-note"><b>${lang==='fr'?'Déroulé, mémoire et complexité':'Walkthrough, memory and complexity'}</b><p>${lang==='fr'?'La trace animée de cet exemple est prête dans le laboratoire.':'The animated trace for this example is ready in the laboratory.'}</p><small>${item.complexity?text(item.complexity):''}</small></div>${sceneDiagramButton(item.sceneKey,item.kind)}</div></article>`).join('');
+  $('intensiveExercises').innerHTML=exercises.map(item=>`<details class="exercise-card"><summary><span class="card-index">${String(item.number).padStart(2,'0')}</span><span><b>${code(item.title)}</b><small>${lang==='fr'?'Ouvrez le corrigé puis chargez son diagramme exact.':'Open the solution, then load its exact diagram.'}</small></span><em>${lang==='fr'?'Voir le corrigé':'See solution'}</em></summary><div class="exercise-solution"><span class="solution-diagram-label">${lang==='fr'?'DIAGRAMME DE CETTE RÉPONSE':'DIAGRAM FOR THIS ANSWER'}</span><pre>${code(item.code)}</pre><p>${lang==='fr'?'Le bouton ci-dessous sélectionne cette correction, remet son animation à l’état 1 et ouvre son diagramme avec les valeurs réellement calculées.':'The button below selects this solution, resets its animation to state 1, and opens its diagram with the values actually computed.'}</p><small>${item.complexity?text(item.complexity):''}</small>${sceneDiagramButton(item.sceneKey,item.kind)}</div></details>`).join('');
+  bindSceneDiagramButtons(c);
+}
+
+function stepMemory(delta){
+  const c=chapters[active];
+  const key=currentMemorySceneKey(c);
+  const max=Math.max(0,(window.SCENE_TRACES?.[key]?.states?.length||expandProgram(memoryProgramOverride||c.example).length)-1);
+  memoryStep=Math.max(0,Math.min(max,memoryStep+delta));
+  diagramStageStep=0;
+  renderMemory(c);
+}
+
+function stepDiagram(delta){
+  diagramStageStep=Math.max(0,Math.min(5,diagramStageStep+delta));
+  renderMemory(chapters[active]);
+}
+
+function toggleDiagramPlay(){
+  if(diagramTimer){
+    clearInterval(diagramTimer);
+    diagramTimer=null;
+    $('diagramPlay').textContent=lang==='fr'?'Lire le diagramme':'Play diagram';
+    return;
+  }
+  diagramTimer=setInterval(()=>{
+    if(diagramStageStep>=5){
+      clearInterval(diagramTimer);
+      diagramTimer=null;
+      $('diagramPlay').textContent=lang==='fr'?'Lire le diagramme':'Play diagram';
+      return;
+    }
+    stepDiagram(1);
+  },700);
+  $('diagramPlay').textContent=lang==='fr'?'Pause':'Pause';
+}
+
+$('diagramPrevious').onclick=()=>stepDiagram(-1);
+$('diagramNext').onclick=()=>stepDiagram(1);
+$('diagramReset').onclick=()=>{diagramStageStep=0;renderMemory(chapters[active])};
+$('diagramPlay').onclick=toggleDiagramPlay;
