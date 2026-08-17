@@ -1,0 +1,17 @@
+{
+  "total": 350,
+  "ok": 350,
+  "with_states": 350,
+  "with_output_or_return": 350,
+  "by_kind": {
+    "example": 140,
+    "exercise": 210
+  },
+  "failures": [],
+  "warnings": [],
+  "coverage": {
+    "ok": 100.0,
+    "with_states": 100.0,
+    "with_output_or_return": 100.0
+  }
+}
