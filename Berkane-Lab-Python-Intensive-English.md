@@ -1,9 +1,9 @@
 # Berkane Lab — Python Intensive Manual
 
 **M. Haithem BERKANE**  
-Bilingual course companion · English edition
+English edition · memory traces · Bloom taxonomy · competency-based learning
 
-This manual contains ten chapters, one hundred worked examples, and one hundred and fifty solved exercises. The situations are inspired by the supplied science, conditions, and loops exercise collections: physics, mathematics, biology, sport, chemistry, and data reasoning.
+This manual contains 14 learning paths, 140 worked examples, and 210 solved exercises. It covers nested and multiple conditions, separate **for in range** and **while** loops, memory states, intermediate values, and time/space complexity.
 
 ## Python foundations
 
@@ -296,7 +296,7 @@ print(2 * pi * sqrt(longueur / g))
 
 **Correction.** The math library provides pi and sqrt.
 
-## Conditions and loops
+## Overview: decisions and repetition
 
 ### Worked examples
 
@@ -2907,9 +2907,1607 @@ assert vitesse(30, 1.5) == 20
 
 **Correction.** assert turns expectations into readable tests.
 
+## Nested conditions
+
+### Worked examples
+
+#### Example 1 — 01 · Temperature
+
+**Situation.** Situation: Temperature. Three intervals are tested from narrowest to widest.
+
+```python
+t = 18
+if t < 0:
+    etat = "solide"
+elif t < 100:
+    etat = "liquide"
+else:
+    etat = "gaz"
+print(etat)
+```
+
+**Explanation.** Three intervals are tested from narrowest to widest.
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Example 2 — 02 · Age and permission
+
+**Situation.** Situation: Age and permission. The nested condition combines age and parental consent.
+
+```python
+age = 16
+parent = True
+if age >= 18:
+    autorise = True
+elif age >= 14 and parent:
+    autorise = True
+else:
+    autorise = False
+print(autorise)
+```
+
+**Explanation.** The nested condition combines age and parental consent.
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Example 3 — 03 · Grade and distinction
+
+**Situation.** Situation: Grade and distinction. The second if is evaluated only when the first is true.
+
+```python
+note = 15
+if note >= 10:
+    if note >= 16:
+        mention = "très bien"
+    else:
+        mention = "réussite"
+else:
+    mention = "à revoir"
+print(mention)
+```
+
+**Explanation.** The second if is evaluated only when the first is true.
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Example 4 — 04 · Traffic light
+
+**Situation.** Situation: Traffic light. An inner condition refines the orange case.
+
+```python
+couleur = "orange"
+urgence = False
+if couleur == "rouge":
+    action = "arrêt"
+elif couleur == "orange":
+    if urgence:
+        action = "prudence renforcée"
+    else:
+        action = "ralentir"
+else:
+    action = "avancer"
+print(action)
+```
+
+**Explanation.** An inner condition refines the orange case.
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Example 5 — 05 · Valid triangle
+
+**Situation.** Situation: Valid triangle. Validity is checked first, then the type.
+
+```python
+a, b, c = 3, 4, 5
+if a + b > c and a + c > b and b + c > a:
+    if a*a + b*b == c*c:
+        nature = "rectangle"
+    else:
+        nature = "valide"
+else:
+    nature = "impossible"
+print(nature)
+```
+
+**Explanation.** Validity is checked first, then the type.
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Example 6 — 06 · Battery
+
+**Situation.** Situation: Battery. The inner branch depends on the critical level.
+
+```python
+niveau = 22
+chargeur = True
+if niveau < 20:
+    if chargeur:
+        message = "charger"
+    else:
+        message = "chercher une prise"
+else:
+    message = "continuer"
+print(message)
+```
+
+**Explanation.** The inner branch depends on the critical level.
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Example 7 — 07 · Speed and road
+
+**Situation.** Situation: Speed and road. The road first selects the comparison context.
+
+```python
+vitesse = 72
+route = "ville"
+if route == "ville":
+    if vitesse > 50:
+        message = "ralentir"
+    else:
+        message = "correct"
+else:
+    message = "route à analyser"
+print(message)
+```
+
+**Explanation.** The road first selects the comparison context.
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Example 8 — 08 · Secure access
+
+**Situation.** Situation: Secure access. Each level reduces the set of possible cases.
+
+```python
+code = "A7"
+actif = True
+if actif:
+    if len(code) >= 2:
+        acces = "autorisé"
+    else:
+        acces = "code trop court"
+else:
+    acces = "compte inactif"
+print(acces)
+```
+
+**Explanation.** Each level reduces the set of possible cases.
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Example 9 — 09 · Stock and order
+
+**Situation.** Situation: Stock and order. The order is validated before comparing it to stock.
+
+```python
+stock = 8
+commande = 5
+if commande > 0:
+    if commande <= stock:
+        resultat = "préparer"
+    else:
+        resultat = "stock insuffisant"
+else:
+    resultat = "commande invalide"
+print(resultat)
+```
+
+**Explanation.** The order is validated before comparing it to stock.
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Example 10 — 10 · Average and attendance
+
+**Situation.** Situation: Average and attendance. No attendees are handled before the average.
+
+```python
+moyenne = 13
+presents = 4
+if presents > 0:
+    if moyenne >= 10:
+        decision = "validé"
+    else:
+        decision = "remédiation"
+else:
+    decision = "aucune décision"
+print(decision)
+```
+
+**Explanation.** No attendees are handled before the average.
+
+**Complexity.** Time O(1) · space O(1)
+
+### Solved exercises
+
+#### Exercise 1 — 01 · Exercise Condition
+
+**Task.** Write a condition distinguishing even and odd.
+
+```python
+n = 14
+if n % 2 == 0: resultat = "pair"
+else: resultat = "impair"
+print(resultat)
+```
+
+**Correction.**  La condition teste le reste de la division. Complexity: Time O(1) · space O(1).
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Exercise 2 — 02 · Exercise Threshold
+
+**Task.** Class a value using three thresholds.
+
+```python
+x = 42
+if x < 10: classe = "A"
+elif x < 50: classe = "B"
+else: classe = "C"
+print(classe)
+```
+
+**Correction.**  Les branches sont testées dans l’ordre. Complexity: Time O(1) · space O(1).
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Exercise 3 — 03 · Exercise Validation
+
+**Task.** Reject an out-of-range value.
+
+```python
+x = 12
+if 0 <= x <= 20: print("ok")
+else: print("erreur")
+```
+
+**Correction.**  La comparaison chaînée vérifie deux bornes. Complexity: Time O(1) · space O(1).
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Exercise 4 — 04 · Exercise Condition
+
+**Task.** Write a condition distinguishing even and odd.
+
+```python
+n = 14
+if n % 2 == 0: resultat = "pair"
+else: resultat = "impair"
+print(resultat)
+```
+
+**Correction.**  La condition teste le reste de la division. Complexity: Time O(1) · space O(1).
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Exercise 5 — 05 · Exercise Threshold
+
+**Task.** Class a value using three thresholds.
+
+```python
+x = 42
+if x < 10: classe = "A"
+elif x < 50: classe = "B"
+else: classe = "C"
+print(classe)
+```
+
+**Correction.**  Les branches sont testées dans l’ordre. Complexity: Time O(1) · space O(1).
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Exercise 6 — 06 · Exercise Validation
+
+**Task.** Reject an out-of-range value.
+
+```python
+x = 12
+if 0 <= x <= 20: print("ok")
+else: print("erreur")
+```
+
+**Correction.**  La comparaison chaînée vérifie deux bornes. Complexity: Time O(1) · space O(1).
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Exercise 7 — 07 · Exercise Condition
+
+**Task.** Write a condition distinguishing even and odd.
+
+```python
+n = 14
+if n % 2 == 0: resultat = "pair"
+else: resultat = "impair"
+print(resultat)
+```
+
+**Correction.**  La condition teste le reste de la division. Complexity: Time O(1) · space O(1).
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Exercise 8 — 08 · Exercise Threshold
+
+**Task.** Class a value using three thresholds.
+
+```python
+x = 42
+if x < 10: classe = "A"
+elif x < 50: classe = "B"
+else: classe = "C"
+print(classe)
+```
+
+**Correction.**  Les branches sont testées dans l’ordre. Complexity: Time O(1) · space O(1).
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Exercise 9 — 09 · Exercise Validation
+
+**Task.** Reject an out-of-range value.
+
+```python
+x = 12
+if 0 <= x <= 20: print("ok")
+else: print("erreur")
+```
+
+**Correction.**  La comparaison chaînée vérifie deux bornes. Complexity: Time O(1) · space O(1).
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Exercise 10 — 10 · Exercise Condition
+
+**Task.** Write a condition distinguishing even and odd.
+
+```python
+n = 14
+if n % 2 == 0: resultat = "pair"
+else: resultat = "impair"
+print(resultat)
+```
+
+**Correction.**  La condition teste le reste de la division. Complexity: Time O(1) · space O(1).
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Exercise 11 — 11 · Exercise Threshold
+
+**Task.** Class a value using three thresholds.
+
+```python
+x = 42
+if x < 10: classe = "A"
+elif x < 50: classe = "B"
+else: classe = "C"
+print(classe)
+```
+
+**Correction.**  Les branches sont testées dans l’ordre. Complexity: Time O(1) · space O(1).
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Exercise 12 — 12 · Exercise Validation
+
+**Task.** Reject an out-of-range value.
+
+```python
+x = 12
+if 0 <= x <= 20: print("ok")
+else: print("erreur")
+```
+
+**Correction.**  La comparaison chaînée vérifie deux bornes. Complexity: Time O(1) · space O(1).
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Exercise 13 — 13 · Exercise Condition
+
+**Task.** Write a condition distinguishing even and odd.
+
+```python
+n = 14
+if n % 2 == 0: resultat = "pair"
+else: resultat = "impair"
+print(resultat)
+```
+
+**Correction.**  La condition teste le reste de la division. Complexity: Time O(1) · space O(1).
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Exercise 14 — 14 · Exercise Threshold
+
+**Task.** Class a value using three thresholds.
+
+```python
+x = 42
+if x < 10: classe = "A"
+elif x < 50: classe = "B"
+else: classe = "C"
+print(classe)
+```
+
+**Correction.**  Les branches sont testées dans l’ordre. Complexity: Time O(1) · space O(1).
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Exercise 15 — 15 · Exercise Validation
+
+**Task.** Reject an out-of-range value.
+
+```python
+x = 12
+if 0 <= x <= 20: print("ok")
+else: print("erreur")
+```
+
+**Correction.**  La comparaison chaînée vérifie deux bornes. Complexity: Time O(1) · space O(1).
+
+**Complexity.** Time O(1) · space O(1)
+
+## Multiple conditions
+
+### Worked examples
+
+#### Example 1 — 01 · Weather
+
+**Situation.** Situation: Weather. elif selects the first true case.
+
+```python
+pluie = False
+vent = 12
+temperature = 9
+if pluie:
+    conseil = "imperméable"
+elif vent > 30:
+    conseil = "vêtement coupe-vent"
+elif temperature < 10:
+    conseil = "veste chaude"
+else:
+    conseil = "tenue légère"
+print(conseil)
+```
+
+**Explanation.** elif selects the first true case.
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Example 2 — 02 · Transport fare
+
+**Situation.** Situation: Transport fare. Thresholds are ordered without useful overlap.
+
+```python
+age = 17
+if age < 6:
+    tarif = 0
+elif age < 18:
+    tarif = 2
+elif age < 65:
+    tarif = 3
+else:
+    tarif = 1
+```
+
+**Explanation.** Thresholds are ordered without useful overlap.
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Example 3 — 03 · Sports score
+
+**Situation.** Situation: Sports score. Descending comparisons avoid premature classification.
+
+```python
+score = 74
+if score >= 90:
+    niveau = "élite"
+elif score >= 75:
+    niveau = "avancé"
+elif score >= 50:
+    niveau = "intermédiaire"
+else:
+    niveau = "débutant"
+print(niveau)
+```
+
+**Explanation.** Descending comparisons avoid premature classification.
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Example 4 — 04 · Air quality
+
+**Situation.** Situation: Air quality. Each interval has an explicit bound.
+
+```python
+indice = 82
+if indice <= 25: niveau = "bon"
+elif indice <= 50: niveau = "modéré"
+elif indice <= 100: niveau = "dégradé"
+else: niveau = "critique"
+print(niveau)
+```
+
+**Explanation.** Each interval has an explicit bound.
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Example 5 — 05 · Calculator
+
+**Situation.** Situation: Calculator. The final branch protects unknown operators and division by zero.
+
+```python
+a, b, op = 12, 4, "/"
+if op == "+": resultat = a + b
+elif op == "-": resultat = a - b
+elif op == "*": resultat = a * b
+elif op == "/" and b != 0: resultat = a / b
+else: resultat = "erreur"
+print(resultat)
+```
+
+**Explanation.** The final branch protects unknown operators and division by zero.
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Example 6 — 06 · File size
+
+**Situation.** Situation: File size. Only one branch is executed.
+
+```python
+ko = 840
+if ko < 100:
+    classe = "petit"
+elif ko < 1000:
+    classe = "moyen"
+else:
+    classe = "grand"
+print(classe)
+```
+
+**Explanation.** Only one branch is executed.
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Example 7 — 07 · Feels-like temperature
+
+**Situation.** Situation: Feels-like temperature. The classification turns a measurement into a decision.
+
+```python
+ressentie = 4
+if ressentie < 0: risque = "gel"
+elif ressentie < 8: risque = "froid"
+elif ressentie < 18: risque = "frais"
+else: risque = "doux"
+print(risque)
+```
+
+**Explanation.** The classification turns a measurement into a decision.
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Example 8 — 08 · Remaining energy
+
+**Situation.** Situation: Remaining energy. Inclusive bounds are readable in code.
+
+```python
+energie = 38
+if energie <= 10: etat = "critique"
+elif energie <= 30: etat = "faible"
+elif energie <= 60: etat = "correcte"
+else: etat = "haute"
+print(etat)
+```
+
+**Explanation.** Inclusive bounds are readable in code.
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Example 9 — 09 · Ticket priority
+
+**Situation.** Situation: Ticket priority. The value is converted into a service level.
+
+```python
+attente = 48
+if attente > 120: priorite = "urgente"
+elif attente > 60: priorite = "haute"
+elif attente > 20: priorite = "normale"
+else: priorite = "basse"
+print(priorite)
+```
+
+**Explanation.** The value is converted into a service level.
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Example 10 — 10 · Mass index
+
+**Situation.** Situation: Mass index. The classification is informative and does not replace medical advice.
+
+```python
+imc = 24.2
+if imc < 18.5: categorie = "bas"
+elif imc < 25: categorie = "référence"
+elif imc < 30: categorie = "haut"
+else: categorie = "très haut"
+print(categorie)
+```
+
+**Explanation.** The classification is informative and does not replace medical advice.
+
+**Complexity.** Time O(1) · space O(1)
+
+### Solved exercises
+
+#### Exercise 1 — 01 · Exercise Condition
+
+**Task.** Write a condition distinguishing even and odd.
+
+```python
+n = 14
+if n % 2 == 0: resultat = "pair"
+else: resultat = "impair"
+print(resultat)
+```
+
+**Correction.**  La condition teste le reste de la division. Complexity: Time O(1) · space O(1).
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Exercise 2 — 02 · Exercise Threshold
+
+**Task.** Class a value using three thresholds.
+
+```python
+x = 42
+if x < 10: classe = "A"
+elif x < 50: classe = "B"
+else: classe = "C"
+print(classe)
+```
+
+**Correction.**  Les branches sont testées dans l’ordre. Complexity: Time O(1) · space O(1).
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Exercise 3 — 03 · Exercise Validation
+
+**Task.** Reject an out-of-range value.
+
+```python
+x = 12
+if 0 <= x <= 20: print("ok")
+else: print("erreur")
+```
+
+**Correction.**  La comparaison chaînée vérifie deux bornes. Complexity: Time O(1) · space O(1).
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Exercise 4 — 04 · Exercise Condition
+
+**Task.** Write a condition distinguishing even and odd.
+
+```python
+n = 14
+if n % 2 == 0: resultat = "pair"
+else: resultat = "impair"
+print(resultat)
+```
+
+**Correction.**  La condition teste le reste de la division. Complexity: Time O(1) · space O(1).
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Exercise 5 — 05 · Exercise Threshold
+
+**Task.** Class a value using three thresholds.
+
+```python
+x = 42
+if x < 10: classe = "A"
+elif x < 50: classe = "B"
+else: classe = "C"
+print(classe)
+```
+
+**Correction.**  Les branches sont testées dans l’ordre. Complexity: Time O(1) · space O(1).
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Exercise 6 — 06 · Exercise Validation
+
+**Task.** Reject an out-of-range value.
+
+```python
+x = 12
+if 0 <= x <= 20: print("ok")
+else: print("erreur")
+```
+
+**Correction.**  La comparaison chaînée vérifie deux bornes. Complexity: Time O(1) · space O(1).
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Exercise 7 — 07 · Exercise Condition
+
+**Task.** Write a condition distinguishing even and odd.
+
+```python
+n = 14
+if n % 2 == 0: resultat = "pair"
+else: resultat = "impair"
+print(resultat)
+```
+
+**Correction.**  La condition teste le reste de la division. Complexity: Time O(1) · space O(1).
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Exercise 8 — 08 · Exercise Threshold
+
+**Task.** Class a value using three thresholds.
+
+```python
+x = 42
+if x < 10: classe = "A"
+elif x < 50: classe = "B"
+else: classe = "C"
+print(classe)
+```
+
+**Correction.**  Les branches sont testées dans l’ordre. Complexity: Time O(1) · space O(1).
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Exercise 9 — 09 · Exercise Validation
+
+**Task.** Reject an out-of-range value.
+
+```python
+x = 12
+if 0 <= x <= 20: print("ok")
+else: print("erreur")
+```
+
+**Correction.**  La comparaison chaînée vérifie deux bornes. Complexity: Time O(1) · space O(1).
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Exercise 10 — 10 · Exercise Condition
+
+**Task.** Write a condition distinguishing even and odd.
+
+```python
+n = 14
+if n % 2 == 0: resultat = "pair"
+else: resultat = "impair"
+print(resultat)
+```
+
+**Correction.**  La condition teste le reste de la division. Complexity: Time O(1) · space O(1).
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Exercise 11 — 11 · Exercise Threshold
+
+**Task.** Class a value using three thresholds.
+
+```python
+x = 42
+if x < 10: classe = "A"
+elif x < 50: classe = "B"
+else: classe = "C"
+print(classe)
+```
+
+**Correction.**  Les branches sont testées dans l’ordre. Complexity: Time O(1) · space O(1).
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Exercise 12 — 12 · Exercise Validation
+
+**Task.** Reject an out-of-range value.
+
+```python
+x = 12
+if 0 <= x <= 20: print("ok")
+else: print("erreur")
+```
+
+**Correction.**  La comparaison chaînée vérifie deux bornes. Complexity: Time O(1) · space O(1).
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Exercise 13 — 13 · Exercise Condition
+
+**Task.** Write a condition distinguishing even and odd.
+
+```python
+n = 14
+if n % 2 == 0: resultat = "pair"
+else: resultat = "impair"
+print(resultat)
+```
+
+**Correction.**  La condition teste le reste de la division. Complexity: Time O(1) · space O(1).
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Exercise 14 — 14 · Exercise Threshold
+
+**Task.** Class a value using three thresholds.
+
+```python
+x = 42
+if x < 10: classe = "A"
+elif x < 50: classe = "B"
+else: classe = "C"
+print(classe)
+```
+
+**Correction.**  Les branches sont testées dans l’ordre. Complexity: Time O(1) · space O(1).
+
+**Complexity.** Time O(1) · space O(1)
+
+#### Exercise 15 — 15 · Exercise Validation
+
+**Task.** Reject an out-of-range value.
+
+```python
+x = 12
+if 0 <= x <= 20: print("ok")
+else: print("erreur")
+```
+
+**Correction.**  La comparaison chaînée vérifie deux bornes. Complexity: Time O(1) · space O(1).
+
+**Complexity.** Time O(1) · space O(1)
+
+## for in range loop
+
+### Worked examples
+
+#### Example 1 — 01 · Count from 0 to 4
+
+**Situation.** Situation: Count from 0 to 4. range(5) produces 0, 1, 2, 3, 4.
+
+```python
+for i in range(5):
+    print(i)
+```
+
+**Explanation.** range(5) produces 0, 1, 2, 3, 4.
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Example 2 — 02 · Sum integers
+
+**Situation.** Situation: Sum integers. The accumulator becomes 1, 3, 6, 10, then 15.
+
+```python
+total = 0
+for i in range(1, 6):
+    total += i
+print(total)
+```
+
+**Explanation.** The accumulator becomes 1, 3, 6, 10, then 15.
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Example 3 — 03 · Squares
+
+**Situation.** Situation: Squares. Each turn computes an independent square.
+
+```python
+for i in range(1, 5):
+    print(i * i)
+```
+
+**Explanation.** Each turn computes an independent square.
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Example 4 — 04 · Even numbers
+
+**Situation.** Situation: Even numbers. Step 2 jumps directly to the next even number.
+
+```python
+for i in range(0, 11, 2):
+    print(i)
+```
+
+**Explanation.** Step 2 jumps directly to the next even number.
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Example 5 — 05 · Multiplication table
+
+**Situation.** Situation: Multiplication table. Variable i takes five values.
+
+```python
+n = 7
+for i in range(1, 6):
+    print(n * i)
+```
+
+**Explanation.** Variable i takes five values.
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Example 6 — 06 · Count vowels
+
+**Situation.** Situation: Count vowels. range traverses word indices and counts vowels.
+
+```python
+mot = "python"
+compte = 0
+for i in range(len(mot)):
+    if mot[i] in "aeiouy":
+        compte += 1
+print(compte)
+```
+
+**Explanation.** range traverses word indices and counts vowels.
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Example 7 — 07 · Bounded maximum
+
+**Situation.** Situation: Bounded maximum. The comparison visits each position once.
+
+```python
+valeurs = [4, 9, 2, 7]
+maximum = valeurs[0]
+for i in range(1, len(valeurs)):
+    if valeurs[i] > maximum:
+        maximum = valeurs[i]
+print(maximum)
+```
+
+**Explanation.** The comparison visits each position once.
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Example 8 — 08 · Simple grid
+
+**Situation.** Situation: Simple grid. Two loops give 2 × 3 = 6 pairs.
+
+```python
+for ligne in range(2):
+    for colonne in range(3):
+        print(ligne, colonne)
+```
+
+**Explanation.** Two loops give 2 × 3 = 6 pairs.
+
+**Complexity.** Time O(n²) · space O(1)
+
+#### Example 9 — 09 · Average
+
+**Situation.** Situation: Average. Total 36 is divided by 3: 12.
+
+```python
+notes = [12, 15, 9]
+total = 0
+for i in range(len(notes)):
+    total += notes[i]
+print(total / len(notes))
+```
+
+**Explanation.** Total 36 is divided by 3: 12.
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Example 10 — 10 · Countdown
+
+**Situation.** Situation: Countdown. Negative step decreases the value to 1.
+
+```python
+for i in range(5, 0, -1):
+    print(i)
+```
+
+**Explanation.** Negative step decreases the value to 1.
+
+**Complexity.** Time O(n) · space O(1)
+
+### Solved exercises
+
+#### Exercise 1 — 01 · Exercise Sum
+
+**Task.** Calculate the sum from 1 to 10 with for in range.
+
+```python
+total = 0
+for i in range(1, 11): total += i
+print(total)
+```
+
+**Correction.**  L’accumulateur est mis à jour dix fois. Complexity: Time O(n) · space O(1).
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Exercise 2 — 02 · Exercise Evens
+
+**Task.** Display evens with for in range and a step.
+
+```python
+for i in range(0, 21, 2): print(i)
+```
+
+**Correction.**  Le pas 2 réduit les tours à 11. Complexity: Time O(n) · space O(1).
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Exercise 3 — 03 · Exercise Grid
+
+**Task.** Count pairs in a 3 × 4 grid.
+
+```python
+compte = 0
+for i in range(3):
+    for j in range(4): compte += 1
+print(compte)
+```
+
+**Correction.**  Deux boucles imbriquées donnent 12 tours. Complexity: Time O(n²) · space O(1).
+
+**Complexity.** Time O(n²) · space O(1)
+
+#### Exercise 4 — 04 · Exercise Sum
+
+**Task.** Calculate the sum from 1 to 10 with for in range.
+
+```python
+total = 0
+for i in range(1, 11): total += i
+print(total)
+```
+
+**Correction.**  L’accumulateur est mis à jour dix fois. Complexity: Time O(n) · space O(1).
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Exercise 5 — 05 · Exercise Evens
+
+**Task.** Display evens with for in range and a step.
+
+```python
+for i in range(0, 21, 2): print(i)
+```
+
+**Correction.**  Le pas 2 réduit les tours à 11. Complexity: Time O(n) · space O(1).
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Exercise 6 — 06 · Exercise Grid
+
+**Task.** Count pairs in a 3 × 4 grid.
+
+```python
+compte = 0
+for i in range(3):
+    for j in range(4): compte += 1
+print(compte)
+```
+
+**Correction.**  Deux boucles imbriquées donnent 12 tours. Complexity: Time O(n²) · space O(1).
+
+**Complexity.** Time O(n²) · space O(1)
+
+#### Exercise 7 — 07 · Exercise Sum
+
+**Task.** Calculate the sum from 1 to 10 with for in range.
+
+```python
+total = 0
+for i in range(1, 11): total += i
+print(total)
+```
+
+**Correction.**  L’accumulateur est mis à jour dix fois. Complexity: Time O(n) · space O(1).
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Exercise 8 — 08 · Exercise Evens
+
+**Task.** Display evens with for in range and a step.
+
+```python
+for i in range(0, 21, 2): print(i)
+```
+
+**Correction.**  Le pas 2 réduit les tours à 11. Complexity: Time O(n) · space O(1).
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Exercise 9 — 09 · Exercise Grid
+
+**Task.** Count pairs in a 3 × 4 grid.
+
+```python
+compte = 0
+for i in range(3):
+    for j in range(4): compte += 1
+print(compte)
+```
+
+**Correction.**  Deux boucles imbriquées donnent 12 tours. Complexity: Time O(n²) · space O(1).
+
+**Complexity.** Time O(n²) · space O(1)
+
+#### Exercise 10 — 10 · Exercise Sum
+
+**Task.** Calculate the sum from 1 to 10 with for in range.
+
+```python
+total = 0
+for i in range(1, 11): total += i
+print(total)
+```
+
+**Correction.**  L’accumulateur est mis à jour dix fois. Complexity: Time O(n) · space O(1).
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Exercise 11 — 11 · Exercise Evens
+
+**Task.** Display evens with for in range and a step.
+
+```python
+for i in range(0, 21, 2): print(i)
+```
+
+**Correction.**  Le pas 2 réduit les tours à 11. Complexity: Time O(n) · space O(1).
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Exercise 12 — 12 · Exercise Grid
+
+**Task.** Count pairs in a 3 × 4 grid.
+
+```python
+compte = 0
+for i in range(3):
+    for j in range(4): compte += 1
+print(compte)
+```
+
+**Correction.**  Deux boucles imbriquées donnent 12 tours. Complexity: Time O(n²) · space O(1).
+
+**Complexity.** Time O(n²) · space O(1)
+
+#### Exercise 13 — 13 · Exercise Sum
+
+**Task.** Calculate the sum from 1 to 10 with for in range.
+
+```python
+total = 0
+for i in range(1, 11): total += i
+print(total)
+```
+
+**Correction.**  L’accumulateur est mis à jour dix fois. Complexity: Time O(n) · space O(1).
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Exercise 14 — 14 · Exercise Evens
+
+**Task.** Display evens with for in range and a step.
+
+```python
+for i in range(0, 21, 2): print(i)
+```
+
+**Correction.**  Le pas 2 réduit les tours à 11. Complexity: Time O(n) · space O(1).
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Exercise 15 — 15 · Exercise Grid
+
+**Task.** Count pairs in a 3 × 4 grid.
+
+```python
+compte = 0
+for i in range(3):
+    for j in range(4): compte += 1
+print(compte)
+```
+
+**Correction.**  Deux boucles imbriquées donnent 12 tours. Complexity: Time O(n²) · space O(1).
+
+**Complexity.** Time O(n²) · space O(1)
+
+## while loop
+
+### Worked examples
+
+#### Example 1 — 01 · Count to 4
+
+**Situation.** Situation: Count to 4. The condition is checked again after each update.
+
+```python
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+```
+
+**Explanation.** The condition is checked again after each update.
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Example 2 — 02 · Sum to a threshold
+
+**Situation.** Situation: Sum to a threshold. The invariant is total < 10 at the start of each turn.
+
+```python
+total = 0
+i = 1
+while total < 10:
+    total += i
+    i += 1
+print(total)
+```
+
+**Explanation.** The invariant is total < 10 at the start of each turn.
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Example 3 — 03 · Validated input
+
+**Situation.** Situation: Validated input. The loop protects a valid interval.
+
+```python
+age = 0
+while age < 1 or age > 120:
+    age = 18
+print(age)
+```
+
+**Explanation.** The loop protects a valid interval.
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Example 4 — 04 · Countdown
+
+**Situation.** Situation: Countdown. The measure approaching termination is n.
+
+```python
+n = 5
+while n > 0:
+    print(n)
+    n -= 1
+```
+
+**Explanation.** The measure approaching termination is n.
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Example 5 — 05 · Sequential search
+
+**Situation.** Situation: Sequential search. Search stops at the first occurrence.
+
+```python
+valeurs = [3, 8, 5, 9]
+i = 0
+while i < len(valeurs) and valeurs[i] != 5:
+    i += 1
+print(i)
+```
+
+**Explanation.** Search stops at the first occurrence.
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Example 6 — 06 · Power of two
+
+**Situation.** Situation: Power of two. The value doubles: 1, 2, 4, 8, 16, 32, 64, 128.
+
+```python
+valeur = 1
+while valeur < 100:
+    valeur *= 2
+print(valeur)
+```
+
+**Explanation.** The value doubles: 1, 2, 4, 8, 16, 32, 64, 128.
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Example 7 — 07 · Menu
+
+**Situation.** Situation: Menu. Sentinel q indicates the end.
+
+```python
+choix = "q"
+while choix != "q":
+    choix = "q"
+print("fin")
+```
+
+**Explanation.** Sentinel q indicates the end.
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Example 8 — 08 · Euclid
+
+**Situation.** Situation: Euclid. The remainder decreases to zero; GCD is 6.
+
+```python
+a, b = 48, 18
+while b != 0:
+    a, b = b, a % b
+print(a)
+```
+
+**Explanation.** The remainder decreases to zero; GCD is 6.
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Example 9 — 09 · Accumulate grades
+
+**Situation.** Situation: Accumulate grades. i advances one position per turn.
+
+```python
+notes = [10, 14, 16]
+i = 0
+total = 0
+while i < len(notes):
+    total += notes[i]
+    i += 1
+print(total)
+```
+
+**Explanation.** i advances one position per turn.
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Example 10 — 10 · Time window
+
+**Situation.** Situation: Time window. The loop checks four values: 0, 10, 20, 30.
+
+```python
+minute = 0
+while minute <= 30:
+    minute += 10
+print(minute)
+```
+
+**Explanation.** The loop checks four values: 0, 10, 20, 30.
+
+**Complexity.** Time O(n) · space O(1)
+
+### Solved exercises
+
+#### Exercise 1 — 01 · Exercise Counter
+
+**Task.** Write a while with a counter and explicit stop.
+
+```python
+i = 0
+while i < 6:
+    print(i)
+    i += 1
+```
+
+**Correction.**  Le compteur avance à chaque tour. Complexity: Time O(n) · space O(1).
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Exercise 2 — 02 · Exercise Sentinel
+
+**Task.** Repeat until reaching a sentinel.
+
+```python
+n = 3
+while n != 0:
+    n -= 1
+print("fin")
+```
+
+**Correction.**  La sentinelle 0 termine le parcours. Complexity: Time O(n) · space O(1).
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Exercise 3 — 03 · Exercise Search
+
+**Task.** Search for a value with while and an index.
+
+```python
+a = [2, 5, 8]
+i = 0
+while i < len(a) and a[i] != 5: i += 1
+print(i)
+```
+
+**Correction.**  Chaque indice est examiné au plus une fois. Complexity: Time O(n) · space O(1).
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Exercise 4 — 04 · Exercise Counter
+
+**Task.** Write a while with a counter and explicit stop.
+
+```python
+i = 0
+while i < 6:
+    print(i)
+    i += 1
+```
+
+**Correction.**  Le compteur avance à chaque tour. Complexity: Time O(n) · space O(1).
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Exercise 5 — 05 · Exercise Sentinel
+
+**Task.** Repeat until reaching a sentinel.
+
+```python
+n = 3
+while n != 0:
+    n -= 1
+print("fin")
+```
+
+**Correction.**  La sentinelle 0 termine le parcours. Complexity: Time O(n) · space O(1).
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Exercise 6 — 06 · Exercise Search
+
+**Task.** Search for a value with while and an index.
+
+```python
+a = [2, 5, 8]
+i = 0
+while i < len(a) and a[i] != 5: i += 1
+print(i)
+```
+
+**Correction.**  Chaque indice est examiné au plus une fois. Complexity: Time O(n) · space O(1).
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Exercise 7 — 07 · Exercise Counter
+
+**Task.** Write a while with a counter and explicit stop.
+
+```python
+i = 0
+while i < 6:
+    print(i)
+    i += 1
+```
+
+**Correction.**  Le compteur avance à chaque tour. Complexity: Time O(n) · space O(1).
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Exercise 8 — 08 · Exercise Sentinel
+
+**Task.** Repeat until reaching a sentinel.
+
+```python
+n = 3
+while n != 0:
+    n -= 1
+print("fin")
+```
+
+**Correction.**  La sentinelle 0 termine le parcours. Complexity: Time O(n) · space O(1).
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Exercise 9 — 09 · Exercise Search
+
+**Task.** Search for a value with while and an index.
+
+```python
+a = [2, 5, 8]
+i = 0
+while i < len(a) and a[i] != 5: i += 1
+print(i)
+```
+
+**Correction.**  Chaque indice est examiné au plus une fois. Complexity: Time O(n) · space O(1).
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Exercise 10 — 10 · Exercise Counter
+
+**Task.** Write a while with a counter and explicit stop.
+
+```python
+i = 0
+while i < 6:
+    print(i)
+    i += 1
+```
+
+**Correction.**  Le compteur avance à chaque tour. Complexity: Time O(n) · space O(1).
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Exercise 11 — 11 · Exercise Sentinel
+
+**Task.** Repeat until reaching a sentinel.
+
+```python
+n = 3
+while n != 0:
+    n -= 1
+print("fin")
+```
+
+**Correction.**  La sentinelle 0 termine le parcours. Complexity: Time O(n) · space O(1).
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Exercise 12 — 12 · Exercise Search
+
+**Task.** Search for a value with while and an index.
+
+```python
+a = [2, 5, 8]
+i = 0
+while i < len(a) and a[i] != 5: i += 1
+print(i)
+```
+
+**Correction.**  Chaque indice est examiné au plus une fois. Complexity: Time O(n) · space O(1).
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Exercise 13 — 13 · Exercise Counter
+
+**Task.** Write a while with a counter and explicit stop.
+
+```python
+i = 0
+while i < 6:
+    print(i)
+    i += 1
+```
+
+**Correction.**  Le compteur avance à chaque tour. Complexity: Time O(n) · space O(1).
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Exercise 14 — 14 · Exercise Sentinel
+
+**Task.** Repeat until reaching a sentinel.
+
+```python
+n = 3
+while n != 0:
+    n -= 1
+print("fin")
+```
+
+**Correction.**  La sentinelle 0 termine le parcours. Complexity: Time O(n) · space O(1).
+
+**Complexity.** Time O(n) · space O(1)
+
+#### Exercise 15 — 15 · Exercise Search
+
+**Task.** Search for a value with while and an index.
+
+```python
+a = [2, 5, 8]
+i = 0
+while i < len(a) and a[i] != 5: i += 1
+print(i)
+```
+
+**Correction.**  Chaque indice est examiné au plus une fois. Complexity: Time O(n) · space O(1).
+
+**Complexity.** Time O(n) · space O(1)
+
 ## Suggested learning routine
 
-Read one example, predict its output, run it, then explain the correction in your own words. For each exercise, first write a hypothesis, test boundary cases, and only then compare your solution with the correction.
+For each scene, identify initial values, predict the next memory state, trace the calculation, count iterations, and state the time and space complexity. Then explain which Bloom level is being practiced and provide evidence of the targeted competency.
 
 ## Author
 
