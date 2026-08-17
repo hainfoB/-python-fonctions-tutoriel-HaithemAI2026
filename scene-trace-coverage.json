@@ -3,7 +3,7 @@
   "ok": 350,
   "with_states": 350,
   "with_terminal_state": 350,
-  "with_output_or_return": 267,
+  "with_output_or_return": 285,
   "by_kind": {
     "example": 140,
     "exercise": 210
@@ -14,6 +14,6 @@
     "ok": 100.0,
     "with_states": 100.0,
     "with_terminal_state": 100.0,
-    "with_output_or_return": 76.29
+    "with_output_or_return": 81.43
   }
 }

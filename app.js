@@ -128,6 +128,177 @@ function stateOutput(state){
   return String(state?.after_output??state?.output_so_far??'').trim().split('\n').filter(Boolean).at(-1)||'';
 }
 
+function changedEntries(before={},after={}){
+  return Object.entries(after).filter(([name,value])=>String(before[name])!==String(value));
+}
+
+function beginnerTransition(state,previous){
+  const fr=lang==='fr';
+  const line=String(state?.source_line||'').trim();
+  const changes=changedEntries(previous?.locals,state?.locals);
+  const changed=changes.map(([name,value])=>`${name} = ${value}`);
+  if(state?.kind==='branch')return {title:fr?'Python répond à une question':'Python answers a question',body:state.branch_taken?(fr?'La condition est vraie : Python entre dans le bloc décalé.':'The condition is true: Python enters the indented block.'):(fr?'La condition est fausse : Python saute ce bloc et poursuit.':'The condition is false: Python skips this block and continues.'),changed};
+  if(state?.kind==='loop')return {title:fr?`Tour ${state.iteration||1} de la boucle`:`Loop turn ${state.iteration||1}`,body:fr?'Python lit l’élément courant, puis reprend la même recette pour le suivant.':'Python reads the current item, then repeats the same recipe for the next one.',changed};
+  if(state?.event==='return'||state?.kind==='return')return {title:fr?'La fonction rend son résultat':'The function sends back its result',body:fr?'La valeur quitte le cadre local pour revenir à la ligne qui a appelé la fonction.':'The value leaves the local frame and returns to the line that called the function.',changed};
+  if(state?.kind==='output'||/\bprint\s*\(/.test(line))return {title:fr?'Python affiche une information':'Python displays information',body:fr?'Cette valeur est envoyée à l’écran. Elle ne modifie pas la mémoire.':'This value is sent to the screen. It does not change memory.',changed};
+  if(/\.append\s*\(/.test(line))return {title:fr?'Une valeur est ajoutée à la fin du vecteur':'A value is added at the end of the vector',body:fr?'Le vecteur garde ses anciennes cases et reçoit une nouvelle case à droite.':'The vector keeps its old cells and receives a new cell on the right.',changed};
+  if(/\.pop\s*\(/.test(line))return {title:fr?'La dernière valeur est retirée':'The last value is removed',body:fr?'Python enlève la dernière case disponible et mémorise éventuellement la valeur retirée.':'Python removes the last available cell and may store the removed value.',changed};
+  if(/\[.*\]\s*=/.test(line))return {title:fr?'Une case du vecteur change':'A vector cell changes',body:fr?'Seule la position indiquée est remplacée ; les autres cases restent identiques.':'Only the indicated position is replaced; the other cells stay unchanged.',changed};
+  if(/\w+\s*,\s*\w+\s*=\s*\w+\s*,\s*\w+/.test(line))return {title:fr?'Permutation de deux valeurs':'Two values are swapped',body:fr?'Python utilise une affectation multiple : chaque ancienne valeur va dans l’autre variable.':'Python uses multiple assignment: each old value goes to the other variable.',changed};
+  if(/\bsorted\s*\(|\.sort\s*\(/.test(line))return {title:fr?'Les valeurs sont rangées dans l’ordre':'Values are arranged in order',body:fr?'Le tri compare les valeurs pour les placer du plus petit au plus grand.':'Sorting compares values to place them from smallest to largest.',changed};
+  if(changed.length)return {title:fr?'La mémoire est mise à jour':'Memory is updated',body:fr?'Python calcule la partie droite, puis donne le nouveau résultat au nom situé à gauche.':'Python computes the right side, then gives the new result to the name on the left.',changed};
+  return {title:fr?'Python lit cette instruction':'Python reads this instruction',body:fr?'Aucune valeur ne change encore : Python prépare simplement la prochaine action.':'No value changes yet: Python is simply preparing the next action.',changed};
+}
+
+function renderMemoryTransition(state,previous){
+  const card=$('memoryTransition');
+  if(!card)return;
+  const transition=beginnerTransition(state,previous);
+  const fr=lang==='fr';
+  const changes=transition.changed.length?transition.changed.map(item=>`<span>${code(item)}</span>`).join(''):`<span class="transition-neutral">${fr?'Aucun nom ne change ici.':'No name changes here.'}</span>`;
+  card.innerHTML=`<div class="transition-pulse" aria-hidden="true"><i></i><i></i><i></i></div><div><span class="eyebrow">${fr?'TRANSITION EXPLIQUÉE':'EXPLAINED TRANSITION'}</span><h3>${transition.title}</h3><p>${transition.body}</p><div class="transition-values">${changes}</div></div>`;
+}
+
+function parsePythonLiteral(value){
+  if(Array.isArray(value)||value&&typeof value==='object')return value;
+  if(typeof value!=='string')return null;
+  const raw=value.trim().replace(/\bTrue\b/g,'true').replace(/\bFalse\b/g,'false').replace(/\bNone\b/g,'null').replace(/'/g,'"');
+  try{return JSON.parse(raw)}catch{return null}
+}
+
+function balancedLiteral(source,open,close){
+  const start=source.indexOf(open);
+  if(start<0)return '';
+  let depth=0;
+  for(let index=start;index<source.length;index+=1){
+    if(source[index]===open)depth+=1;
+    if(source[index]===close)depth-=1;
+    if(depth===0)return source.slice(start,index+1);
+  }
+  return '';
+}
+
+function vectorData(state,source){
+  for(const [name,value] of Object.entries(state?.locals||{})){
+    const parsed=parsePythonLiteral(value);
+    if(Array.isArray(parsed))return {name,values:parsed};
+  }
+  const assignment=(source.match(/\b([A-Za-z_]\w*)\s*=\s*\[/)||[]);
+  const parsed=parsePythonLiteral(balancedLiteral(source,'[',']'));
+  return Array.isArray(parsed)?{name:assignment[1]||'vecteur',values:parsed}:null;
+}
+
+function activeVectorIndex(state,vector,previousVector){
+  const line=String(state?.source_line||'');
+  const explicit=line.match(/\[([A-Za-z_]\w*|\d+)\]/);
+  if(explicit){
+    const token=explicit[1];
+    const candidate=/^\d+$/.test(token)?Number(token):Number(state?.locals?.[token]);
+    if(Number.isInteger(candidate)&&candidate>=0&&candidate<vector.values.length)return candidate;
+  }
+  const changed=previousVector?.values?vector.values.map((value,index)=>String(value)!==String(previousVector.values[index])?index:-1).find(index=>index>=0):-1;
+  if(changed>=0)return changed;
+  if(state?.kind==='loop'&&state?.iteration)return Math.min(vector.values.length-1,Math.max(0,state.iteration-1));
+  return null;
+}
+
+function vectorOperation(state,vector,previousVector){
+  const fr=lang==='fr';
+  const line=String(state?.source_line||'');
+  const changed=previousVector?.values?vector.values.map((value,index)=>String(value)!==String(previousVector.values[index])?index:-1).filter(index=>index>=0):[];
+  if(/\bsorted\s*\(|\.sort\s*\(/.test(line))return fr?'Tri : les valeurs sont mises dans l’ordre.':'Sorting: values are placed in order.';
+  if(changed.length>=2)return fr?'Permutation : deux cases ont échangé leur contenu.':'Swap: two cells exchanged their contents.';
+  if(previousVector&&vector.values.length>previousVector.values.length)return fr?'Ajout : une nouvelle case apparaît à droite.':'Append: a new cell appears on the right.';
+  if(previousVector&&vector.values.length<previousVector.values.length)return fr?'Retrait : la dernière case a disparu.':'Removal: the last cell disappeared.';
+  if(state?.kind==='loop'||/\bfor\b|\benumerate\b/.test(line))return fr?'Parcours : Python visite une case à la fois.':'Traversal: Python visits one cell at a time.';
+  if(/\[.*\]/.test(line))return fr?'Lecture : Python regarde une case par son indice.':'Read: Python looks at a cell through its index.';
+  return fr?'Vecteur prêt : chaque valeur garde sa position numérotée.':'Vector ready: each value keeps its numbered position.';
+}
+
+function treeData(state,source){
+  for(const value of Object.values(state?.locals||{})){
+    const parsed=parsePythonLiteral(value);
+    if(parsed&&typeof parsed==='object'&&!Array.isArray(parsed)&&(Array.isArray(parsed.enfants)||Array.isArray(parsed.children)))return parsed;
+  }
+  const parsed=parsePythonLiteral(balancedLiteral(source,'{','}'));
+  return parsed&&typeof parsed==='object'&&!Array.isArray(parsed)?parsed:null;
+}
+
+function treeLabel(node){
+  return String(node?.valeur??node?.nom??node?.name??node?.id??'nœud');
+}
+
+function flattenTree(node,items=[]){
+  if(!node||typeof node!=='object')return items;
+  items.push(node);
+  (node.enfants||node.children||[]).forEach(child=>flattenTree(child,items));
+  return items;
+}
+
+function activeTreeLabel(state,tree){
+  const nodes=flattenTree(tree);
+  const localValues=Object.values(state?.locals||{}).map(parsePythonLiteral);
+  const direct=localValues.find(value=>value&&typeof value==='object'&&!Array.isArray(value)&&(value.valeur||value.nom||value.name));
+  if(direct)return treeLabel(direct);
+  if(state?.kind==='loop'&&state?.iteration){
+    const children=tree.enfants||tree.children||[];
+    return treeLabel(children[Math.min(children.length-1,Math.max(0,state.iteration-1))]||tree);
+  }
+  return treeLabel(nodes[0]||tree);
+}
+
+function treeMarkup(node,activeLabel){
+  if(!node||typeof node!=='object')return '';
+  const label=treeLabel(node);
+  const children=node.enfants||node.children||[];
+  return `<li><span class="tree-node ${label===activeLabel?'is-active':''}">${code(label)}</span>${children.length?`<ul>${children.map(child=>treeMarkup(child,activeLabel)).join('')}</ul>`:''}</li>`;
+}
+
+function structurePanel(){
+  let panel=$('structureVisualization');
+  if(panel)return panel;
+  const anchor=$('memoryTransition');
+  if(!anchor)return null;
+  panel=document.createElement('aside');
+  panel.id='structureVisualization';
+  panel.className='structure-visualization';
+  panel.setAttribute('aria-live','polite');
+  anchor.insertAdjacentElement('afterend',panel);
+  return panel;
+}
+
+function renderStructureVisualization(c,state,previous,source){
+  const panel=structurePanel();
+  if(!panel)return;
+  const fr=lang==='fr';
+  if(c.id==='vectors'){
+    const vector=vectorData(state,source);
+    const previousVector=vectorData(previous,source);
+    if(!vector){panel.hidden=true;return;}
+    panel.hidden=false;
+    const activeIndex=activeVectorIndex(state,vector,previousVector);
+    const changedIndexes=previousVector?.values?vector.values.map((value,index)=>String(value)!==String(previousVector.values[index])?index:-1).filter(index=>index>=0):[];
+    const cells=vector.values.length?vector.values.map((value,index)=>`<div class="vector-cell ${index===activeIndex?'is-active':''} ${changedIndexes.includes(index)?'is-changed':''}"><small>${fr?'indice':'index'} ${index}</small><b>${code(value)}</b></div>`).join(''):`<div class="vector-cell is-active"><small>${fr?'aucune case':'no cell'}</small><b>∅</b></div>`;
+    panel.innerHTML=`<div class="structure-heading"><span class="eyebrow">${fr?'VECTEUR VIVANT':'LIVE VECTOR'}</span><strong>${code(vector.name)}</strong><p>${vectorOperation(state,vector,previousVector)}</p></div><div class="vector-cells" aria-label="${fr?'Cases du vecteur':'Vector cells'}">${cells}</div><p class="structure-beginner-note">${fr?'Une case possède deux informations : sa position (indice) et son contenu (valeur). Un vecteur vide n’a encore aucune valeur à parcourir.':'A cell has two pieces of information: its position (index) and its content (value). An empty vector has no value to traverse yet.'}</p>`;
+    return;
+  }
+  if(c.id==='trees'){
+    const tree=treeData(state,source);
+    if(!tree){
+      panel.hidden=false;
+      panel.innerHTML=`<div class="structure-heading"><span class="eyebrow">${fr?'ARBRE VIVANT':'LIVE TREE'}</span><strong>${fr?'Arbre vide : aucun nœud à parcourir':'Empty tree: no node to traverse'}</strong><p>${fr?'Python n’entre dans aucune branche tant qu’une racine n’a pas été créée.':'Python enters no branch until a root has been created.'}</p></div><div class="tree-stage"><ul class="tree-branches"><li><span class="tree-node is-active">∅</span></li></ul></div><p class="structure-beginner-note">${fr?'∅ signifie : il n’y a encore ni racine, ni enfant, ni feuille.':'∅ means: there is no root, child, or leaf yet.'}</p>`;
+      return;
+    }
+    panel.hidden=false;
+    const activeLabel=activeTreeLabel(state,tree);
+    const line=String(state?.source_line||'');
+    const behavior=state?.kind==='loop'||/\bfor\b.*\b(enfant|child)\b/.test(line)?(fr?'Parcours : Python visite un enfant à la fois.':'Traversal: Python visits one child at a time.'):(/enfants|children/.test(line)?(fr?'Construction : un lien parent → enfant organise l’arbre.':'Construction: a parent → child link organizes the tree.'):(fr?'La racine est le premier point de départ de cet arbre.':'The root is the first starting point of this tree.'));
+    panel.innerHTML=`<div class="structure-heading"><span class="eyebrow">${fr?'ARBRE VIVANT':'LIVE TREE'}</span><strong>${fr?'Nœud en cours :':'Current node:'} ${code(activeLabel)}</strong><p>${behavior}</p></div><div class="tree-stage"><ul class="tree-branches">${treeMarkup(tree,activeLabel)}</ul></div><p class="structure-beginner-note">${fr?'La racine est en haut. Une arête relie un parent à un enfant. Le parcours suit ces liens, un nœud après l’autre.':'The root is at the top. An edge links a parent to a child. Traversal follows these links, one node at a time.'}</p>`;
+    return;
+  }
+  panel.hidden=true;
+}
+
 function renderExecutionDiagram(c,real,states){
   const track=$('memoryDiagramTrack');
   if(!track)return;
@@ -181,11 +352,15 @@ function renderMemory(c){
   const states=real?real.states:lines.map((line,index)=>memorySnapshot(line,index,c));
   memoryStep=Math.min(memoryStep,Math.max(0,states.length-1));
   const state=states[memoryStep]||states[0]||{};
+  const previous=states[memoryStep-1]||{};
   const meta=bloomByChapter[c.id]||bloomByChapter.basics;
   $('memoryProgram').innerHTML=lines.map((line,index)=>`<span class="memory-line ${index===memoryStep?'active':''}" data-line="${index}"><b>${String(index+1).padStart(2,'0')}</b>${code(line||' ')}</span>`).join('\n');
   renderExecutionDiagram(c,real,states);
+  renderMemoryTransition(state,previous);
+  renderStructureVisualization(c,state,previous,source);
+  const changedNames=new Set(changedEntries(previous.locals,state.locals).map(([name])=>name));
   const latestSlots=Object.values(states.slice(0,memoryStep+1).flatMap(item=>item.slots||[]).reduce((map,slot)=>{map[slot.name]=slot;return map},{}));
-  $('memorySlots').innerHTML=(latestSlots.length?latestSlots:[{name:lang==='fr'?'mémoire':'memory',value:lang==='fr'?'en attente de la prochaine instruction':'waiting for the next instruction',address:'0x1000',kind:'idle'}]).map(slot=>`<div class="memory-slot ${slot.kind}"><span>${slot.name}</span><strong>${code(slot.value)}</strong><small>${slot.address||'0x1000'} · ${lang==='fr'?'adresse symbolique':'symbolic address'}</small></div>`).join('');
+  $('memorySlots').innerHTML=(latestSlots.length?latestSlots:[{name:lang==='fr'?'mémoire':'memory',value:lang==='fr'?'en attente de la prochaine instruction':'waiting for the next instruction',address:'0x1000',kind:'idle'}]).map(slot=>`<div class="memory-slot ${slot.kind} ${changedNames.has(slot.name)?'just-changed':''}"><span>${slot.name}</span><strong>${code(slot.value)}</strong><small>${slot.address||'0x1000'} · ${lang==='fr'?'adresse symbolique':'symbolic address'}</small></div>`).join('');
   $('memoryFrame').textContent=state.frame||'main()';
   $('memoryStack').innerHTML=`<div class="stack-frame base"><span>${code(state.frame||'main()')}</span><small>${lang==='fr'?'cadre actif / active frame':'active frame'}</small><b>0x1000</b></div>`;
   const visibleOutput=stateOutput(state);

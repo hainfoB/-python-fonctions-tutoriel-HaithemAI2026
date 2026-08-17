@@ -4718,7 +4718,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda21a50>"
+          ".0": "<list_iterator object at 0x7ffa472de230>"
         },
         "after_locals": null,
         "return_value": "",
@@ -4734,7 +4734,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda21a50>"
+          ".0": "<list_iterator object at 0x7ffa472de230>"
         },
         "after_locals": null,
         "return_value": "",
@@ -4750,7 +4750,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda21a50>",
+          ".0": "<list_iterator object at 0x7ffa472de230>",
           "n": "2"
         },
         "after_locals": null,
@@ -4767,7 +4767,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda21a50>",
+          ".0": "<list_iterator object at 0x7ffa472de230>",
           "n": "2"
         },
         "after_locals": null,
@@ -4784,7 +4784,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda21a50>",
+          ".0": "<list_iterator object at 0x7ffa472de230>",
           "n": "2"
         },
         "after_locals": null,
@@ -4801,7 +4801,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda21a50>",
+          ".0": "<list_iterator object at 0x7ffa472de230>",
           "n": "5"
         },
         "after_locals": null,
@@ -4818,7 +4818,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda21a50>",
+          ".0": "<list_iterator object at 0x7ffa472de230>",
           "n": "5"
         },
         "after_locals": null,
@@ -4835,7 +4835,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda21a50>",
+          ".0": "<list_iterator object at 0x7ffa472de230>",
           "n": "5"
         },
         "after_locals": null,
@@ -4852,7 +4852,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda21a50>",
+          ".0": "<list_iterator object at 0x7ffa472de230>",
           "n": "8"
         },
         "after_locals": null,
@@ -4869,7 +4869,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda21a50>",
+          ".0": "<list_iterator object at 0x7ffa472de230>",
           "n": "8"
         },
         "after_locals": null,
@@ -4886,7 +4886,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda21a50>",
+          ".0": "<list_iterator object at 0x7ffa472de230>",
           "n": "8"
         },
         "after_locals": null,
@@ -4903,7 +4903,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda21a50>",
+          ".0": "<list_iterator object at 0x7ffa472de230>",
           "n": "8"
         },
         "after_locals": {
@@ -5131,7 +5131,9 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "loop",
         "iteration": 1,
-        "locals": {},
+        "locals": {
+          "valeurs": "[4, 7, 2, 9]"
+        },
         "after_locals": null,
         "return_value": "",
         "output_so_far": "",
@@ -5146,6 +5148,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
+          "valeurs": "[4, 7, 2, 9]",
           "i": "0"
         },
         "after_locals": null,
@@ -5162,6 +5165,7 @@ window.SCENE_TRACES={
         "kind": "loop",
         "iteration": 2,
         "locals": {
+          "valeurs": "[4, 7, 2, 9]",
           "i": "0"
         },
         "after_locals": null,
@@ -5178,6 +5182,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
+          "valeurs": "[4, 7, 2, 9]",
           "i": "1"
         },
         "after_locals": null,
@@ -5194,6 +5199,7 @@ window.SCENE_TRACES={
         "kind": "loop",
         "iteration": 3,
         "locals": {
+          "valeurs": "[4, 7, 2, 9]",
           "i": "1"
         },
         "after_locals": null,
@@ -5210,6 +5216,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
+          "valeurs": "[4, 7, 2, 9]",
           "i": "2"
         },
         "after_locals": null,
@@ -5226,6 +5233,7 @@ window.SCENE_TRACES={
         "kind": "loop",
         "iteration": 4,
         "locals": {
+          "valeurs": "[4, 7, 2, 9]",
           "i": "2"
         },
         "after_locals": null,
@@ -5242,6 +5250,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
+          "valeurs": "[4, 7, 2, 9]",
           "i": "3"
         },
         "after_locals": null,
@@ -5258,9 +5267,11 @@ window.SCENE_TRACES={
         "kind": "loop",
         "iteration": 5,
         "locals": {
+          "valeurs": "[4, 7, 2, 9]",
           "i": "3"
         },
         "after_locals": {
+          "valeurs": "[4, 7, 2, 9]",
           "i": "3"
         },
         "return_value": "",
@@ -6089,7 +6100,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda23eb0>"
+          ".0": "<list_iterator object at 0x7ffa472f4880>"
         },
         "after_locals": null,
         "return_value": "",
@@ -6105,7 +6116,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda23eb0>"
+          ".0": "<list_iterator object at 0x7ffa472f4880>"
         },
         "after_locals": null,
         "return_value": "",
@@ -6121,7 +6132,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda23eb0>",
+          ".0": "<list_iterator object at 0x7ffa472f4880>",
           "t": "-2"
         },
         "after_locals": null,
@@ -6138,7 +6149,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda23eb0>",
+          ".0": "<list_iterator object at 0x7ffa472f4880>",
           "t": "-2"
         },
         "after_locals": null,
@@ -6155,7 +6166,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda23eb0>",
+          ".0": "<list_iterator object at 0x7ffa472f4880>",
           "t": "-2"
         },
         "after_locals": null,
@@ -6172,7 +6183,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda23eb0>",
+          ".0": "<list_iterator object at 0x7ffa472f4880>",
           "t": "4"
         },
         "after_locals": null,
@@ -6189,7 +6200,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda23eb0>",
+          ".0": "<list_iterator object at 0x7ffa472f4880>",
           "t": "4"
         },
         "after_locals": null,
@@ -6206,7 +6217,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda23eb0>",
+          ".0": "<list_iterator object at 0x7ffa472f4880>",
           "t": "4"
         },
         "after_locals": null,
@@ -6223,7 +6234,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda23eb0>",
+          ".0": "<list_iterator object at 0x7ffa472f4880>",
           "t": "-1"
         },
         "after_locals": null,
@@ -6240,7 +6251,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda23eb0>",
+          ".0": "<list_iterator object at 0x7ffa472f4880>",
           "t": "-1"
         },
         "after_locals": null,
@@ -6257,7 +6268,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda23eb0>",
+          ".0": "<list_iterator object at 0x7ffa472f4880>",
           "t": "-1"
         },
         "after_locals": null,
@@ -6274,7 +6285,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda23eb0>",
+          ".0": "<list_iterator object at 0x7ffa472f4880>",
           "t": "3"
         },
         "after_locals": null,
@@ -6291,7 +6302,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda23eb0>",
+          ".0": "<list_iterator object at 0x7ffa472f4880>",
           "t": "3"
         },
         "after_locals": null,
@@ -6308,7 +6319,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda23eb0>",
+          ".0": "<list_iterator object at 0x7ffa472f4880>",
           "t": "3"
         },
         "after_locals": null,
@@ -6325,7 +6336,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda23eb0>",
+          ".0": "<list_iterator object at 0x7ffa472f4880>",
           "t": "3"
         },
         "after_locals": {
@@ -8521,8 +8532,11 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "assignment",
         "iteration": null,
-        "locals": {},
+        "locals": {
+          "notes": "[12, 14, 16, 10]"
+        },
         "after_locals": {
+          "notes": "[12, 14, 16, 10]",
           "eleve": "{'id': 'S1', 'nom': 'Maya', 'notes': [12, 15]}"
         },
         "return_value": "",
@@ -8699,7 +8713,9 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "assignment",
         "iteration": null,
-        "locals": {},
+        "locals": {
+          "notes": "[12, 14, 16, 10]"
+        },
         "after_locals": null,
         "return_value": "",
         "output_so_far": "",
@@ -8714,9 +8730,11 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {
+          "notes": "[12, 14, 16, 10]",
           "eleve": "{'nom': 'Lina', 'notes': [14, 16]}"
         },
         "after_locals": {
+          "notes": "[12, 14, 16, 10]",
           "eleve": "{'nom': 'Lina', 'notes': [14, 16], 'moyenne': 15.0}"
         },
         "return_value": "",
@@ -9007,7 +9025,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda3b4f0>"
+          ".0": "<list_iterator object at 0x7ffa472f7370>"
         },
         "after_locals": null,
         "return_value": "",
@@ -9023,7 +9041,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda3b4f0>"
+          ".0": "<list_iterator object at 0x7ffa472f7370>"
         },
         "after_locals": null,
         "return_value": "",
@@ -9039,7 +9057,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda3b4f0>",
+          ".0": "<list_iterator object at 0x7ffa472f7370>",
           "cle": "'nom'"
         },
         "after_locals": null,
@@ -9056,7 +9074,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda3b4f0>",
+          ".0": "<list_iterator object at 0x7ffa472f7370>",
           "cle": "'nom'"
         },
         "after_locals": null,
@@ -9073,7 +9091,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda3b4f0>",
+          ".0": "<list_iterator object at 0x7ffa472f7370>",
           "cle": "'nom'"
         },
         "after_locals": null,
@@ -9090,7 +9108,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda3b4f0>",
+          ".0": "<list_iterator object at 0x7ffa472f7370>",
           "cle": "'email'"
         },
         "after_locals": null,
@@ -9107,7 +9125,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda3b4f0>",
+          ".0": "<list_iterator object at 0x7ffa472f7370>",
           "cle": "'email'"
         },
         "after_locals": null,
@@ -9124,7 +9142,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda3b4f0>",
+          ".0": "<list_iterator object at 0x7ffa472f7370>",
           "cle": "'email'"
         },
         "after_locals": null,
@@ -9141,7 +9159,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda3b4f0>",
+          ".0": "<list_iterator object at 0x7ffa472f7370>",
           "cle": "'email'"
         },
         "after_locals": {
@@ -9256,7 +9274,9 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "assignment",
         "iteration": null,
-        "locals": {},
+        "locals": {
+          "notes": "[12, 14, 16, 10]"
+        },
         "after_locals": null,
         "return_value": "",
         "output_so_far": "",
@@ -9271,6 +9291,7 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {
+          "notes": "[12, 14, 16, 10]",
           "eleve": "{'prenom': 'Lina', 'notes': [14, 16]}"
         },
         "after_locals": null,
@@ -9287,10 +9308,12 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
+          "notes": "[12, 14, 16, 10]",
           "eleve": "{'prenom': 'Lina', 'notes': [14, 16]}",
           "moy": "15.0"
         },
         "after_locals": {
+          "notes": "[12, 14, 16, 10]",
           "eleve": "{'prenom': 'Lina', 'notes': [14, 16]}",
           "moy": "15.0"
         },
@@ -9399,7 +9422,10 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "loop",
         "iteration": 1,
-        "locals": {},
+        "locals": {
+          "eleves": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}]",
+          "notes": "[12, 14, 16, 10]"
+        },
         "after_locals": null,
         "return_value": "",
         "output_so_far": "",
@@ -9415,6 +9441,7 @@ window.SCENE_TRACES={
         "iteration": 2,
         "locals": {
           "eleves": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14.0}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}]",
+          "notes": "[12, 14, 16, 10]",
           "e": "{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14.0}"
         },
         "after_locals": null,
@@ -9432,10 +9459,12 @@ window.SCENE_TRACES={
         "iteration": 3,
         "locals": {
           "eleves": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14.0}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11.0}]",
+          "notes": "[12, 14, 16, 10]",
           "e": "{'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11.0}"
         },
         "after_locals": {
           "eleves": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14.0}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11.0}]",
+          "notes": "[12, 14, 16, 10]",
           "e": "{'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11.0}"
         },
         "return_value": "",
@@ -9465,7 +9494,9 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "assignment",
         "iteration": null,
-        "locals": {},
+        "locals": {
+          "eleves": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}]"
+        },
         "after_locals": null,
         "return_value": "",
         "output_so_far": "",
@@ -9480,6 +9511,7 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {
+          "eleves": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}]",
           "e": "{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}"
         },
         "after_locals": null,
@@ -9496,9 +9528,11 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {
+          "eleves": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}]",
           "e": "{'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}"
         },
         "after_locals": {
+          "eleves": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}]",
           "admis": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}]"
         },
         "return_value": "",
@@ -9528,7 +9562,9 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "assignment",
         "iteration": null,
-        "locals": {},
+        "locals": {
+          "eleves": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}]"
+        },
         "after_locals": null,
         "return_value": "",
         "output_so_far": "",
@@ -9543,6 +9579,7 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {
+          "eleves": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}]",
           "e": "{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}"
         },
         "after_locals": null,
@@ -9559,6 +9596,7 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {
+          "eleves": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}]",
           "e": "{'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}"
         },
         "after_locals": null,
@@ -9575,9 +9613,11 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
+          "eleves": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}]",
           "ids": "[1, 2]"
         },
         "after_locals": {
+          "eleves": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}]",
           "ids": "[1, 2]"
         },
         "return_value": "",
@@ -9685,7 +9725,9 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "loop",
         "iteration": 1,
-        "locals": {},
+        "locals": {
+          "eleves": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}]"
+        },
         "after_locals": null,
         "return_value": "",
         "output_so_far": "",
@@ -9700,6 +9742,7 @@ window.SCENE_TRACES={
         "kind": "loop",
         "iteration": 2,
         "locals": {
+          "eleves": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}]",
           "e": "{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}"
         },
         "after_locals": null,
@@ -9716,9 +9759,11 @@ window.SCENE_TRACES={
         "kind": "loop",
         "iteration": 3,
         "locals": {
+          "eleves": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}]",
           "e": "{'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}"
         },
         "after_locals": {
+          "eleves": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}]",
           "e": "{'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}"
         },
         "return_value": "",
@@ -9748,7 +9793,9 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "assignment",
         "iteration": null,
-        "locals": {},
+        "locals": {
+          "eleves": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}]"
+        },
         "after_locals": null,
         "return_value": "",
         "output_so_far": "",
@@ -9763,7 +9810,7 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda3b550>"
+          ".0": "<list_iterator object at 0x7ffa472f7df0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -9779,7 +9826,7 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda3b550>"
+          ".0": "<list_iterator object at 0x7ffa472f7df0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -9795,7 +9842,7 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda3b550>",
+          ".0": "<list_iterator object at 0x7ffa472f7df0>",
           "e": "{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}"
         },
         "after_locals": null,
@@ -9812,7 +9859,7 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda3b550>",
+          ".0": "<list_iterator object at 0x7ffa472f7df0>",
           "e": "{'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}"
         },
         "after_locals": null,
@@ -9829,10 +9876,11 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda3b550>",
+          ".0": "<list_iterator object at 0x7ffa472f7df0>",
           "e": "{'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}"
         },
         "after_locals": {
+          "eleves": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}]",
           "trouve": "None"
         },
         "return_value": "",
@@ -9862,7 +9910,9 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "assignment",
         "iteration": null,
-        "locals": {},
+        "locals": {
+          "eleves": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}]"
+        },
         "after_locals": null,
         "return_value": "",
         "output_so_far": "",
@@ -9877,6 +9927,7 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {
+          "eleves": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}]",
           "e": "{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}"
         },
         "after_locals": null,
@@ -9893,6 +9944,7 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {
+          "eleves": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}]",
           "e": "{'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}"
         },
         "after_locals": null,
@@ -9909,9 +9961,11 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
+          "eleves": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}]",
           "valides": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}]"
         },
         "after_locals": {
+          "eleves": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}]",
           "valides": "[{'id': 1, 'nom': 'Amina', 'note': 14, 'notes': [12, 14, 16], 'moyenne': 14}, {'id': 2, 'nom': 'Yanis', 'note': 11, 'notes': [10, 11, 12], 'moyenne': 11}]"
         },
         "return_value": "",
@@ -10084,7 +10138,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda3abf0>"
+          ".0": "<list_iterator object at 0x7ffa472dee90>"
         },
         "after_locals": null,
         "return_value": "",
@@ -10100,7 +10154,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda3abf0>"
+          ".0": "<list_iterator object at 0x7ffa472dee90>"
         },
         "after_locals": null,
         "return_value": "",
@@ -10116,7 +10170,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda3abf0>",
+          ".0": "<list_iterator object at 0x7ffa472dee90>",
           "e": "{'id': 1}"
         },
         "after_locals": null,
@@ -10133,7 +10187,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda3abf0>",
+          ".0": "<list_iterator object at 0x7ffa472dee90>",
           "e": "{'id': 1}"
         },
         "after_locals": null,
@@ -10150,7 +10204,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda3abf0>",
+          ".0": "<list_iterator object at 0x7ffa472dee90>",
           "e": "{'id': 1}"
         },
         "after_locals": null,
@@ -10167,7 +10221,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda3abf0>",
+          ".0": "<list_iterator object at 0x7ffa472dee90>",
           "e": "{'id': 2}"
         },
         "after_locals": null,
@@ -10184,7 +10238,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda3abf0>",
+          ".0": "<list_iterator object at 0x7ffa472dee90>",
           "e": "{'id': 2}"
         },
         "after_locals": null,
@@ -10201,7 +10255,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda3abf0>",
+          ".0": "<list_iterator object at 0x7ffa472dee90>",
           "e": "{'id': 2}"
         },
         "after_locals": null,
@@ -10218,7 +10272,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda3abf0>",
+          ".0": "<list_iterator object at 0x7ffa472dee90>",
           "e": "{'id': 2}"
         },
         "after_locals": {
@@ -10329,7 +10383,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda3a530>"
+          ".0": "<list_iterator object at 0x7ffa472df8b0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -10345,7 +10399,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda3a530>"
+          ".0": "<list_iterator object at 0x7ffa472df8b0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -10361,7 +10415,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda3a530>",
+          ".0": "<list_iterator object at 0x7ffa472df8b0>",
           "e": "{'id': 1, 'nom': 'Ali'}"
         },
         "after_locals": null,
@@ -10378,7 +10432,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<list_iterator object at 0x7fd1eda3a530>",
+          ".0": "<list_iterator object at 0x7ffa472df8b0>",
           "e": "{'id': 2, 'nom': 'Nora'}"
         },
         "after_locals": {
@@ -11419,7 +11473,9 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "branch",
         "iteration": null,
-        "locals": {},
+        "locals": {
+          "pile": "[1, 2, 3]"
+        },
         "after_locals": {
           "pile": "[1, 2]",
           "resultat": "3"
@@ -11452,8 +11508,11 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "assignment",
         "iteration": null,
-        "locals": {},
+        "locals": {
+          "pile": "[1, 2, 3]"
+        },
         "after_locals": {
+          "pile": "[1, 2, 3]",
           "sommet": "3"
         },
         "return_value": "",
@@ -11483,8 +11542,12 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "output",
         "iteration": null,
-        "locals": {},
-        "after_locals": {},
+        "locals": {
+          "pile": "[1, 2, 3]"
+        },
+        "after_locals": {
+          "pile": "[1, 2, 3]"
+        },
         "return_value": "",
         "output_so_far": "",
         "after_output": "3\n"
@@ -11512,7 +11575,9 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "loop",
         "iteration": 1,
-        "locals": {},
+        "locals": {
+          "pile": "[1, 2, 3]"
+        },
         "after_locals": null,
         "return_value": "",
         "output_so_far": "",
@@ -11738,8 +11803,11 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "assignment",
         "iteration": null,
-        "locals": {},
+        "locals": {
+          "historique": "[]"
+        },
         "after_locals": {
+          "historique": "[]",
           "page": "'aucune'"
         },
         "return_value": "",
@@ -11769,8 +11837,12 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "branch",
         "iteration": null,
-        "locals": {},
-        "after_locals": {},
+        "locals": {
+          "pile": "[1, 2, 3]"
+        },
+        "after_locals": {
+          "pile": "[1, 2, 3]"
+        },
         "return_value": "",
         "output_so_far": "",
         "after_output": "",
@@ -11799,9 +11871,12 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "definition",
         "iteration": null,
-        "locals": {},
+        "locals": {
+          "pile": "[1, 2, 3]"
+        },
         "after_locals": {
-          "depiler": "<function depiler at 0x7fd1ed9ee200>"
+          "pile": "[1, 2, 3]",
+          "depiler": "<function depiler at 0x7ffa472cc9a0>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -11830,9 +11905,12 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "definition",
         "iteration": null,
-        "locals": {},
+        "locals": {
+          "pile": "[1, 2, 3]"
+        },
         "after_locals": {
-          "annuler": "<function annuler at 0x7fd1ed9ef1a0>"
+          "pile": "[1, 2, 3]",
+          "annuler": "<function annuler at 0x7ffa472cc4a0>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -11991,7 +12069,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7fd1ed9e2e20>"
+          ".0": "<range_iterator object at 0x7ffa472f74b0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -12007,7 +12085,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7fd1ed9e2e20>"
+          ".0": "<range_iterator object at 0x7ffa472f74b0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -12023,7 +12101,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
+          ".0": "<range_iterator object at 0x7ffa472f74b0>",
           "_": "0"
         },
         "after_locals": null,
@@ -12040,7 +12118,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
+          ".0": "<range_iterator object at 0x7ffa472f74b0>",
           "_": "0"
         },
         "after_locals": null,
@@ -12057,7 +12135,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
+          ".0": "<range_iterator object at 0x7ffa472f74b0>",
           "_": "0"
         },
         "after_locals": null,
@@ -12074,7 +12152,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
+          ".0": "<range_iterator object at 0x7ffa472f74b0>",
           "_": "1"
         },
         "after_locals": null,
@@ -12091,7 +12169,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
+          ".0": "<range_iterator object at 0x7ffa472f74b0>",
           "_": "1"
         },
         "after_locals": null,
@@ -12108,7 +12186,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
+          ".0": "<range_iterator object at 0x7ffa472f74b0>",
           "_": "1"
         },
         "after_locals": null,
@@ -12125,7 +12203,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
+          ".0": "<range_iterator object at 0x7ffa472f74b0>",
           "_": "2"
         },
         "after_locals": null,
@@ -12142,7 +12220,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
+          ".0": "<range_iterator object at 0x7ffa472f74b0>",
           "_": "2"
         },
         "after_locals": null,
@@ -12159,7 +12237,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
+          ".0": "<range_iterator object at 0x7ffa472f74b0>",
           "_": "2"
         },
         "after_locals": null,
@@ -12176,7 +12254,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
+          ".0": "<range_iterator object at 0x7ffa472f74b0>",
           "_": "3"
         },
         "after_locals": null,
@@ -12193,7 +12271,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
+          ".0": "<range_iterator object at 0x7ffa472f74b0>",
           "_": "3"
         },
         "after_locals": null,
@@ -12210,7 +12288,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
+          ".0": "<range_iterator object at 0x7ffa472f74b0>",
           "_": "3"
         },
         "after_locals": null,
@@ -12227,7 +12305,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
+          ".0": "<range_iterator object at 0x7ffa472f74b0>",
           "_": "4"
         },
         "after_locals": null,
@@ -12244,7 +12322,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
+          ".0": "<range_iterator object at 0x7ffa472f74b0>",
           "_": "4"
         },
         "after_locals": null,
@@ -12261,7 +12339,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
+          ".0": "<range_iterator object at 0x7ffa472f74b0>",
           "_": "4"
         },
         "after_locals": null,
@@ -12278,7 +12356,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<range_iterator object at 0x7fd1ed9e2e20>",
+          ".0": "<range_iterator object at 0x7ffa472f74b0>",
           "_": "4"
         },
         "after_locals": {
@@ -13241,7 +13319,9 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "assignment",
         "iteration": null,
-        "locals": {},
+        "locals": {
+          "file": "[1, 2, 3]"
+        },
         "after_locals": {
           "file": "[2, 3]",
           "ticket": "1"
@@ -13273,7 +13353,9 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "loop",
         "iteration": 1,
-        "locals": {},
+        "locals": {
+          "file": "[1, 2, 3]"
+        },
         "after_locals": null,
         "return_value": "",
         "output_so_far": "",
@@ -13287,7 +13369,9 @@ window.SCENE_TRACES={
         "indent": 4,
         "kind": "output",
         "iteration": null,
-        "locals": {},
+        "locals": {
+          "file": "[1, 2, 3]"
+        },
         "after_locals": null,
         "return_value": "",
         "output_so_far": "",
@@ -13398,8 +13482,12 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "output",
         "iteration": null,
-        "locals": {},
-        "after_locals": {},
+        "locals": {
+          "file": "[1, 2, 3]"
+        },
+        "after_locals": {
+          "file": "[1, 2, 3]"
+        },
         "return_value": "",
         "output_so_far": "",
         "after_output": "3\n"
@@ -13427,7 +13515,9 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "statement",
         "iteration": null,
-        "locals": {},
+        "locals": {
+          "file": "[1, 2, 3]"
+        },
         "after_locals": {
           "file": "['URGENT', 1, 2, 3]"
         },
@@ -13458,7 +13548,9 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "assignment",
         "iteration": null,
-        "locals": {},
+        "locals": {
+          "file": "[1, 2, 3]"
+        },
         "after_locals": null,
         "return_value": "",
         "output_so_far": "",
@@ -13473,6 +13565,7 @@ window.SCENE_TRACES={
         "kind": "loop",
         "iteration": 1,
         "locals": {
+          "file": "[1, 2, 3]",
           "servis": "0"
         },
         "after_locals": null,
@@ -13489,6 +13582,7 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {
+          "file": "[1, 2, 3]",
           "servis": "0"
         },
         "after_locals": null,
@@ -13607,9 +13701,12 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "definition",
         "iteration": null,
-        "locals": {},
+        "locals": {
+          "file": "[1, 2, 3]"
+        },
         "after_locals": {
-          "servir": "<function servir at 0x7fd1ed9ec5e0>"
+          "file": "[1, 2, 3]",
+          "servir": "<function servir at 0x7ffa472cf100>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -13638,7 +13735,9 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "statement",
         "iteration": null,
-        "locals": {},
+        "locals": {
+          "file": "[1, 2, 3]"
+        },
         "after_locals": {
           "file": "[2, 3, 1]"
         },
@@ -14248,25 +14347,320 @@ window.SCENE_TRACES={
       "fr": "03 · Parcours",
       "en": "03 · Traversal"
     },
-    "code": "def visiter(n):\n    print(n[\"valeur\"])\n    for enfant in n[\"enfants\"]: visiter(enfant)",
+    "code": "arbre = {\"valeur\":\"Projet\", \"enfants\":[{\"valeur\":\"Analyse\", \"enfants\":[]}, {\"valeur\":\"Dev\", \"enfants\":[]}]}\ndef visiter(n):\n    print(n[\"valeur\"])\n    for enfant in n[\"enfants\"]:\n        visiter(enfant)\nvisiter(arbre)",
     "status": "ok",
-    "output": "",
+    "output": "Projet\nAnalyse\nDev\n",
     "states": [
       {
         "line": 1,
+        "source_line": "arbre = {\"valeur\":\"Projet\", \"enfants\":[{\"valeur\":\"Analyse\", \"enfants\":[]}, {\"valeur\":\"Dev\", \"enfants\":[]}]}",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "assignment",
+        "iteration": null,
+        "locals": {},
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
         "source_line": "def visiter(n):",
         "event": "line",
         "frame": "<module>",
         "indent": 0,
         "kind": "definition",
         "iteration": null,
-        "locals": {},
-        "after_locals": {
-          "visiter": "<function visiter at 0x7fd1ed9eee80>"
+        "locals": {
+          "arbre": "{'valeur': 'Projet', 'enfants': [{'valeur': 'Analyse', 'enfants': []}, {'valeur': 'Dev', 'enfants': []}]}"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
-        "after_output": ""
+        "after_output": null
+      },
+      {
+        "line": 6,
+        "source_line": "visiter(arbre)",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "statement",
+        "iteration": null,
+        "locals": {
+          "arbre": "{'valeur': 'Projet', 'enfants': [{'valeur': 'Analyse', 'enfants': []}, {'valeur': 'Dev', 'enfants': []}]}",
+          "visiter": "<function visiter at 0x7ffa472cc680>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def visiter(n):",
+        "event": "call",
+        "frame": "visiter",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Projet', 'enfants': [{'valeur': 'Analyse', 'enfants': []}, {'valeur': 'Dev', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    print(n[\"valeur\"])",
+        "event": "line",
+        "frame": "visiter",
+        "indent": 4,
+        "kind": "output",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Projet', 'enfants': [{'valeur': 'Analyse', 'enfants': []}, {'valeur': 'Dev', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    for enfant in n[\"enfants\"]:",
+        "event": "line",
+        "frame": "visiter",
+        "indent": 4,
+        "kind": "loop",
+        "iteration": 1,
+        "locals": {
+          "n": "{'valeur': 'Projet', 'enfants': [{'valeur': 'Analyse', 'enfants': []}, {'valeur': 'Dev', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Projet\n",
+        "after_output": null
+      },
+      {
+        "line": 5,
+        "source_line": "        visiter(enfant)",
+        "event": "line",
+        "frame": "visiter",
+        "indent": 8,
+        "kind": "statement",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Projet', 'enfants': [{'valeur': 'Analyse', 'enfants': []}, {'valeur': 'Dev', 'enfants': []}]}",
+          "enfant": "{'valeur': 'Analyse', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Projet\n",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def visiter(n):",
+        "event": "call",
+        "frame": "visiter",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Analyse', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Projet\n",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    print(n[\"valeur\"])",
+        "event": "line",
+        "frame": "visiter",
+        "indent": 4,
+        "kind": "output",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Analyse', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Projet\n",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    for enfant in n[\"enfants\"]:",
+        "event": "line",
+        "frame": "visiter",
+        "indent": 4,
+        "kind": "loop",
+        "iteration": 2,
+        "locals": {
+          "n": "{'valeur': 'Analyse', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Projet\nAnalyse\n",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    for enfant in n[\"enfants\"]:",
+        "event": "return",
+        "frame": "visiter",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Analyse', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Projet\nAnalyse\n",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    for enfant in n[\"enfants\"]:",
+        "event": "line",
+        "frame": "visiter",
+        "indent": 4,
+        "kind": "loop",
+        "iteration": 3,
+        "locals": {
+          "n": "{'valeur': 'Projet', 'enfants': [{'valeur': 'Analyse', 'enfants': []}, {'valeur': 'Dev', 'enfants': []}]}",
+          "enfant": "{'valeur': 'Analyse', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Projet\nAnalyse\n",
+        "after_output": null
+      },
+      {
+        "line": 5,
+        "source_line": "        visiter(enfant)",
+        "event": "line",
+        "frame": "visiter",
+        "indent": 8,
+        "kind": "statement",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Projet', 'enfants': [{'valeur': 'Analyse', 'enfants': []}, {'valeur': 'Dev', 'enfants': []}]}",
+          "enfant": "{'valeur': 'Dev', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Projet\nAnalyse\n",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def visiter(n):",
+        "event": "call",
+        "frame": "visiter",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Dev', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Projet\nAnalyse\n",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    print(n[\"valeur\"])",
+        "event": "line",
+        "frame": "visiter",
+        "indent": 4,
+        "kind": "output",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Dev', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Projet\nAnalyse\n",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    for enfant in n[\"enfants\"]:",
+        "event": "line",
+        "frame": "visiter",
+        "indent": 4,
+        "kind": "loop",
+        "iteration": 4,
+        "locals": {
+          "n": "{'valeur': 'Dev', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Projet\nAnalyse\nDev\n",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    for enfant in n[\"enfants\"]:",
+        "event": "return",
+        "frame": "visiter",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Dev', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Projet\nAnalyse\nDev\n",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    for enfant in n[\"enfants\"]:",
+        "event": "line",
+        "frame": "visiter",
+        "indent": 4,
+        "kind": "loop",
+        "iteration": 5,
+        "locals": {
+          "n": "{'valeur': 'Projet', 'enfants': [{'valeur': 'Analyse', 'enfants': []}, {'valeur': 'Dev', 'enfants': []}]}",
+          "enfant": "{'valeur': 'Dev', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Projet\nAnalyse\nDev\n",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    for enfant in n[\"enfants\"]:",
+        "event": "return",
+        "frame": "visiter",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Projet', 'enfants': [{'valeur': 'Analyse', 'enfants': []}, {'valeur': 'Dev', 'enfants': []}]}",
+          "enfant": "{'valeur': 'Dev', 'enfants': []}"
+        },
+        "after_locals": {
+          "arbre": "{'valeur': 'Projet', 'enfants': [{'valeur': 'Analyse', 'enfants': []}, {'valeur': 'Dev', 'enfants': []}]}",
+          "visiter": "<function visiter at 0x7ffa472cc680>"
+        },
+        "return_value": "",
+        "output_so_far": "Projet\nAnalyse\nDev\n",
+        "after_output": "Projet\nAnalyse\nDev\n"
       }
     ]
   },
@@ -14279,25 +14673,438 @@ window.SCENE_TRACES={
       "fr": "04 · Hauteur",
       "en": "04 · Height"
     },
-    "code": "def hauteur(n):\n    if not n[\"enfants\"]: return 1\n    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+    "code": "arbre = {\"valeur\":\"A\", \"enfants\":[{\"valeur\":\"B\", \"enfants\":[{\"valeur\":\"C\", \"enfants\":[]}]}]}\ndef hauteur(n):\n    if not n[\"enfants\"]: return 1\n    return 1 + max(hauteur(e) for e in n[\"enfants\"])\nprint(hauteur(arbre))",
     "status": "ok",
-    "output": "",
+    "output": "3\n",
     "states": [
       {
         "line": 1,
+        "source_line": "arbre = {\"valeur\":\"A\", \"enfants\":[{\"valeur\":\"B\", \"enfants\":[{\"valeur\":\"C\", \"enfants\":[]}]}]}",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "assignment",
+        "iteration": null,
+        "locals": {},
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
         "source_line": "def hauteur(n):",
         "event": "line",
         "frame": "<module>",
         "indent": 0,
         "kind": "definition",
         "iteration": null,
-        "locals": {},
-        "after_locals": {
-          "hauteur": "<function hauteur at 0x7fd1ed9eede0>"
+        "locals": {
+          "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}]}"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
-        "after_output": ""
+        "after_output": null
+      },
+      {
+        "line": 5,
+        "source_line": "print(hauteur(arbre))",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "output",
+        "iteration": null,
+        "locals": {
+          "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}]}",
+          "hauteur": "<function hauteur at 0x7ffa472cc400>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def hauteur(n):",
+        "event": "call",
+        "frame": "hauteur",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    if not n[\"enfants\"]: return 1",
+        "event": "line",
+        "frame": "hauteur",
+        "indent": 4,
+        "kind": "branch",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null,
+        "branch_taken": false
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "hauteur",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731e920>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731e920>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def hauteur(n):",
+        "event": "call",
+        "frame": "hauteur",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    if not n[\"enfants\"]: return 1",
+        "event": "line",
+        "frame": "hauteur",
+        "indent": 4,
+        "kind": "branch",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null,
+        "branch_taken": false
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "hauteur",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731e950>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731e950>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def hauteur(n):",
+        "event": "call",
+        "frame": "hauteur",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    if not n[\"enfants\"]: return 1",
+        "event": "line",
+        "frame": "hauteur",
+        "indent": 4,
+        "kind": "branch",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null,
+        "branch_taken": false
+      },
+      {
+        "line": 3,
+        "source_line": "    if not n[\"enfants\"]: return 1",
+        "event": "return",
+        "frame": "hauteur",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "1",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731e950>",
+          "e": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "1",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731e950>",
+          "e": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731e950>",
+          "e": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731e950>",
+          "e": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "hauteur",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "2",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731e920>",
+          "e": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "2",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731e920>",
+          "e": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731e920>",
+          "e": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731e920>",
+          "e": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "hauteur",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}]}"
+        },
+        "after_locals": {
+          "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}]}",
+          "hauteur": "<function hauteur at 0x7ffa472cc400>"
+        },
+        "return_value": "3",
+        "output_so_far": "",
+        "after_output": "3\n"
       }
     ]
   },
@@ -14310,25 +15117,372 @@ window.SCENE_TRACES={
       "fr": "05 · Recherche",
       "en": "05 · Search"
     },
-    "code": "def contient(n, cible):\n    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+    "code": "arbre = {\"valeur\":\"Projet\", \"enfants\":[{\"valeur\":\"Cours\", \"enfants\":[]}, {\"valeur\":\"Data\", \"enfants\":[]}]}\ndef contient(n, cible):\n    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])\nprint(contient(arbre, \"Data\"))",
     "status": "ok",
-    "output": "",
+    "output": "True\n",
     "states": [
       {
         "line": 1,
+        "source_line": "arbre = {\"valeur\":\"Projet\", \"enfants\":[{\"valeur\":\"Cours\", \"enfants\":[]}, {\"valeur\":\"Data\", \"enfants\":[]}]}",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "assignment",
+        "iteration": null,
+        "locals": {
+          "contient": "<function run_scene.<locals>.<lambda> at 0x7ffa472cc2c0>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
         "source_line": "def contient(n, cible):",
         "event": "line",
         "frame": "<module>",
         "indent": 0,
         "kind": "definition",
         "iteration": null,
-        "locals": {},
-        "after_locals": {
-          "contient": "<function contient at 0x7fd1edb61800>"
+        "locals": {
+          "contient": "<function run_scene.<locals>.<lambda> at 0x7ffa472cc2c0>",
+          "arbre": "{'valeur': 'Projet', 'enfants': [{'valeur': 'Cours', 'enfants': []}, {'valeur': 'Data', 'enfants': []}]}"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
-        "after_output": ""
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "print(contient(arbre, \"Data\"))",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "output",
+        "iteration": null,
+        "locals": {
+          "contient": "<function contient at 0x7ffa472ccf40>",
+          "arbre": "{'valeur': 'Projet', 'enfants': [{'valeur': 'Cours', 'enfants': []}, {'valeur': 'Data', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def contient(n, cible):",
+        "event": "call",
+        "frame": "contient",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Projet', 'enfants': [{'valeur': 'Cours', 'enfants': []}, {'valeur': 'Data', 'enfants': []}]}",
+          "cible": "'Data'"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "contient",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Projet', 'enfants': [{'valeur': 'Cours', 'enfants': []}, {'valeur': 'Data', 'enfants': []}]}",
+          "cible": "'Data'"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731e560>",
+          "cible": "'Data'"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731e560>",
+          "cible": "'Data'"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def contient(n, cible):",
+        "event": "call",
+        "frame": "contient",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Cours', 'enfants': []}",
+          "cible": "'Data'"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "contient",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Cours', 'enfants': []}",
+          "cible": "'Data'"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731df00>",
+          "cible": "'Data'"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731df00>",
+          "cible": "'Data'"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731df00>",
+          "cible": "'Data'"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "contient",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Cours', 'enfants': []}",
+          "cible": "'Data'"
+        },
+        "after_locals": null,
+        "return_value": "False",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731e560>",
+          "cible": "'Data'",
+          "e": "{'valeur': 'Cours', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "False",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731e560>",
+          "cible": "'Data'",
+          "e": "{'valeur': 'Cours', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731e560>",
+          "cible": "'Data'",
+          "e": "{'valeur': 'Cours', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def contient(n, cible):",
+        "event": "call",
+        "frame": "contient",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Data', 'enfants': []}",
+          "cible": "'Data'"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "contient",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Data', 'enfants': []}",
+          "cible": "'Data'"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "contient",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Data', 'enfants': []}",
+          "cible": "'Data'"
+        },
+        "after_locals": null,
+        "return_value": "True",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731e560>",
+          "cible": "'Data'",
+          "e": "{'valeur': 'Data', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "True",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "contient",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Projet', 'enfants': [{'valeur': 'Cours', 'enfants': []}, {'valeur': 'Data', 'enfants': []}]}",
+          "cible": "'Data'"
+        },
+        "after_locals": {
+          "contient": "<function contient at 0x7ffa472ccf40>",
+          "arbre": "{'valeur': 'Projet', 'enfants': [{'valeur': 'Cours', 'enfants': []}, {'valeur': 'Data', 'enfants': []}]}"
+        },
+        "return_value": "True",
+        "output_so_far": "",
+        "after_output": "True\n"
       }
     ]
   },
@@ -14462,7 +15616,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "decision": "<function decision at 0x7fd1ed9eeac0>"
+          "decision": "<function decision at 0x7ffa472ce980>"
         },
         "after_locals": null,
         "return_value": "",
@@ -14513,7 +15667,7 @@ window.SCENE_TRACES={
           "note": "14"
         },
         "after_locals": {
-          "decision": "<function decision at 0x7fd1ed9eeac0>"
+          "decision": "<function decision at 0x7ffa472ce980>"
         },
         "return_value": "{'valeur': 'reussi', 'enfants': []}",
         "output_so_far": "",
@@ -14530,25 +15684,373 @@ window.SCENE_TRACES={
       "fr": "09 · Compter les feuilles",
       "en": "09 · Count leaves"
     },
-    "code": "def feuilles(n):\n    if not n[\"enfants\"]: return 1\n    return sum(feuilles(e) for e in n[\"enfants\"])",
+    "code": "arbre = {\"valeur\":\"Vie\", \"enfants\":[{\"valeur\":\"Animal\", \"enfants\":[]}, {\"valeur\":\"Végétal\", \"enfants\":[]}]}\ndef feuilles(n):\n    if not n[\"enfants\"]: return 1\n    return sum(feuilles(e) for e in n[\"enfants\"])\nprint(feuilles(arbre))",
     "status": "ok",
-    "output": "",
+    "output": "2\n",
     "states": [
       {
         "line": 1,
+        "source_line": "arbre = {\"valeur\":\"Vie\", \"enfants\":[{\"valeur\":\"Animal\", \"enfants\":[]}, {\"valeur\":\"Végétal\", \"enfants\":[]}]}",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "assignment",
+        "iteration": null,
+        "locals": {},
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
         "source_line": "def feuilles(n):",
         "event": "line",
         "frame": "<module>",
         "indent": 0,
         "kind": "definition",
         "iteration": null,
-        "locals": {},
-        "after_locals": {
-          "feuilles": "<function feuilles at 0x7fd1ed9ed260>"
+        "locals": {
+          "arbre": "{'valeur': 'Vie', 'enfants': [{'valeur': 'Animal', 'enfants': []}, {'valeur': 'Végétal', 'enfants': []}]}"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
-        "after_output": ""
+        "after_output": null
+      },
+      {
+        "line": 5,
+        "source_line": "print(feuilles(arbre))",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "output",
+        "iteration": null,
+        "locals": {
+          "arbre": "{'valeur': 'Vie', 'enfants': [{'valeur': 'Animal', 'enfants': []}, {'valeur': 'Végétal', 'enfants': []}]}",
+          "feuilles": "<function feuilles at 0x7ffa472cef20>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def feuilles(n):",
+        "event": "call",
+        "frame": "feuilles",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Vie', 'enfants': [{'valeur': 'Animal', 'enfants': []}, {'valeur': 'Végétal', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    if not n[\"enfants\"]: return 1",
+        "event": "line",
+        "frame": "feuilles",
+        "indent": 4,
+        "kind": "branch",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Vie', 'enfants': [{'valeur': 'Animal', 'enfants': []}, {'valeur': 'Végétal', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null,
+        "branch_taken": false
+      },
+      {
+        "line": 4,
+        "source_line": "    return sum(feuilles(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "feuilles",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Vie', 'enfants': [{'valeur': 'Animal', 'enfants': []}, {'valeur': 'Végétal', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return sum(feuilles(e) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731fee0>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return sum(feuilles(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731fee0>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def feuilles(n):",
+        "event": "call",
+        "frame": "feuilles",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Animal', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    if not n[\"enfants\"]: return 1",
+        "event": "line",
+        "frame": "feuilles",
+        "indent": 4,
+        "kind": "branch",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Animal', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null,
+        "branch_taken": false
+      },
+      {
+        "line": 3,
+        "source_line": "    if not n[\"enfants\"]: return 1",
+        "event": "return",
+        "frame": "feuilles",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Animal', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "1",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return sum(feuilles(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731fee0>",
+          "e": "{'valeur': 'Animal', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "1",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return sum(feuilles(e) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731fee0>",
+          "e": "{'valeur': 'Animal', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return sum(feuilles(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731fee0>",
+          "e": "{'valeur': 'Animal', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def feuilles(n):",
+        "event": "call",
+        "frame": "feuilles",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Végétal', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    if not n[\"enfants\"]: return 1",
+        "event": "line",
+        "frame": "feuilles",
+        "indent": 4,
+        "kind": "branch",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Végétal', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null,
+        "branch_taken": false
+      },
+      {
+        "line": 3,
+        "source_line": "    if not n[\"enfants\"]: return 1",
+        "event": "return",
+        "frame": "feuilles",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Végétal', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "1",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return sum(feuilles(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731fee0>",
+          "e": "{'valeur': 'Végétal', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "1",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return sum(feuilles(e) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731fee0>",
+          "e": "{'valeur': 'Végétal', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return sum(feuilles(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731fee0>",
+          "e": "{'valeur': 'Végétal', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return sum(feuilles(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731fee0>",
+          "e": "{'valeur': 'Végétal', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return sum(feuilles(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "feuilles",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Vie', 'enfants': [{'valeur': 'Animal', 'enfants': []}, {'valeur': 'Végétal', 'enfants': []}]}"
+        },
+        "after_locals": {
+          "arbre": "{'valeur': 'Vie', 'enfants': [{'valeur': 'Animal', 'enfants': []}, {'valeur': 'Végétal', 'enfants': []}]}",
+          "feuilles": "<function feuilles at 0x7ffa472cef20>"
+        },
+        "return_value": "2",
+        "output_so_far": "",
+        "after_output": "2\n"
       }
     ]
   },
@@ -14561,25 +16063,336 @@ window.SCENE_TRACES={
       "fr": "10 · Parcours profondeur",
       "en": "10 · Depth traversal"
     },
-    "code": "def afficher(n, niveau=0):\n    print(\"  \" * niveau + n[\"valeur\"])\n    for e in n[\"enfants\"]: afficher(e, niveau + 1)",
+    "code": "arbre = {\"valeur\":\"Racine\", \"enfants\":[{\"valeur\":\"Gauche\", \"enfants\":[]}, {\"valeur\":\"Droite\", \"enfants\":[]}]}\ndef afficher(n, niveau=0):\n    print(\"  \" * niveau + n[\"valeur\"])\n    for e in n[\"enfants\"]:\n        afficher(e, niveau + 1)\nafficher(arbre)",
     "status": "ok",
-    "output": "",
+    "output": "Racine\n  Gauche\n  Droite\n",
     "states": [
       {
         "line": 1,
+        "source_line": "arbre = {\"valeur\":\"Racine\", \"enfants\":[{\"valeur\":\"Gauche\", \"enfants\":[]}, {\"valeur\":\"Droite\", \"enfants\":[]}]}",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "assignment",
+        "iteration": null,
+        "locals": {},
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
         "source_line": "def afficher(n, niveau=0):",
         "event": "line",
         "frame": "<module>",
         "indent": 0,
         "kind": "definition",
         "iteration": null,
-        "locals": {},
-        "after_locals": {
-          "afficher": "<function afficher at 0x7fd1ed9ee7a0>"
+        "locals": {
+          "arbre": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Gauche', 'enfants': []}, {'valeur': 'Droite', 'enfants': []}]}"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
-        "after_output": ""
+        "after_output": null
+      },
+      {
+        "line": 6,
+        "source_line": "afficher(arbre)",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "statement",
+        "iteration": null,
+        "locals": {
+          "arbre": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Gauche', 'enfants': []}, {'valeur': 'Droite', 'enfants': []}]}",
+          "afficher": "<function afficher at 0x7ffa472cf420>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def afficher(n, niveau=0):",
+        "event": "call",
+        "frame": "afficher",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Gauche', 'enfants': []}, {'valeur': 'Droite', 'enfants': []}]}",
+          "niveau": "0"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    print(\"  \" * niveau + n[\"valeur\"])",
+        "event": "line",
+        "frame": "afficher",
+        "indent": 4,
+        "kind": "output",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Gauche', 'enfants': []}, {'valeur': 'Droite', 'enfants': []}]}",
+          "niveau": "0"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    for e in n[\"enfants\"]:",
+        "event": "line",
+        "frame": "afficher",
+        "indent": 4,
+        "kind": "loop",
+        "iteration": 1,
+        "locals": {
+          "n": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Gauche', 'enfants': []}, {'valeur': 'Droite', 'enfants': []}]}",
+          "niveau": "0"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Racine\n",
+        "after_output": null
+      },
+      {
+        "line": 5,
+        "source_line": "        afficher(e, niveau + 1)",
+        "event": "line",
+        "frame": "afficher",
+        "indent": 8,
+        "kind": "statement",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Gauche', 'enfants': []}, {'valeur': 'Droite', 'enfants': []}]}",
+          "niveau": "0",
+          "e": "{'valeur': 'Gauche', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Racine\n",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def afficher(n, niveau=0):",
+        "event": "call",
+        "frame": "afficher",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Gauche', 'enfants': []}",
+          "niveau": "1"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Racine\n",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    print(\"  \" * niveau + n[\"valeur\"])",
+        "event": "line",
+        "frame": "afficher",
+        "indent": 4,
+        "kind": "output",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Gauche', 'enfants': []}",
+          "niveau": "1"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Racine\n",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    for e in n[\"enfants\"]:",
+        "event": "line",
+        "frame": "afficher",
+        "indent": 4,
+        "kind": "loop",
+        "iteration": 2,
+        "locals": {
+          "n": "{'valeur': 'Gauche', 'enfants': []}",
+          "niveau": "1"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Racine\n  Gauche\n",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    for e in n[\"enfants\"]:",
+        "event": "return",
+        "frame": "afficher",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Gauche', 'enfants': []}",
+          "niveau": "1"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Racine\n  Gauche\n",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    for e in n[\"enfants\"]:",
+        "event": "line",
+        "frame": "afficher",
+        "indent": 4,
+        "kind": "loop",
+        "iteration": 3,
+        "locals": {
+          "n": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Gauche', 'enfants': []}, {'valeur': 'Droite', 'enfants': []}]}",
+          "niveau": "0",
+          "e": "{'valeur': 'Gauche', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Racine\n  Gauche\n",
+        "after_output": null
+      },
+      {
+        "line": 5,
+        "source_line": "        afficher(e, niveau + 1)",
+        "event": "line",
+        "frame": "afficher",
+        "indent": 8,
+        "kind": "statement",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Gauche', 'enfants': []}, {'valeur': 'Droite', 'enfants': []}]}",
+          "niveau": "0",
+          "e": "{'valeur': 'Droite', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Racine\n  Gauche\n",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def afficher(n, niveau=0):",
+        "event": "call",
+        "frame": "afficher",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Droite', 'enfants': []}",
+          "niveau": "1"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Racine\n  Gauche\n",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    print(\"  \" * niveau + n[\"valeur\"])",
+        "event": "line",
+        "frame": "afficher",
+        "indent": 4,
+        "kind": "output",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Droite', 'enfants': []}",
+          "niveau": "1"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Racine\n  Gauche\n",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    for e in n[\"enfants\"]:",
+        "event": "line",
+        "frame": "afficher",
+        "indent": 4,
+        "kind": "loop",
+        "iteration": 4,
+        "locals": {
+          "n": "{'valeur': 'Droite', 'enfants': []}",
+          "niveau": "1"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Racine\n  Gauche\n  Droite\n",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    for e in n[\"enfants\"]:",
+        "event": "return",
+        "frame": "afficher",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Droite', 'enfants': []}",
+          "niveau": "1"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Racine\n  Gauche\n  Droite\n",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    for e in n[\"enfants\"]:",
+        "event": "line",
+        "frame": "afficher",
+        "indent": 4,
+        "kind": "loop",
+        "iteration": 5,
+        "locals": {
+          "n": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Gauche', 'enfants': []}, {'valeur': 'Droite', 'enfants': []}]}",
+          "niveau": "0",
+          "e": "{'valeur': 'Droite', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Racine\n  Gauche\n  Droite\n",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    for e in n[\"enfants\"]:",
+        "event": "return",
+        "frame": "afficher",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Gauche', 'enfants': []}, {'valeur': 'Droite', 'enfants': []}]}",
+          "niveau": "0",
+          "e": "{'valeur': 'Droite', 'enfants': []}"
+        },
+        "after_locals": {
+          "arbre": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Gauche', 'enfants': []}, {'valeur': 'Droite', 'enfants': []}]}",
+          "afficher": "<function afficher at 0x7ffa472cf420>"
+        },
+        "return_value": "",
+        "output_so_far": "Racine\n  Gauche\n  Droite\n",
+        "after_output": "Racine\n  Gauche\n  Droite\n"
       }
     ]
   },
@@ -14623,25 +16436,320 @@ window.SCENE_TRACES={
       "fr": "02 · Afficher",
       "en": "02 · Display"
     },
-    "code": "def afficher(n):\n    print(n[\"valeur\"])\n    for e in n[\"enfants\"]: afficher(e)",
+    "code": "arbre = {\"valeur\":\"A\", \"enfants\":[{\"valeur\":\"B\", \"enfants\":[]}, {\"valeur\":\"C\", \"enfants\":[]}]}\ndef afficher(n):\n    print(n[\"valeur\"])\n    for e in n[\"enfants\"]:\n        afficher(e)\nafficher(arbre)",
     "status": "ok",
-    "output": "",
+    "output": "A\nB\nC\n",
     "states": [
       {
         "line": 1,
+        "source_line": "arbre = {\"valeur\":\"A\", \"enfants\":[{\"valeur\":\"B\", \"enfants\":[]}, {\"valeur\":\"C\", \"enfants\":[]}]}",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "assignment",
+        "iteration": null,
+        "locals": {},
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
         "source_line": "def afficher(n):",
         "event": "line",
         "frame": "<module>",
         "indent": 0,
         "kind": "definition",
         "iteration": null,
-        "locals": {},
-        "after_locals": {
-          "afficher": "<function afficher at 0x7fd1ed9ecfe0>"
+        "locals": {
+          "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
-        "after_output": ""
+        "after_output": null
+      },
+      {
+        "line": 6,
+        "source_line": "afficher(arbre)",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "statement",
+        "iteration": null,
+        "locals": {
+          "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}",
+          "afficher": "<function afficher at 0x7ffa472cd620>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def afficher(n):",
+        "event": "call",
+        "frame": "afficher",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    print(n[\"valeur\"])",
+        "event": "line",
+        "frame": "afficher",
+        "indent": 4,
+        "kind": "output",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    for e in n[\"enfants\"]:",
+        "event": "line",
+        "frame": "afficher",
+        "indent": 4,
+        "kind": "loop",
+        "iteration": 1,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "A\n",
+        "after_output": null
+      },
+      {
+        "line": 5,
+        "source_line": "        afficher(e)",
+        "event": "line",
+        "frame": "afficher",
+        "indent": 8,
+        "kind": "statement",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}",
+          "e": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "A\n",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def afficher(n):",
+        "event": "call",
+        "frame": "afficher",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "A\n",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    print(n[\"valeur\"])",
+        "event": "line",
+        "frame": "afficher",
+        "indent": 4,
+        "kind": "output",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "A\n",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    for e in n[\"enfants\"]:",
+        "event": "line",
+        "frame": "afficher",
+        "indent": 4,
+        "kind": "loop",
+        "iteration": 2,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "A\nB\n",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    for e in n[\"enfants\"]:",
+        "event": "return",
+        "frame": "afficher",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "A\nB\n",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    for e in n[\"enfants\"]:",
+        "event": "line",
+        "frame": "afficher",
+        "indent": 4,
+        "kind": "loop",
+        "iteration": 3,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}",
+          "e": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "A\nB\n",
+        "after_output": null
+      },
+      {
+        "line": 5,
+        "source_line": "        afficher(e)",
+        "event": "line",
+        "frame": "afficher",
+        "indent": 8,
+        "kind": "statement",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}",
+          "e": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "A\nB\n",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def afficher(n):",
+        "event": "call",
+        "frame": "afficher",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "A\nB\n",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    print(n[\"valeur\"])",
+        "event": "line",
+        "frame": "afficher",
+        "indent": 4,
+        "kind": "output",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "A\nB\n",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    for e in n[\"enfants\"]:",
+        "event": "line",
+        "frame": "afficher",
+        "indent": 4,
+        "kind": "loop",
+        "iteration": 4,
+        "locals": {
+          "n": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "A\nB\nC\n",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    for e in n[\"enfants\"]:",
+        "event": "return",
+        "frame": "afficher",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "A\nB\nC\n",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    for e in n[\"enfants\"]:",
+        "event": "line",
+        "frame": "afficher",
+        "indent": 4,
+        "kind": "loop",
+        "iteration": 5,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}",
+          "e": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "A\nB\nC\n",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    for e in n[\"enfants\"]:",
+        "event": "return",
+        "frame": "afficher",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}",
+          "e": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": {
+          "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}",
+          "afficher": "<function afficher at 0x7ffa472cd620>"
+        },
+        "return_value": "",
+        "output_so_far": "A\nB\nC\n",
+        "after_output": "A\nB\nC\n"
       }
     ]
   },
@@ -14654,25 +16762,450 @@ window.SCENE_TRACES={
       "fr": "03 · Compter",
       "en": "03 · Count"
     },
-    "code": "def compter(n):\n    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+    "code": "arbre = {\"valeur\":\"A\", \"enfants\":[{\"valeur\":\"B\", \"enfants\":[]}, {\"valeur\":\"C\", \"enfants\":[]}]}\ndef compter(n):\n    return 1 + sum(compter(e) for e in n[\"enfants\"])\nprint(compter(arbre))",
     "status": "ok",
-    "output": "",
+    "output": "3\n",
     "states": [
       {
         "line": 1,
+        "source_line": "arbre = {\"valeur\":\"A\", \"enfants\":[{\"valeur\":\"B\", \"enfants\":[]}, {\"valeur\":\"C\", \"enfants\":[]}]}",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "assignment",
+        "iteration": null,
+        "locals": {},
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
         "source_line": "def compter(n):",
         "event": "line",
         "frame": "<module>",
         "indent": 0,
         "kind": "definition",
         "iteration": null,
-        "locals": {},
-        "after_locals": {
-          "compter": "<function compter at 0x7fd1ed9ec400>"
+        "locals": {
+          "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
-        "after_output": ""
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "print(compter(arbre))",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "output",
+        "iteration": null,
+        "locals": {
+          "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}",
+          "compter": "<function compter at 0x7ffa472cdb20>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def compter(n):",
+        "event": "call",
+        "frame": "compter",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "compter",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731c1f0>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731c1f0>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def compter(n):",
+        "event": "call",
+        "frame": "compter",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "compter",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731cc10>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731cc10>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731cc10>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "compter",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "1",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731c1f0>",
+          "e": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "1",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731c1f0>",
+          "e": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731c1f0>",
+          "e": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def compter(n):",
+        "event": "call",
+        "frame": "compter",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "compter",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731c6d0>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731c6d0>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731c6d0>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "compter",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "1",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731c1f0>",
+          "e": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "1",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731c1f0>",
+          "e": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731c1f0>",
+          "e": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731c1f0>",
+          "e": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "compter",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": {
+          "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}",
+          "compter": "<function compter at 0x7ffa472cdb20>"
+        },
+        "return_value": "3",
+        "output_so_far": "",
+        "after_output": "3\n"
       }
     ]
   },
@@ -14685,25 +17218,107 @@ window.SCENE_TRACES={
       "fr": "04 · Feuille",
       "en": "04 · Leaf"
     },
-    "code": "def feuille(n): return len(n[\"enfants\"]) == 0",
+    "code": "noeud = {\"valeur\":\"B\", \"enfants\":[]}\ndef feuille(n):\n    return len(n[\"enfants\"]) == 0\nprint(feuille(noeud))",
     "status": "ok",
-    "output": "",
+    "output": "True\n",
     "states": [
       {
         "line": 1,
-        "source_line": "def feuille(n): return len(n[\"enfants\"]) == 0",
+        "source_line": "noeud = {\"valeur\":\"B\", \"enfants\":[]}",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "assignment",
+        "iteration": null,
+        "locals": {},
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def feuille(n):",
         "event": "line",
         "frame": "<module>",
         "indent": 0,
         "kind": "definition",
         "iteration": null,
-        "locals": {},
-        "after_locals": {
-          "feuille": "<function feuille at 0x7fd1ed9ec680>"
+        "locals": {
+          "noeud": "{'valeur': 'B', 'enfants': []}"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
-        "after_output": ""
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "print(feuille(noeud))",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "output",
+        "iteration": null,
+        "locals": {
+          "noeud": "{'valeur': 'B', 'enfants': []}",
+          "feuille": "<function feuille at 0x7ffa472cdbc0>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def feuille(n):",
+        "event": "call",
+        "frame": "feuille",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return len(n[\"enfants\"]) == 0",
+        "event": "line",
+        "frame": "feuille",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return len(n[\"enfants\"]) == 0",
+        "event": "return",
+        "frame": "feuille",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": {
+          "noeud": "{'valeur': 'B', 'enfants': []}",
+          "feuille": "<function feuille at 0x7ffa472cdbc0>"
+        },
+        "return_value": "True",
+        "output_so_far": "",
+        "after_output": "True\n"
       }
     ]
   },
@@ -14716,25 +17331,403 @@ window.SCENE_TRACES={
       "fr": "05 · Hauteur",
       "en": "05 · Height"
     },
-    "code": "def h(n):\n    return 1 if not n[\"enfants\"] else 1 + max(h(e) for e in n[\"enfants\"])",
+    "code": "arbre = {\"valeur\":\"A\", \"enfants\":[{\"valeur\":\"B\", \"enfants\":[{\"valeur\":\"C\", \"enfants\":[]}]}]}\ndef h(n):\n    return 1 if not n[\"enfants\"] else 1 + max(h(e) for e in n[\"enfants\"])\nprint(h(arbre))",
     "status": "ok",
-    "output": "",
+    "output": "3\n",
     "states": [
       {
         "line": 1,
+        "source_line": "arbre = {\"valeur\":\"A\", \"enfants\":[{\"valeur\":\"B\", \"enfants\":[{\"valeur\":\"C\", \"enfants\":[]}]}]}",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "assignment",
+        "iteration": null,
+        "locals": {},
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
         "source_line": "def h(n):",
         "event": "line",
         "frame": "<module>",
         "indent": 0,
         "kind": "definition",
         "iteration": null,
-        "locals": {},
-        "after_locals": {
-          "h": "<function h at 0x7fd1ed9ec360>"
+        "locals": {
+          "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}]}"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
-        "after_output": ""
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "print(h(arbre))",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "output",
+        "iteration": null,
+        "locals": {
+          "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}]}",
+          "h": "<function h at 0x7ffa472ce0c0>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def h(n):",
+        "event": "call",
+        "frame": "h",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 if not n[\"enfants\"] else 1 + max(h(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "h",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 if not n[\"enfants\"] else 1 + max(h(e) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731ece0>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 if not n[\"enfants\"] else 1 + max(h(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731ece0>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def h(n):",
+        "event": "call",
+        "frame": "h",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 if not n[\"enfants\"] else 1 + max(h(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "h",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 if not n[\"enfants\"] else 1 + max(h(e) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731eef0>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 if not n[\"enfants\"] else 1 + max(h(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731eef0>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def h(n):",
+        "event": "call",
+        "frame": "h",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 if not n[\"enfants\"] else 1 + max(h(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "h",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 if not n[\"enfants\"] else 1 + max(h(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "h",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "1",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 if not n[\"enfants\"] else 1 + max(h(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731eef0>",
+          "e": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "1",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 if not n[\"enfants\"] else 1 + max(h(e) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731eef0>",
+          "e": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 if not n[\"enfants\"] else 1 + max(h(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731eef0>",
+          "e": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 if not n[\"enfants\"] else 1 + max(h(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731eef0>",
+          "e": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 if not n[\"enfants\"] else 1 + max(h(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "h",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "2",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 if not n[\"enfants\"] else 1 + max(h(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731ece0>",
+          "e": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "2",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 if not n[\"enfants\"] else 1 + max(h(e) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731ece0>",
+          "e": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 if not n[\"enfants\"] else 1 + max(h(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731ece0>",
+          "e": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 if not n[\"enfants\"] else 1 + max(h(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731ece0>",
+          "e": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 if not n[\"enfants\"] else 1 + max(h(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "h",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}]}"
+        },
+        "after_locals": {
+          "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}]}",
+          "h": "<function h at 0x7ffa472ce0c0>"
+        },
+        "return_value": "3",
+        "output_so_far": "",
+        "after_output": "3\n"
       }
     ]
   },
@@ -14747,25 +17740,235 @@ window.SCENE_TRACES={
       "fr": "06 · Recherche",
       "en": "06 · Search"
     },
-    "code": "trouve = contient(arbre, \"Cours\")",
+    "code": "arbre = {\"valeur\":\"Accueil\", \"enfants\":[{\"valeur\":\"Cours\", \"enfants\":[]}, {\"valeur\":\"Projets\", \"enfants\":[]}]}\ndef contient(n, cible):\n    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])\ntrouve = contient(arbre, \"Cours\")\nprint(trouve)",
     "status": "ok",
-    "output": "",
+    "output": "True\n",
     "states": [
       {
         "line": 1,
+        "source_line": "arbre = {\"valeur\":\"Accueil\", \"enfants\":[{\"valeur\":\"Cours\", \"enfants\":[]}, {\"valeur\":\"Projets\", \"enfants\":[]}]}",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "assignment",
+        "iteration": null,
+        "locals": {
+          "contient": "<function run_scene.<locals>.<lambda> at 0x7ffa472cdf80>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def contient(n, cible):",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "contient": "<function run_scene.<locals>.<lambda> at 0x7ffa472cdf80>",
+          "arbre": "{'valeur': 'Accueil', 'enfants': [{'valeur': 'Cours', 'enfants': []}, {'valeur': 'Projets', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
         "source_line": "trouve = contient(arbre, \"Cours\")",
         "event": "line",
         "frame": "<module>",
         "indent": 0,
         "kind": "assignment",
         "iteration": null,
-        "locals": {},
+        "locals": {
+          "contient": "<function contient at 0x7ffa472ceac0>",
+          "arbre": "{'valeur': 'Accueil', 'enfants': [{'valeur': 'Cours', 'enfants': []}, {'valeur': 'Projets', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def contient(n, cible):",
+        "event": "call",
+        "frame": "contient",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Accueil', 'enfants': [{'valeur': 'Cours', 'enfants': []}, {'valeur': 'Projets', 'enfants': []}]}",
+          "cible": "'Cours'"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "contient",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Accueil', 'enfants': [{'valeur': 'Cours', 'enfants': []}, {'valeur': 'Projets', 'enfants': []}]}",
+          "cible": "'Cours'"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731f4c0>",
+          "cible": "'Cours'"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731f4c0>",
+          "cible": "'Cours'"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def contient(n, cible):",
+        "event": "call",
+        "frame": "contient",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Cours', 'enfants': []}",
+          "cible": "'Cours'"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "contient",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Cours', 'enfants': []}",
+          "cible": "'Cours'"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "contient",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Cours', 'enfants': []}",
+          "cible": "'Cours'"
+        },
+        "after_locals": null,
+        "return_value": "True",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa4731f4c0>",
+          "cible": "'Cours'",
+          "e": "{'valeur': 'Cours', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "True",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "contient",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Accueil', 'enfants': [{'valeur': 'Cours', 'enfants': []}, {'valeur': 'Projets', 'enfants': []}]}",
+          "cible": "'Cours'"
+        },
+        "after_locals": null,
+        "return_value": "True",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 5,
+        "source_line": "print(trouve)",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "output",
+        "iteration": null,
+        "locals": {
+          "contient": "<function contient at 0x7ffa472ceac0>",
+          "arbre": "{'valeur': 'Accueil', 'enfants': [{'valeur': 'Cours', 'enfants': []}, {'valeur': 'Projets', 'enfants': []}]}",
+          "trouve": "True"
+        },
         "after_locals": {
-          "trouve": "False"
+          "contient": "<function contient at 0x7ffa472ceac0>",
+          "arbre": "{'valeur': 'Accueil', 'enfants': [{'valeur': 'Cours', 'enfants': []}, {'valeur': 'Projets', 'enfants': []}]}",
+          "trouve": "True"
         },
         "return_value": "",
         "output_so_far": "",
-        "after_output": ""
+        "after_output": "True\n"
       }
     ]
   },
@@ -14778,25 +17981,232 @@ window.SCENE_TRACES={
       "fr": "07 · Niveaux",
       "en": "07 · Levels"
     },
-    "code": "def afficher(n, niveau=0):\n    print(\"  \" * niveau + n[\"valeur\"])",
+    "code": "arbre = {\"valeur\":\"Racine\", \"enfants\":[{\"valeur\":\"Feuille\", \"enfants\":[]}]}\ndef afficher(n, niveau=0):\n    print(\"  \" * niveau + n[\"valeur\"])\n    for e in n[\"enfants\"]:\n        afficher(e, niveau + 1)\nafficher(arbre)",
     "status": "ok",
-    "output": "",
+    "output": "Racine\n  Feuille\n",
     "states": [
       {
         "line": 1,
+        "source_line": "arbre = {\"valeur\":\"Racine\", \"enfants\":[{\"valeur\":\"Feuille\", \"enfants\":[]}]}",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "assignment",
+        "iteration": null,
+        "locals": {},
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
         "source_line": "def afficher(n, niveau=0):",
         "event": "line",
         "frame": "<module>",
         "indent": 0,
         "kind": "definition",
         "iteration": null,
-        "locals": {},
-        "after_locals": {
-          "afficher": "<function afficher at 0x7fd1ed9ed800>"
+        "locals": {
+          "arbre": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Feuille', 'enfants': []}]}"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
-        "after_output": ""
+        "after_output": null
+      },
+      {
+        "line": 6,
+        "source_line": "afficher(arbre)",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "statement",
+        "iteration": null,
+        "locals": {
+          "arbre": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Feuille', 'enfants': []}]}",
+          "afficher": "<function afficher at 0x7ffa472cf100>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def afficher(n, niveau=0):",
+        "event": "call",
+        "frame": "afficher",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Feuille', 'enfants': []}]}",
+          "niveau": "0"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    print(\"  \" * niveau + n[\"valeur\"])",
+        "event": "line",
+        "frame": "afficher",
+        "indent": 4,
+        "kind": "output",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Feuille', 'enfants': []}]}",
+          "niveau": "0"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    for e in n[\"enfants\"]:",
+        "event": "line",
+        "frame": "afficher",
+        "indent": 4,
+        "kind": "loop",
+        "iteration": 1,
+        "locals": {
+          "n": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Feuille', 'enfants': []}]}",
+          "niveau": "0"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Racine\n",
+        "after_output": null
+      },
+      {
+        "line": 5,
+        "source_line": "        afficher(e, niveau + 1)",
+        "event": "line",
+        "frame": "afficher",
+        "indent": 8,
+        "kind": "statement",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Feuille', 'enfants': []}]}",
+          "niveau": "0",
+          "e": "{'valeur': 'Feuille', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Racine\n",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def afficher(n, niveau=0):",
+        "event": "call",
+        "frame": "afficher",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Feuille', 'enfants': []}",
+          "niveau": "1"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Racine\n",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    print(\"  \" * niveau + n[\"valeur\"])",
+        "event": "line",
+        "frame": "afficher",
+        "indent": 4,
+        "kind": "output",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Feuille', 'enfants': []}",
+          "niveau": "1"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Racine\n",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    for e in n[\"enfants\"]:",
+        "event": "line",
+        "frame": "afficher",
+        "indent": 4,
+        "kind": "loop",
+        "iteration": 2,
+        "locals": {
+          "n": "{'valeur': 'Feuille', 'enfants': []}",
+          "niveau": "1"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Racine\n  Feuille\n",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    for e in n[\"enfants\"]:",
+        "event": "return",
+        "frame": "afficher",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Feuille', 'enfants': []}",
+          "niveau": "1"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Racine\n  Feuille\n",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    for e in n[\"enfants\"]:",
+        "event": "line",
+        "frame": "afficher",
+        "indent": 4,
+        "kind": "loop",
+        "iteration": 3,
+        "locals": {
+          "n": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Feuille', 'enfants': []}]}",
+          "niveau": "0",
+          "e": "{'valeur': 'Feuille', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "Racine\n  Feuille\n",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    for e in n[\"enfants\"]:",
+        "event": "return",
+        "frame": "afficher",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Feuille', 'enfants': []}]}",
+          "niveau": "0",
+          "e": "{'valeur': 'Feuille', 'enfants': []}"
+        },
+        "after_locals": {
+          "arbre": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Feuille', 'enfants': []}]}",
+          "afficher": "<function afficher at 0x7ffa472cf100>"
+        },
+        "return_value": "",
+        "output_so_far": "Racine\n  Feuille\n",
+        "after_output": "Racine\n  Feuille\n"
       }
     ]
   },
@@ -14809,25 +18219,373 @@ window.SCENE_TRACES={
       "fr": "08 · Feuilles",
       "en": "08 · Leaves"
     },
-    "code": "def feuilles(n):\n    if not n[\"enfants\"]: return 1\n    return sum(feuilles(e) for e in n[\"enfants\"] )",
+    "code": "arbre = {\"valeur\":\"A\", \"enfants\":[{\"valeur\":\"B\", \"enfants\":[]}, {\"valeur\":\"C\", \"enfants\":[]}]}\ndef feuilles(n):\n    if not n[\"enfants\"]: return 1\n    return sum(feuilles(e) for e in n[\"enfants\"])\nprint(feuilles(arbre))",
     "status": "ok",
-    "output": "",
+    "output": "2\n",
     "states": [
       {
         "line": 1,
+        "source_line": "arbre = {\"valeur\":\"A\", \"enfants\":[{\"valeur\":\"B\", \"enfants\":[]}, {\"valeur\":\"C\", \"enfants\":[]}]}",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "assignment",
+        "iteration": null,
+        "locals": {},
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
         "source_line": "def feuilles(n):",
         "event": "line",
         "frame": "<module>",
         "indent": 0,
         "kind": "definition",
         "iteration": null,
-        "locals": {},
-        "after_locals": {
-          "feuilles": "<function feuilles at 0x7fd1ed9ed760>"
+        "locals": {
+          "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
-        "after_output": ""
+        "after_output": null
+      },
+      {
+        "line": 5,
+        "source_line": "print(feuilles(arbre))",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "output",
+        "iteration": null,
+        "locals": {
+          "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}",
+          "feuilles": "<function feuilles at 0x7ffa472cf7e0>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def feuilles(n):",
+        "event": "call",
+        "frame": "feuilles",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    if not n[\"enfants\"]: return 1",
+        "event": "line",
+        "frame": "feuilles",
+        "indent": 4,
+        "kind": "branch",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null,
+        "branch_taken": false
+      },
+      {
+        "line": 4,
+        "source_line": "    return sum(feuilles(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "feuilles",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return sum(feuilles(e) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa472f5600>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return sum(feuilles(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa472f5600>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def feuilles(n):",
+        "event": "call",
+        "frame": "feuilles",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    if not n[\"enfants\"]: return 1",
+        "event": "line",
+        "frame": "feuilles",
+        "indent": 4,
+        "kind": "branch",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null,
+        "branch_taken": false
+      },
+      {
+        "line": 3,
+        "source_line": "    if not n[\"enfants\"]: return 1",
+        "event": "return",
+        "frame": "feuilles",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "1",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return sum(feuilles(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa472f5600>",
+          "e": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "1",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return sum(feuilles(e) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa472f5600>",
+          "e": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return sum(feuilles(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa472f5600>",
+          "e": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def feuilles(n):",
+        "event": "call",
+        "frame": "feuilles",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    if not n[\"enfants\"]: return 1",
+        "event": "line",
+        "frame": "feuilles",
+        "indent": 4,
+        "kind": "branch",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null,
+        "branch_taken": false
+      },
+      {
+        "line": 3,
+        "source_line": "    if not n[\"enfants\"]: return 1",
+        "event": "return",
+        "frame": "feuilles",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "1",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return sum(feuilles(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa472f5600>",
+          "e": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "1",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return sum(feuilles(e) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa472f5600>",
+          "e": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return sum(feuilles(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa472f5600>",
+          "e": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return sum(feuilles(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa472f5600>",
+          "e": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return sum(feuilles(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "feuilles",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": {
+          "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}",
+          "feuilles": "<function feuilles at 0x7ffa472cf7e0>"
+        },
+        "return_value": "2",
+        "output_so_far": "",
+        "after_output": "2\n"
       }
     ]
   },
@@ -14840,25 +18598,107 @@ window.SCENE_TRACES={
       "fr": "09 · Filtrer",
       "en": "09 · Filter"
     },
-    "code": "def ok(n): return n[\"valeur\"].startswith(\"C\")",
+    "code": "noeud = {\"valeur\":\"Cours\", \"enfants\":[]}\ndef ok(n):\n    return n[\"valeur\"].startswith(\"C\")\nprint(ok(noeud))",
     "status": "ok",
-    "output": "",
+    "output": "True\n",
     "states": [
       {
         "line": 1,
-        "source_line": "def ok(n): return n[\"valeur\"].startswith(\"C\")",
+        "source_line": "noeud = {\"valeur\":\"Cours\", \"enfants\":[]}",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "assignment",
+        "iteration": null,
+        "locals": {},
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def ok(n):",
         "event": "line",
         "frame": "<module>",
         "indent": 0,
         "kind": "definition",
         "iteration": null,
-        "locals": {},
-        "after_locals": {
-          "ok": "<function ok at 0x7fd1ed9edda0>"
+        "locals": {
+          "noeud": "{'valeur': 'Cours', 'enfants': []}"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
-        "after_output": ""
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "print(ok(noeud))",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "output",
+        "iteration": null,
+        "locals": {
+          "noeud": "{'valeur': 'Cours', 'enfants': []}",
+          "ok": "<function ok at 0x7ffa472cfec0>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def ok(n):",
+        "event": "call",
+        "frame": "ok",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Cours', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"].startswith(\"C\")",
+        "event": "line",
+        "frame": "ok",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Cours', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"].startswith(\"C\")",
+        "event": "return",
+        "frame": "ok",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Cours', 'enfants': []}"
+        },
+        "after_locals": {
+          "noeud": "{'valeur': 'Cours', 'enfants': []}",
+          "ok": "<function ok at 0x7ffa472cfec0>"
+        },
+        "return_value": "True",
+        "output_so_far": "",
+        "after_output": "True\n"
       }
     ]
   },
@@ -14871,9 +18711,9 @@ window.SCENE_TRACES={
       "fr": "10 · Arbre vide",
       "en": "10 · Empty tree"
     },
-    "code": "def afficher(n):\n    if n is None: return\n    print(n[\"valeur\"])",
+    "code": "def afficher(n):\n    if n is None:\n        return \"arbre vide\"\n    return n[\"valeur\"]\nprint(afficher(None))",
     "status": "ok",
-    "output": "",
+    "output": "arbre vide\n",
     "states": [
       {
         "line": 1,
@@ -14883,13 +18723,98 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "definition",
         "iteration": null,
-        "locals": {},
-        "after_locals": {
-          "afficher": "<function afficher at 0x7fd1ed9edee0>"
+        "locals": {
+          "arbre": "{'valeur': 'racine', 'enfants': []}"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
-        "after_output": ""
+        "after_output": null
+      },
+      {
+        "line": 5,
+        "source_line": "print(afficher(None))",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "output",
+        "iteration": null,
+        "locals": {
+          "arbre": "{'valeur': 'racine', 'enfants': []}",
+          "afficher": "<function afficher at 0x7ffa47394220>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 1,
+        "source_line": "def afficher(n):",
+        "event": "call",
+        "frame": "afficher",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "None"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "    if n is None:",
+        "event": "line",
+        "frame": "afficher",
+        "indent": 4,
+        "kind": "branch",
+        "iteration": null,
+        "locals": {
+          "n": "None"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null,
+        "branch_taken": true
+      },
+      {
+        "line": 3,
+        "source_line": "        return \"arbre vide\"",
+        "event": "line",
+        "frame": "afficher",
+        "indent": 8,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "None"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "        return \"arbre vide\"",
+        "event": "return",
+        "frame": "afficher",
+        "indent": 8,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "None"
+        },
+        "after_locals": {
+          "arbre": "{'valeur': 'racine', 'enfants': []}",
+          "afficher": "<function afficher at 0x7ffa47394220>"
+        },
+        "return_value": "'arbre vide'",
+        "output_so_far": "",
+        "after_output": "arbre vide\n"
       }
     ]
   },
@@ -14933,25 +18858,450 @@ window.SCENE_TRACES={
       "fr": "12 · Compter nœuds",
       "en": "12 · Count nodes"
     },
-    "code": "def compter(n):\n    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+    "code": "arbre = {\"valeur\":\"A\", \"enfants\":[{\"valeur\":\"B\", \"enfants\":[]}, {\"valeur\":\"C\", \"enfants\":[]}]}\ndef compter(n):\n    return 1 + sum(compter(e) for e in n[\"enfants\"])\nprint(compter(arbre))",
     "status": "ok",
-    "output": "",
+    "output": "3\n",
     "states": [
       {
         "line": 1,
+        "source_line": "arbre = {\"valeur\":\"A\", \"enfants\":[{\"valeur\":\"B\", \"enfants\":[]}, {\"valeur\":\"C\", \"enfants\":[]}]}",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "assignment",
+        "iteration": null,
+        "locals": {},
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
         "source_line": "def compter(n):",
         "event": "line",
         "frame": "<module>",
         "indent": 0,
         "kind": "definition",
         "iteration": null,
-        "locals": {},
-        "after_locals": {
-          "compter": "<function compter at 0x7fd1ed9ef100>"
+        "locals": {
+          "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
-        "after_output": ""
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "print(compter(arbre))",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "output",
+        "iteration": null,
+        "locals": {
+          "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}",
+          "compter": "<function compter at 0x7ffa47394720>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def compter(n):",
+        "event": "call",
+        "frame": "compter",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "compter",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa47370af0>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa47370af0>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def compter(n):",
+        "event": "call",
+        "frame": "compter",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "compter",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa47370d30>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa47370d30>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa47370d30>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "compter",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "1",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa47370af0>",
+          "e": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "1",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa47370af0>",
+          "e": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa47370af0>",
+          "e": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def compter(n):",
+        "event": "call",
+        "frame": "compter",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "compter",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa47370d90>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa47370d90>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa47370d90>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "compter",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "1",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa47370af0>",
+          "e": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "1",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa47370af0>",
+          "e": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa47370af0>",
+          "e": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa47370af0>",
+          "e": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return 1 + sum(compter(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "compter",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": {
+          "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}",
+          "compter": "<function compter at 0x7ffa47394720>"
+        },
+        "return_value": "3",
+        "output_so_far": "",
+        "after_output": "3\n"
       }
     ]
   },
@@ -14964,25 +19314,372 @@ window.SCENE_TRACES={
       "fr": "13 · Chercher valeur",
       "en": "13 · Search value"
     },
-    "code": "def contient(n, cible):\n    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+    "code": "arbre = {\"valeur\":\"Racine\", \"enfants\":[{\"valeur\":\"Python\", \"enfants\":[]}, {\"valeur\":\"Data\", \"enfants\":[]}]}\ndef contient(n, cible):\n    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])\nprint(contient(arbre, \"Data\"))",
     "status": "ok",
-    "output": "",
+    "output": "True\n",
     "states": [
       {
         "line": 1,
+        "source_line": "arbre = {\"valeur\":\"Racine\", \"enfants\":[{\"valeur\":\"Python\", \"enfants\":[]}, {\"valeur\":\"Data\", \"enfants\":[]}]}",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "assignment",
+        "iteration": null,
+        "locals": {
+          "contient": "<function run_scene.<locals>.<lambda> at 0x7ffa473945e0>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
         "source_line": "def contient(n, cible):",
         "event": "line",
         "frame": "<module>",
         "indent": 0,
         "kind": "definition",
         "iteration": null,
-        "locals": {},
-        "after_locals": {
-          "contient": "<function contient at 0x7fd1ed9ef7e0>"
+        "locals": {
+          "contient": "<function run_scene.<locals>.<lambda> at 0x7ffa473945e0>",
+          "arbre": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Python', 'enfants': []}, {'valeur': 'Data', 'enfants': []}]}"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
-        "after_output": ""
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "print(contient(arbre, \"Data\"))",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "output",
+        "iteration": null,
+        "locals": {
+          "contient": "<function contient at 0x7ffa47394e00>",
+          "arbre": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Python', 'enfants': []}, {'valeur': 'Data', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def contient(n, cible):",
+        "event": "call",
+        "frame": "contient",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Python', 'enfants': []}, {'valeur': 'Data', 'enfants': []}]}",
+          "cible": "'Data'"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "contient",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Python', 'enfants': []}, {'valeur': 'Data', 'enfants': []}]}",
+          "cible": "'Data'"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa473710c0>",
+          "cible": "'Data'"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa473710c0>",
+          "cible": "'Data'"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def contient(n, cible):",
+        "event": "call",
+        "frame": "contient",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Python', 'enfants': []}",
+          "cible": "'Data'"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "contient",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Python', 'enfants': []}",
+          "cible": "'Data'"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa472df670>",
+          "cible": "'Data'"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa472df670>",
+          "cible": "'Data'"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa472df670>",
+          "cible": "'Data'"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "contient",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Python', 'enfants': []}",
+          "cible": "'Data'"
+        },
+        "after_locals": null,
+        "return_value": "False",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa473710c0>",
+          "cible": "'Data'",
+          "e": "{'valeur': 'Python', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "False",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa473710c0>",
+          "cible": "'Data'",
+          "e": "{'valeur': 'Python', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa473710c0>",
+          "cible": "'Data'",
+          "e": "{'valeur': 'Python', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def contient(n, cible):",
+        "event": "call",
+        "frame": "contient",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Data', 'enfants': []}",
+          "cible": "'Data'"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "contient",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Data', 'enfants': []}",
+          "cible": "'Data'"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "contient",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Data', 'enfants': []}",
+          "cible": "'Data'"
+        },
+        "after_locals": null,
+        "return_value": "True",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa473710c0>",
+          "cible": "'Data'",
+          "e": "{'valeur': 'Data', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "True",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    return n[\"valeur\"] == cible or any(contient(e, cible) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "contient",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Python', 'enfants': []}, {'valeur': 'Data', 'enfants': []}]}",
+          "cible": "'Data'"
+        },
+        "after_locals": {
+          "contient": "<function contient at 0x7ffa47394e00>",
+          "arbre": "{'valeur': 'Racine', 'enfants': [{'valeur': 'Python', 'enfants': []}, {'valeur': 'Data', 'enfants': []}]}"
+        },
+        "return_value": "True",
+        "output_so_far": "",
+        "after_output": "True\n"
       }
     ]
   },
@@ -14995,25 +19692,438 @@ window.SCENE_TRACES={
       "fr": "14 · Hauteur",
       "en": "14 · Height"
     },
-    "code": "def hauteur(n):\n    if not n[\"enfants\"]: return 0\n    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+    "code": "arbre = {\"valeur\":\"A\", \"enfants\":[{\"valeur\":\"B\", \"enfants\":[{\"valeur\":\"C\", \"enfants\":[]}]}]}\ndef hauteur(n):\n    if not n[\"enfants\"]: return 0\n    return 1 + max(hauteur(e) for e in n[\"enfants\"])\nprint(hauteur(arbre))",
     "status": "ok",
-    "output": "",
+    "output": "2\n",
     "states": [
       {
         "line": 1,
+        "source_line": "arbre = {\"valeur\":\"A\", \"enfants\":[{\"valeur\":\"B\", \"enfants\":[{\"valeur\":\"C\", \"enfants\":[]}]}]}",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "assignment",
+        "iteration": null,
+        "locals": {},
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
         "source_line": "def hauteur(n):",
         "event": "line",
         "frame": "<module>",
         "indent": 0,
         "kind": "definition",
         "iteration": null,
-        "locals": {},
-        "after_locals": {
-          "hauteur": "<function hauteur at 0x7fd1ed9efa60>"
+        "locals": {
+          "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}]}"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
-        "after_output": ""
+        "after_output": null
+      },
+      {
+        "line": 5,
+        "source_line": "print(hauteur(arbre))",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "output",
+        "iteration": null,
+        "locals": {
+          "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}]}",
+          "hauteur": "<function hauteur at 0x7ffa472cfc40>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def hauteur(n):",
+        "event": "call",
+        "frame": "hauteur",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    if not n[\"enfants\"]: return 0",
+        "event": "line",
+        "frame": "hauteur",
+        "indent": 4,
+        "kind": "branch",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null,
+        "branch_taken": false
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "hauteur",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa472f6c80>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa472f6c80>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def hauteur(n):",
+        "event": "call",
+        "frame": "hauteur",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    if not n[\"enfants\"]: return 0",
+        "event": "line",
+        "frame": "hauteur",
+        "indent": 4,
+        "kind": "branch",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null,
+        "branch_taken": false
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "hauteur",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa472f6d10>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa472f6d10>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def hauteur(n):",
+        "event": "call",
+        "frame": "hauteur",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    if not n[\"enfants\"]: return 0",
+        "event": "line",
+        "frame": "hauteur",
+        "indent": 4,
+        "kind": "branch",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null,
+        "branch_taken": false
+      },
+      {
+        "line": 3,
+        "source_line": "    if not n[\"enfants\"]: return 0",
+        "event": "return",
+        "frame": "hauteur",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "0",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa472f6d10>",
+          "e": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "0",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa472f6d10>",
+          "e": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa472f6d10>",
+          "e": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa472f6d10>",
+          "e": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "hauteur",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "1",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa472f6c80>",
+          "e": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "1",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "call",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa472f6c80>",
+          "e": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "line",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa472f6c80>",
+          "e": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "<genexpr>",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          ".0": "<list_iterator object at 0x7ffa472f6c80>",
+          "e": "{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 4,
+        "source_line": "    return 1 + max(hauteur(e) for e in n[\"enfants\"])",
+        "event": "return",
+        "frame": "hauteur",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}]}"
+        },
+        "after_locals": {
+          "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': [{'valeur': 'C', 'enfants': []}]}]}",
+          "hauteur": "<function hauteur at 0x7ffa472cfc40>"
+        },
+        "return_value": "2",
+        "output_so_far": "",
+        "after_output": "2\n"
       }
     ]
   },
@@ -15026,25 +20136,355 @@ window.SCENE_TRACES={
       "fr": "15 · Afficher feuilles",
       "en": "15 · Display leaves"
     },
-    "code": "def afficher_feuilles(n):\n    if not n[\"enfants\"]: print(n[\"valeur\"])\n    for e in n[\"enfants\"]: afficher_feuilles(e)",
+    "code": "arbre = {\"valeur\":\"A\", \"enfants\":[{\"valeur\":\"B\", \"enfants\":[]}, {\"valeur\":\"C\", \"enfants\":[]}]}\ndef afficher_feuilles(n):\n    if not n[\"enfants\"]:\n        print(n[\"valeur\"])\n    for e in n[\"enfants\"]:\n        afficher_feuilles(e)\nafficher_feuilles(arbre)",
     "status": "ok",
-    "output": "",
+    "output": "B\nC\n",
     "states": [
       {
         "line": 1,
+        "source_line": "arbre = {\"valeur\":\"A\", \"enfants\":[{\"valeur\":\"B\", \"enfants\":[]}, {\"valeur\":\"C\", \"enfants\":[]}]}",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "assignment",
+        "iteration": null,
+        "locals": {},
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
         "source_line": "def afficher_feuilles(n):",
         "event": "line",
         "frame": "<module>",
         "indent": 0,
         "kind": "definition",
         "iteration": null,
-        "locals": {},
-        "after_locals": {
-          "afficher_feuilles": "<function afficher_feuilles at 0x7fd1ed9efd80>"
+        "locals": {
+          "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}"
         },
+        "after_locals": null,
         "return_value": "",
         "output_so_far": "",
-        "after_output": ""
+        "after_output": null
+      },
+      {
+        "line": 7,
+        "source_line": "afficher_feuilles(arbre)",
+        "event": "line",
+        "frame": "<module>",
+        "indent": 0,
+        "kind": "statement",
+        "iteration": null,
+        "locals": {
+          "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}",
+          "afficher_feuilles": "<function afficher_feuilles at 0x7ffa472ce200>"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def afficher_feuilles(n):",
+        "event": "call",
+        "frame": "afficher_feuilles",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    if not n[\"enfants\"]:",
+        "event": "line",
+        "frame": "afficher_feuilles",
+        "indent": 4,
+        "kind": "branch",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null,
+        "branch_taken": false
+      },
+      {
+        "line": 5,
+        "source_line": "    for e in n[\"enfants\"]:",
+        "event": "line",
+        "frame": "afficher_feuilles",
+        "indent": 4,
+        "kind": "loop",
+        "iteration": 1,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 6,
+        "source_line": "        afficher_feuilles(e)",
+        "event": "line",
+        "frame": "afficher_feuilles",
+        "indent": 8,
+        "kind": "statement",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}",
+          "e": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def afficher_feuilles(n):",
+        "event": "call",
+        "frame": "afficher_feuilles",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    if not n[\"enfants\"]:",
+        "event": "line",
+        "frame": "afficher_feuilles",
+        "indent": 4,
+        "kind": "branch",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null,
+        "branch_taken": true
+      },
+      {
+        "line": 4,
+        "source_line": "        print(n[\"valeur\"])",
+        "event": "line",
+        "frame": "afficher_feuilles",
+        "indent": 8,
+        "kind": "output",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "",
+        "after_output": null
+      },
+      {
+        "line": 5,
+        "source_line": "    for e in n[\"enfants\"]:",
+        "event": "line",
+        "frame": "afficher_feuilles",
+        "indent": 4,
+        "kind": "loop",
+        "iteration": 2,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "B\n",
+        "after_output": null
+      },
+      {
+        "line": 5,
+        "source_line": "    for e in n[\"enfants\"]:",
+        "event": "return",
+        "frame": "afficher_feuilles",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "B\n",
+        "after_output": null
+      },
+      {
+        "line": 5,
+        "source_line": "    for e in n[\"enfants\"]:",
+        "event": "line",
+        "frame": "afficher_feuilles",
+        "indent": 4,
+        "kind": "loop",
+        "iteration": 3,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}",
+          "e": "{'valeur': 'B', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "B\n",
+        "after_output": null
+      },
+      {
+        "line": 6,
+        "source_line": "        afficher_feuilles(e)",
+        "event": "line",
+        "frame": "afficher_feuilles",
+        "indent": 8,
+        "kind": "statement",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}",
+          "e": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "B\n",
+        "after_output": null
+      },
+      {
+        "line": 2,
+        "source_line": "def afficher_feuilles(n):",
+        "event": "call",
+        "frame": "afficher_feuilles",
+        "indent": 0,
+        "kind": "definition",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "B\n",
+        "after_output": null
+      },
+      {
+        "line": 3,
+        "source_line": "    if not n[\"enfants\"]:",
+        "event": "line",
+        "frame": "afficher_feuilles",
+        "indent": 4,
+        "kind": "branch",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "B\n",
+        "after_output": null,
+        "branch_taken": true
+      },
+      {
+        "line": 4,
+        "source_line": "        print(n[\"valeur\"])",
+        "event": "line",
+        "frame": "afficher_feuilles",
+        "indent": 8,
+        "kind": "output",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "B\n",
+        "after_output": null
+      },
+      {
+        "line": 5,
+        "source_line": "    for e in n[\"enfants\"]:",
+        "event": "line",
+        "frame": "afficher_feuilles",
+        "indent": 4,
+        "kind": "loop",
+        "iteration": 4,
+        "locals": {
+          "n": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "B\nC\n",
+        "after_output": null
+      },
+      {
+        "line": 5,
+        "source_line": "    for e in n[\"enfants\"]:",
+        "event": "return",
+        "frame": "afficher_feuilles",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "B\nC\n",
+        "after_output": null
+      },
+      {
+        "line": 5,
+        "source_line": "    for e in n[\"enfants\"]:",
+        "event": "line",
+        "frame": "afficher_feuilles",
+        "indent": 4,
+        "kind": "loop",
+        "iteration": 5,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}",
+          "e": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": null,
+        "return_value": "",
+        "output_so_far": "B\nC\n",
+        "after_output": null
+      },
+      {
+        "line": 5,
+        "source_line": "    for e in n[\"enfants\"]:",
+        "event": "return",
+        "frame": "afficher_feuilles",
+        "indent": 4,
+        "kind": "return",
+        "iteration": null,
+        "locals": {
+          "n": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}",
+          "e": "{'valeur': 'C', 'enfants': []}"
+        },
+        "after_locals": {
+          "arbre": "{'valeur': 'A', 'enfants': [{'valeur': 'B', 'enfants': []}, {'valeur': 'C', 'enfants': []}]}",
+          "afficher_feuilles": "<function afficher_feuilles at 0x7ffa472ce200>"
+        },
+        "return_value": "",
+        "output_so_far": "B\nC\n",
+        "after_output": "B\nC\n"
       }
     ]
   },
@@ -15983,7 +21423,9 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "assignment",
         "iteration": null,
-        "locals": {},
+        "locals": {
+          "notes": "[12, 14, 16, 10]"
+        },
         "after_locals": null,
         "return_value": "",
         "output_so_far": "",
@@ -15998,6 +21440,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
+          "notes": "[12, 14, 16, 10]",
           "m": "13.0"
         },
         "after_locals": null,
@@ -16014,6 +21457,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
+          "notes": "[12, 14, 16, 10]",
           "m": "13.0",
           "n": "12"
         },
@@ -16031,6 +21475,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
+          "notes": "[12, 14, 16, 10]",
           "m": "13.0",
           "n": "14"
         },
@@ -16048,6 +21493,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
+          "notes": "[12, 14, 16, 10]",
           "m": "13.0",
           "n": "16"
         },
@@ -16065,10 +21511,12 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
+          "notes": "[12, 14, 16, 10]",
           "m": "13.0",
           "n": "10"
         },
         "after_locals": {
+          "notes": "[12, 14, 16, 10]",
           "m": "13.0"
         },
         "return_value": "",
@@ -16314,7 +21762,9 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "assignment",
         "iteration": null,
-        "locals": {},
+        "locals": {
+          "notes": "[12, 14, 16, 10]"
+        },
         "after_locals": null,
         "return_value": "",
         "output_so_far": "",
@@ -16329,9 +21779,11 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
+          "notes": "[12, 14, 16, 10]",
           "m": "13.0"
         },
         "after_locals": {
+          "notes": "[12, 14, 16, 10]",
           "m": "13.0"
         },
         "return_value": "",
@@ -16409,7 +21861,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<zip object at 0x7fd1eda881c0>"
+          ".0": "<zip object at 0x7ffa471c4a00>"
         },
         "after_locals": null,
         "return_value": "",
@@ -16425,7 +21877,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<zip object at 0x7fd1eda881c0>"
+          ".0": "<zip object at 0x7ffa471c4a00>"
         },
         "after_locals": null,
         "return_value": "",
@@ -16441,7 +21893,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<zip object at 0x7fd1eda881c0>",
+          ".0": "<zip object at 0x7ffa471c4a00>",
           "n": "12",
           "c": "1"
         },
@@ -16459,7 +21911,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<zip object at 0x7fd1eda881c0>",
+          ".0": "<zip object at 0x7ffa471c4a00>",
           "n": "12",
           "c": "1"
         },
@@ -16477,7 +21929,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<zip object at 0x7fd1eda881c0>",
+          ".0": "<zip object at 0x7ffa471c4a00>",
           "n": "12",
           "c": "1"
         },
@@ -16495,7 +21947,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<zip object at 0x7fd1eda881c0>",
+          ".0": "<zip object at 0x7ffa471c4a00>",
           "n": "16",
           "c": "2"
         },
@@ -16513,7 +21965,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<zip object at 0x7fd1eda881c0>",
+          ".0": "<zip object at 0x7ffa471c4a00>",
           "n": "16",
           "c": "2"
         },
@@ -16531,7 +21983,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          ".0": "<zip object at 0x7fd1eda881c0>",
+          ".0": "<zip object at 0x7ffa471c4a00>",
           "n": "16",
           "c": "2"
         },
@@ -16549,7 +22001,7 @@ window.SCENE_TRACES={
         "kind": "return",
         "iteration": null,
         "locals": {
-          ".0": "<zip object at 0x7fd1eda881c0>",
+          ".0": "<zip object at 0x7ffa471c4a00>",
           "n": "16",
           "c": "2"
         },
@@ -16881,7 +22333,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "saluer": "<function saluer at 0x7fd1ed9ed1c0>"
+          "saluer": "<function saluer at 0x7ffa472cef20>"
         },
         "after_locals": null,
         "return_value": "",
@@ -16932,7 +22384,7 @@ window.SCENE_TRACES={
           "nom": "'Lina'"
         },
         "after_locals": {
-          "saluer": "<function saluer at 0x7fd1ed9ed1c0>"
+          "saluer": "<function saluer at 0x7ffa472cef20>"
         },
         "return_value": "'Bonjour Lina'",
         "output_so_far": "",
@@ -16976,7 +22428,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "carre": "<function carre at 0x7fd1ed9ec360>"
+          "carre": "<function carre at 0x7ffa472ce200>"
         },
         "after_locals": null,
         "return_value": "",
@@ -17027,7 +22479,7 @@ window.SCENE_TRACES={
           "n": "6"
         },
         "after_locals": {
-          "carre": "<function carre at 0x7fd1ed9ec360>"
+          "carre": "<function carre at 0x7ffa472ce200>"
         },
         "return_value": "36",
         "output_so_far": "",
@@ -17071,7 +22523,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "ttc": "<function ttc at 0x7fd1ed9ecae0>"
+          "ttc": "<function ttc at 0x7ffa472cfc40>"
         },
         "after_locals": null,
         "return_value": "",
@@ -17125,7 +22577,7 @@ window.SCENE_TRACES={
           "taux": "0.2"
         },
         "after_locals": {
-          "ttc": "<function ttc at 0x7fd1ed9ecae0>"
+          "ttc": "<function ttc at 0x7ffa472cfc40>"
         },
         "return_value": "120.0",
         "output_so_far": "",
@@ -17169,7 +22621,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "valide": "<function valide at 0x7fd1ed9ec400>"
+          "valide": "<function valide at 0x7ffa472cff60>"
         },
         "after_locals": null,
         "return_value": "",
@@ -17220,7 +22672,7 @@ window.SCENE_TRACES={
           "note": "18"
         },
         "after_locals": {
-          "valide": "<function valide at 0x7fd1ed9ec400>"
+          "valide": "<function valide at 0x7ffa472cff60>"
         },
         "return_value": "True",
         "output_so_far": "",
@@ -17264,7 +22716,7 @@ window.SCENE_TRACES={
         "kind": "definition",
         "iteration": null,
         "locals": {
-          "c_to_f": "<function c_to_f at 0x7fd1ed9ecfe0>"
+          "c_to_f": "<function c_to_f at 0x7ffa472cf1a0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -17280,8 +22732,8 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "c_to_f": "<function c_to_f at 0x7fd1ed9ecfe0>",
-          "chaud": "<function chaud at 0x7fd1ed9ee8e0>"
+          "c_to_f": "<function c_to_f at 0x7ffa472cf1a0>",
+          "chaud": "<function chaud at 0x7ffa472cf4c0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -17380,8 +22832,8 @@ window.SCENE_TRACES={
           "f": "77.0"
         },
         "after_locals": {
-          "c_to_f": "<function c_to_f at 0x7fd1ed9ecfe0>",
-          "chaud": "<function chaud at 0x7fd1ed9ee8e0>"
+          "c_to_f": "<function c_to_f at 0x7ffa472cf1a0>",
+          "chaud": "<function chaud at 0x7ffa472cf4c0>"
         },
         "return_value": "True",
         "output_so_far": "",
@@ -17442,7 +22894,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {
           "pi": "3.141592653589793",
-          "aire_disque": "<function aire_disque at 0x7fd1ed9ee7a0>"
+          "aire_disque": "<function aire_disque at 0x7ffa472cd580>"
         },
         "after_locals": null,
         "return_value": "",
@@ -17494,7 +22946,7 @@ window.SCENE_TRACES={
         },
         "after_locals": {
           "pi": "3.141592653589793",
-          "aire_disque": "<function aire_disque at 0x7fd1ed9ee7a0>"
+          "aire_disque": "<function aire_disque at 0x7ffa472cd580>"
         },
         "return_value": "28.274333882308138",
         "output_so_far": "",
@@ -17538,7 +22990,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "vitesse": "<function vitesse at 0x7fd1ed9ed580>"
+          "vitesse": "<function vitesse at 0x7ffa47426020>"
         },
         "after_locals": null,
         "return_value": "",
@@ -17592,7 +23044,7 @@ window.SCENE_TRACES={
           "temps_h": "2"
         },
         "after_locals": {
-          "vitesse": "<function vitesse at 0x7fd1ed9ed580>"
+          "vitesse": "<function vitesse at 0x7ffa47426020>"
         },
         "return_value": "21.0",
         "output_so_far": "",
@@ -17636,7 +23088,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "energie": "<function energie at 0x7fd1ed9ee980>"
+          "energie": "<function energie at 0x7ffa474253a0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -17693,7 +23145,7 @@ window.SCENE_TRACES={
           "hauteur": "3"
         },
         "after_locals": {
-          "energie": "<function energie at 0x7fd1ed9ee980>"
+          "energie": "<function energie at 0x7ffa474253a0>"
         },
         "return_value": "58.86",
         "output_so_far": "",
@@ -17737,7 +23189,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "concentration": "<function concentration at 0x7fd1edb63ba0>"
+          "concentration": "<function concentration at 0x7ffa47427ec0>"
         },
         "after_locals": null,
         "return_value": "",
@@ -17791,7 +23243,7 @@ window.SCENE_TRACES={
           "volume": "0.5"
         },
         "after_locals": {
-          "concentration": "<function concentration at 0x7fd1edb63ba0>"
+          "concentration": "<function concentration at 0x7ffa47427ec0>"
         },
         "return_value": "24.0",
         "output_so_far": "",
@@ -17835,7 +23287,7 @@ window.SCENE_TRACES={
         "kind": "output",
         "iteration": null,
         "locals": {
-          "zone_pression": "<function zone_pression at 0x7fd1ed9eede0>"
+          "zone_pression": "<function zone_pression at 0x7ffa47395a80>"
         },
         "after_locals": null,
         "return_value": "",
@@ -17920,7 +23372,7 @@ window.SCENE_TRACES={
           "valeur": "128"
         },
         "after_locals": {
-          "zone_pression": "<function zone_pression at 0x7fd1ed9eede0>"
+          "zone_pression": "<function zone_pression at 0x7ffa47395a80>"
         },
         "return_value": "'élevée'",
         "output_so_far": "",
@@ -17949,9 +23401,11 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "definition",
         "iteration": null,
-        "locals": {},
+        "locals": {
+          "est_pair": "<function run_scene.<locals>.<lambda> at 0x7ffa47395bc0>"
+        },
         "after_locals": {
-          "est_pair": "<function est_pair at 0x7fd1ed9ee840>"
+          "est_pair": "<function est_pair at 0x7ffa47395760>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -17982,7 +23436,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {},
         "after_locals": {
-          "moyenne": "<function moyenne at 0x7fd1ed9ee520>"
+          "moyenne": "<function moyenne at 0x7ffa473956c0>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -18013,7 +23467,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {},
         "after_locals": {
-          "plus_grand": "<function plus_grand at 0x7fd1ed9ecfe0>"
+          "plus_grand": "<function plus_grand at 0x7ffa47395260>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -18044,7 +23498,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {},
         "after_locals": {
-          "remise": "<function remise at 0x7fd1ed9ec040>"
+          "remise": "<function remise at 0x7ffa47394360>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -18075,7 +23529,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {},
         "after_locals": {
-          "phrase": "<function phrase at 0x7fd1ed9ecae0>"
+          "phrase": "<function phrase at 0x7ffa47394400>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -18106,7 +23560,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {},
         "after_locals": {
-          "secondes": "<function secondes at 0x7fd1ed9ec360>"
+          "secondes": "<function secondes at 0x7ffa47394cc0>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -18137,7 +23591,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {},
         "after_locals": {
-          "categorie": "<function categorie at 0x7fd1ed9ed1c0>"
+          "categorie": "<function categorie at 0x7ffa47394c20>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -18166,9 +23620,12 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "definition",
         "iteration": null,
-        "locals": {},
+        "locals": {
+          "valeurs": "[4, 7, 2, 9]"
+        },
         "after_locals": {
-          "total": "<function total at 0x7fd1ed9ed620>"
+          "valeurs": "[4, 7, 2, 9]",
+          "total": "<function total at 0x7ffa47396020>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -18197,7 +23654,9 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "statement",
         "iteration": null,
-        "locals": {},
+        "locals": {
+          "est_pair": "<function run_scene.<locals>.<lambda> at 0x7ffa47395da0>"
+        },
         "after_locals": null,
         "return_value": "",
         "output_so_far": "",
@@ -18211,8 +23670,12 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "statement",
         "iteration": null,
-        "locals": {},
-        "after_locals": {},
+        "locals": {
+          "est_pair": "<function run_scene.<locals>.<lambda> at 0x7ffa47395da0>"
+        },
+        "after_locals": {
+          "est_pair": "<function run_scene.<locals>.<lambda> at 0x7ffa47395da0>"
+        },
         "return_value": "",
         "output_so_far": "",
         "after_output": ""
@@ -18242,7 +23705,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {},
         "after_locals": {
-          "carre": "<function carre at 0x7fd1ed9ed8a0>"
+          "carre": "<function carre at 0x7ffa47396480>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -18273,7 +23736,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {},
         "after_locals": {
-          "fcm": "<function fcm at 0x7fd1ed9ee0c0>"
+          "fcm": "<function fcm at 0x7ffa47427ec0>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -18304,7 +23767,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {},
         "after_locals": {
-          "celsius_vers_kelvin": "<function celsius_vers_kelvin at 0x7fd1ed9ef1a0>"
+          "celsius_vers_kelvin": "<function celsius_vers_kelvin at 0x7ffa474253a0>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -18335,7 +23798,7 @@ window.SCENE_TRACES={
         "iteration": null,
         "locals": {},
         "after_locals": {
-          "intensite": "<function intensite at 0x7fd1ed9ef600>"
+          "intensite": "<function intensite at 0x7ffa472cc7c0>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -18364,9 +23827,11 @@ window.SCENE_TRACES={
         "indent": 0,
         "kind": "definition",
         "iteration": null,
-        "locals": {},
+        "locals": {
+          "est_pair": "<function run_scene.<locals>.<lambda> at 0x7ffa47426020>"
+        },
         "after_locals": {
-          "est_pair": "<function est_pair at 0x7fd1ed9efba0>"
+          "est_pair": "<function est_pair at 0x7ffa472cd580>"
         },
         "return_value": "",
         "output_so_far": "",
@@ -18410,7 +23875,7 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {
-          "vitesse": "<function vitesse at 0x7fd1ed9ef920>"
+          "vitesse": "<function vitesse at 0x7ffa472ce840>"
         },
         "after_locals": null,
         "return_value": "",
@@ -18477,7 +23942,7 @@ window.SCENE_TRACES={
         "kind": "assignment",
         "iteration": null,
         "locals": {
-          "vitesse": "<function vitesse at 0x7fd1ed9ef920>"
+          "vitesse": "<function vitesse at 0x7ffa472ce840>"
         },
         "after_locals": null,
         "return_value": "",
@@ -18531,7 +23996,7 @@ window.SCENE_TRACES={
           "t": "1.5"
         },
         "after_locals": {
-          "vitesse": "<function vitesse at 0x7fd1ed9ef920>"
+          "vitesse": "<function vitesse at 0x7ffa472ce840>"
         },
         "return_value": "20.0",
         "output_so_far": "",

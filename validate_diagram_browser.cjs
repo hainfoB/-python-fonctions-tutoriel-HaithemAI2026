@@ -98,8 +98,16 @@ async function runViewport(name, width, height) {
           document.querySelector('#diagramNext')?.click();
           const after=document.querySelector('#diagramStageLabel')?.textContent;
           const noModuleReturn=!/[<]module[>]\s*→\s*retour/.test(document.querySelector('.stage-frame code')?.textContent||'');
-          const ok=Boolean(action)&&activeKey===key&&actual===expected&&nodes===6&&before!==after&&noModuleReturn;
-          if(!ok)failures.push({chapter:chapter.id,key,hasAction:Boolean(action),activeKey,expected,actual,nodes,before,after,noModuleReturn});
+          const transitionOk=Boolean(document.querySelector('#memoryTransition h3')?.textContent&&document.querySelector('#memoryTransition p')?.textContent);
+          let structureOk=true;
+          if(chapter.id==='vectors'||chapter.id==='trees'){
+            for(let step=0;step<20&&!document.querySelector(chapter.id==='vectors'?'.vector-cell':'.tree-node');step+=1)document.querySelector('#memoryNext')?.click();
+            const panel=document.querySelector('#structureVisualization');
+            const selector=chapter.id==='vectors'?'.vector-cell':'.tree-node';
+            structureOk=Boolean(panel&&!panel.hidden&&panel.querySelector(selector));
+          }
+          const ok=Boolean(action)&&activeKey===key&&actual===expected&&nodes===6&&before!==after&&noModuleReturn&&transitionOk&&structureOk;
+          if(!ok)failures.push({chapter:chapter.id,key,hasAction:Boolean(action),activeKey,expected,actual,nodes,before,after,noModuleReturn,transitionOk,structureOk});
           tested+=1;
         }
       }

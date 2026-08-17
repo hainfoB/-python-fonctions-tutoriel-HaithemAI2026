@@ -4,6 +4,7 @@ import contextlib
 import io
 import builtins
 import pathlib
+import re
 import sys
 
 
@@ -80,6 +81,11 @@ def run_scene(scene):
         'arbre': {'valeur': 'racine', 'enfants': []},
     }
     initial_seed = {name: safe_repr(value) for name, value in seed_values.items()}
+    required_seed_names = {
+        name for name in seed_values
+        if re.search(rf'\b{re.escape(name)}\b', source)
+        and not re.search(rf'^\s*{re.escape(name)}\s*=', source, re.MULTILINE)
+    }
 
     def visible_locals(frame):
         visible = {}
@@ -87,7 +93,7 @@ def run_scene(scene):
             if name.startswith('__'):
                 continue
             rendered = safe_repr(value)
-            if name not in initial_seed or rendered != initial_seed[name]:
+            if name not in initial_seed or rendered != initial_seed[name] or name in required_seed_names:
                 visible[name] = rendered
         return visible
 
