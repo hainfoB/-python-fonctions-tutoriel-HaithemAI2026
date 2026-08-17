@@ -1,0 +1,88 @@
+{
+  "checks": {
+    "chapterCount": true,
+    "chapterIds": true,
+    "sceneCoverage": true,
+    "sixNodes": true,
+    "controls": true,
+    "realTraceBinding": true,
+    "sceneMechanisms": true,
+    "responsive": true,
+    "accessible": true
+  },
+  "chapterIds": [
+    "basics",
+    "logic",
+    "functions",
+    "vectors",
+    "dictionaries",
+    "records",
+    "stacks",
+    "queues",
+    "trees",
+    "statistics",
+    "conditions_nested",
+    "conditions_multiple",
+    "for_range",
+    "while_loop"
+  ],
+  "scenes": [
+    {
+      "id": "basics",
+      "scene": "basics:example:0"
+    },
+    {
+      "id": "logic",
+      "scene": "logic:example:0"
+    },
+    {
+      "id": "functions",
+      "scene": "functions:example:0"
+    },
+    {
+      "id": "vectors",
+      "scene": "vectors:example:0"
+    },
+    {
+      "id": "dictionaries",
+      "scene": "dictionaries:example:0"
+    },
+    {
+      "id": "records",
+      "scene": "records:example:0"
+    },
+    {
+      "id": "stacks",
+      "scene": "stacks:example:0"
+    },
+    {
+      "id": "queues",
+      "scene": "queues:example:0"
+    },
+    {
+      "id": "trees",
+      "scene": "trees:example:0"
+    },
+    {
+      "id": "statistics",
+      "scene": "statistics:example:0"
+    },
+    {
+      "id": "conditions_nested",
+      "scene": "conditions_nested:example:0"
+    },
+    {
+      "id": "conditions_multiple",
+      "scene": "conditions_multiple:example:0"
+    },
+    {
+      "id": "for_range",
+      "scene": "for_range:example:0"
+    },
+    {
+      "id": "while_loop",
+      "scene": "while_loop:example:0"
+    }
+  ],
+  "passed": true
+}

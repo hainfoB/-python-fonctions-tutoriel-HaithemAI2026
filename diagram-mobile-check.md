@@ -1,0 +1,3 @@
+# Mobile diagram check
+
+La capture a été réalisée avec Chromium headless à 390 × 844 px sur la page statique locale. Le menu latéral est remplacé par le bouton hamburger, la barre supérieure reste visible et le contenu s’adapte à la largeur mobile. Les règles CSS du diagramme empilent les six nœuds verticalement, masquent les flèches horizontales et passent les quatre commandes sur une grille de deux colonnes. Le contrôle automatisé `validate_diagram_ui.cjs` confirme la présence de la règle mobile et de `prefers-reduced-motion`; la capture confirme le viewport mobile réel sans débordement horizontal dans la zone visible.
