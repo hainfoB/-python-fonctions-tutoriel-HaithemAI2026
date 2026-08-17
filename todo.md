@@ -13,5 +13,5 @@
 - [x] Créer une animation de vecteur qui montre les indices, les lectures, les écritures, les permutations et les parcours.
 - [x] Créer une animation d’arbre qui montre la racine, les nœuds visités, les arêtes parcourues et les parcours.
 - [x] Tester les nouveaux affichages sur l’ensemble des scènes.
-- [ ] Publier les animations vérifiées et contrôler le site public.
+- [x] Publier les animations vérifiées et contrôler le site public.
 - [x] Renouveler les assets CSS et JavaScript afin que les nouvelles animations ne soient pas masquées par un ancien cache navigateur.

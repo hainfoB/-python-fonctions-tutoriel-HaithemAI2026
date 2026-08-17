@@ -28,3 +28,7 @@ The exhaustive browser validation now checks 350 scenes on desktop and mobile. I
 In the visual browser inspection, the vector panel showed the highlighted **index 1 / value 22** cell, its three neighboring cells, the loop-turn explanation and the trace state `t = 22` together above the six-stage execution diagram.
 
 In the visual tree inspection, **Projet** appeared as the highlighted root above the linked children **Analyse** and **Dev**. The panel showed the first loop turn, the `visiter` execution frame and the child value being traversed before the six-stage diagram.
+
+## Public learning-animation verification
+
+GitHub Pages now serves `scene_traces.js?v=learning-animations-4` and `app.js?v=learning-animations-4`. On the public site, the vector scene showed four cells with **index 1 / value 22** active at loop turn 2, while the tree scene displayed **Projet**, **Analyse** and **Dev**, with **Projet** active at loop turn 1.
