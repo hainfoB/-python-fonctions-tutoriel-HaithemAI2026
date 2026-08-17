@@ -12,3 +12,7 @@ The corrected local tutorial was verified on 17 August 2026. The execution trace
 | Desktop and mobile layouts | Passed |
 
 Every worked example and every exercise solution includes a visible action that opens its own animated diagram in the central-memory laboratory.
+
+## Public verification
+
+The GitHub Pages deployment for commit `0c53a2d` completed successfully. On the public Chapter 11 page, the **Exercise 01** solution action loaded `L1 · n = 14` with **Exercise 01** marked active. The diagram then advanced independently from **Stage 1 / 6** to **Stage 2 / 6** while preserving that exercise’s source line.

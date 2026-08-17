@@ -5,4 +5,4 @@
 - [x] Corriger la navigation du diagramme pour refléter exactement l’état source, mémoire, décision ou sortie en cours.
 - [x] Ajouter une validation automatisée qui sélectionne chaque exemple et exercice puis vérifie son diagramme.
 - [x] Vérifier le rendu desktop et mobile.
-- [ ] Publier la correction GitHub Pages et contrôler le site public.
+- [x] Publier la correction GitHub Pages et contrôler le site public.
