@@ -1,4 +1,4 @@
-/* Berkane Lab · intensive static content: 5 worked examples + 10 solved exercises per chapter. */
+/* Berkane Lab · intensive static content: 10 worked examples + 15 solved exercises per chapter. */
 const X = (fr, en) => ({ fr, en });
 const ex = (title, context, code, explanation) => ({ title: X(...title), context: X(...context), code, explanation: X(...explanation) });
 const task = (title, prompt, solution, correction) => ({ title: X(...title), prompt: X(...prompt), solution, correction: X(...correction) });
@@ -176,4 +176,9 @@ const coreAdvanced = {
 };
 Object.entries(advanced).forEach(([id, data]) => { extendedChapters[id] = data; });
 Object.entries(coreAdvanced).forEach(([id, data]) => { extendedChapters[id] = data; });
+Object.entries(window.EXTRA_CHAPTERS || {}).forEach(([id, data]) => {
+  if (!extendedChapters[id]) extendedChapters[id] = { examples: [], exercises: [] };
+  extendedChapters[id].examples = [...extendedChapters[id].examples, ...data.examples];
+  extendedChapters[id].exercises = [...extendedChapters[id].exercises, ...data.exercises];
+});
 window.EXTENDED_CHAPTERS = extendedChapters;
